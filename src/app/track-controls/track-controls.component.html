@@ -10,23 +10,25 @@
 
     <div class="playback-buttons">
       <button mat-icon-button>
-          <mat-icon>skip_previous</mat-icon>
-        </button>
-        <button mat-icon-button>
-          <mat-icon>play_arrow</mat-icon>
-        </button>
-        <button mat-icon-button>
-          <mat-icon>skip_next</mat-icon>
-        </button>
+        <mat-icon>skip_previous</mat-icon>
+      </button>
+      <button mat-icon-button>
+        <mat-icon>play_arrow</mat-icon>
+      </button>
+      <button mat-icon-button>
+        <mat-icon>skip_next</mat-icon>
+      </button>
     </div>
-    <div>
-      <span>0:20</span>
-      <mat-slider min="0" max="240" step="1" value="20"></mat-slider>
-      <span>4:00</span>
+    <div class="scrubber">
+      <span class="time">0:20</span>
+      <mat-slider class="slider" min="0" max="240" step="1" value="20"></mat-slider>
+      <span class="time">4:00</span>
     </div>
 
   </div>
   <div class="misc-controls">
-
+    <button mat-icon-button [routerLink]="[{ outlets: { popup: ['queue'] } }]">
+      <mat-icon>queue_music</mat-icon>
+    </button>
   </div>
 </div>

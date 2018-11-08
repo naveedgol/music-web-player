@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LibrarySongsComponent } from './library-songs/library-songs.component';
+import { QueueComponent } from './queue/queue.component';
 
 const routes: Routes = [
   { path: '',   redirectTo: '/library/songs', pathMatch: 'full' },
@@ -12,6 +13,11 @@ const routes: Routes = [
         component: LibrarySongsComponent
       }
     ]
+  },
+  {
+    path: 'queue',
+    component: QueueComponent,
+    outlet: 'popup'
   }
 ];
 

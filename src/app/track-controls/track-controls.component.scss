@@ -9,7 +9,6 @@
 .track-info {
   display: flex;
   align-items: center;
-  flex: 1;
 }
 
 .album-artwork {
@@ -18,6 +17,10 @@
 }
 
 .playback-controls {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .playback-buttons {
@@ -26,5 +29,17 @@
 }
 
 .misc-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.scrubber {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.slider {
   flex: 1;
 }
