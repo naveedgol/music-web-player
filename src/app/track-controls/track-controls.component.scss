@@ -1,0 +1,30 @@
+:host {
+  width: 100%;
+}
+
+.outer-container {
+  display: flex;
+}
+
+.track-info {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.album-artwork {
+  height: 100%;
+  width: 90px;
+}
+
+.playback-controls {
+}
+
+.playback-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.misc-controls {
+  flex: 1;
+}

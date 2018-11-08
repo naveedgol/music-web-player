@@ -1,0 +1,15 @@
+<div class="sidebar-container">
+  <mat-nav-list>
+    <h3 mat-subheader>Library</h3>
+    <mat-list-item *ngFor="let link of ['Recently Added', 'Artists', 'Albums', 'Songs']">
+      <mat-icon>music_note</mat-icon>
+      <a routerLink="/library/songs">{{link}}</a>
+    </mat-list-item>
+
+    <h3 mat-subheader>Playlists</h3>
+    <mat-list-item *ngFor="let playlist of ['Happy', 'Sus', 'Guitar', 'Chill']">
+      <mat-icon>music_note</mat-icon>
+      <a routerLink="/library/songs">{{playlist}}</a>
+    </mat-list-item>
+  </mat-nav-list>
+</div>
