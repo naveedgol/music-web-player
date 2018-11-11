@@ -1,21 +1,3 @@
 <div class="outer-container">
-    <table mat-table [dataSource]="dataSource" class="song-table">
-        <ng-container matColumnDef="name">
-            <mat-header-cell mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
-            <mat-cell mat-cell *matCellDef="let element"> {{element.attributes.name}} </mat-cell>
-        </ng-container>
-
-        <ng-container matColumnDef="artist">
-            <mat-header-cell mat-header-cell *matHeaderCellDef> Artist </mat-header-cell>
-            <mat-cell mat-cell *matCellDef="let element"> {{element.attributes.artistName}} </mat-cell>
-        </ng-container>
-
-        <ng-container matColumnDef="album">
-            <mat-header-cell *matHeaderCellDef> Album </mat-header-cell>
-            <mat-cell *matCellDef="let element"> {{element.attributes.albumName}} </mat-cell>
-        </ng-container>
-
-        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
-        <mat-row mat-row *matRowDef="let row; columns: displayedColumns;" (click)="clicked(row)" matRipple></mat-row>
-    </table>
+    <app-song *ngFor="let songData of dataSource" [songData]="songData.attributes"></app-song>
 </div>

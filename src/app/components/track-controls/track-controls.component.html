@@ -1,6 +1,10 @@
 <div class="outer-container">
   <div class="track-info">
-    <div class="album-artwork" [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artwork | formatArtworkUrl)+')'}"></div>
+    <div
+      class="album-artwork"
+      [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artwork | formatArtworkUrl)+')'}"
+    >
+    </div>
     <div class="track-text">
       <div class="track-title">{{playerService.nowPlayingItem.name}}</div>
       <div class="track-artist">{{playerService.nowPlayingItem.artistName}}</div>
@@ -36,14 +40,11 @@
         (change)="seekToTime($event.value)"
       >
       </mat-slider>
-      <span class="time">{{currentPlaybackDuration | formatSeconds}}</span>
+      <span class="time">{{playerService.nowPlayingItem.durationInMillis | formatMilliseconds}}</span>
     </div>
 
   </div>
   <div class="misc-controls">
-    <button mat-icon-button>
-      <mat-icon>volume_up</mat-icon>
-    </button>
     <button mat-icon-button [routerLink]="[{ outlets: { popup: ['queue'] } }]">
       <mat-icon>queue_music</mat-icon>
     </button>

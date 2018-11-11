@@ -9,27 +9,22 @@ import { PlayerService } from 'src/app/services/player.service';
 })
 export class LibrarySongsComponent implements OnInit {
 
-  constructor(private apiService: ApiService, private playerService: PlayerService) { }
+  constructor(
+    private apiService: ApiService
+  ) {}
 
-  displayedColumns: string[] = ['name', 'artist', 'album'];
   dataSource = [];
 
   ngOnInit() {
     this.fetchLibraryTracks( 0 );
-
   }
 
   fetchLibraryTracks( offset: number ): void {
     this.apiService.fetchLibrary( offset ).subscribe( data => {
       if ( data.length ) {
         this.dataSource = this.dataSource.concat( data );
-        this.fetchLibraryTracks( offset + 100 );
+        // this.fetchLibraryTracks( offset + 100 );
       }
     });
   }
-
-  clicked( item ) {
-    this.playerService.playItem( item ).subscribe();
-  }
-
 }

@@ -1,3 +1,7 @@
 .outer-container {
     height: calc( 100% - 100px );
 }
+
+.content {
+    background-image: linear-gradient(rgb(30, 50, 100), rgb(4, 6, 12) 85%);
+}

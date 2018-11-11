@@ -35,6 +35,7 @@ export class PlayerService {
         'url': '',
         'width': 1200
     },
+    'durationInMillis': 0,
     'name': 'Name',
     'playParams': {
         'id': 'i.YJMKQ1DSlZNOBa',
@@ -51,12 +52,13 @@ export class PlayerService {
   }
 
   setQueue( item ): Observable<any> {
-    const itemPlayParams = item.attributes.playParams;
+    const itemPlayParams = item.playParams;
     return from( this.musicKitService.musicKit.setQueue( { [itemPlayParams.kind]: itemPlayParams.id } ) );
   }
 
   playItem( item ): Observable<any> {
-    this.nowPlayingItem = item.attributes;
+    this.nowPlayingItem = item;
+    console.log(item);
     return this.setQueue( item ).pipe( mergeMap( x => this.play() ) );
   }
 

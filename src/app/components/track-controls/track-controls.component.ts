@@ -12,7 +12,6 @@ export class TrackControlsComponent {
   }
 
   public playbackStates = PlaybackStates;
-  sliderValue = 0;
 
   get isLoading(): boolean {
     return this.playerService.playbackState === this.playbackStates.LOADING ||

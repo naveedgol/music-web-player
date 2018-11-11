@@ -1,0 +1,36 @@
+<div
+  class="outer-container"
+  (mouseover)="isHovering = true"
+  (mouseleave)="isHovering = false"
+  (dblclick)="songClicked()"
+  [ngStyle]="{'background-color': isSelected() ? 'rgba(0, 0, 0, 0.3)' : ''}"
+>
+  <mat-spinner class="spinner" *ngIf="isSelected() && isLoading" diameter="20"></mat-spinner>
+  <button
+    mat-icon-button class="playButton"
+    disabled="{{!isHovering && !isSelected()}}"
+    *ngIf="!isSelected() || !isLoading"
+    (click)="togglePlayPause()"
+    [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}"
+    >
+    <mat-icon>{{isPlaying() ? 'pause' : (isSelected() ? 'play_arrow' : (isHovering ? 'play_arrow' : 'music_note'))}}</mat-icon>
+  </button>
+  <div class="inner-container mat-typography">
+    <div class="track-info">
+      <span class="song-name" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.name}}</span>
+      <div class="secondary-info">
+        <span class="artist-name">{{songData.artistName}}</span>
+        <span class="divider"> • </span>
+        <span class="album-name">{{songData.albumName}}</span>
+      </div>
+    </div>
+    <button mat-icon-button [style.visibility]="isHovering || isSelected() ? 'visible' : 'hidden'" [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Play Next</button>
+      <button mat-menu-item>Play Later</button>
+    </mat-menu>
+    <div class="time" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.durationInMillis | formatMilliseconds}}</div>
+  </div>
+</div>
