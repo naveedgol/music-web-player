@@ -1,18 +1,13 @@
 .outer-container {
     display: flex;
     padding-right: 10px;
+    padding-left: 10px;
     height: 60px;
     border-radius: 5px;
 
     &:hover {
         background-color: rgba(255, 255, 255, 0.04);
     }
-
-    &:focus {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    transition: background-color 0.5s ease;
 }
 
 .inner-container {
@@ -23,6 +18,7 @@
 }
 
 .track-info {
+    user-select: none;
     cursor: default;
     white-space: nowrap;
     overflow: hidden;

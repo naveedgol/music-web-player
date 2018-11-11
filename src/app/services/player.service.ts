@@ -48,6 +48,8 @@ export class PlayerService {
   constructor( private musicKitService: MusicKitService ) {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
+
     this.player = this.musicKitService.musicKit.player;
   }
 
@@ -58,7 +60,6 @@ export class PlayerService {
 
   playItem( item ): Observable<any> {
     this.nowPlayingItem = item;
-    console.log(item);
     return this.setQueue( item ).pipe( mergeMap( x => this.play() ) );
   }
 
@@ -82,6 +83,14 @@ export class PlayerService {
     return from( this.player.seekToTime( time ) );
   }
 
+  playNext( item ): void {
+    this.player.queue.prepend( item );
+  }
+
+  playLater( item ): Observable<any> {
+    return from( this.player.queue.append( item ) );
+  }
+
   get currentPlaybackDuration(): number {
     return this.player.currentPlaybackDuration;
   }
@@ -92,6 +101,10 @@ export class PlayerService {
 
   playbackStateDidChange( event: any ): void {
     this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
+  }
+
+  mediaItemDidChange(event) {
+    console.log(event);
   }
 
   mediaPlaybackError( event: any ): void {

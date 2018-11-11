@@ -23,7 +23,7 @@ export class LibrarySongsComponent implements OnInit {
     this.apiService.fetchLibrary( offset ).subscribe( data => {
       if ( data.length ) {
         this.dataSource = this.dataSource.concat( data );
-        // this.fetchLibraryTracks( offset + 100 );
+        this.fetchLibraryTracks( offset + 100 );
       }
     });
   }

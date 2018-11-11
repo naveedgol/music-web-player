@@ -15,33 +15,14 @@ export class SongComponent {
   constructor(private playerService: PlayerService) { }
 
   songClicked(): void {
-    this.playerService.playItem( this.songData ).subscribe();
+    this.playerService.playItem( this.songData.attributes ).subscribe();
   }
 
   isSelected(): boolean {
-    return this.songData === this.playerService.nowPlayingItem;
+    return this.songData.attributes === this.playerService.nowPlayingItem;
   }
 
-  isPlaying(): boolean {
-    return this.isSelected() && this.playerService.playbackState === this.playbackStates.PLAYING;
-  }
-
-  togglePlayPause(): void {
-    if ( !this.isSelected() ) {
-      this.playerService.playItem( this.songData ).subscribe();
-    } else {
-      if ( this.playerService.playbackState === this.playbackStates.PAUSED ) {
-        this.playerService.play().subscribe();
-      } else {
-        this.playerService.pause().subscribe();
-      }
-    }
-  }
-
-  get isLoading(): boolean {
-    return this.playerService.playbackState === this.playbackStates.LOADING ||
-           this.playerService.playbackState === this.playbackStates.ENDED ||
-           this.playerService.playbackState === this.playbackStates.WAITING ||
-           this.playerService.playbackState === this.playbackStates.STALLED;
+  playNext(): void {
+    this.playerService.playNext( this.songData );
   }
 }
