@@ -1,0 +1,51 @@
+<div class="outer-container">
+  <div class="track-info">
+    <div class="album-artwork" [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artwork | formatArtworkUrl)+')'}"></div>
+    <div class="track-text">
+      <div class="track-title">{{playerService.nowPlayingItem.name}}</div>
+      <div class="track-artist">{{playerService.nowPlayingItem.artistName}}</div>
+    </div>
+  </div>
+  <div class="playback-controls">
+
+    <div class="playback-buttons">
+      <button mat-icon-button (click)="skipToPreviousItem()">
+        <mat-icon>skip_previous</mat-icon>
+      </button>
+      <button
+        mat-icon-button
+        (click)="togglePlayPause()"
+        *ngIf="!isLoading"
+      >
+        <mat-icon>{{playerService.playbackState === playbackStates.PLAYING ? 'pause' : 'play_arrow'}}</mat-icon>
+      </button>
+      <mat-spinner class="spinner" *ngIf="isLoading" diameter="20"></mat-spinner>
+      <button mat-icon-button (click)="skipToNextItem()">
+        <mat-icon>skip_next</mat-icon>
+      </button>
+    </div>
+    <div class="scrubber">
+      <span class="time">{{currentPlaybackTime | formatSeconds }}</span>
+      <mat-slider #slider
+        disabled="{{currentPlaybackDuration === 0}}"
+        class="slider"
+        min="0"
+        max="{{currentPlaybackDuration}}"
+        step="1"
+        value="{{currentPlaybackTime}}"
+        (change)="seekToTime($event.value)"
+      >
+      </mat-slider>
+      <span class="time">{{currentPlaybackDuration | formatSeconds}}</span>
+    </div>
+
+  </div>
+  <div class="misc-controls">
+    <button mat-icon-button>
+      <mat-icon>volume_up</mat-icon>
+    </button>
+    <button mat-icon-button [routerLink]="[{ outlets: { popup: ['queue'] } }]">
+      <mat-icon>queue_music</mat-icon>
+    </button>
+  </div>
+</div>
