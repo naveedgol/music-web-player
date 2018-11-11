@@ -25,6 +25,7 @@ export enum PlaybackStates {
 export class PlayerService {
 
   playbackState: PlaybackStates = PlaybackStates.NONE;
+  player: any;
 
   nowPlayingItem: any = {
     'albumName': 'Album',
@@ -43,10 +44,10 @@ export class PlayerService {
     'trackNumber': 1
   };
 
-  constructor(private musicKitService: MusicKitService) {
-    // this.musicKit.addEventListener(MusicKit.Events.mediaItemWillChange, this.mediaItemWillChange.bind(this));
-    this.musicKitService.musicKit.addEventListener(MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this));
-    this.musicKitService.musicKit.addEventListener(MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this));
+  constructor( private musicKitService: MusicKitService ) {
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
+    this.player = this.musicKitService.musicKit.player;
   }
 
   setQueue( item ): Observable<any> {
@@ -55,44 +56,43 @@ export class PlayerService {
   }
 
   playItem( item ): Observable<any> {
-    console.log(item.attributes);
     this.nowPlayingItem = item.attributes;
     return this.setQueue( item ).pipe( mergeMap( x => this.play() ) );
   }
 
   play(): Observable<any> {
-    return from( this.musicKitService.musicKit.play() );
+    return from( this.player.play() );
   }
 
   pause(): Observable<any> {
-    return from( this.musicKitService.musicKit.pause() );
+    return from( this.player.pause() );
   }
 
   skipToNextItem(): Observable<any> {
-    return from( this.musicKitService.musicKit.player.skipToNextItem() );
+    return from( this.player.skipToNextItem() );
   }
 
   skipToPreviousItem(): Observable<any> {
-    return from( this.musicKitService.musicKit.player.skipToPreviousItem() );
+    return from( this.player.skipToPreviousItem() );
   }
 
   seekToTime( time: number ): Observable<any> {
-    return from( this.musicKitService.musicKit.player.seekToTime( time ) );
+    return from( this.player.seekToTime( time ) );
   }
 
   get currentPlaybackDuration(): number {
-    return this.musicKitService.musicKit.player.currentPlaybackDuration;
+    return this.player.currentPlaybackDuration;
   }
 
   get currentPlaybackTime(): number {
-    return this.musicKitService.musicKit.player.currentPlaybackTime;
+    return this.player.currentPlaybackTime;
   }
 
-  playbackStateDidChange(event) {
+  playbackStateDidChange( event: any ): void {
     this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
   }
 
-  mediaPlaybackError(event) {
+  mediaPlaybackError( event: any ): void {
     console.log('err', event);
   }
 }

@@ -15,7 +15,7 @@
             <mat-cell *matCellDef="let element"> {{element.attributes.albumName}} </mat-cell>
         </ng-container>
 
-        <mat-header-row *matHeaderRowDef="displayedColumns" class="table-header"></mat-header-row>
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
         <mat-row mat-row *matRowDef="let row; columns: displayedColumns;" (click)="clicked(row)" matRipple></mat-row>
     </table>
 </div>

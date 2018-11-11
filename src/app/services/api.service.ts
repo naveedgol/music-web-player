@@ -9,14 +9,18 @@ declare var MusicKit: any;
 })
 export class ApiService {
 
-  constructor( private musicKitService: MusicKitService ) {}
+  api: any;
+
+  constructor( private musicKitService: MusicKitService ) {
+    this.api = this.musicKitService.musicKit.api;
+  }
 
   fetchLibrary( offset: number ): Observable<any> {
-    return from( this.musicKitService.musicKit.api.library.songs( null, { limit: 100, offset: offset } ) );
+    return from( this.api.library.songs( null, { limit: 100, offset: offset } ) );
   }
 
   formatArtworkUrl( artwork ) {
-    return MusicKit.formatArtworkURL( artwork, 60, 60);
+    return MusicKit.formatArtworkURL( artwork, 60, 60 );
   }
 
 }
