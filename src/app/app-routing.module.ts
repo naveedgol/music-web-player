@@ -1,16 +1,21 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LibrarySongsComponent } from './components/library/library-songs/library-songs.component';
+import { LibraryAlbumsComponent } from './components/library/library-albums/library-albums.component';
 import { QueueComponent } from './components/queue/queue.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/library/songs', pathMatch: 'full' },
+  { path: '',   redirectTo: '/library/albums', pathMatch: 'full' },
   {
     path: 'library',
     children: [
       {
         path: 'songs',
         component: LibrarySongsComponent
+      },
+      {
+        path: 'albums',
+        component: LibraryAlbumsComponent
       }
     ]
   },

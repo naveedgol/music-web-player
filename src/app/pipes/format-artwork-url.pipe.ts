@@ -7,8 +7,8 @@ declare var MusicKit: any;
 })
 export class FormatArtworkUrlPipe implements PipeTransform {
 
-  transform(artworkUrl: string): any {
-    return MusicKit.formatArtworkURL( artworkUrl, 60, 60);
+  transform(artworkUrl: string, dimension: number): any {
+    return MusicKit.formatArtworkURL( artworkUrl, dimension, dimension);
   }
 
 }

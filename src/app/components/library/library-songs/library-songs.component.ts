@@ -16,14 +16,14 @@ export class LibrarySongsComponent implements OnInit {
   dataSource = [];
 
   ngOnInit() {
-    this.fetchLibraryTracks( 0 );
+    this.fetchLibrarySongs( 0 );
   }
 
-  fetchLibraryTracks( offset: number ): void {
-    this.apiService.fetchLibrary( offset ).subscribe( data => {
+  fetchLibrarySongs( offset: number ): void {
+    this.apiService.fetchLibrarySongs( offset ).subscribe( data => {
       if ( data.length ) {
         this.dataSource = this.dataSource.concat( data );
-        this.fetchLibraryTracks( offset + 100 );
+        this.fetchLibrarySongs( offset + 100 );
       }
     });
   }

@@ -2,7 +2,7 @@
   <div class="track-info">
     <div
       class="album-artwork"
-      [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artwork | formatArtworkUrl)+')'}"
+      [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artwork | formatArtworkUrl:60)+')'}"
     >
     </div>
     <div class="track-text">

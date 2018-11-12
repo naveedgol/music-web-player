@@ -2,29 +2,19 @@
   <mat-nav-list>
     <mat-list-item>
       <mat-icon>music_note</mat-icon>
-      <a routerLink="/library/songs">Search</a>
-    </mat-list-item>
-
-    <mat-list-item>
-      <mat-icon>music_note</mat-icon>
-      <a routerLink="/library/songs">Browse</a>
-    </mat-list-item>
-
-    <mat-list-item>
-      <mat-icon>music_note</mat-icon>
-      <a routerLink="/library/songs">For You</a>
+      <a>Search</a>
     </mat-list-item>
 
     <h3 mat-subheader>Library</h3>
-    <mat-list-item *ngFor="let link of ['Recently Added', 'Artists', 'Albums', 'Songs']">
+
+    <mat-list-item routerLink="/library/albums">
       <mat-icon>music_note</mat-icon>
-      <a routerLink="/library/songs">{{link}}</a>
+      <a>Albums</a>
     </mat-list-item>
 
-    <h3 mat-subheader>Playlists</h3>
-    <mat-list-item *ngFor="let playlist of ['Happy', 'Sus', 'Guitar', 'Chill']">
+    <mat-list-item routerLink="/library/songs">
       <mat-icon>music_note</mat-icon>
-      <a routerLink="/library/songs">{{playlist}}</a>
+      <a>Songs</a>
     </mat-list-item>
   </mat-nav-list>
 </div>

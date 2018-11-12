@@ -15,8 +15,12 @@ export class ApiService {
     this.api = this.musicKitService.musicKit.api;
   }
 
-  fetchLibrary( offset: number ): Observable<any> {
+  fetchLibrarySongs( offset: number ): Observable<any> {
     return from( this.api.library.songs( null, { limit: 100, offset: offset } ) );
+  }
+
+  fetchLibraryAlbums( offset: number ): Observable<any> {
+    return from( this.api.library.albums( null, { limit: 100, offset: offset } ) );
   }
 
   formatArtworkUrl( artwork ) {
