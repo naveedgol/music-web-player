@@ -1,7 +1,7 @@
 <main *ngIf="albumData">
-  <header [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:500)+')'}">
+  <header [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:500)+')'}">
     <div class="test mat-typography">
-        <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:170)+')'}"></div>
+        <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"></div>
         <div class="track-text">
           <span class="album-name">{{albumData.attributes.name}}</span>
           <span class="artist-name">{{albumData.attributes.artistName}}</span>
@@ -12,7 +12,12 @@
   </header>
   <section>
     <div class="tracklist">
-      <app-song *ngFor="let songData of albumData.relationships.tracks.data" [songData]="songData"></app-song>
+      <app-song
+        *ngFor="let songData of albumData.relationships.tracks.data; let i = index"
+        [songData]="songData"
+        (uponClick)="playSong(i)"
+      >
+      </app-song>
     </div>
   </section>
 </main>

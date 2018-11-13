@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../services/api.service';
+import { AlbumModel } from 'src/app/models/album-model';
 
 @Component({
   selector: 'app-library-albums',
@@ -8,13 +9,13 @@ import { ApiService } from '../../../services/api.service';
 })
 export class LibraryAlbumsComponent implements OnInit {
 
-  dataSource = [];
+  dataSource: AlbumModel[] = [];
 
   constructor(
     private apiService: ApiService
   ) {}
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.fetchLibraryAlbums( 0 );
   }
 

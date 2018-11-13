@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, from } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 import { MusicKitService } from './musicKit.service';
+import { PlayParams } from '../models/play-params';
 
 declare var MusicKit: any;
 
@@ -27,22 +28,22 @@ export class PlayerService {
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
 
-  nowPlayingItem: any = {
-    'albumName': 'Album',
-    'artistName': 'Artist',
-    'artwork': {
-        'height': 1200,
-        'url': '',
-        'width': 1200
+  nowPlayingItem = {
+    albumName: '',
+    artistName: '',
+    artworkURL: '',
+    attributes: {
+      durationInMillis: 0,
+      playParam: {
+        id: '',
+        isLibrary: false,
+        kind: ''
+      }
     },
-    'durationInMillis': 0,
-    'name': 'Name',
-    'playParams': {
-        'id': 'i.YJMKQ1DSlZNOBa',
-        'isLibrary': true,
-        'kind': 'song'
-    },
-    'trackNumber': 1
+    title: '',
+    trackNumber: 1,
+    id: '',
+    type: ''
   };
 
   constructor( private musicKitService: MusicKitService ) {
@@ -53,13 +54,13 @@ export class PlayerService {
     this.player = this.musicKitService.musicKit.player;
   }
 
-  setQueue( item ): Observable<any> {
-    const itemPlayParams = item.playParams;
-    return from( this.musicKitService.musicKit.setQueue( { [itemPlayParams.kind]: itemPlayParams.id } ) );
+  setQueue( item, startIndex: number = 0 ): Observable<any> {
+    const itemPlayParams: PlayParams = item.attributes.playParams;
+    return from( this.musicKitService.musicKit.setQueue( { [itemPlayParams.kind]: itemPlayParams.id } ) )
+      .pipe( mergeMap( x => this.musicKitService.musicKit.changeToMediaAtIndex( startIndex ) ) );
   }
 
   playItem( item ): Observable<any> {
-    this.nowPlayingItem = item;
     return this.setQueue( item ).pipe( mergeMap( x => this.play() ) );
   }
 
@@ -103,8 +104,8 @@ export class PlayerService {
     this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
   }
 
-  mediaItemDidChange(event) {
-    console.log(event);
+  mediaItemDidChange(event): void {
+    this.nowPlayingItem = event.item;
   }
 
   mediaPlaybackError( event: any ): void {

@@ -7,8 +7,11 @@ declare var MusicKit: any;
 })
 export class FormatArtworkUrlPipe implements PipeTransform {
 
-  transform(artworkUrl: string, dimension: number): any {
-    return MusicKit.formatArtworkURL( artworkUrl, dimension, dimension);
+  transform( artworkUrl: string, desiredDimension: number ): string {
+    if ( !artworkUrl ) {
+      return '../../assets/default.jpeg';
+    }
+    return MusicKit.formatArtworkURL( { 'url': artworkUrl }, desiredDimension, desiredDimension );
   }
 
 }

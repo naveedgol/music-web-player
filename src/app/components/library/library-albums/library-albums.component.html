@@ -4,7 +4,7 @@
             <div
                 [routerLink]="['/library/albums', albumData.id]"
                 class="album-cover"
-                [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:170)+')'}"
+                [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
             >
             </div>
             <div class="album-text">

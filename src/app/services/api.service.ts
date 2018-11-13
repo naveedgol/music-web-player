@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable, from } from 'rxjs';
 import { MusicKitService } from './musicKit.service';
-
-declare var MusicKit: any;
+import { SongModel } from '../models/song-model';
+import { AlbumModel } from '../models/album-model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,20 +15,16 @@ export class ApiService {
     this.api = this.musicKitService.musicKit.api;
   }
 
-  fetchLibrarySongs( offset: number ): Observable<any> {
+  fetchLibrarySongs( offset: number ): Observable<SongModel[]> {
     return from( this.api.library.songs( null, { limit: 100, offset: offset } ) );
   }
 
-  fetchLibraryAlbums( offset: number ): Observable<any> {
+  fetchLibraryAlbums( offset: number ): Observable<AlbumModel[]> {
     return from( this.api.library.albums( null, { limit: 100, offset: offset } ) );
   }
 
-  fetchLibraryAlbum( id: string ): Observable<any> {
+  fetchLibraryAlbum( id: string ): Observable<AlbumModel> {
     return from( this.api.library.album( id ) );
-  }
-
-  formatArtworkUrl( artwork ) {
-    return MusicKit.formatArtworkURL( artwork, 60, 60 );
   }
 
 }

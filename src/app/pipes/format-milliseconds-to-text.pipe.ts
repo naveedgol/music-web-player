@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FormatMillisecondsToTextPipe implements PipeTransform {
 
-  transform(totalMilliseconds: number): any {
-    const totalSeconds = Math.round(totalMilliseconds / 1000);
+  transform( totalMilliseconds: number ): string {
+    const totalSeconds: number = Math.round( totalMilliseconds / 1000 );
     const totalMinutes: number = Math.floor( totalSeconds / 60 );
     const hours: number = Math.floor( totalMinutes / 60 );
     const minutes: number = Math.floor( totalMinutes % 60 );
@@ -19,7 +19,7 @@ export class FormatMillisecondsToTextPipe implements PipeTransform {
       }
 
       if ( minutes ) {
-        str += ', '
+        str += ', ';
       }
     }
 

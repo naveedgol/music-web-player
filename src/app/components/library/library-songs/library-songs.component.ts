@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../../services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
+import { SongModel } from 'src/app/models/song-model';
 
 @Component({
   selector: 'app-library-songs',
@@ -10,12 +11,13 @@ import { PlayerService } from 'src/app/services/player.service';
 export class LibrarySongsComponent implements OnInit {
 
   constructor(
-    private apiService: ApiService
+    private apiService: ApiService,
+    private playerService: PlayerService
   ) {}
 
-  dataSource = [];
+  dataSource: SongModel[] = [];
 
-  ngOnInit() {
+  ngOnInit(): void {
     this.fetchLibrarySongs( 0 );
   }
 
@@ -26,5 +28,9 @@ export class LibrarySongsComponent implements OnInit {
         this.fetchLibrarySongs( offset + 100 );
       }
     });
+  }
+
+  playSong( songData: SongModel ): void {
+    this.playerService.playItem( songData ).subscribe();
   }
 }
