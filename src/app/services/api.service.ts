@@ -23,6 +23,10 @@ export class ApiService {
     return from( this.api.library.albums( null, { limit: 100, offset: offset } ) );
   }
 
+  fetchLibraryAlbum( id: string ): Observable<any> {
+    return from( this.api.library.album( id ) );
+  }
+
   formatArtworkUrl( artwork ) {
     return MusicKit.formatArtworkURL( artwork, 60, 60 );
   }

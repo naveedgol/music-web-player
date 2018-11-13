@@ -1,5 +1,12 @@
 .outer-container {
     height: calc( 100% - 100px );
+    background: black;
+}
+
+.mat-sidenav {
+    background: black;
+    border: none;
+    box-shadow: 0 0 20px 0px black;
 }
 
 .content {

@@ -3,7 +3,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({
   name: 'formatMilliseconds'
 })
-export class FormatMilliSecondsPipe implements PipeTransform {
+export class FormatMillisecondsPipe implements PipeTransform {
 
   transform(totalMilliseconds: number): any {
     const totalSeconds = Math.round(totalMilliseconds / 1000);

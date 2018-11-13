@@ -1,0 +1,74 @@
+.artwork {
+    background-size: cover;
+    min-width: 170px;
+    height: 170px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.track-text {
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    cursor: default;
+    user-select: none;
+}
+
+$scroll-factor : .3;
+
+main {
+    background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+    perspective: 1px;
+    perspective-origin: center top;
+    transform-style: preserve-3d;
+}
+
+.test {
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: flex-end;
+}
+
+header {
+    min-height: 190px;
+    height: 50%;
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+    vertical-align: top;
+    transform-origin: center top;
+    transform:
+        translateZ(-#{$scroll-factor * 2}px)
+        scale(1 + $scroll-factor * 2);
+}
+
+section {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+    background-image: linear-gradient(#1e3264, #04060c 85%);
+    transform: translateZ(0);
+    min-height: 50%;
+}
+
+.album-name {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.artist-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tracklist {
+    padding: 10px;
+}
+
+.runtime {
+    color: #b3b3b3;
+    padding-top: 3px;
+}

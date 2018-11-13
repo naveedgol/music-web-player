@@ -1,3 +1,18 @@
-<p>
-  album works!
-</p>
+<main *ngIf="albumData">
+  <header [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:500)+')'}">
+    <div class="test mat-typography">
+        <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:170)+')'}"></div>
+        <div class="track-text">
+          <span class="album-name">{{albumData.attributes.name}}</span>
+          <span class="artist-name">{{albumData.attributes.artistName}}</span>
+          <span class="runtime">{{albumData.attributes.trackCount}} songs • {{totalDuration | formatMillisecondsToText}}</span>
+        </div>
+    </div>
+
+  </header>
+  <section>
+    <div class="tracklist">
+      <app-song *ngFor="let songData of albumData.relationships.tracks.data" [songData]="songData"></app-song>
+    </div>
+  </section>
+</main>

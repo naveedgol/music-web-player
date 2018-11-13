@@ -16,12 +16,20 @@
 }
 
 .album-cover {
+    outline: none;
     box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
     height: 170px;
     width: 170px;
     margin-bottom: 10px;
     border-radius: 3px;
     background-size: cover;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    transition: opacity 0.5s ease;
 }
 
 .artist-name {

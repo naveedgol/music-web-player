@@ -2,7 +2,7 @@
     <ng-container *ngFor="let albumData of dataSource">
         <div class="inner-container mat-typography">
             <div
-                routerLink="/library/albums/ + {{albumData.id}}"
+                [routerLink]="['/library/albums', albumData.id]"
                 class="album-cover"
                 [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork | formatArtworkUrl:170)+')'}"
             >

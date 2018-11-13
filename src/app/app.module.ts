@@ -14,7 +14,9 @@ import { LibraryAlbumsComponent } from './components/library/library-albums/libr
 import { QueueComponent } from './components/queue/queue.component';
 import { FormatArtworkUrlPipe } from './pipes/format-artwork-url.pipe';
 import { FormatSecondsPipe } from './pipes/format-seconds.pipe';
-import { FormatMilliSecondsPipe } from './pipes/format-milliseconds.pipe';
+import { FormatMillisecondsPipe } from './pipes/format-milliseconds.pipe';
+import { FormatMillisecondsToTextPipe } from './pipes/format-milliseconds-to-text.pipe';
+
 import { PlayerService } from './services/player.service';
 import { MusicKitService } from './services/musicKit.service';
 import { ApiService } from './services/api.service';
@@ -31,7 +33,8 @@ import { AlbumComponent } from './components/album/album.component';
     QueueComponent,
     FormatArtworkUrlPipe,
     FormatSecondsPipe,
-    FormatMilliSecondsPipe,
+    FormatMillisecondsPipe,
+    FormatMillisecondsToTextPipe,
     SongComponent,
     AlbumComponent
   ],

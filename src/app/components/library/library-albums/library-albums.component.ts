@@ -21,7 +21,6 @@ export class LibraryAlbumsComponent implements OnInit {
   fetchLibraryAlbums( offset: number ): void {
     this.apiService.fetchLibraryAlbums( offset ).subscribe( data => {
       if ( data.length ) {
-        console.log(data);
         this.dataSource = this.dataSource.concat( data );
         this.fetchLibraryAlbums( offset + 100 );
       }
