@@ -27,4 +27,7 @@ export class ApiService {
     return from( this.api.library.album( id ) );
   }
 
+  fetchAlbum( id: string ): Observable<AlbumModel> {
+    return from( this.api.album( id ) );
+  }
 }

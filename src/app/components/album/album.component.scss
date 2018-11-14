@@ -11,12 +11,12 @@
     line-height: normal;
     display: flex;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     cursor: default;
     user-select: none;
 }
 
-$scroll-factor : .3;
+$scroll-factor : 0.3;
 
 main {
     background-color: black;
@@ -49,7 +49,7 @@ header {
 
 section {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
-    background-image: linear-gradient(#1e3264, #04060c 85%);
+    background-image: linear-gradient(#04060c,#1e3264 120%);
     transform: translateZ(0);
     min-height: 50%;
 }
@@ -71,4 +71,16 @@ section {
 .runtime {
     color: #b3b3b3;
     padding-top: 3px;
+}
+
+.album-extras {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.album-button {
+    width: 100px;
+    margin-right: 10px;
 }

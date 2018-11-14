@@ -2,10 +2,27 @@
   <header [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:500)+')'}">
     <div class="test mat-typography">
         <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"></div>
-        <div class="track-text">
-          <span class="album-name">{{albumData.attributes.name}}</span>
-          <span class="artist-name">{{albumData.attributes.artistName}}</span>
-          <span class="runtime">{{albumData.attributes.trackCount}} songs • {{totalDuration | formatMillisecondsToText}}</span>
+        <div class="album-extras">
+          <div class="track-text">
+            <span class="album-name">{{albumData.attributes.name}}</span>
+            <span class="artist-name">{{albumData.attributes.artistName}}</span>
+            <span class="runtime">{{albumData.attributes.trackCount}} songs • {{totalDuration | formatMillisecondsToText}}</span>
+          </div>
+          <div class="album-button-container">
+            <button
+              class="album-button" mat-raised-button
+              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              (click)="playAlbum()"
+            >
+              Play
+            </button>
+            <button
+              class="album-button" mat-raised-button
+              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            >
+              Shuffle
+            </button>
+          </div>
         </div>
     </div>
 

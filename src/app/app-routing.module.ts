@@ -30,6 +30,20 @@ const routes: Routes = [
     ]
   },
   {
+    path: 'albums',
+    children: [
+      {
+        path: ':id',
+        component: AlbumComponent
+      },
+      {
+        path: '',
+        redirectTo: '/library/albums',
+        pathMatch: 'full'
+      }
+    ]
+  },
+  {
     path: 'queue',
     component: QueueComponent,
     outlet: 'popup'

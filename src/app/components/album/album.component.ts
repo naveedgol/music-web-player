@@ -20,14 +20,35 @@ export class AlbumComponent {
     private apiService: ApiService,
     private playerService: PlayerService
   ) {
-    this.route.paramMap.subscribe( x => {
-      this.apiService.fetchLibraryAlbum( x.get('id') ).subscribe( data => {
-        this.albumData = data;
-        for ( const songData of data.relationships.tracks.data ) {
-          this.totalDuration += songData.attributes.durationInMillis;
+    route.parent.parent.url.subscribe( url => {
+      this.route.paramMap.subscribe( x => {
+
+        if ( url[0].path === 'library' ) {
+
+            this.apiService.fetchLibraryAlbum( x.get('id') ).subscribe( data => {
+              this.albumData = data;
+              for ( const songData of data.relationships.tracks.data ) {
+                this.totalDuration += songData.attributes.durationInMillis;
+              }
+            });
+
+        } else {
+
+          this.apiService.fetchAlbum( x.get('id') ).subscribe( data => {
+            this.albumData = data;
+            console.log( this.albumData );
+            for ( const songData of data.relationships.tracks.data ) {
+              this.totalDuration += songData.attributes.durationInMillis;
+            }
+          });
+
         }
       });
     });
+  }
+
+  playAlbum(): void {
+    this.playerService.setQueue( this.albumData ).subscribe();
   }
 
   playSong( trackIndex: number ): void {
