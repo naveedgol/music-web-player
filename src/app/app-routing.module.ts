@@ -6,6 +6,7 @@ import { QueueComponent } from './components/queue/queue.component';
 import { AlbumComponent } from './components/album/album.component';
 
 const routes: Routes = [
+  { path: '',   redirectTo: '/library/songs', pathMatch: 'full' },
   {
     path: 'library',
     children: [
