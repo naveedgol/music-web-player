@@ -4,3 +4,12 @@
     overflow-y: scroll;
     transition: width 0.5s ease-in-out;
 }
+
+.authorize-button {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    background-color: #1e3264;
+}

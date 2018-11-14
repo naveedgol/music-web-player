@@ -16,5 +16,22 @@
       <mat-icon>music_note</mat-icon>
       <a>Songs</a>
     </mat-list-item>
+
+    <button
+      *ngIf="!isAuthorized"
+      class="authorize-button"
+      mat-raised-button
+      (click)="authorize()"
+    >
+      Login
+    </button>
+    <button
+      *ngIf="isAuthorized"
+      class="authorize-button"
+      mat-raised-button
+      (click)="unauthorize()"
+    >
+      Logout
+    </button>
   </mat-nav-list>
 </div>

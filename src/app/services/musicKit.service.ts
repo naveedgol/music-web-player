@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { token } from '../../environments/token';
+import { Observable, from } from 'rxjs';
 
 declare var MusicKit: any;
 
@@ -8,6 +9,7 @@ declare var MusicKit: any;
 })
 export class MusicKitService {
     musicKit: any;
+    isAuthorized = false;
 
     constructor() {
 
@@ -21,6 +23,18 @@ export class MusicKitService {
 
         this.musicKit = MusicKit.getInstance();
 
-        // this.musicKit.authorize();
+        this.isAuthorized = this.musicKit.isAuthorized;
+    }
+
+    authorize(): void {
+      from( this.musicKit.authorize() ).subscribe( () => {
+        this.isAuthorized = true;
+      });
+    }
+
+    unauthorize(): void {
+      from( this.musicKit.unauthorize() ).subscribe( () => {
+        this.isAuthorized = false;
+      });
     }
 }

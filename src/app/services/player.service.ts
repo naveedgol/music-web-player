@@ -3,6 +3,7 @@ import { Observable, from } from 'rxjs';
 import { mergeMap } from 'rxjs/operators';
 import { MusicKitService } from './musicKit.service';
 import { PlayParams } from '../models/play-params';
+import { SongModel } from '../models/song-model';
 
 declare var MusicKit: any;
 
@@ -32,18 +33,11 @@ export class PlayerService {
     albumName: '',
     artistName: '',
     artworkURL: '',
-    attributes: {
-      durationInMillis: 0,
-      playParam: {
-        id: '',
-        isLibrary: false,
-        kind: ''
-      }
-    },
     title: '',
     trackNumber: 1,
     id: '',
-    type: ''
+    type: '',
+    playbackDuration: 0
   };
 
   constructor( private musicKitService: MusicKitService ) {
@@ -52,6 +46,12 @@ export class PlayerService {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
 
     this.player = this.musicKitService.musicKit.player;
+  }
+
+  setQueueFromItems( items: SongModel[], startIndex: number = 0 ): Observable<any> {
+    items.forEach( item => item['container'] = { 'id': item.id } );
+    return from( this.musicKitService.musicKit.setQueue( { 'items': items } ) )
+      .pipe( mergeMap( x => this.musicKitService.musicKit.changeToMediaAtIndex( startIndex ) ) );
   }
 
   setQueue( item, startIndex: number = 0 ): Observable<any> {

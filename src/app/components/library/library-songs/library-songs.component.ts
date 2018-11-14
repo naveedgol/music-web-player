@@ -15,7 +15,7 @@ export class LibrarySongsComponent implements OnInit {
     private playerService: PlayerService
   ) {}
 
-  dataSource: SongModel[] = [];
+  librarySongs: SongModel[] = [];
 
   ngOnInit(): void {
     this.fetchLibrarySongs( 0 );
@@ -24,13 +24,13 @@ export class LibrarySongsComponent implements OnInit {
   fetchLibrarySongs( offset: number ): void {
     this.apiService.fetchLibrarySongs( offset ).subscribe( data => {
       if ( data.length ) {
-        this.dataSource = this.dataSource.concat( data );
+        this.librarySongs = this.librarySongs.concat( data );
         this.fetchLibrarySongs( offset + 100 );
       }
     });
   }
 
-  playSong( songData: SongModel ): void {
-    this.playerService.playItem( songData ).subscribe();
+  playSong( trackIndex: number ): void {
+    this.playerService.setQueueFromItems( this.librarySongs, trackIndex ).subscribe();
   }
 }

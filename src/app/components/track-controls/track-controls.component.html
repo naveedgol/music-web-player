@@ -40,7 +40,7 @@
         (change)="seekToTime($event.value)"
       >
       </mat-slider>
-      <span class="time">{{playerService.nowPlayingItem.attributes.durationInMillis | formatMilliseconds}}</span>
+      <span class="time">{{playerService.nowPlayingItem.playbackDuration | formatMilliseconds}}</span>
     </div>
 
   </div>

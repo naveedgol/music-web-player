@@ -17,8 +17,10 @@ export class SongComponent {
 
   constructor(private playerService: PlayerService) { }
 
+  // TODO: improve performance
   isSelected(): boolean {
-    return this.songData.id === this.playerService.nowPlayingItem.id;
+    return false;
+    return this.songData.attributes.playParams.catalogId === this.playerService.nowPlayingItem.id;
   }
 
   playNext(): void {

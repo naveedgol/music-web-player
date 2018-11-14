@@ -2,17 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
-import { SongModel } from 'src/app/models/song-model';
+import { AlbumModel } from 'src/app/models/album-model';
 
 @Component({
   selector: 'app-album',
   templateUrl: './album.component.html',
   styleUrls: ['./album.component.scss']
 })
-export class AlbumComponent implements OnInit {
+export class AlbumComponent {
 
   id: string;
-  albumData: any;
+  albumData: AlbumModel;
   totalDuration = 0;
 
   constructor(
@@ -30,12 +30,7 @@ export class AlbumComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
-  }
-
   playSong( trackIndex: number ): void {
-    this.playerService.setQueue( this.albumData, trackIndex ).subscribe( x => {
-      this.playerService.play();
-    });
+    this.playerService.setQueue( this.albumData, trackIndex ).subscribe();
   }
 }
