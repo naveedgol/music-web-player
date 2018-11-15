@@ -1,0 +1,12 @@
+<div class="inner-container mat-typography">
+  <a
+    [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
+    class="album-cover"
+    [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
+  >
+  </a>
+  <div class="album-text">
+    <span class="album-name" title="{{albumData.attributes.name}}">{{albumData.attributes.name}}</span>
+    <span class="artist-name">{{albumData.attributes.artistName}}</span>
+  </div>
+</div>

@@ -30,4 +30,14 @@ export class ApiService {
   fetchAlbum( id: string ): Observable<AlbumModel> {
     return from( this.api.album( id ) );
   }
+
+  search( query: string ): Observable<any> {
+    const searchTypes = ['songs', 'albums', 'artists', 'playlists'];
+    return from( this.api.search( query, { types: searchTypes, limit: 20 } ) );
+  }
+
+  searchLibrary( query: string ): Observable<any> {
+    const searchTypes = ['library-songs', 'library-albums', 'library-artists', 'library-playlists'];
+    return from( this.api.library.search( query, { types: searchTypes, limit: 20 } ) );
+  }
 }

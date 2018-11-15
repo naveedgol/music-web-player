@@ -1,0 +1,46 @@
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 20px;
+}
+
+.album-cover {
+    outline: none;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.5);
+    height: 170px;
+    width: 170px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-size: cover;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    transition: opacity 0.5s ease;
+}
+
+.artist-name {
+    color: #b3b3b3;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.album-name {
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.album-text {
+    display: flex;
+    flex-direction: column;
+    cursor: default;
+    user-select: none;
+}

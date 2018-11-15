@@ -9,7 +9,7 @@ export class FormatArtworkUrlPipe implements PipeTransform {
 
   transform( artworkUrl: string, desiredDimension: number ): string {
     if ( !artworkUrl ) {
-      return '../../assets/default.jpeg';
+      return './assets/default.jpeg';
     }
     return MusicKit.formatArtworkURL( { 'url': artworkUrl }, desiredDimension, desiredDimension );
   }

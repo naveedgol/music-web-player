@@ -6,8 +6,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrackControlsComponent } from './components/track-controls/track-controls.component';
 
-import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatRippleModule,
-        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatTableModule, MatMenuModule } from '@angular/material';
+import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatRippleModule, MatFormFieldModule,
+        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
+        MatTableModule, MatMenuModule, MatInputModule, MatButtonToggleModule, MatTabsModule } from '@angular/material';
+
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LibrarySongsComponent } from './components/library/library-songs/library-songs.component';
 import { LibraryAlbumsComponent } from './components/library/library-albums/library-albums.component';
@@ -22,6 +24,8 @@ import { MusicKitService } from './services/musicKit.service';
 import { ApiService } from './services/api.service';
 import { SongComponent } from './components/song/song.component';
 import { AlbumComponent } from './components/album/album.component';
+import { SearchComponent } from './components/search/search.component';
+import { AlbumPreviewComponent } from './components/album-preview/album-preview.component';
 
 @NgModule({
   declarations: [
@@ -36,10 +40,16 @@ import { AlbumComponent } from './components/album/album.component';
     FormatMillisecondsPipe,
     FormatMillisecondsToTextPipe,
     SongComponent,
-    AlbumComponent
+    AlbumComponent,
+    SearchComponent,
+    AlbumPreviewComponent
   ],
   imports: [
     BrowserAnimationsModule,
+    MatInputModule,
+    MatTabsModule,
+    MatButtonToggleModule,
+    MatFormFieldModule,
     MatMenuModule,
     MatRippleModule,
     MatTableModule,

@@ -1,16 +1,7 @@
 <div class="outer-container">
-    <ng-container *ngFor="let albumData of dataSource">
-        <div class="inner-container mat-typography">
-            <div
-                [routerLink]="['/library/albums', albumData.id]"
-                class="album-cover"
-                [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
-            >
-            </div>
-            <div class="album-text">
-                <span class="album-name" title="{{albumData.attributes.name}}">{{albumData.attributes.name}}</span>
-                <span class="artist-name">{{albumData.attributes.artistName}}</span>
-            </div>
-        </div>
-    </ng-container>
+    <app-album-preview
+        *ngFor="let albumData of dataSource"
+        [albumData]="albumData"
+    >
+    </app-album-preview>
 </div>

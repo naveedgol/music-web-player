@@ -4,9 +4,18 @@ import { LibrarySongsComponent } from './components/library/library-songs/librar
 import { LibraryAlbumsComponent } from './components/library/library-albums/library-albums.component';
 import { QueueComponent } from './components/queue/queue.component';
 import { AlbumComponent } from './components/album/album.component';
+import { SearchComponent } from './components/search/search.component';
 
 const routes: Routes = [
-  { path: '',   redirectTo: '/library/songs', pathMatch: 'full' },
+  {
+    path: '',
+    redirectTo: '/library/songs',
+    pathMatch: 'full'
+  },
+  {
+    path: 'search',
+    component: SearchComponent
+  },
   {
     path: 'library',
     children: [

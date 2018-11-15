@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
 import { AlbumModel } from 'src/app/models/album-model';
+import { TinyColor } from '@ctrl/tinycolor';
 
 @Component({
   selector: 'app-album',
@@ -14,6 +15,7 @@ export class AlbumComponent {
   id: string;
   albumData: AlbumModel;
   totalDuration = 0;
+  bgColor: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -36,7 +38,17 @@ export class AlbumComponent {
 
           this.apiService.fetchAlbum( x.get('id') ).subscribe( data => {
             this.albumData = data;
-            console.log( this.albumData );
+            let color = new TinyColor(this.albumData.attributes.artwork.bgColor);
+            this.bgColor = color.toHexString();
+            console.log(this.bgColor);
+            if ( color.isLight() ) {
+              color = color.darken(20);
+              this.bgColor = color.toHexString();
+              console.log(this.bgColor);
+            }
+            if ( color.isDark() ) {
+              console.log('isDark');
+            }
             for ( const songData of data.relationships.tracks.data ) {
               this.totalDuration += songData.attributes.durationInMillis;
             }
