@@ -2,17 +2,27 @@
 
   <div class="search-box">
     <mat-form-field>
-      <input #search matInput placeholder="Search" autocomplete="off" (keyup.enter)="onSearch(search.value)">
+      <input
+        matInput
+        placeholder="Search"
+        autocomplete="off"
+        (keyup.enter)="onSearch()"
+        [(ngModel)]="query"
+      >
     </mat-form-field>
   </div>
 
-  <mat-button-toggle-group class="search-toggle" appearance="legacy" (change)="isSearchingLibrary = !isSearchingLibrary; onSearch(search.value)">
+  <mat-button-toggle-group
+    class="search-toggle"
+    appearance="legacy"
+    (change)="isSearchingLibrary = !isSearchingLibrary; search()"
+  >
     <mat-button-toggle class="toggle-button" value="Apple Music" [checked]="true">Apple Music</mat-button-toggle>
     <mat-button-toggle class="toggle-button" value="Library">Library</mat-button-toggle>
   </mat-button-toggle-group>
 
   <div class="search-results">
-    <mat-tab-group class="tabs" *ngIf="!isLoading">
+    <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading">
       <mat-tab label="Songs">
         <div class="song-results">
           <app-song
@@ -33,7 +43,16 @@
         </div>
       </mat-tab>
 
-      <mat-tab label="Artists"></mat-tab>
+      <mat-tab label="Artists">
+        <div class="artist-results">
+            <app-artist-preview
+              *ngFor="let artistData of artistResults"
+              [artistData]="artistData"
+            >
+            </app-artist-preview>
+          </div>
+      </mat-tab>
+
       <mat-tab label="Playlists"></mat-tab>
     </mat-tab-group>
     <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
