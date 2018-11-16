@@ -4,9 +4,21 @@
     class="album-cover"
     [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
   >
-</div>
+  </div>
+  <div>
+
+  </div>
   <div class="album-text">
-    <span class="album-name" title="{{albumData.attributes.name}}">{{albumData.attributes.name}}</span>
+    <div class="album-name-container">
+      <span
+        class="album-name"
+        title="{{albumData.attributes.name}}"
+        [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
+      >
+        {{albumData.attributes.name}}
+      </span>
+      <mat-icon *ngIf="albumData.attributes.contentRating==='explicit'" class="explicit">explicit</mat-icon>
+    </div>
     <span class="artist-name">{{albumData.attributes.artistName}}</span>
   </div>
 </div>

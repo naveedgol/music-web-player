@@ -5,7 +5,10 @@
 >
   <div class="inner-container">
     <div class="track-info">
-      <span class="song-name" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
+      <div class="song-name-container">
+          <span class="song-name" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
+          <mat-icon *ngIf="songData.attributes.contentRating === 'explicit'" class="explicit">explicit</mat-icon>
+      </div>
       <div class="secondary-info">
         <span class="artist-name">{{songData.attributes.artistName}}</span>
         <span class="divider"> • </span>

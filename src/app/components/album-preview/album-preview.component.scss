@@ -31,21 +31,35 @@
 
 .artist-name {
     color: #b3b3b3;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .album-name {
     font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    flex: 1;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 .album-text {
-    display: flex;
-    flex-direction: column;
     cursor: default;
     user-select: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.album-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.explicit {
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    padding-left: 2px;
+    color: #b3b3b3;
 }

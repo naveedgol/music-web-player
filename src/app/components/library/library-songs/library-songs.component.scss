@@ -11,10 +11,8 @@
 }
 
 .outer-container {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 20px;
+    height: calc( 100% - 40px );
 }
 
 .song-row {

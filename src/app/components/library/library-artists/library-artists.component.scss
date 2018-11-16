@@ -1,4 +1,6 @@
 .outer-container {
+    padding: 20px;
+    height: calc( 100% - 40px );
     // display: grid;
     // grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
 }

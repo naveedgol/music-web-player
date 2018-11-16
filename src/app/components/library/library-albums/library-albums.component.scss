@@ -1,8 +1,11 @@
 .outer-container {
     display: grid;
-    grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
+    grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+    height: calc( 100% - 40px );
 }
 
 .spinner {

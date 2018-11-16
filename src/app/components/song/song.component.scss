@@ -65,3 +65,16 @@
 .time {
     color: #b3b3b3;
 }
+
+.song-name-container {
+    display: flex;
+    align-items: center;
+}
+
+.explicit {
+    font-size: 14px;
+    height: 14px;
+    width: 14px;
+    padding-left: 4px;
+    color: #b3b3b3;
+}

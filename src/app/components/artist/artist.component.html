@@ -1,8 +1,9 @@
 <div *ngIf="artistData">
   <div class="artist-header">
     <div class="artist-name">{{artistData.attributes.name}}</div>
-    <span class="albums-count">{{ albumsCount | i18nPlural: {'=1': '# album', 'other': '# albums'} }}</span>
-    <span *ngIf="singlesCount" class="albums-count"> • {{ singlesCount | i18nPlural: {'=1': '# single', 'other': '# singles'} }}</span>
+    <span *ngIf="albumsCount" class="albums-count">{{ albumsCount | i18nPlural: {'=1': '# album', 'other': '# albums'} }}</span>
+    <span *ngIf="albumsCount && singlesCount" class="albums-count"> • </span>
+    <span *ngIf="singlesCount" class="albums-count">{{ singlesCount | i18nPlural: {'=1': '# single', 'other': '# singles'} }}</span>
   </div>
 
   <div *ngIf="albumsCount">

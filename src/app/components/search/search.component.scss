@@ -9,14 +9,15 @@ mat-form-field {
 }
 
 .outer-container {
-    padding-top: 15px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    height: calc( 100% - 15px );
+    height: calc( 100% - 20px );
 }
 
 .search-toggle {
     width: 100%;
+    user-select: none;
 }
 
 .search-results {
@@ -24,6 +25,7 @@ mat-form-field {
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 .toggle-button {

@@ -3,6 +3,8 @@
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor: default;
+    user-select: none;
 }
 
 .artist-name {
@@ -15,8 +17,11 @@
 }
 
 .albums-title {
+    cursor: default;
+    user-select: none;
     line-height: normal;
     font-size: 18px;
+    font-weight: 500;
     padding-left: 20px;
     padding-bottom: 10px;
 }
@@ -24,4 +29,6 @@
 .albums-grid {
     display: grid;
     grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
+    padding-left: 12px;
+    padding-right: 12px;
 }
