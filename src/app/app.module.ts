@@ -26,6 +26,9 @@ import { SongComponent } from './components/song/song.component';
 import { AlbumComponent } from './components/album/album.component';
 import { SearchComponent } from './components/search/search.component';
 import { AlbumPreviewComponent } from './components/album-preview/album-preview.component';
+import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
+import { ArtistPreviewComponent } from './components/artist-preview/artist-preview.component';
+import { ArtistComponent } from './components/artist/artist.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { AlbumPreviewComponent } from './components/album-preview/album-preview.
     SongComponent,
     AlbumComponent,
     SearchComponent,
-    AlbumPreviewComponent
+    AlbumPreviewComponent,
+    LibraryArtistsComponent,
+    ArtistPreviewComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserAnimationsModule,

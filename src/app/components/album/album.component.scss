@@ -28,8 +28,9 @@ main {
 }
 
 .header {
+    position: absolute;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
     display: flex;
     align-items: flex-end;
 }
@@ -37,8 +38,6 @@ main {
 header {
     min-height: 190px;
     height: 50%;
-    background-size: cover;
-    background-position: center 30%;
     position: relative;
     vertical-align: top;
     transform-origin: center top;
@@ -83,4 +82,21 @@ section {
 .album-button {
     width: 100px;
     margin-right: 10px;
+}
+
+.header-image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: black;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-position: center 30%;
+    object-fit: cover;
+    opacity: 0.6;
+    // filter: blur(3px);
 }

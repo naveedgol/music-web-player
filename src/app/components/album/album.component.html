@@ -1,12 +1,15 @@
 <main *ngIf="albumData">
-  <header [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:500)+')'}">
-    <div class="header mat-typography">
+  <header>
+    <div class="header-image-container">
+      <img class="header-image" src="{{albumData.attributes.artwork.url | formatArtworkUrl:500}}">
+    </div>
+    <div class="header">
         <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"></div>
         <div class="album-extras">
           <div class="track-text">
             <span class="album-name">{{albumData.attributes.name}}</span>
             <span class="artist-name">{{albumData.attributes.artistName}}</span>
-            <span class="runtime">{{albumData.attributes.trackCount}} songs • {{totalDuration | formatMillisecondsToText}}</span>
+            <span class="runtime">{{ albumData.attributes.trackCount | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}</span>
           </div>
           <div class="album-button-container">
             <button

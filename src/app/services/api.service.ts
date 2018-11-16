@@ -31,6 +31,18 @@ export class ApiService {
     return from( this.api.album( id ) );
   }
 
+  fetchLibraryArtists( offset: number ): Observable<any> {
+    return from( this.api.library.artists( null, { limit: 100, offset: offset } ) );
+  }
+
+  fetchLibraryArtist( id: string ): Observable<any> {
+    return from( this.api.library.artist( id, { include: 'albums' } ) );
+  }
+
+  fetchArtist( id: string ): Observable<any> {
+    return from( this.api.artist( id, { include: 'albums' } ) );
+  }
+
   search( query: string ): Observable<any> {
     const searchTypes = ['songs', 'albums', 'artists', 'playlists'];
     return from( this.api.search( query, { types: searchTypes, limit: 20 } ) );

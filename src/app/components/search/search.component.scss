@@ -46,9 +46,8 @@ mat-form-field {
 }
 
 .album-results {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
     padding-top: 10px;
 }
 

@@ -5,6 +5,8 @@ import { LibraryAlbumsComponent } from './components/library/library-albums/libr
 import { QueueComponent } from './components/queue/queue.component';
 import { AlbumComponent } from './components/album/album.component';
 import { SearchComponent } from './components/search/search.component';
+import { ArtistComponent } from './components/artist/artist.component';
+import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
 
 const routes: Routes = [
   {
@@ -35,6 +37,19 @@ const routes: Routes = [
             component: LibraryAlbumsComponent
           }
         ]
+      },
+      {
+        path: 'artists',
+        children: [
+          {
+            path: ':id',
+            component: ArtistComponent
+          },
+          {
+            path: '',
+            component: LibraryArtistsComponent
+          }
+        ]
       }
     ]
   },
@@ -44,6 +59,20 @@ const routes: Routes = [
       {
         path: ':id',
         component: AlbumComponent
+      },
+      {
+        path: '',
+        redirectTo: '/library/albums',
+        pathMatch: 'full'
+      }
+    ]
+  },
+  {
+    path: 'artists',
+    children: [
+      {
+        path: ':id',
+        component: ArtistComponent
       },
       {
         path: '',

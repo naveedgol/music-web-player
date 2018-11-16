@@ -3,7 +3,7 @@
   (click)="uponClick.emit()"
   [ngStyle]="{'background-color': isSelected() ? 'rgba(0, 0, 0, 0.3)' : ''}"
 >
-  <div class="inner-container mat-typography">
+  <div class="inner-container">
     <div class="track-info">
       <span class="song-name" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
       <div class="secondary-info">

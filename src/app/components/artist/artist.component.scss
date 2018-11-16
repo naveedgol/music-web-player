@@ -1,0 +1,27 @@
+.artist-header {
+    line-height: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.artist-name {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.albums-count {
+    color: #b3b3b3;
+}
+
+.albums-title {
+    line-height: normal;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.albums-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
+}

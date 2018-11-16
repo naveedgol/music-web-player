@@ -38,17 +38,13 @@ export class AlbumComponent {
 
           this.apiService.fetchAlbum( x.get('id') ).subscribe( data => {
             this.albumData = data;
+
             let color = new TinyColor(this.albumData.attributes.artwork.bgColor);
-            this.bgColor = color.toHexString();
-            console.log(this.bgColor);
             if ( color.isLight() ) {
               color = color.darken(20);
-              this.bgColor = color.toHexString();
-              console.log(this.bgColor);
             }
-            if ( color.isDark() ) {
-              console.log('isDark');
-            }
+            this.bgColor = color.toHexString();
+
             for ( const songData of data.relationships.tracks.data ) {
               this.totalDuration += songData.attributes.durationInMillis;
             }
