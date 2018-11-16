@@ -1,7 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatTabChangeEvent } from '@angular/material';
+import { MatTabChangeEvent, MatInput } from '@angular/material';
 
 @Component({
   selector: 'app-search',
@@ -12,12 +12,14 @@ export class SearchComponent implements OnInit {
 
   isSearchingLibrary = false;
   isLoading = false;
+  hasQueried = false;
   songResults = [];
   albumResults = [];
   artistResults = [];
   playlistResults = [];
   query = '';
   selectedTabIndex = 0;
+  @ViewChild('searchInput') searchInput;
 
   constructor(
     private apiService: ApiService,
@@ -27,6 +29,7 @@ export class SearchComponent implements OnInit {
 
 
   ngOnInit() {
+    this.searchInput.nativeElement.focus();
     this.route.queryParams.subscribe( params => {
       this.query = params['q'] ? params['q'] : '';
       this.search();
@@ -46,6 +49,7 @@ export class SearchComponent implements OnInit {
     if ( this.query === '' ) {
       return;
     }
+    this.hasQueried = true;
     this.isLoading = true;
     if ( this.isSearchingLibrary ) {
       this.apiService.searchLibrary( this.query ).subscribe( results => {

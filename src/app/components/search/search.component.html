@@ -4,6 +4,7 @@
     <mat-form-field>
       <input
         matInput
+        #searchInput
         placeholder="Search"
         autocomplete="off"
         (keyup.enter)="onSearch()"
@@ -22,7 +23,7 @@
   </mat-button-toggle-group>
 
   <div class="search-results">
-    <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading">
+    <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading && hasQueried">
       <mat-tab label="Songs">
         <div class="song-results">
           <app-song

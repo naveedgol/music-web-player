@@ -16,6 +16,7 @@ export class LibrarySongsComponent implements OnInit {
   ) {}
 
   librarySongs: SongModel[] = [];
+  isLoading = true;
 
   ngOnInit(): void {
     this.fetchLibrarySongs( 0 );
@@ -25,6 +26,7 @@ export class LibrarySongsComponent implements OnInit {
     this.apiService.fetchLibrarySongs( offset ).subscribe( data => {
       if ( data.length ) {
         this.librarySongs = this.librarySongs.concat( data );
+        this.isLoading = false;
         this.fetchLibrarySongs( offset + 100 );
       }
     });

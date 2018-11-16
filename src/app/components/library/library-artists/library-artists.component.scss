@@ -2,3 +2,9 @@
     // display: grid;
     // grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
 }
+
+.spinner {
+    position: absolute;
+    top: calc( 50% - 50px );
+    left: calc( 50% - 50px );
+}

@@ -4,3 +4,9 @@
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+.spinner {
+    position: absolute;
+    top: calc( 50% - 50px );
+    left: calc( 50% - 50px );
+}

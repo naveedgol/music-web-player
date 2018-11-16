@@ -10,6 +10,7 @@ import { AlbumModel } from 'src/app/models/album-model';
 export class LibraryAlbumsComponent implements OnInit {
 
   dataSource: AlbumModel[] = [];
+  isLoading = true;
 
   constructor(
     private apiService: ApiService
@@ -23,6 +24,7 @@ export class LibraryAlbumsComponent implements OnInit {
     this.apiService.fetchLibraryAlbums( offset ).subscribe( data => {
       if ( data.length ) {
         this.dataSource = this.dataSource.concat( data );
+        this.isLoading = false;
         this.fetchLibraryAlbums( offset + 100 );
       }
     });

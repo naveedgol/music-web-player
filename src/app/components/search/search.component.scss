@@ -4,14 +4,15 @@ mat-form-field {
 
 .search-box {
     width: 100%;
-    height: 66px;
+    height: 80px;
+    font-size: 20px;
 }
 
 .outer-container {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    height: calc( 100% - 20px );
+    height: calc( 100% - 15px );
 }
 
 .search-toggle {
@@ -19,7 +20,7 @@ mat-form-field {
 }
 
 .search-results {
-    height: calc( 100% - 66px - 36px - 10px );
+    height: calc( 100% - 80px - 36px - 10px );
     margin-top: 10px;
     display: flex;
     justify-content: center;

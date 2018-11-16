@@ -9,6 +9,7 @@ import { ApiService } from 'src/app/services/api.service';
 export class LibraryArtistsComponent implements OnInit {
 
   dataSource = [];
+  isLoading = true;
 
   constructor(private apiService: ApiService) { }
 
@@ -20,9 +21,8 @@ export class LibraryArtistsComponent implements OnInit {
     this.apiService.fetchLibraryArtists( offset ).subscribe( data => {
       if ( data.length ) {
         this.dataSource = this.dataSource.concat( data );
+        this.isLoading = false;
         this.fetchLibraryArtists( offset + 100 );
-      } else {
-        console.log( this.dataSource );
       }
     });
   }
