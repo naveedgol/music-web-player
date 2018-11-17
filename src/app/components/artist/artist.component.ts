@@ -27,11 +27,7 @@ export class ArtistComponent implements OnInit {
           this.apiService.fetchArtist( x.get('id') ).subscribe( data => {
             this.artistData = data;
             for ( const album of this.artistData.relationships.albums.data ) {
-              if ( album.attributes.isSingle ) {
-                ++this.singlesCount;
-              } else {
-                ++this.albumsCount;
-              }
+              album.attributes.isSingle ? ++this.singlesCount : ++this.albumsCount;
             }
           });
         }

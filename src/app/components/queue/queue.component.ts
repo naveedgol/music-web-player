@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { PlayerService } from 'src/app/services/player.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-queue',
   templateUrl: './queue.component.html',
   styleUrls: ['./queue.component.scss']
 })
-export class QueueComponent implements OnInit {
+export class QueueComponent {
 
-  constructor() { }
+  constructor(
+    private playerService: PlayerService,
+    private router: Router) { }
 
-  ngOnInit() {
+  close(): void {
+    this.router.navigate([{ outlets: { popup: null }}]);
   }
-
 }

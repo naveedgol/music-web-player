@@ -40,7 +40,7 @@ export class ApiService {
   }
 
   fetchArtist( id: string ): Observable<any> {
-    return from( this.api.artist( id, { include: 'albums' } ) );
+    return from( this.api.artist( id, { include: 'playlists,albums', offset: '26' } ) );
   }
 
   search( query: string ): Observable<any> {

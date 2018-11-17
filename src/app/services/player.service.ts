@@ -28,6 +28,7 @@ export class PlayerService {
 
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
+  queue;
 
   nowPlayingItem = {
     albumName: '',
@@ -44,6 +45,8 @@ export class PlayerService {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.queueItemsDidChange, this.queueItemsDidChange.bind(this) );
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.queuePositionDidChange, this.queuePositionDidChange.bind(this) );
 
     this.player = this.musicKitService.musicKit.player;
   }
@@ -110,5 +113,13 @@ export class PlayerService {
 
   mediaPlaybackError( event: any ): void {
     console.log('err', event);
+  }
+
+  queueItemsDidChange( event: any ): void {
+    this.queue = this.player.queue.items;
+  }
+
+  queuePositionDidChange( event: any ): void {
+    this.queue = this.player.queue.items.slice(event.position + 1, event.position + 30);
   }
 }
