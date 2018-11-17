@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class QueueComponent {
 
   constructor(
-    private playerService: PlayerService,
+    public playerService: PlayerService,
     private router: Router) { }
 
   close(): void {

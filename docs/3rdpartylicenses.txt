@@ -350,6 +350,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+@angular/material/icon
+
 @angular/animations
 MIT
 
@@ -384,8 +386,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @angular/material/core
 
 @angular/material/list
-
-@angular/material/icon
 
 @angular/material/toolbar
 

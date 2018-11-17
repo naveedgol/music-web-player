@@ -15,4 +15,5 @@ export class AlbumAttributes {
     trackCount: number;
     playParams: PlayParams;
     artwork: Artwork;
+    contentRating: string;
 }

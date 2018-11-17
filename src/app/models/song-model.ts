@@ -16,6 +16,7 @@ export class SongAttributes {
     trackNumber: number;
     playParams: PlayParams;
     artwork: Artwork;
+    contentRating: string;
 }
 
 
