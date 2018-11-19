@@ -40,6 +40,7 @@ export class PlayerService {
     trackNumber: 1,
     id: '',
     type: '',
+    container: { id: '' },
     playbackDuration: 0
   };
 
@@ -81,7 +82,6 @@ export class PlayerService {
     const nextRepeatMode = (this.player.repeatMode + 1) % 3;
     this.player.repeatMode = nextRepeatMode;
     this.repeatMode = this.player.repeatMode;
-    console.log(this.repeatMode);
   }
 
   toggleShuffleOn(): void {
@@ -146,5 +146,13 @@ export class PlayerService {
 
   queuePositionDidChange( event: any ): void {
     this.queue = this.player.queue.items.slice(event.position + 1, event.position + 30);
+  }
+
+  addListener( func ) {
+    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, func );
+  }
+
+  removeListener( func ) {
+    this.musicKitService.musicKit.removeEventListener( MusicKit.Events.mediaItemDidChange, func );
   }
 }

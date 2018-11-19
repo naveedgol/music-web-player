@@ -56,7 +56,6 @@ export class AlbumComponent {
   }
 
   playAlbum( shuffle: boolean = false ): void {
-    console.log(this.albumData.relationships );
     if ( shuffle ) {
       this.playerService.toggleShuffleOn();
     }

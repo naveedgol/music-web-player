@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatTabChangeEvent, MatInput } from '@angular/material';
+import { PlayerService } from 'src/app/services/player.service';
 
 @Component({
   selector: 'app-search',
@@ -23,6 +24,7 @@ export class SearchComponent implements OnInit {
 
   constructor(
     private apiService: ApiService,
+    private playerService: PlayerService,
     private router: Router,
     private route: ActivatedRoute
   ) { }
@@ -68,5 +70,9 @@ export class SearchComponent implements OnInit {
         this.isLoading = false;
       });
     }
+  }
+
+  playSong( trackIndex: number ): void {
+    this.playerService.setQueueFromItems( this.songResults, trackIndex ).subscribe();
   }
 }

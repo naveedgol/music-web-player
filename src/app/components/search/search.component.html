@@ -27,8 +27,9 @@
       <mat-tab label="Songs">
         <div class="song-results">
           <app-song
-            *ngFor="let songData of songResults"
+            *ngFor="let songData of songResults; let i = index"
             [songData]="songData"
+            (uponClick)="playSong(i)"
           >
           </app-song>
         </div>

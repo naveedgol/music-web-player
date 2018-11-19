@@ -1,9 +1,9 @@
 <div class="inner-container">
   <div
     [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
-    class="album-cover"
-    [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
+    class="album-cover-container"
   >
+    <img class="album-cover" src="{{albumData.attributes.artwork.url | formatArtworkUrl:170}}">
   </div>
   <div>
 
