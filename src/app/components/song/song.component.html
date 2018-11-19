@@ -1,15 +1,16 @@
 <div
   class="outer-container"
   (click)="uponClick.emit()"
-  [ngStyle]="{'background-color': isSelected() ? 'rgba(0, 0, 0, 0.3)' : ''}"
+  [ngStyle]="{'background-color': false ? 'rgba(0, 0, 0, 0.3)' : ''}"
 >
   <div class="inner-container">
+    <div class="track-number" *ngIf="albumView">{{songData.attributes.trackNumber}}</div>
     <div class="track-info">
       <div class="song-name-container">
-          <span class="song-name" [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
+          <span class="song-name" [ngStyle]="{'color': false ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
           <mat-icon *ngIf="songData.attributes.contentRating === 'explicit'" class="explicit">explicit</mat-icon>
       </div>
-      <div class="secondary-info">
+      <div class="secondary-info" *ngIf="!albumView">
         <span class="artist-name">{{songData.attributes.artistName}}</span>
         <span class="divider"> • </span>
         <span class="album-name">{{songData.attributes.albumName}}</span>
@@ -24,7 +25,7 @@
     </mat-menu> -->
     <div
       class="time"
-      [ngStyle]="{'color': isSelected() ? '#69f0ae' : ''}"
+      [ngStyle]="{'color': false ? '#69f0ae' : ''}"
     >
       {{songData.attributes.durationInMillis | formatMilliseconds}}
     </div>

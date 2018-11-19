@@ -56,12 +56,13 @@ export class AlbumComponent {
   }
 
   playAlbum( shuffle: boolean = false ): void {
+    console.log(this.albumData.relationships );
     if ( shuffle ) {
-      this.playerService.toggleShuffle();
+      this.playerService.toggleShuffleOn();
     }
     this.playerService.setQueue( this.albumData ).subscribe(() => {
       if ( shuffle ) {
-        this.playerService.toggleShuffle();
+        this.playerService.toggleShuffleOff();
       }
     });
   }

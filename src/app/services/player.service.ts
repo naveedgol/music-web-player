@@ -84,9 +84,14 @@ export class PlayerService {
     console.log(this.repeatMode);
   }
 
-  toggleShuffle(): void {
-    this.player.shuffleMode = this.isShuffling ? 0 : 1;
-    this.isShuffling = !this.isShuffling;
+  toggleShuffleOn(): void {
+    this.player.shuffleMode = 1;
+    this.isShuffling = true;
+  }
+
+  toggleShuffleOff(): void {
+    this.player.shuffleMode = 0;
+    this.isShuffling = false;
   }
 
   skipToNextItem(): Observable<any> {

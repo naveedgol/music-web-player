@@ -10,6 +10,7 @@ import { SongModel } from 'src/app/models/song-model';
 export class SongComponent {
 
   @Input() songData: SongModel;
+  @Input() albumView = false;
   @Output() uponClick: EventEmitter<any> = new EventEmitter();
 
   isHovering = false;
@@ -19,7 +20,6 @@ export class SongComponent {
 
   // TODO: improve performance
   isSelected(): boolean {
-    return false;
     return this.songData.attributes.playParams.catalogId === this.playerService.nowPlayingItem.id;
   }
 
