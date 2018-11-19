@@ -55,8 +55,15 @@ export class AlbumComponent {
     });
   }
 
-  playAlbum(): void {
-    this.playerService.setQueue( this.albumData ).subscribe();
+  playAlbum( shuffle: boolean = false ): void {
+    if ( shuffle ) {
+      this.playerService.toggleShuffle();
+    }
+    this.playerService.setQueue( this.albumData ).subscribe(() => {
+      if ( shuffle ) {
+        this.playerService.toggleShuffle();
+      }
+    });
   }
 
   playSong( trackIndex: number ): void {

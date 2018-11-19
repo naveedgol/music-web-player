@@ -29,6 +29,8 @@ export class PlayerService {
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
   queue;
+  repeatMode = 0;
+  isShuffling = false;
 
   nowPlayingItem = {
     albumName: '',
@@ -75,11 +77,29 @@ export class PlayerService {
     return from( this.player.pause() );
   }
 
+  toggleRepeat(): void {
+    const nextRepeatMode = (this.player.repeatMode + 1) % 3;
+    this.player.repeatMode = nextRepeatMode;
+    this.repeatMode = this.player.repeatMode;
+    console.log(this.repeatMode);
+  }
+
+  toggleShuffle(): void {
+    this.player.shuffleMode = this.isShuffling ? 0 : 1;
+    this.isShuffling = !this.isShuffling;
+  }
+
   skipToNextItem(): Observable<any> {
+    if ( this.repeatMode === 1 ) {
+      return this.seekToTime( 0 );
+    }
     return from( this.player.skipToNextItem() );
   }
 
   skipToPreviousItem(): Observable<any> {
+    if ( this.repeatMode === 1 ) {
+      return this.seekToTime( 0 );
+    }
     return from( this.player.skipToPreviousItem() );
   }
 

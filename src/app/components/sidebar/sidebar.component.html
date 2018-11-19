@@ -1,29 +1,63 @@
 <div class="sidebar-container">
   <mat-nav-list>
-    <mat-list-item routerLink="/search">
+    <mat-list-item
+      routerLink="/search"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
       <mat-icon>search</mat-icon>
       <div>Search</div>
     </mat-list-item>
 
+    <mat-list-item
+      routerLink="/"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
+      <mat-icon>library_music</mat-icon>
+      <div>Browse</div>
+    </mat-list-item>
+
+    <mat-list-item
+      routerLink="/"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
+      <mat-icon>favorite</mat-icon>
+      <div>For You</div>
+    </mat-list-item>
+
     <h3 mat-subheader>Library</h3>
 
-    <mat-list-item routerLink="/library/songs">
+    <mat-list-item
+      routerLink="/library/songs"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
       <mat-icon>music_note</mat-icon>
       <div>Songs</div>
     </mat-list-item>
 
-    <mat-list-item routerLink="/library/albums">
+    <mat-list-item
+      routerLink="/library/albums"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
       <mat-icon>album</mat-icon>
       <div>Albums</div>
     </mat-list-item>
 
-    <mat-list-item routerLink="/library/artists">
+    <mat-list-item
+      routerLink="/library/artists"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
       <mat-icon>person</mat-icon>
       <div>Artists</div>
     </mat-list-item>
 
     <button
-      *ngIf="!isAuthorized"
+      *ngIf="!musicKitService.isAuthorized"
       class="authorize-button"
       mat-raised-button
       (click)="authorize()"
@@ -31,7 +65,7 @@
       Login
     </button>
     <button
-      *ngIf="isAuthorized"
+      *ngIf="musicKitService.isAuthorized"
       class="authorize-button"
       mat-raised-button
       (click)="unauthorize()"

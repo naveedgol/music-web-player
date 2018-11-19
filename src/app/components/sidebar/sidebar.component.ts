@@ -9,7 +9,7 @@ import { MusicKitService } from 'src/app/services/musicKit.service';
 export class SidebarComponent {
 
   constructor(
-    private musicKitService: MusicKitService
+    public musicKitService: MusicKitService
   ) {}
 
   authorize(): void {
@@ -18,10 +18,6 @@ export class SidebarComponent {
 
   unauthorize(): void {
     this.musicKitService.unauthorize();
-  }
-
-  get isAuthorized(): boolean {
-    return this.musicKitService.isAuthorized;
   }
 
 }

@@ -22,6 +22,7 @@
             <button
               class="album-button" mat-raised-button
               [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              (click)="playAlbum(true)"
             >
               Shuffle
             </button>

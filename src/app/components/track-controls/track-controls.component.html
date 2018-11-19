@@ -13,9 +13,18 @@
   <div class="playback-controls">
 
     <div class="playback-buttons">
+      <!-- <button
+        mat-icon-button
+        [style.color]="playerService.isShuffling ? '#69f0ae' : ''"
+        (click)="playerService.toggleShuffle()"
+      >
+        <mat-icon>shuffle</mat-icon>
+      </button> -->
+
       <button mat-icon-button (click)="skipToPreviousItem()">
         <mat-icon>skip_previous</mat-icon>
       </button>
+
       <button
         mat-icon-button
         (click)="togglePlayPause()"
@@ -23,9 +32,19 @@
       >
         <mat-icon>{{playerService.playbackState === playbackStates.PLAYING ? 'pause' : 'play_arrow'}}</mat-icon>
       </button>
+
       <mat-spinner class="spinner" *ngIf="isLoading" diameter="20"></mat-spinner>
+
       <button mat-icon-button (click)="skipToNextItem()">
         <mat-icon>skip_next</mat-icon>
+      </button>
+
+      <button
+        mat-icon-button
+        [style.color]="playerService.repeatMode !== 0 ? '#69f0ae' : ''"
+        (click)="playerService.toggleRepeat()"
+      >
+        <mat-icon>{{playerService.repeatMode === 1 ? 'repeat_one' : 'repeat'}}</mat-icon>
       </button>
     </div>
     <div class="scrubber">
@@ -45,7 +64,11 @@
 
   </div>
   <div class="misc-controls">
-    <button mat-icon-button [routerLink]="[{ outlets: { popup: ['queue'] } }]">
+    <button
+      mat-icon-button
+      [routerLink]="[{ outlets: { popup: ['queue'] } }]"
+      routerLinkActive="active-link"
+    >
       <mat-icon>queue_music</mat-icon>
     </button>
   </div>
