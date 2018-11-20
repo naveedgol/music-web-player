@@ -1,11 +1,11 @@
 {
-  "name": "apple-music-web-player",
-  "short_name": "apple-music-web-player",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Apple Music Web Player",
+  "short_name": "Apple Music",
+  "theme_color": "#1e3264",
+  "background_color": "#212121",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/apple-music-web-player/",
+  "start_url": "/apple-music-web-player/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
