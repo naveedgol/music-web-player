@@ -4,7 +4,7 @@
   "theme_color": "#1e3264",
   "background_color": "#212121",
   "display": "standalone",
-  "scope": "/apple-music-web-player/",
+  "scope": "/",
   "start_url": "/apple-music-web-player/",
   "icons": [
     {
