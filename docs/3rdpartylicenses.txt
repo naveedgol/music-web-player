@@ -366,6 +366,8 @@ MIT
 
 @angular/material/button-toggle
 
+@angular/cdk/scrolling
+
 @angular/material/button
 
 @ctrl/tinycolor
