@@ -30,6 +30,8 @@ import { AlbumPreviewComponent } from './components/album-preview/album-preview.
 import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
 import { ArtistPreviewComponent } from './components/artist-preview/artist-preview.component';
 import { ArtistComponent } from './components/artist/artist.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -70,7 +72,8 @@ import { ArtistComponent } from './components/artist/artist.component';
     MatButtonModule,
     MatIconModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [MusicKitService, PlayerService, ApiService],
   bootstrap: [AppComponent]

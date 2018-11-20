@@ -391,6 +391,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @angular/material/slider
 
+@angular/service-worker
+MIT
+
 zone.js
 MIT
 The MIT License
