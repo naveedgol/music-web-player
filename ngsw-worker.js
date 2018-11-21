@@ -1894,7 +1894,7 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ 'Content-Type': 'text/plain' }
          * asynchronous execution that eventually resolves for respondWith() and waitUntil().
          */
         onFetch(event) {
-            const req = event.request;if(req.url.toLowerCase().includes('apple')){return;}
+            const req = event.request;
             // The only thing that is served unconditionally is the debug page.
             if (this.adapter.parseUrl(req.url, this.scope.registration.scope).path === '/ngsw/state') {
                 // Allow the debugger to handle the request, but don't affect SW state in any

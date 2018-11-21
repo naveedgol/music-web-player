@@ -1,9 +1,0 @@
-<div class="outer-container">
-    <app-song
-        *ngFor="let songData of librarySongs; let i = index"
-        [songData]="songData"
-        (uponClick)="playSong( i )"
-    >
-    </app-song>
-    <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
-</div>
