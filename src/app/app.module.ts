@@ -7,9 +7,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrackControlsComponent } from './components/track-controls/track-controls.component';
 
-import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatRippleModule, MatFormFieldModule,
+import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
         MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
-        MatTableModule, MatMenuModule, MatInputModule, MatButtonToggleModule, MatTabsModule } from '@angular/material';
+        MatInputModule, MatButtonToggleModule, MatTabsModule } from '@angular/material';
+
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { LibrarySongsComponent } from './components/library/library-songs/library-songs.component';
@@ -56,13 +58,11 @@ import { environment } from '../environments/environment';
   imports: [
     BrowserAnimationsModule,
     FormsModule,
+    DragDropModule,
     MatInputModule,
     MatTabsModule,
     MatButtonToggleModule,
     MatFormFieldModule,
-    MatMenuModule,
-    MatRippleModule,
-    MatTableModule,
     MatProgressSpinnerModule,
     MatCardModule,
     MatToolbarModule,

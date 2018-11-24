@@ -71,5 +71,22 @@
     >
       <mat-icon>queue_music</mat-icon>
     </button>
+
+    <button
+      mat-icon-button
+      (click)="toggleMute(volume.value)"
+    >
+      <mat-icon>{{volume.value ? 'volume_up' : 'volume_off'}}</mat-icon>
+    </button>
+    <mat-slider
+      #volume
+      class="volume-slider"
+      min="0"
+      max="10"
+      step="1"
+      value="10"
+      (input)="changeVolume($event.value)"
+    >
+    </mat-slider>
   </div>
 </div>

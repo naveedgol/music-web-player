@@ -1,4 +1,5 @@
 .popup {
+    cursor: move;
     overflow: auto;
     z-index: 2;
     width: 300px;
@@ -12,6 +13,7 @@
 }
 
 .title {
+    cursor: default;
     font-weight: 500;
     flex: 1;
     padding-left: 8px;

@@ -2,5 +2,5 @@
   class="artist-preview-container"
   [routerLink]="artistData.type === 'library-artists' ? ['/library/artists', artistData.id] : ['/artists', artistData.id]"
 >
-  {{artistData.attributes.name}}
+  <span>{{artistData.attributes.name}}</span>
 </div>

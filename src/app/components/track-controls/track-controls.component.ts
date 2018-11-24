@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { PlayerService, PlaybackStates } from '../../services/player.service';
 
 @Component({
@@ -8,10 +8,13 @@ import { PlayerService, PlaybackStates } from '../../services/player.service';
 })
 export class TrackControlsComponent {
 
+  @ViewChild('volume') volumeSlider;
+
   constructor( public playerService: PlayerService ) {
   }
 
   public playbackStates = PlaybackStates;
+  lastVolume = 10;
 
   get isLoading(): boolean {
     return this.playerService.playbackState === this.playbackStates.LOADING ||
@@ -39,6 +42,22 @@ export class TrackControlsComponent {
   seekToTime( time: number ): void {
     this.playerService.seekToTime( time ).subscribe();
   }
+
+  changeVolume( volume: number ): void {
+    this.lastVolume = volume;
+    this.playerService.changeVolume( volume / 10 );
+  }
+
+  toggleMute( volume: number ): void {
+    if ( this.volumeSlider.value > 0 ) {
+      this.playerService.changeVolume( 0 );
+      this.volumeSlider.value = 0;
+    } else {
+      this.playerService.changeVolume( this.lastVolume / 10 );
+      this.volumeSlider.value = this.lastVolume;
+    }
+  }
+
 
   get currentPlaybackDuration(): number {
     return this.playerService.currentPlaybackDuration;

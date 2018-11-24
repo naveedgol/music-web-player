@@ -1,4 +1,13 @@
 .artist-preview-container {
-    display: flex;
+    width: 100%;
+    display: inline-block;
     flex-direction: column;
+    font-size: 18px;
+    padding-bottom: 5px;
+    outline: none;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    text-overflow: ellipsis;
 }

@@ -10,11 +10,6 @@ import { LibraryArtistsComponent } from './components/library/library-artists/li
 
 const routes: Routes = [
   {
-    path: '',
-    redirectTo: '/library/songs',
-    pathMatch: 'full'
-  },
-  {
     path: 'search',
     component: SearchComponent
   },

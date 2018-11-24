@@ -155,4 +155,8 @@ export class PlayerService {
   removeListener( func ) {
     this.musicKitService.musicKit.removeEventListener( MusicKit.Events.mediaItemDidChange, func );
   }
+
+  changeVolume( volume: number ): void {
+    this.player.volume = volume;
+  }
 }
