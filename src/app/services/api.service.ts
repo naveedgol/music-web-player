@@ -68,4 +68,16 @@ export class ApiService {
   fetchRecentlyAdded( offset: number ): Observable<any> {
     return from( this.api.library.collection('recently-added', null, { limit: 10, offset: offset } ) );
   }
+
+  fetchRecommendations(): Observable<any> {
+    return from( this.api.recommendations() );
+  }
+
+  fetchRecentPlayed(): Observable<any> {
+    return from( this.api.recentPlayed() );
+  }
+
+  fetchHeavyRotation(): Observable<any> {
+    return from( this.api.historyHeavyRotation() );
+  }
 }

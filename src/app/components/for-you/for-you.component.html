@@ -1,0 +1,62 @@
+<div class="outer-container">
+  <div *ngFor="let recommendation of recommendations">
+    <div *ngIf="!recommendation.attributes.isGroupRecommendation">
+      <div class="section-title">{{recommendation.attributes.title.stringForDisplay}}</div>
+      <div class="container">
+        <div *ngFor="let data of recommendation.relationships.contents.data">
+          <app-album-preview
+            *ngIf="data.type==='albums'"
+            [albumData]="data"
+          >
+          </app-album-preview>
+          <app-playlist-preview
+            *ngIf="data.type==='playlists'"
+            [playlistData]="data"
+          >
+          </app-playlist-preview>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div *ngIf="heavyRotation.length">
+      <div class="section-title">Heavy Rotation</div>
+      <div class="container">
+        <div *ngFor="let data of heavyRotation">
+          <app-album-preview
+            *ngIf="data.type==='albums'"
+            [albumData]="data"
+          >
+          </app-album-preview>
+          <app-playlist-preview
+            *ngIf="data.type==='playlists'"
+            [playlistData]="data"
+          >
+          </app-playlist-preview>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div *ngIf="recentlyPlayed.length">
+      <div class="section-title">Recently Played</div>
+      <div class="container">
+        <div *ngFor="let data of recentlyPlayed">
+          <app-album-preview
+            *ngIf="data.type==='albums'"
+            [albumData]="data"
+          >
+          </app-album-preview>
+          <app-playlist-preview
+            *ngIf="data.type==='playlists'"
+            [playlistData]="data"
+          >
+          </app-playlist-preview>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

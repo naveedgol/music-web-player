@@ -9,11 +9,16 @@ import { ArtistComponent } from './components/artist/artist.component';
 import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
 import { PlaylistComponent } from './components/playlist/playlist.component';
 import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
+import { ForYouComponent } from './components/for-you/for-you.component';
 
 const routes: Routes = [
   {
     path: 'search',
     component: SearchComponent
+  },
+  {
+    path: 'for-you',
+    component: ForYouComponent
   },
   {
     path: 'library',
