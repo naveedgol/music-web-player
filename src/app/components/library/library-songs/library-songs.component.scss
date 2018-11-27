@@ -11,8 +11,7 @@
 }
 
 .outer-container {
-    padding: 20px;
-    height: calc( 100% - 40px );
+    height: 100%;
 }
 
 .song-row {
@@ -25,4 +24,14 @@
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
+}
+
+/deep/cdk-virtual-scroll-viewport {
+    height: 100%;
+}
+
+/deep/.cdk-virtual-scroll-content-wrapper {
+    min-width: unset !important;
+    padding: 20px;
+    width: calc(100% - 40px);
 }

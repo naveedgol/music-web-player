@@ -22,6 +22,7 @@ export class MusicKitService {
         });
 
         this.musicKit = MusicKit.getInstance();
+        this.musicKit.addEventListener( MusicKit.Events.authorizationStatusDidChange, this.authorizationStatusDidChange.bind(this) );
 
         this.isAuthorized = this.musicKit.isAuthorized;
     }
@@ -36,5 +37,12 @@ export class MusicKitService {
       from( this.musicKit.unauthorize() ).subscribe( () => {
         this.isAuthorized = false;
       });
+    }
+
+    authorizationStatusDidChange(event): void {
+      this.isAuthorized = event.authorizationStatus;
+      if ( this.isAuthorized ) {
+        location.reload();
+      }
     }
 }

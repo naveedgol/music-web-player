@@ -3,7 +3,7 @@
     [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
     class="album-cover-container"
   >
-    <img class="album-cover" src="{{albumData.attributes.artwork.url | formatArtworkUrl:170}}">
+    <img class="album-cover" appLazyLoad [src]="albumData.attributes.artwork.url | formatArtworkUrl:170">
   </div>
   <div>
 

@@ -1,9 +1,12 @@
 <div class="outer-container">
-    <app-song
-        *ngFor="let songData of librarySongs; let i = index"
-        [songData]="songData"
-        (uponClick)="playSong( i )"
-    >
-    </app-song>
+    <cdk-virtual-scroll-viewport itemSize="60">
+        <app-song
+            *cdkVirtualFor="let songData of librarySongs; let i = index; templateCacheSize: 0"
+            [songData]="songData"
+            (uponClick)="playSong( i )"
+        >
+        </app-song>
+    </cdk-virtual-scroll-viewport>
     <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
 </div>
+

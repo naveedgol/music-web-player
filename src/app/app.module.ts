@@ -10,6 +10,7 @@ import { TrackControlsComponent } from './components/track-controls/track-contro
 import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
         MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
         MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule } from '@angular/material';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
 
@@ -36,6 +37,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { PlaylistComponent } from './components/playlist/playlist.component';
 import { PlaylistPreviewComponent } from './components/playlist-preview/playlist-preview.component';
+import { LazyLoadDirective } from './directives/lazy-load.directive';
 
 @NgModule({
   declarations: [
@@ -57,11 +59,13 @@ import { PlaylistPreviewComponent } from './components/playlist-preview/playlist
     ArtistPreviewComponent,
     ArtistComponent,
     PlaylistComponent,
-    PlaylistPreviewComponent
+    PlaylistPreviewComponent,
+    LazyLoadDirective
   ],
   imports: [
     BrowserAnimationsModule,
     FormsModule,
+    ScrollingModule,
     DragDropModule,
     MatExpansionModule,
     MatInputModule,
