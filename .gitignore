@@ -7,3 +7,5 @@ token.ts
 
 # dependencies
 /node_modules
+
+/src
