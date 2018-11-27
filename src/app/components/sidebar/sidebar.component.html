@@ -30,12 +30,21 @@
     <h3 mat-subheader>Library</h3>
 
     <mat-list-item
-      routerLink="/library/songs"
+      routerLink="/library/recently-added"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
     >
-      <mat-icon>music_note</mat-icon>
-      <div>Songs</div>
+      <mat-icon>calendar_today</mat-icon>
+      <div>Recently Added</div>
+    </mat-list-item>
+
+    <mat-list-item
+      routerLink="/library/artists"
+      routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}"
+    >
+      <mat-icon>person</mat-icon>
+      <div>Artists</div>
     </mat-list-item>
 
     <mat-list-item
@@ -48,12 +57,12 @@
     </mat-list-item>
 
     <mat-list-item
-      routerLink="/library/artists"
+      routerLink="/library/songs"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
     >
-      <mat-icon>person</mat-icon>
-      <div>Artists</div>
+      <mat-icon>music_note</mat-icon>
+      <div>Songs</div>
     </mat-list-item>
 
     <mat-expansion-panel class="playlist-dropdown" [disabled]="!playlists.length">

@@ -1,10 +1,10 @@
 <main *ngIf="playlistData">
   <header>
     <div class="header-image-container">
-      <img class="header-image" src="{{playlistData.attributes.artwork.url | formatArtworkUrl:500}}">
+      <img class="header-image" src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:500}}">
     </div>
     <div class="header">
-        <div class="artwork" [ngStyle]="{'background-image':'url('+(playlistData.attributes.artwork.url | formatArtworkUrl:170)+')'}"></div>
+        <div class="artwork" [ngStyle]="{'background-image':'url('+((playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '')| formatArtworkUrl:170)+')'}"></div>
         <div class="album-extras">
           <div class="track-text">
             <span class="album-name">{{playlistData.attributes.name}}</span>

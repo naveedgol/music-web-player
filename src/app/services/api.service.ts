@@ -45,12 +45,12 @@ export class ApiService {
 
   search( query: string ): Observable<any> {
     const searchTypes = ['songs', 'albums', 'artists', 'playlists'];
-    return from( this.api.search( query, { types: searchTypes, limit: 20 } ) );
+    return from( this.api.search( query, { types: searchTypes, limit: 50 } ) );
   }
 
   searchLibrary( query: string ): Observable<any> {
     const searchTypes = ['library-songs', 'library-albums', 'library-artists', 'library-playlists'];
-    return from( this.api.library.search( query, { types: searchTypes, limit: 20 } ) );
+    return from( this.api.library.search( query, { types: searchTypes, limit: 50 } ) );
   }
 
   fetchPlaylists(): Observable<any> {
@@ -63,5 +63,9 @@ export class ApiService {
 
   fetchPlaylist( id: string ): Observable<any> {
     return from( this.api.playlist( id ) );
+  }
+
+  fetchRecentlyAdded( offset: number ): Observable<any> {
+    return from( this.api.library.collection('recently-added', null, { limit: 10, offset: offset } ) );
   }
 }

@@ -3,7 +3,7 @@
     [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
     class="album-cover-container"
   >
-    <img class="album-cover" src="{{playlistData.attributes.artwork.url | formatArtworkUrl:170}}">
+    <img appLazyLoad class="album-cover" src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:170}}">
   </div>
   <div>
 

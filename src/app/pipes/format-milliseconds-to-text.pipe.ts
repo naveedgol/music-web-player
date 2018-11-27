@@ -11,6 +11,10 @@ export class FormatMillisecondsToTextPipe implements PipeTransform {
     const hours: number = Math.floor( totalMinutes / 60 );
     const minutes: number = Math.floor( totalMinutes % 60 );
 
+    if ( !totalSeconds ) {
+      return '0 minutes';
+    }
+
     let str = '';
     if ( hours ) {
       str += hours + ' hour';

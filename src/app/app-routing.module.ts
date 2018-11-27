@@ -8,6 +8,7 @@ import { SearchComponent } from './components/search/search.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
 import { PlaylistComponent } from './components/playlist/playlist.component';
+import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'library',
     children: [
+      {
+        path: 'recently-added',
+        component: RecentlyAddedComponent
+      },
       {
         path: 'songs',
         component: LibrarySongsComponent

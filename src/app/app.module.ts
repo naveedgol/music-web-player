@@ -38,6 +38,7 @@ import { environment } from '../environments/environment';
 import { PlaylistComponent } from './components/playlist/playlist.component';
 import { PlaylistPreviewComponent } from './components/playlist-preview/playlist-preview.component';
 import { LazyLoadDirective } from './directives/lazy-load.directive';
+import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +61,8 @@ import { LazyLoadDirective } from './directives/lazy-load.directive';
     ArtistComponent,
     PlaylistComponent,
     PlaylistPreviewComponent,
-    LazyLoadDirective
+    LazyLoadDirective,
+    RecentlyAddedComponent
   ],
   imports: [
     BrowserAnimationsModule,
