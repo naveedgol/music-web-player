@@ -1,0 +1,23 @@
+<div class="inner-container">
+  <div
+    [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
+    class="album-cover-container"
+  >
+    <img class="album-cover" src="{{playlistData.attributes.artwork.url | formatArtworkUrl:170}}">
+  </div>
+  <div>
+
+  </div>
+  <div class="album-text">
+    <div class="album-name-container">
+      <span
+        class="album-name"
+        title="{{playlistData.attributes.name}}"
+        [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
+      >
+        {{playlistData.attributes.name}}
+      </span>
+      <mat-icon *ngIf="playlistData.attributes.contentRating==='explicit'" class="explicit">explicit</mat-icon>
+    </div>
+  </div>
+</div>

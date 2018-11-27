@@ -41,7 +41,8 @@ export class PlayerService {
     id: '',
     type: '',
     container: { id: '' },
-    playbackDuration: 0
+    playbackDuration: 0,
+    collectionId: ''
   };
 
   constructor( private musicKitService: MusicKitService ) {
@@ -63,7 +64,10 @@ export class PlayerService {
   setQueue( item, startIndex: number = 0 ): Observable<any> {
     const itemPlayParams: PlayParams = item.attributes.playParams;
     return from( this.musicKitService.musicKit.setQueue( { [itemPlayParams.kind]: itemPlayParams.id } ) )
-      .pipe( mergeMap( x => this.musicKitService.musicKit.changeToMediaAtIndex( startIndex ) ) );
+      .pipe( mergeMap( queue => {
+        queue['items'].forEach( queueItem => queueItem.collectionId = queueItem.id );
+        return this.musicKitService.musicKit.changeToMediaAtIndex( startIndex );
+      } ) );
   }
 
   playItem( item ): Observable<any> {

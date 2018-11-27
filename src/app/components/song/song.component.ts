@@ -31,7 +31,8 @@ export class SongComponent implements OnInit, OnDestroy {
 
   checkIfSelected() {
     this.isSelected = this.songData.id === this.playerService.nowPlayingItem.id ||
-                      this.songData.id === this.playerService.nowPlayingItem.container.id;
+                      this.songData.id === this.playerService.nowPlayingItem.container.id ||
+                      this.songData.id === this.playerService.nowPlayingItem.collectionId;
   }
 
   songClicked(): void {

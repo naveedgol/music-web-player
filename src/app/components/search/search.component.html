@@ -55,7 +55,15 @@
           </div>
       </mat-tab>
 
-      <mat-tab label="Playlists"></mat-tab>
+      <mat-tab label="Playlists">
+        <div class="album-results">
+          <app-playlist-preview
+            *ngFor="let playlistData of playlistResults"
+            [playlistData]="playlistData"
+          >
+          </app-playlist-preview>
+        </div>
+      </mat-tab>
     </mat-tab-group>
     <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
   </div>

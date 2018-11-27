@@ -52,4 +52,16 @@ export class ApiService {
     const searchTypes = ['library-songs', 'library-albums', 'library-artists', 'library-playlists'];
     return from( this.api.library.search( query, { types: searchTypes, limit: 20 } ) );
   }
+
+  fetchPlaylists(): Observable<any> {
+    return from( this.api.library.playlists() );
+  }
+
+  fetchLibraryPlaylist( id: string ): Observable<any> {
+    return from( this.api.library.playlist( id ) );
+  }
+
+  fetchPlaylist( id: string ): Observable<any> {
+    return from( this.api.playlist( id ) );
+  }
 }

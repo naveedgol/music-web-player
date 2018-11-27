@@ -1,0 +1,101 @@
+.artwork {
+    background-size: cover;
+    min-width: 170px;
+    height: 170px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+}
+
+.track-text {
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    cursor: default;
+}
+
+$scroll-factor : 0.3;
+
+main {
+    background-color: black;
+    height: 100%;
+    overflow-x: hidden;
+    perspective: 1px;
+    perspective-origin: center top;
+    transform-style: preserve-3d;
+}
+
+.header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+header {
+    min-height: 190px;
+    height: 50%;
+    position: relative;
+    vertical-align: top;
+    transform-origin: center top;
+    transform:
+        translateZ(-#{$scroll-factor * 2}px)
+        scale(1 + $scroll-factor * 2);
+}
+
+section {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+    background-image: linear-gradient(#04060c,#1e3264 120%);
+    transform: translateZ(0);
+    min-height: 50%;
+}
+
+.album-name {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.artist-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.tracklist {
+    padding: 10px;
+}
+
+.runtime {
+    color: #b3b3b3;
+    padding-top: 3px;
+}
+
+.album-extras {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.album-button {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.header-image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: black;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+    object-position: center 30%;
+    object-fit: cover;
+    opacity: 0.6;
+    // filter: blur(3px);
+}

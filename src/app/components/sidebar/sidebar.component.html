@@ -56,21 +56,44 @@
       <div>Artists</div>
     </mat-list-item>
 
-    <button
-      *ngIf="!musicKitService.isAuthorized"
-      class="authorize-button"
-      mat-raised-button
-      (click)="authorize()"
-    >
-      Login
-    </button>
-    <button
-      *ngIf="musicKitService.isAuthorized"
-      class="authorize-button"
-      mat-raised-button
-      (click)="unauthorize()"
-    >
-      Logout
-    </button>
+    <mat-expansion-panel class="playlist-dropdown" [disabled]="!playlists.length">
+      <mat-expansion-panel-header class="playlist-dropdown-header">
+        <mat-panel-title>
+          <mat-icon>playlist_play</mat-icon>
+          <div class="playlist-header-text">Playlists</div>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-divider></mat-divider>
+      <mat-nav-list>
+        <mat-list-item
+          class="playlist-list-item"
+          *ngFor="let playlist of playlists"
+          routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{exact: true}"
+          [routerLink]="['/library/playlists',playlist.id]"
+        >
+          <div>{{playlist.attributes.name}}</div>
+        </mat-list-item>
+      </mat-nav-list>
+    </mat-expansion-panel>
+
+    <div class="authorize-button-container">
+      <button
+        *ngIf="!musicKitService.isAuthorized"
+        class="authorize-button"
+        mat-raised-button
+        (click)="authorize()"
+      >
+        Login
+      </button>
+      <button
+        *ngIf="musicKitService.isAuthorized"
+        class="authorize-button"
+        mat-raised-button
+        (click)="unauthorize()"
+      >
+        Logout
+      </button>
+    </div>
   </mat-nav-list>
 </div>

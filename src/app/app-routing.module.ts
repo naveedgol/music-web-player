@@ -7,6 +7,7 @@ import { AlbumComponent } from './components/album/album.component';
 import { SearchComponent } from './components/search/search.component';
 import { ArtistComponent } from './components/artist/artist.component';
 import { LibraryArtistsComponent } from './components/library/library-artists/library-artists.component';
+import { PlaylistComponent } from './components/playlist/playlist.component';
 
 const routes: Routes = [
   {
@@ -45,6 +46,15 @@ const routes: Routes = [
             component: LibraryArtistsComponent
           }
         ]
+      },
+      {
+        path: 'playlists',
+        children: [
+          {
+            path: ':id',
+            component: PlaylistComponent
+          }
+        ]
       }
     ]
   },
@@ -59,6 +69,15 @@ const routes: Routes = [
         path: '',
         redirectTo: '/library/albums',
         pathMatch: 'full'
+      }
+    ]
+  },
+  {
+    path: 'playlists',
+    children: [
+      {
+        path: ':id',
+        component: PlaylistComponent
       }
     ]
   },

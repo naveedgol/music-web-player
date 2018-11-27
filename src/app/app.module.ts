@@ -9,7 +9,7 @@ import { TrackControlsComponent } from './components/track-controls/track-contro
 
 import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
         MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
-        MatInputModule, MatButtonToggleModule, MatTabsModule } from '@angular/material';
+        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule } from '@angular/material';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
 
@@ -34,6 +34,8 @@ import { ArtistPreviewComponent } from './components/artist-preview/artist-previ
 import { ArtistComponent } from './components/artist/artist.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { PlaylistComponent } from './components/playlist/playlist.component';
+import { PlaylistPreviewComponent } from './components/playlist-preview/playlist-preview.component';
 
 @NgModule({
   declarations: [
@@ -53,12 +55,15 @@ import { environment } from '../environments/environment';
     AlbumPreviewComponent,
     LibraryArtistsComponent,
     ArtistPreviewComponent,
-    ArtistComponent
+    ArtistComponent,
+    PlaylistComponent,
+    PlaylistPreviewComponent
   ],
   imports: [
     BrowserAnimationsModule,
     FormsModule,
     DragDropModule,
+    MatExpansionModule,
     MatInputModule,
     MatTabsModule,
     MatButtonToggleModule,
