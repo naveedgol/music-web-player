@@ -24,7 +24,7 @@
 
   <div class="search-results">
     <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading && hasQueried">
-      <mat-tab label="Songs">
+      <mat-tab label="Songs" [disabled]="!songResults.length">
         <div class="song-results">
           <app-song
             *ngFor="let songData of songResults; let i = index"
@@ -35,7 +35,7 @@
         </div>
       </mat-tab>
 
-      <mat-tab label="Albums">
+      <mat-tab label="Albums" [disabled]="!albumResults.length">
         <div class="album-results">
           <app-album-preview
             *ngFor="let albumData of albumResults"
@@ -45,7 +45,7 @@
         </div>
       </mat-tab>
 
-      <mat-tab label="Artists">
+      <mat-tab label="Artists" [disabled]="!artistResults.length">
         <div class="artist-results">
             <app-artist-preview
               *ngFor="let artistData of artistResults"
@@ -55,7 +55,7 @@
           </div>
       </mat-tab>
 
-      <mat-tab label="Playlists">
+      <mat-tab label="Playlists" [disabled]="!playlistResults.length">
         <div class="album-results">
           <app-playlist-preview
             *ngFor="let playlistData of playlistResults"

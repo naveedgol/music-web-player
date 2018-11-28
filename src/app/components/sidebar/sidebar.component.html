@@ -21,6 +21,8 @@
       routerLink="/for-you"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>favorite</mat-icon>
       <div>For You</div>
@@ -32,6 +34,8 @@
       routerLink="/library/recently-added"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>calendar_today</mat-icon>
       <div>Recently Added</div>
@@ -41,6 +45,8 @@
       routerLink="/library/artists"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>person</mat-icon>
       <div>Artists</div>
@@ -50,6 +56,8 @@
       routerLink="/library/albums"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>album</mat-icon>
       <div>Albums</div>
@@ -59,6 +67,8 @@
       routerLink="/library/songs"
       routerLinkActive="active-link"
       [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>music_note</mat-icon>
       <div>Songs</div>

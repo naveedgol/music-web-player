@@ -15,9 +15,11 @@ export class SidebarComponent {
     public musicKitService: MusicKitService,
     private apiService: ApiService
   ) {
-    this.apiService.fetchPlaylists().subscribe( x => {
-      this.playlists = x;
-    });
+    if ( this.musicKitService.isAuthorized ) {
+      this.apiService.fetchPlaylists().subscribe( x => {
+        this.playlists = x;
+      });
+    }
   }
 
   authorize(): void {

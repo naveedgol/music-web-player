@@ -11,6 +11,7 @@ import { PlaylistComponent } from './components/playlist/playlist.component';
 import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 import { ForYouComponent } from './components/for-you/for-you.component';
 import { BrowseComponent } from './components/browse/browse.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
   {
@@ -24,6 +25,7 @@ const routes: Routes = [
   },
   {
     path: 'for-you',
+    canActivate: [AuthGuard],
     component: ForYouComponent
   },
   {
@@ -32,6 +34,7 @@ const routes: Routes = [
   },
   {
     path: 'library',
+    canActivateChild: [AuthGuard],
     children: [
       {
         path: 'recently-added',

@@ -1,4 +1,4 @@
-<div class="outer-container">
+<div class="outer-container" *ngIf="!isLoading">
   <div *ngFor="let recommendation of recommendations">
     <div *ngIf="!recommendation.attributes.isGroupRecommendation">
       <div class="section-title">{{recommendation.attributes.title.stringForDisplay}}</div>
@@ -58,5 +58,5 @@
       </div>
     </div>
   </div>
-  <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
 </div>
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>

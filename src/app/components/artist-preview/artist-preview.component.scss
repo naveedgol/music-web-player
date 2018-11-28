@@ -1,13 +1,20 @@
 .artist-preview-container {
     width: 100%;
-    display: inline-block;
-    flex-direction: column;
+    display: flex;
+    align-items: center;
     font-size: 18px;
+    padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 5px;
+    height: 22px;
     outline: none;
-    height: 20px;
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
     text-overflow: ellipsis;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.04);
+    }
 }

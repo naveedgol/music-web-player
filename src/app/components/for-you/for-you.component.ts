@@ -22,11 +22,9 @@ export class ForYouComponent implements OnInit {
     });
     this.apiService.fetchRecentPlayed().subscribe( data => {
       this.recentlyPlayed = data;
-      this.isLoading = false;
     });
     this.apiService.fetchHeavyRotation().subscribe( data => {
       this.heavyRotation = data;
-      this.isLoading = false;
     });
   }
 

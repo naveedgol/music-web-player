@@ -13,7 +13,7 @@
 }
 
 mat-icon {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .active-link {
@@ -44,4 +44,18 @@ mat-icon {
     background-color: black;
     position: absolute;
     bottom: 0;
+}
+
+.disabled {
+    cursor: default !important;
+    color: rgba(255,255,255,0.3);
+
+    &:hover {
+        background: none;
+        background-color: black;
+    }
+
+    &:focus {
+        background: none;
+    }
 }

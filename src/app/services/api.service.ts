@@ -50,7 +50,7 @@ export class ApiService {
 
   searchLibrary( query: string ): Observable<any> {
     const searchTypes = ['library-songs', 'library-albums', 'library-artists', 'library-playlists'];
-    return from( this.api.library.search( query, { types: searchTypes, limit: 50 } ) );
+    return from( this.api.library.search( query, { types: searchTypes, limit: 20 } ) );
   }
 
   fetchPlaylists(): Observable<any> {
