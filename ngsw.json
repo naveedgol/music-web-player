@@ -9,7 +9,7 @@
       "urls": [
         "/apple-music-web-player/favicon.ico",
         "/apple-music-web-player/index.html",
-        "/apple-music-web-player/main.9147ae024a73d3f0a1ff.js",
+        "/apple-music-web-player/main.2b89d7f89ee831c9c9a3.js",
         "/apple-music-web-player/polyfills.c6871e56cb80756a5498.js",
         "/apple-music-web-player/runtime.ec2944dd8b20ec099bf3.js",
         "/apple-music-web-player/styles.b78256e1861cf92c9fa5.css"
@@ -46,8 +46,8 @@
     "/apple-music-web-player/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/apple-music-web-player/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/apple-music-web-player/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/apple-music-web-player/index.html": "e483e9ab256718820763b9ac0505d0ad0b1ca63f",
-    "/apple-music-web-player/main.9147ae024a73d3f0a1ff.js": "1d2a44079a4660fa5deaaf0bab5e18c845edc8ac",
+    "/apple-music-web-player/index.html": "7c964f8fb41710b91e97d1fa4b15a024f64efc0a",
+    "/apple-music-web-player/main.2b89d7f89ee831c9c9a3.js": "f38ba1d0b5625eaad99327ecd94fda08e74fe37f",
     "/apple-music-web-player/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
     "/apple-music-web-player/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "/apple-music-web-player/styles.b78256e1861cf92c9fa5.css": "bd43b347b5108652bf17ed13f005970cd4581a0c"
