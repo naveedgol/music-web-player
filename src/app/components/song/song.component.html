@@ -16,13 +16,20 @@
         <span class="album-name">{{songData.attributes.albumName}}</span>
       </div>
     </div>
-    <!-- <button mat-icon-button [style.visibility]="isHovering || isSelected() ? 'visible' : 'hidden'" [matMenuTriggerFor]="menu">
+
+    <button
+      mat-icon-button
+      [matMenuTriggerFor]="menu"
+      (click)="$event.stopPropagation()"
+      *ngIf="!queueView"
+    >
       <mat-icon>more_vert</mat-icon>
     </button>
     <mat-menu #menu="matMenu">
       <button mat-menu-item (click)="playNext()">Play Next</button>
-      <button mat-menu-item>Play Later</button>
-    </mat-menu> -->
+      <button mat-menu-item (click)="playLater()">Play Later</button>
+    </mat-menu>
+
     <div
       class="time"
       [ngStyle]="{'color': isSelected ? '#69f0ae' : ''}"

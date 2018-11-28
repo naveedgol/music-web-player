@@ -9,7 +9,7 @@ import { TrackControlsComponent } from './components/track-controls/track-contro
 
 import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
         MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
-        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule } from '@angular/material';
+        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule } from '@angular/material';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
@@ -76,6 +76,7 @@ import { BrowseComponent } from './components/browse/browse.component';
     MatExpansionModule,
     MatInputModule,
     MatTabsModule,
+    MatMenuModule,
     MatButtonToggleModule,
     MatFormFieldModule,
     MatProgressSpinnerModule,

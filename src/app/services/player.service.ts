@@ -29,6 +29,7 @@ export class PlayerService {
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
   queue;
+  queuePosition = 0;
   repeatMode = 0;
   isShuffling = false;
 
@@ -145,11 +146,12 @@ export class PlayerService {
   }
 
   queueItemsDidChange( event: any ): void {
-    this.queue = this.player.queue.items;
+    this.queue = this.player.queue.items.slice(this.queuePosition, this.queuePosition + 30);
   }
 
   queuePositionDidChange( event: any ): void {
-    this.queue = this.player.queue.items.slice(event.position + 1, event.position + 30);
+    this.queuePosition = event.position + 1;
+    this.queue = this.player.queue.items.slice(this.queuePosition, this.queuePosition + 30);
   }
 
   addListener( func ) {

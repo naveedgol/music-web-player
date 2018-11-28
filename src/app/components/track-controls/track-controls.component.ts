@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, HostListener } from '@angular/core';
 import { PlayerService, PlaybackStates } from '../../services/player.service';
 
 @Component({
@@ -8,13 +8,17 @@ import { PlayerService, PlaybackStates } from '../../services/player.service';
 })
 export class TrackControlsComponent {
 
+  public playbackStates = PlaybackStates;
+  lastVolume = 10;
   @ViewChild('volume') volumeSlider;
 
   constructor( public playerService: PlayerService ) {
   }
 
-  public playbackStates = PlaybackStates;
-  lastVolume = 10;
+  @HostListener('document:keydown.space', ['$event']) onSpaceKeydownHandler(event: KeyboardEvent) {
+    event.preventDefault();
+    this.togglePlayPause();
+  }
 
   get isLoading(): boolean {
     return this.playerService.playbackState === this.playbackStates.LOADING ||

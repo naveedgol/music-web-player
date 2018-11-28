@@ -11,10 +11,10 @@ export class SongComponent implements OnInit, OnDestroy {
 
   @Input() songData: SongModel;
   @Input() albumView = false;
+  @Input() queueView = false;
   @Output() uponClick: EventEmitter<any> = new EventEmitter();
 
   isSelected = false;
-  isHovering = false;
   playbackStates = PlaybackStates;
 
   constructor(private playerService: PlayerService) {
@@ -30,6 +30,9 @@ export class SongComponent implements OnInit, OnDestroy {
   }
 
   checkIfSelected() {
+    if ( this.queueView ) {
+      return false;
+    }
     this.isSelected = this.songData.id === this.playerService.nowPlayingItem.id ||
                       this.songData.id === this.playerService.nowPlayingItem.container.id ||
                       this.songData.id === this.playerService.nowPlayingItem.collectionId;
@@ -37,5 +40,13 @@ export class SongComponent implements OnInit, OnDestroy {
 
   songClicked(): void {
     this.uponClick.emit();
+  }
+
+  playNext(): void {
+    this.playerService.playNext( this.songData );
+  }
+
+  playLater(): void {
+    this.playerService.playLater( this.songData );
   }
 }

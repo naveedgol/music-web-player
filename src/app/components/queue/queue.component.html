@@ -9,6 +9,7 @@
     <app-song
       *ngFor="let songData of playerService.queue"
       [songData]="songData"
+      [queueView]="true"
     >
     </app-song>
   </div>
