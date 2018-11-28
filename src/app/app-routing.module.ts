@@ -10,8 +10,14 @@ import { LibraryArtistsComponent } from './components/library/library-artists/li
 import { PlaylistComponent } from './components/playlist/playlist.component';
 import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 import { ForYouComponent } from './components/for-you/for-you.component';
+import { BrowseComponent } from './components/browse/browse.component';
 
 const routes: Routes = [
+  {
+    path: '',
+    pathMatch: 'full',
+    redirectTo: '/browse'
+  },
   {
     path: 'search',
     component: SearchComponent
@@ -19,6 +25,10 @@ const routes: Routes = [
   {
     path: 'for-you',
     component: ForYouComponent
+  },
+  {
+    path: 'browse',
+    component: BrowseComponent
   },
   {
     path: 'library',

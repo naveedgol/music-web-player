@@ -1,0 +1,39 @@
+<div class="outer-container">
+  <div *ngIf="topAlbums.length">
+    <div class="section-title">Top Albums</div>
+    <div class="container">
+      <div *ngFor="let data of topAlbums">
+        <app-album-preview
+          [albumData]="data"
+        >
+        </app-album-preview>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="topPlaylists.length">
+    <div class="section-title">Top Playlists</div>
+    <div class="container">
+      <div *ngFor="let data of topPlaylists">
+        <app-playlist-preview
+          [playlistData]="data"
+        >
+        </app-playlist-preview>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="topSongs.length">
+    <div class="section-title">Top Songs</div>
+    <div class="top-songs-container">
+      <app-song
+        *ngFor="let songData of topSongs; let i = index"
+        [songData]="songData"
+        (uponClick)="playSong( i )"
+      >
+      </app-song>
+    </div>
+  </div>
+
+  <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
+</div>

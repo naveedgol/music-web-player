@@ -80,4 +80,9 @@ export class ApiService {
   fetchHeavyRotation(): Observable<any> {
     return from( this.api.historyHeavyRotation() );
   }
+
+  fetchChart(): Observable<any> {
+    const searchTypes = ['songs', 'albums', 'playlists'];
+    return from( this.api.charts( null, { types: searchTypes, limit: 10 } ) );
+  }
 }

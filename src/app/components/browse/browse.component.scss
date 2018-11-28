@@ -20,9 +20,13 @@
     padding-bottom: 20px;
 }
 
+.top-songs-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .spinner {
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
 }
-

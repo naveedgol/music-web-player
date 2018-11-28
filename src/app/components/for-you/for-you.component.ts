@@ -13,18 +13,20 @@ export class ForYouComponent implements OnInit {
   recommendations = [];
   recentlyPlayed = [];
   heavyRotation = [];
+  isLoading = true;
 
   ngOnInit() {
     this.apiService.fetchRecommendations().subscribe( data => {
       this.recommendations = data;
+      this.isLoading = false;
     });
     this.apiService.fetchRecentPlayed().subscribe( data => {
       this.recentlyPlayed = data;
-      console.log(data);
+      this.isLoading = false;
     });
     this.apiService.fetchHeavyRotation().subscribe( data => {
       this.heavyRotation = data;
-      console.log(data);
+      this.isLoading = false;
     });
   }
 
