@@ -41,8 +41,8 @@ export class MusicKitService {
 
     authorizationStatusDidChange(event): void {
       this.isAuthorized = event.authorizationStatus;
-      if ( this.isAuthorized ) {
-        location.reload();
-      }
+      // if ( this.isAuthorized ) {
+      //   location.reload();
+      // }
     }
 }
