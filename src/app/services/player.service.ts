@@ -121,8 +121,8 @@ export class PlayerService {
     this.player.queue.prepend( item );
   }
 
-  playLater( item ): Observable<any> {
-    return from( this.player.queue.append( item ) );
+  playLater( item ): void {
+    this.player.queue.append( item );
   }
 
   get currentPlaybackDuration(): number {

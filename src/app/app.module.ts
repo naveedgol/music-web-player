@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { TrackControlsComponent } from './components/track-controls/track-controls.component';
 
 import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
-        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule,
+        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatSnackBarModule,
         MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule } from '@angular/material';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
@@ -41,8 +41,10 @@ import { LazyLoadDirective } from './directives/lazy-load.directive';
 import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 import { ForYouComponent } from './components/for-you/for-you.component';
 import { BrowseComponent } from './components/browse/browse.component';
+import { QueueSnackBarComponent } from './components/queue-snack-bar/queue-snack-bar.component';
 
 @NgModule({
+  entryComponents: [QueueSnackBarComponent],
   declarations: [
     AppComponent,
     TrackControlsComponent,
@@ -66,7 +68,8 @@ import { BrowseComponent } from './components/browse/browse.component';
     LazyLoadDirective,
     RecentlyAddedComponent,
     ForYouComponent,
-    BrowseComponent
+    BrowseComponent,
+    QueueSnackBarComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -74,6 +77,7 @@ import { BrowseComponent } from './components/browse/browse.component';
     ScrollingModule,
     DragDropModule,
     MatExpansionModule,
+    MatSnackBarModule,
     MatInputModule,
     MatTabsModule,
     MatMenuModule,

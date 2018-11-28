@@ -1,6 +1,8 @@
 import { Component, Input, Output, EventEmitter, OnInit, OnDestroy } from '@angular/core';
 import { PlayerService, PlaybackStates } from 'src/app/services/player.service';
 import { SongModel } from 'src/app/models/song-model';
+import { MatSnackBar } from '@angular/material';
+import { QueueSnackBarComponent } from '../queue-snack-bar/queue-snack-bar.component';
 
 @Component({
   selector: 'app-song',
@@ -17,7 +19,10 @@ export class SongComponent implements OnInit, OnDestroy {
   isSelected = false;
   playbackStates = PlaybackStates;
 
-  constructor(private playerService: PlayerService) {
+  constructor(
+    private playerService: PlayerService,
+    public snackBar: MatSnackBar
+  ) {
   }
 
   ngOnInit(): void {
@@ -44,9 +49,15 @@ export class SongComponent implements OnInit, OnDestroy {
 
   playNext(): void {
     this.playerService.playNext( this.songData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 
   playLater(): void {
     this.playerService.playLater( this.songData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 }
