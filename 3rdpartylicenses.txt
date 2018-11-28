@@ -355,6 +355,10 @@ THE SOFTWARE.
 @angular/animations
 MIT
 
+@angular/material/button
+
+@angular/material/menu
+
 @angular/material/tabs
 
 @angular/material/progress-spinner
@@ -367,8 +371,6 @@ MIT
 @angular/material/button-toggle
 
 @angular/cdk/scrolling
-
-@angular/material/button
 
 @ctrl/tinycolor
 MIT
