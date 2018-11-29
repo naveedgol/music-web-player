@@ -16,4 +16,8 @@ export class QueueComponent {
   close(): void {
     this.router.navigate([{ outlets: { popup: null }}]);
   }
+
+  playSong( index ): void {
+    this.playerService.changeQueuePosition( index );
+  }
 }

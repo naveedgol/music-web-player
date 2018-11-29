@@ -7,9 +7,10 @@
   </div>
   <div class="tracks-container">
     <app-song
-      *ngFor="let songData of playerService.queue"
+      *ngFor="let songData of playerService.queue; let i = index"
       [songData]="songData"
       [queueView]="true"
+      (uponClick)="playSong(i)"
     >
     </app-song>
   </div>

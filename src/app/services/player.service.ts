@@ -154,6 +154,10 @@ export class PlayerService {
     this.queue = this.player.queue.items.slice(this.queuePosition, this.queuePosition + 30);
   }
 
+  changeQueuePosition( index ): void {
+    this.musicKitService.musicKit.changeToMediaAtIndex( index + this.queuePosition );
+  }
+
   addListener( func ) {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, func );
   }
