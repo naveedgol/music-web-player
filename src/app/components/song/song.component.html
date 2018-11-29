@@ -12,9 +12,9 @@
           <mat-icon *ngIf="songData.attributes.contentRating === 'explicit'" class="explicit">explicit</mat-icon>
       </div>
       <div class="secondary-info" *ngIf="!albumView">
-        <span class="artist-name">{{songData.attributes.artistName}}</span>
-        <span class="divider"> • </span>
-        <span class="album-name">{{songData.attributes.albumName}}</span>
+        <span class="artist-name">
+          {{songData.attributes.artistName}}&nbsp;&nbsp;•&nbsp;&nbsp;{{songData.attributes.albumName}}
+        </span>
       </div>
     </div>
 
@@ -32,6 +32,7 @@
     </mat-menu>
 
     <div
+      *ngIf="!queueView"
       class="time"
       [ngStyle]="{'color': isSelected ? '#69f0ae' : ''}"
     >

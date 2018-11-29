@@ -1,6 +1,5 @@
 .popup {
     cursor: move;
-    overflow: auto;
     z-index: 2;
     width: 300px;
     position: absolute;
@@ -10,10 +9,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.3);
+    padding-bottom: 0;
 }
 
 .title {
-    cursor: default;
     font-weight: 500;
     flex: 1;
     padding-left: 8px;
@@ -21,15 +20,20 @@
 }
 
 .queue-header {
-    display: flex;
-    align-items: center;
-    position: fixed;
     width: 300px;
-    height: 50px;
+    overflow: hidden;
 }
 
 .tracks-container {
-    margin-top: 50px;
     overflow: auto;
-    height: calc( 100% - 50px );
+    height: calc( 100% - 41px );
+}
+
+.header-text {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    position: unset !important;
 }

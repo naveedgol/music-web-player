@@ -1,9 +1,14 @@
 <mat-card class="popup" cdkDrag>
   <div class="queue-header">
-    <span class="title">Up Next</span>
-    <button mat-icon-button (click)="close()">
-      <mat-icon>clear</mat-icon>
-    </button>
+    <div class="header-text">
+      <span class="title">
+          Up Next
+      </span>
+      <button mat-icon-button (click)="close()">
+        <mat-icon>clear</mat-icon>
+      </button>
+    </div>
+    <mat-divider class="divider"></mat-divider>
   </div>
   <div class="tracks-container">
     <app-song
