@@ -387,8 +387,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @angular/material/card
 
-@angular/material/divider
-
 @angular/material/sidenav
 
 @angular/material/core
@@ -396,6 +394,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 @angular/material/list
 
 @angular/material/expansion
+
+@angular/material/divider
 
 @angular/material/toolbar
 
