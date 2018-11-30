@@ -16,8 +16,10 @@ export class TrackControlsComponent {
   }
 
   @HostListener('document:keydown.space', ['$event']) onSpaceKeydownHandler(event: KeyboardEvent) {
-    event.preventDefault();
-    this.togglePlayPause();
+    if ( event.srcElement.tagName !== 'INPUT' ) {
+      event.preventDefault();
+      this.togglePlayPause();
+    }
   }
 
   get isLoading(): boolean {
