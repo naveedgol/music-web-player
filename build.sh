@@ -1,3 +1,3 @@
 #!/bin/bash
 ng build --prod --aot
-sed -i '' "s/const req = event.request;/const req = event.request;if(req.url.toLowerCase().includes('apple')){return;}/" dist/apple-music-web-player/ngsw-worker.js
+sed -i "/onFetch(event) {/,/const req = event.request;/c onFetch(event){const req=event.request;const whitelist=['apple'];if(whitelist.some(word=>req.url.toLowerCase().includes(word.toLowerCase()))){return}" ./dist/apple-music-web-player/ngsw-worker.js
