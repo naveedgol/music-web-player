@@ -13,7 +13,7 @@
     background-color: #212121;
 
     /deep/cdk-virtual-scroll-viewport {
-        height: calc( 100% - 47px );
+        height: 100%;
     }
 
     /deep/.cdk-virtual-scroll-content-wrapper {
@@ -40,4 +40,11 @@
 .tracks-container {
     overflow: auto;
     height: calc( 100% - 47px );
+}
+
+.empty-queue-prompt {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -7,24 +7,21 @@
       <mat-icon>clear</mat-icon>
     </button>
   </div>
-  <cdk-virtual-scroll-viewport class="tracks-container" itemSize="60">
-    <app-song
-        *cdkVirtualFor="let songData of playerService.queue; let i = index; templateCacheSize: 0"
-        [songData]="songData"
-        [queueView]="true"
-        (uponPlay)="playSong(i)"
-        (uponRemove)="removeSong(i)"
-    >
-    </app-song>
-  </cdk-virtual-scroll-viewport>
-  <!-- <div class="tracks-container">
-    <app-song
-      *ngFor="let songData of playerService.queue; let i = index"
-      [songData]="songData"
-      [queueView]="true"
-      (uponPlay)="playSong(i)"
-    >
-    </app-song>
-  </div> -->
+  <div class="tracks-container">
+    <cdk-virtual-scroll-viewport *ngIf="playerService.queue.length" itemSize="60">
+      <app-song
+          *cdkVirtualFor="let songData of playerService.queue; let i = index; templateCacheSize: 0"
+          [songData]="songData"
+          [queueView]="true"
+          (uponPlay)="playSong(i)"
+          (uponRemove)="removeSong(i)"
+      >
+      </app-song>
+    </cdk-virtual-scroll-viewport>
+    <div class="empty-queue-prompt" *ngIf="!playerService.queue.length">
+      Queue is empty
+    </div>
+  </div>
+
 </mat-card>
 

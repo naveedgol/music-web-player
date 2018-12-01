@@ -28,7 +28,7 @@ export class PlayerService {
 
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
-  queue;
+  queue = [];
   queuePosition = 0;
   repeatMode = 0;
   isShuffling = false;
@@ -146,7 +146,6 @@ export class PlayerService {
   }
 
   queueItemsDidChange( event: any ): void {
-    console.log(this.player.queue.items);
     this.queue = this.player.queue.items.slice(this.queuePosition);
   }
 

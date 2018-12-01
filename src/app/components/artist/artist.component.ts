@@ -22,7 +22,6 @@ export class ArtistComponent implements OnInit {
           this.apiService.fetchLibraryArtist( x.get('id') ).subscribe( data => {
             this.artistData = data;
             this.albumsCount = this.artistData.relationships.albums.data.length;
-            console.log(data);
           });
         } else {
           this.apiService.fetchArtist( x.get('id') ).subscribe( data => {
