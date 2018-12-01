@@ -55,9 +55,27 @@
           </button>
 
           <mat-menu #menu="matMenu">
-            <button mat-menu-item (click)="playNext()">Play Next</button>
-            <button mat-menu-item (click)="playLater()">Play Later</button>
-            <button mat-menu-item (click)="copyLink()">Copy Link</button>
+            <button
+              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              mat-menu-item
+              (click)="playNext()"
+            >
+              Play Next
+            </button>
+            <button
+              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              mat-menu-item
+              (click)="playLater()"
+            >
+              Play Later
+            </button>
+            <button
+              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              mat-menu-item
+              (click)="copyLink()"
+            >
+              Copy Link
+            </button>
           </mat-menu>
         </div>
 

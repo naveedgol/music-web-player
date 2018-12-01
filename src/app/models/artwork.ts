@@ -3,4 +3,5 @@ export class Artwork {
     height: number;
     url: string;
     bgColor: string;
+    textColor1: string;
 }
