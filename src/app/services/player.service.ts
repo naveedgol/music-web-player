@@ -56,12 +56,12 @@ export class PlayerService {
 
     this.player = this.musicKitService.musicKit.player;
 
-    this.bitrate = parseInt( localStorage.getItem('bitrate'), 10 );
-    if ( !this.bitrate ) {
-      localStorage.setItem('bitrate', this.musicKitService.musicKit);
+    if ( localStorage.getItem('bitrate') === null ) {
+      this.bitrate = 256;
     } else {
-      this.changeBitrate();
+      this.bitrate = parseInt( localStorage.getItem('bitrate'), 10 );
     }
+    this.changeBitrate();
   }
 
   setQueueFromItems( items: SongModel[], startIndex: number = 0 ): Observable<any> {
@@ -184,7 +184,6 @@ export class PlayerService {
 
   changeBitrate() {
     this.musicKitService.musicKit.bitrate = this.bitrate;
-    this.bitrate = this.bitrate;
     localStorage.setItem('bitrate', this.bitrate.toString());
   }
 }

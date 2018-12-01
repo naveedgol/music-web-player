@@ -36,6 +36,7 @@ main {
 
 header {
     min-height: 190px;
+    max-height: 300px;
     height: 50%;
     position: relative;
     vertical-align: top;
@@ -49,7 +50,7 @@ section {
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
     background-image: linear-gradient(#04060c,#1e3264 120%);
     transform: translateZ(0);
-    min-height: 50%;
+    min-height: calc( 100% - 300px );
 }
 
 .album-name {
