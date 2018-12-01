@@ -1,5 +1,7 @@
 import { Component, ViewChild, HostListener } from '@angular/core';
 import { PlayerService, PlaybackStates } from '../../services/player.service';
+import { MatBottomSheet } from '@angular/material';
+import { SettingsComponent } from '../settings/settings.component';
 
 @Component({
   selector: 'app-track-controls',
@@ -12,7 +14,10 @@ export class TrackControlsComponent {
   lastVolume = 10;
   @ViewChild('volume') volumeSlider;
 
-  constructor( public playerService: PlayerService ) {
+  constructor(
+    public playerService: PlayerService,
+    private bottomSheet: MatBottomSheet
+    ) {
   }
 
   @HostListener('document:keydown.space', ['$event']) onSpaceKeydownHandler(event: KeyboardEvent) {
@@ -71,5 +76,9 @@ export class TrackControlsComponent {
 
   get currentPlaybackTime(): number {
     return this.playerService.currentPlaybackTime;
+  }
+
+  openSettings() {
+    this.bottomSheet.open(SettingsComponent);
   }
 }

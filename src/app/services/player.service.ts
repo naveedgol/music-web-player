@@ -26,6 +26,7 @@ export enum PlaybackStates {
 })
 export class PlayerService {
 
+  bitrate = 256;
   playbackState: PlaybackStates = PlaybackStates.NONE;
   player: any;
   queue = [];
@@ -54,6 +55,13 @@ export class PlayerService {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.queuePositionDidChange, this.queuePositionDidChange.bind(this) );
 
     this.player = this.musicKitService.musicKit.player;
+
+    this.bitrate = parseInt( localStorage.getItem('bitrate'), 10 );
+    if ( !this.bitrate ) {
+      localStorage.setItem('bitrate', this.musicKitService.musicKit);
+    } else {
+      this.changeBitrate();
+    }
   }
 
   setQueueFromItems( items: SongModel[], startIndex: number = 0 ): Observable<any> {
@@ -172,5 +180,11 @@ export class PlayerService {
 
   changeVolume( volume: number ): void {
     this.player.volume = volume;
+  }
+
+  changeBitrate() {
+    this.musicKitService.musicKit.bitrate = this.bitrate;
+    this.bitrate = this.bitrate;
+    localStorage.setItem('bitrate', this.bitrate.toString());
   }
 }

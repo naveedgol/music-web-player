@@ -1,0 +1,18 @@
+<div class="outer-settings-container">
+  <div class="bitrate-text">Bitrate</div>
+  <div class="bitrate-container">
+    <mat-radio-group [(ngModel)]="playerService.bitrate" (change)="playerService.changeBitrate()">
+      <mat-radio-button [value]="256">High (256 kbps)</mat-radio-button>
+      <mat-radio-button [value]="64">Standard (64 kbps)</mat-radio-button>
+    </mat-radio-group>
+  </div>
+
+  <button
+    *ngIf="musicKitService.isAuthorized"
+    class="authorize-button"
+    mat-raised-button
+    (click)="unauthorize()"
+  >
+    Logout
+  </button>
+</div>

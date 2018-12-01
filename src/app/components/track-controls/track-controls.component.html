@@ -66,6 +66,13 @@
   <div class="misc-controls">
     <button
       mat-icon-button
+      (click)="openSettings()"
+    >
+      <mat-icon>settings</mat-icon>
+    </button>
+
+    <button
+      mat-icon-button
       [routerLink]="[{ outlets: { popup: ['queue'] } }]"
       routerLinkActive="active-link"
     >

@@ -7,8 +7,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrackControlsComponent } from './components/track-controls/track-controls.component';
 
-import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule,
-        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatSnackBarModule,
+import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule, MatBottomSheetModule,
+        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatSnackBarModule, MatRadioModule,
         MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule } from '@angular/material';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
@@ -42,9 +42,10 @@ import { RecentlyAddedComponent } from './components/recently-added/recently-add
 import { ForYouComponent } from './components/for-you/for-you.component';
 import { BrowseComponent } from './components/browse/browse.component';
 import { QueueSnackBarComponent } from './components/queue-snack-bar/queue-snack-bar.component';
+import { SettingsComponent } from './components/settings/settings.component';
 
 @NgModule({
-  entryComponents: [QueueSnackBarComponent],
+  entryComponents: [QueueSnackBarComponent, SettingsComponent],
   declarations: [
     AppComponent,
     TrackControlsComponent,
@@ -69,7 +70,8 @@ import { QueueSnackBarComponent } from './components/queue-snack-bar/queue-snack
     RecentlyAddedComponent,
     ForYouComponent,
     BrowseComponent,
-    QueueSnackBarComponent
+    QueueSnackBarComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -79,8 +81,10 @@ import { QueueSnackBarComponent } from './components/queue-snack-bar/queue-snack
     MatExpansionModule,
     MatSnackBarModule,
     MatInputModule,
+    MatRadioModule,
     MatTabsModule,
     MatMenuModule,
+    MatBottomSheetModule,
     MatButtonToggleModule,
     MatFormFieldModule,
     MatProgressSpinnerModule,

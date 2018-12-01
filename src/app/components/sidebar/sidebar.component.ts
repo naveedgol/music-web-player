@@ -26,8 +26,4 @@ export class SidebarComponent {
     this.musicKitService.authorize();
   }
 
-  unauthorize(): void {
-    this.musicKitService.unauthorize();
-  }
-
 }

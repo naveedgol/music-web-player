@@ -95,22 +95,15 @@
       </mat-nav-list>
     </mat-expansion-panel>
 
-    <div class="authorize-button-container">
+    <div class="authorize-button-container"
+      *ngIf="!musicKitService.isAuthorized"
+    >
       <button
-        *ngIf="!musicKitService.isAuthorized"
         class="authorize-button"
         mat-raised-button
         (click)="authorize()"
       >
         Login
-      </button>
-      <button
-        *ngIf="musicKitService.isAuthorized"
-        class="authorize-button"
-        mat-raised-button
-        (click)="unauthorize()"
-      >
-        Logout
       </button>
     </div>
   </mat-nav-list>
