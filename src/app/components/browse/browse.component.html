@@ -29,7 +29,7 @@
       <app-song
         *ngFor="let songData of topSongs; let i = index"
         [songData]="songData"
-        (uponClick)="playSong( i )"
+        (uponPlay)="playSong( i )"
       >
       </app-song>
     </div>

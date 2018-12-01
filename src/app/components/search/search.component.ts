@@ -20,6 +20,9 @@ export class SearchComponent implements OnInit {
   playlistResults = [];
   query = '';
   selectedTabIndex = 0;
+  timeout = null;
+  numOfResults = 0;
+  lastQuery = '';
   @ViewChild('searchInput') searchInput;
 
   constructor(
@@ -39,18 +42,24 @@ export class SearchComponent implements OnInit {
   }
 
   onSearch(): void {
-    this.router.navigate([], {
-      relativeTo: this.route,
-      queryParams: {
-        q: this.query,
-      }
-    });
+    clearTimeout(this.timeout);
+
+    this.timeout = setTimeout( () => {
+        this.search();
+        this.router.navigate([], {
+          relativeTo: this.route,
+          queryParams: {
+            q: this.query,
+          }
+        });
+    }, 600);
   }
 
   search(): void {
     if ( this.query === '' ) {
       return;
     }
+    this.lastQuery = this.query;
     this.hasQueried = true;
     this.isLoading = true;
     if ( this.isSearchingLibrary ) {
@@ -59,6 +68,7 @@ export class SearchComponent implements OnInit {
         this.albumResults = results['library-albums'] ? results['library-albums']['data'] : [];
         this.artistResults = results['library-artists'] ? results['library-artists']['data'] : [];
         this.playlistResults = results['library-playlists'] ? results['library-playlists']['data'] : [];
+        this.numOfResults = this.songResults.length + this.albumResults.length + this.artistResults.length + this.playlistResults.length;
         this.isLoading = false;
       });
     } else {
@@ -67,6 +77,7 @@ export class SearchComponent implements OnInit {
         this.albumResults = results['albums'] ? results['albums']['data'] : [];
         this.artistResults = results['artists'] ? results['artists']['data'] : [];
         this.playlistResults = results['playlists'] ? results['playlists']['data'] : [];
+        this.numOfResults = this.songResults.length + this.albumResults.length + this.artistResults.length + this.playlistResults.length;
         this.isLoading = false;
       });
     }
@@ -74,5 +85,10 @@ export class SearchComponent implements OnInit {
 
   playSong( trackIndex: number ): void {
     this.playerService.setQueueFromItems( this.songResults, trackIndex ).subscribe();
+  }
+
+  clearSearch(): void {
+    this.query = '';
+    this.hasQueried = false;
   }
 }

@@ -37,7 +37,7 @@
         *ngFor="let songData of albumData.relationships.tracks.data; let i = index"
         [songData]="songData"
         [albumView]="true"
-        (uponClick)="playSong(i)"
+        (uponPlay)="playSong(i)"
       >
       </app-song>
     </div>

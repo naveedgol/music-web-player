@@ -39,13 +39,13 @@
         <mat-icon>skip_next</mat-icon>
       </button>
 
-      <button
+      <!-- <button
         mat-icon-button
         [style.color]="playerService.repeatMode !== 0 ? '#69f0ae' : ''"
         (click)="playerService.toggleRepeat()"
       >
         <mat-icon>{{playerService.repeatMode === 1 ? 'repeat_one' : 'repeat'}}</mat-icon>
-      </button>
+      </button> -->
     </div>
     <div class="scrubber">
       <span class="time">{{currentPlaybackTime | formatSeconds }}</span>

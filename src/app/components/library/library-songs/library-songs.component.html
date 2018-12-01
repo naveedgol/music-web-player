@@ -3,7 +3,7 @@
         <app-song
             *cdkVirtualFor="let songData of librarySongs; let i = index; templateCacheSize: 0"
             [songData]="songData"
-            (uponClick)="playSong( i )"
+            (uponPlay)="playSong( i )"
         >
         </app-song>
     </cdk-virtual-scroll-viewport>

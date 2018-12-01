@@ -1,6 +1,8 @@
 <div
   class="outer-container"
   (click)="songClicked()"
+  (mouseover)="isHovering = true"
+  (mouseleave)="isHovering = false"
   [ngStyle]="{'background-color': isSelected ? 'rgba(0, 0, 0, 0.3)' : ''}"
 >
   <div class="inner-container">
@@ -20,13 +22,25 @@
 
     <button
       mat-icon-button
-      [matMenuTriggerFor]="menu"
-      (click)="$event.stopPropagation()"
       *ngIf="!queueView"
+      [matMenuTriggerFor]="menu"
+      (click)="isAction = true; $event.stopPropagation()"
+      [style.visibility]="(isHovering || isSelected || isAction) ? 'visible' : 'hidden'"
     >
       <mat-icon>more_vert</mat-icon>
     </button>
-    <mat-menu #menu="matMenu">
+
+    <button
+      class="remove-button"
+      mat-icon-button
+      *ngIf="queueView && isHovering"
+      [disableRipple]="true"
+      (click)="uponRemove.emit()"
+    >
+      <mat-icon>remove_circle_outline</mat-icon>
+    </button>
+
+    <mat-menu #menu="matMenu" (closed)="isAction = false">
       <button mat-menu-item (click)="playNext()">Play Next</button>
       <button mat-menu-item (click)="playLater()">Play Later</button>
     </mat-menu>

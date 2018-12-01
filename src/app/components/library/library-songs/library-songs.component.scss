@@ -12,6 +12,16 @@
 
 .outer-container {
     height: 100%;
+
+    /deep/cdk-virtual-scroll-viewport {
+        height: 100%;
+    }
+
+    /deep/.cdk-virtual-scroll-content-wrapper {
+        min-width: unset !important;
+        padding: 20px;
+        width: calc(100% - 40px);
+    }
 }
 
 .song-row {
@@ -24,14 +34,4 @@
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
-}
-
-/deep/cdk-virtual-scroll-viewport {
-    height: 100%;
-}
-
-/deep/.cdk-virtual-scroll-content-wrapper {
-    min-width: unset !important;
-    padding: 20px;
-    width: calc(100% - 40px);
 }

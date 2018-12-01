@@ -146,12 +146,17 @@ export class PlayerService {
   }
 
   queueItemsDidChange( event: any ): void {
-    this.queue = this.player.queue.items.slice(this.queuePosition, this.queuePosition + 30);
+    console.log(this.player.queue.items);
+    this.queue = this.player.queue.items.slice(this.queuePosition);
   }
 
   queuePositionDidChange( event: any ): void {
     this.queuePosition = event.position + 1;
-    this.queue = this.player.queue.items.slice(this.queuePosition, this.queuePosition + 30);
+    this.queue = this.player.queue.items.slice(this.queuePosition);
+  }
+
+  removeFromQueue( index: number ): void {
+    this.player.queue.remove( index + this.queuePosition );
   }
 
   changeQueuePosition( index ): void {

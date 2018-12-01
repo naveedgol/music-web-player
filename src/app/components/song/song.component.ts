@@ -14,9 +14,12 @@ export class SongComponent implements OnInit, OnDestroy {
   @Input() songData: SongModel;
   @Input() albumView = false;
   @Input() queueView = false;
-  @Output() uponClick: EventEmitter<any> = new EventEmitter();
+  @Output() uponPlay: EventEmitter<any> = new EventEmitter();
+  @Output() uponRemove: EventEmitter<any> = new EventEmitter();
 
+  isHovering = false;
   isSelected = false;
+  isAction = false;
   playbackStates = PlaybackStates;
 
   constructor(
@@ -44,7 +47,7 @@ export class SongComponent implements OnInit, OnDestroy {
   }
 
   songClicked(): void {
-    this.uponClick.emit();
+    this.uponPlay.emit();
   }
 
   playNext(): void {

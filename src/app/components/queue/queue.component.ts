@@ -20,4 +20,8 @@ export class QueueComponent {
   playSong( index ): void {
     this.playerService.changeQueuePosition( index );
   }
+
+  removeSong( index ): void {
+    this.playerService.removeFromQueue( index );
+  }
 }

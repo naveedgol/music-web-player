@@ -7,10 +7,10 @@
         #searchInput
         placeholder="Search"
         autocomplete="off"
-        (keyup.enter)="onSearch()"
+        (keyup)="onSearch()"
         [(ngModel)]="query"
       >
-      <button mat-button *ngIf="query" matSuffix mat-icon-button aria-label="Clear" (click)="query=''">
+      <button mat-button *ngIf="query" matSuffix mat-icon-button aria-label="Clear" (click)="clearSearch()">
         <mat-icon>close</mat-icon>
       </button>
     </mat-form-field>
@@ -26,13 +26,13 @@
   </mat-button-toggle-group>
 
   <div class="search-results">
-    <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading && hasQueried">
+    <mat-tab-group [(selectedIndex)]="selectedTabIndex" class="tabs" *ngIf="!isLoading && hasQueried && numOfResults">
       <mat-tab label="Songs" [disabled]="!songResults.length">
         <div class="song-results">
           <app-song
             *ngFor="let songData of songResults; let i = index"
             [songData]="songData"
-            (uponClick)="playSong(i)"
+            (uponPlay)="playSong(i)"
           >
           </app-song>
         </div>
@@ -68,6 +68,9 @@
         </div>
       </mat-tab>
     </mat-tab-group>
+    <div class="no-results" *ngIf="!isLoading && !numOfResults && hasQueried">
+      No results found for "{{lastQuery}}"
+    </div>
     <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
   </div>
 </div>
