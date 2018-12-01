@@ -63,6 +63,15 @@ section {
     font-weight: 500;
 }
 
+.linkable {
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 .tracklist {
     padding: 10px;
 }
@@ -84,6 +93,11 @@ section {
     margin-right: 10px;
 }
 
+.album-button-more {
+    width: 50px;
+    margin-right: 10px;
+}
+
 .header-image-container {
     width: 100%;
     height: 100%;
@@ -97,6 +111,5 @@ section {
     height: 100%;
     object-position: center 30%;
     object-fit: cover;
-    opacity: 0.6;
-    // filter: blur(3px);
+    opacity: 0.5;
 }

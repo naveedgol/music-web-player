@@ -2,7 +2,7 @@ import { Component, Input, Output, EventEmitter, OnInit, OnDestroy } from '@angu
 import { PlayerService, PlaybackStates } from 'src/app/services/player.service';
 import { SongModel } from 'src/app/models/song-model';
 import { MatSnackBar } from '@angular/material';
-import { QueueSnackBarComponent } from '../queue-snack-bar/queue-snack-bar.component';
+import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
 
 @Component({
   selector: 'app-song',

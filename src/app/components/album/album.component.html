@@ -1,36 +1,70 @@
 <main *ngIf="albumData">
+
   <header>
     <div class="header-image-container">
       <img class="header-image" src="{{albumData.attributes.artwork.url | formatArtworkUrl:500}}">
     </div>
-    <div class="header">
-        <div class="artwork" [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"></div>
-        <div class="album-extras">
-          <div class="track-text">
-            <span class="album-name">{{albumData.attributes.name}}</span>
-            <span class="artist-name">{{albumData.attributes.artistName}}</span>
-            <span class="runtime">{{ albumData.attributes.trackCount | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}</span>
-          </div>
-          <div class="album-button-container">
-            <button
-              class="album-button" mat-raised-button
-              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
-              (click)="playAlbum()"
-            >
-              Play
-            </button>
-            <button
-              class="album-button" mat-raised-button
-              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
-              (click)="playAlbum(true)"
-            >
-              Shuffle
-            </button>
-          </div>
-        </div>
-    </div>
 
+    <div class="header">
+      <div
+        class="artwork"
+        [ngStyle]="{'background-image':'url('+(albumData.attributes.artwork.url | formatArtworkUrl:170)+')'}"
+      >
+      </div>
+
+      <div class="album-extras">
+        <div class="track-text">
+          <span class="album-name">{{albumData.attributes.name}}</span>
+          <div>
+            <span
+            *ngIf="!isLibrary"
+            [routerLink]="['/artists', albumData.relationships.artists.data[0].id]"
+            class="artist-name linkable">
+            {{albumData.attributes.artistName}}
+            </span>
+            <span
+              *ngIf="isLibrary"
+              class="artist-name">
+              {{albumData.attributes.artistName}}
+            </span>
+          </div>
+          <span class="runtime">{{ albumData.attributes.trackCount | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}</span>
+        </div>
+
+        <div class="album-button-container">
+          <button
+            class="album-button" mat-raised-button
+            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            (click)="playAlbum()"
+          >
+            Play
+          </button>
+          <button
+            class="album-button" mat-raised-button
+            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            (click)="playAlbum(true)"
+          >
+            Shuffle
+          </button>
+          <button
+            [matMenuTriggerFor]="menu"
+            class="album-button-more" mat-raised-button
+            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+          >
+            <mat-icon>more_horiz</mat-icon>
+          </button>
+
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="playNext()">Play Next</button>
+            <button mat-menu-item (click)="playLater()">Play Later</button>
+            <button mat-menu-item (click)="copyLink()">Copy Link</button>
+          </mat-menu>
+        </div>
+
+      </div>
+    </div>
   </header>
+
   <section [ngStyle]="{'background-image': 'linear-gradient(#04060c, ' + bgColor + ' 180%)'}">
     <div class="tracklist">
       <app-song
@@ -42,4 +76,5 @@
       </app-song>
     </div>
   </section>
+
 </main>

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { token } from '../../environments/token';
-import { Observable, from } from 'rxjs';
+import { environment } from '../../environments/environment';
+import { from } from 'rxjs';
 
 declare var MusicKit: any;
 
@@ -14,7 +14,7 @@ export class MusicKitService {
     constructor() {
 
         MusicKit.configure({
-          developerToken: token,
+          developerToken: environment.token,
           app: {
             name: 'Apple Music Web Player',
             build: '1.0'

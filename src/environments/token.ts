@@ -1,2 +1,0 @@
-// tslint:disable-next-line:max-line-length
-export const token = 'eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkY5UE1TRjNONVUifQ.eyJpc3MiOiJBVVdWNExLQ0tMIiwiaWF0IjoxNTQzMDg0MDEzLCJleHAiOjE1NDM2ODg4MTN9.5aExiJIhWRaxD6Nn_JI3-naO_YISHC5beLp6mPJePVbUDcw0hyPC5OvJSSAJbFXIRA7HtV8LaeuaIzfFJtQcRg';

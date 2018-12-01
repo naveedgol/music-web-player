@@ -25,7 +25,7 @@
       *ngIf="!queueView"
       [matMenuTriggerFor]="menu"
       (click)="isAction = true; $event.stopPropagation()"
-      [style.visibility]="(isHovering || isSelected || isAction) ? 'visible' : 'hidden'"
+      [style.visibility]="(isHovering || isAction) ? 'visible' : 'hidden'"
     >
       <mat-icon>more_vert</mat-icon>
     </button>

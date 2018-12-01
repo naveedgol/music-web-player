@@ -41,11 +41,12 @@ import { LazyLoadDirective } from './directives/lazy-load.directive';
 import { RecentlyAddedComponent } from './components/recently-added/recently-added.component';
 import { ForYouComponent } from './components/for-you/for-you.component';
 import { BrowseComponent } from './components/browse/browse.component';
-import { QueueSnackBarComponent } from './components/queue-snack-bar/queue-snack-bar.component';
+import { QueueSnackBarComponent } from './components/snack-bar/queue-snack-bar.component';
+import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.component';
 import { SettingsComponent } from './components/settings/settings.component';
 
 @NgModule({
-  entryComponents: [QueueSnackBarComponent, SettingsComponent],
+  entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent],
   declarations: [
     AppComponent,
     TrackControlsComponent,
@@ -71,6 +72,7 @@ import { SettingsComponent } from './components/settings/settings.component';
     ForYouComponent,
     BrowseComponent,
     QueueSnackBarComponent,
+    CopySnackBarComponent,
     SettingsComponent
   ],
   imports: [
