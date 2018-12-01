@@ -4,6 +4,7 @@ import { mergeMap } from 'rxjs/operators';
 import { MusicKitService } from './musicKit.service';
 import { PlayParams } from '../models/play-params';
 import { SongModel } from '../models/song-model';
+import { Title } from '@angular/platform-browser';
 
 declare var MusicKit: any;
 
@@ -47,7 +48,10 @@ export class PlayerService {
     collectionId: ''
   };
 
-  constructor( private musicKitService: MusicKitService ) {
+  constructor(
+    private musicKitService: MusicKitService,
+    private titleService: Title
+  ) {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
@@ -147,6 +151,7 @@ export class PlayerService {
 
   mediaItemDidChange(event): void {
     this.nowPlayingItem = event.item;
+    this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
   }
 
   mediaPlaybackError( event: any ): void {

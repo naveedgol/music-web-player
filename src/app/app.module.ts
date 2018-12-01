@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Title } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -99,7 +99,7 @@ import { SettingsComponent } from './components/settings/settings.component';
     AppRoutingModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [MusicKitService, PlayerService, ApiService],
+  providers: [MusicKitService, PlayerService, ApiService, Title],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
