@@ -1,7 +1,7 @@
 <div class="inner-container">
   <div
     [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
-    class="album-cover-container"
+    class="album-cover-container mat-elevation-z24"
   >
     <img class="album-cover" appLazyLoad [src]="albumData.attributes.artwork.url | formatArtworkUrl:170">
   </div>

@@ -10,6 +10,9 @@
         (keyup.enter)="onSearch()"
         [(ngModel)]="query"
       >
+      <button mat-button *ngIf="query" matSuffix mat-icon-button aria-label="Clear" (click)="query=''">
+        <mat-icon>close</mat-icon>
+      </button>
     </mat-form-field>
   </div>
 
