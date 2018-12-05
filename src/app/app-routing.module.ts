@@ -117,11 +117,6 @@ const routes: Routes = [
         pathMatch: 'full'
       }
     ]
-  },
-  {
-    path: 'queue',
-    component: QueueComponent,
-    outlet: 'popup'
   }
 ];
 

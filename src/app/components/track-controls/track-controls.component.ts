@@ -12,6 +12,8 @@ export class TrackControlsComponent {
 
   public playbackStates = PlaybackStates;
   lastVolume = 10;
+  queueVisible = false;
+
   @ViewChild('volume') volumeSlider;
 
   constructor(
@@ -80,5 +82,9 @@ export class TrackControlsComponent {
 
   openSettings() {
     this.bottomSheet.open(SettingsComponent);
+  }
+
+  toggleQueue(): void {
+    this.queueVisible = !this.queueVisible;
   }
 }

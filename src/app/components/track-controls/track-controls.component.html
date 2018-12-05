@@ -73,8 +73,8 @@
 
     <button
       mat-icon-button
-      [routerLink]="[{ outlets: { popup: ['queue'] } }]"
-      routerLinkActive="active-link"
+      (click)="toggleQueue()"
+      [ngClass]="{'active-link': queueVisible}"
     >
       <mat-icon>queue_music</mat-icon>
     </button>
@@ -97,3 +97,8 @@
     </mat-slider>
   </div>
 </div>
+<app-queue
+  (uponClose)="toggleQueue()"
+  *ngIf="queueVisible"
+>
+</app-queue>

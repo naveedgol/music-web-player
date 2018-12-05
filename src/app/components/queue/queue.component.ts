@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { PlayerService } from 'src/app/services/player.service';
 import { Router } from '@angular/router';
 
@@ -9,12 +9,14 @@ import { Router } from '@angular/router';
 })
 export class QueueComponent {
 
+  @Output() uponClose: EventEmitter<any> = new EventEmitter();
+
   constructor(
     public playerService: PlayerService,
     private router: Router) { }
 
   close(): void {
-    this.router.navigate([{ outlets: { popup: null }}]);
+    this.uponClose.emit();
   }
 
   playSong( index ): void {

@@ -11,6 +11,8 @@
     box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.3);
     padding-bottom: 0;
     background-color: #212121;
+    font-weight: 400;
+    line-height: normal;
 
     /deep/cdk-virtual-scroll-viewport {
         height: 100%;
@@ -44,6 +46,7 @@
 
 .empty-queue-prompt {
     height: 90%;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
