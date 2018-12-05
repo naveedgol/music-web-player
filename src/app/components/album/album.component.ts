@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
 import { AlbumModel } from 'src/app/models/album-model';
@@ -15,6 +15,8 @@ import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
 export class AlbumComponent {
 
   id: string;
+  isLoading = true;
+  buttonStyling = {};
   albumData: AlbumModel;
   totalDuration = 0;
   bgColor: string;
@@ -24,37 +26,43 @@ export class AlbumComponent {
     private route: ActivatedRoute,
     private apiService: ApiService,
     private playerService: PlayerService,
-    public snackBar: MatSnackBar
+    public snackBar: MatSnackBar,
+    private router: Router
   ) {
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+
     route.parent.parent.url.subscribe( url => {
       this.route.paramMap.subscribe( x => {
 
-        if ( url[0].path === 'library' ) {
-            this.isLibrary = true;
-
-            this.apiService.fetchLibraryAlbum( x.get('id') ).subscribe( data => {
-              this.albumData = data;
-              for ( const songData of data.relationships.tracks.data ) {
-                this.totalDuration += songData.attributes.durationInMillis;
-              }
-            });
-
+        let obs;
+        if ( url.length && url[0].path === 'library' ) {
+          this.isLibrary = true;
+          obs = this.apiService.fetchLibraryAlbum( x.get('id') );
         } else {
+          obs = this.apiService.fetchAlbum( x.get('id') );
+        }
 
-          this.apiService.fetchAlbum( x.get('id') ).subscribe( data => {
-            this.albumData = data;
+        obs.subscribe( data => {
+          this.albumData = data;
+          for ( const songData of data.relationships.tracks.data ) {
+            this.totalDuration += songData.attributes.durationInMillis;
+          }
+
+          if ( !this.isLibrary ) {
+            this.buttonStyling = {
+              'background-color': '#' + this.albumData.attributes.artwork.bgColor,
+              'color': '#' + this.albumData.attributes.artwork.textColor1
+            };
+
             let color = new TinyColor(this.albumData.attributes.artwork.bgColor);
             if ( color.isLight() ) {
               color = color.darken(20);
             }
             this.bgColor = color.toHexString();
+          }
 
-            for ( const songData of data.relationships.tracks.data ) {
-              this.totalDuration += songData.attributes.durationInMillis;
-            }
-          });
-
-        }
+          this.isLoading = false;
+        });
       });
     });
   }

@@ -1,33 +1,87 @@
 <main *ngIf="playlistData">
+
   <header>
     <div class="header-image-container">
-      <img class="header-image" src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:500}}">
+      <img
+        class="header-image"
+        src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:500}}"
+      >
     </div>
     <div class="header">
-        <div class="artwork" [ngStyle]="{'background-image':'url('+((playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '')| formatArtworkUrl:170)+')'}"></div>
-        <div class="album-extras">
+        <div
+          class="artwork"
+          [ngStyle]="{'background-image':'url('+((playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '')| formatArtworkUrl:170)+')'}"
+        >
+        </div>
+
+        <div class="playlist-extras">
           <div class="track-text">
-            <span class="album-name">{{playlistData.attributes.name}}</span>
-            <span class="runtime">{{ playlistData.relationships.tracks.data.length | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}</span>
+            <span class="playlist-name">{{playlistData.attributes.name}}</span>
+            <span
+              *ngIf="!isLibrary"
+              class="playlist-curator-name">
+              {{playlistData.attributes.curatorName}}
+            </span>
+            <span
+              *ngIf="!isLibrary"
+              class="playlist-description">
+              {{playlistData.attributes.description.short}}
+            </span>
+            <span class="runtime">
+              {{ playlistData.relationships.tracks.data.length | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}
+            </span>
           </div>
-          <div class="album-button-container">
+          <div class="playlist-button-container">
             <button
-              class="album-button" mat-raised-button
+              class="playlist-button" mat-raised-button
+              [ngStyle]="buttonStyling"
               (click)="playPlaylist()"
             >
               Play
             </button>
             <button
-              class="album-button" mat-raised-button
+              class="playlist-button" mat-raised-button
+              [ngStyle]="buttonStyling"
               (click)="playPlaylist(true)"
             >
               Shuffle
             </button>
+            <button
+            [matMenuTriggerFor]="menu"
+            [ngStyle]="buttonStyling"
+            class="playlist-button-more" mat-raised-button
+          >
+            <mat-icon>more_horiz</mat-icon>
+          </button>
+
+          <mat-menu #menu="matMenu">
+            <button
+              mat-menu-item
+              [ngStyle]="buttonStyling"
+              (click)="playNext()"
+            >
+              Play Next
+            </button>
+            <button
+              mat-menu-item
+              [ngStyle]="buttonStyling"
+              (click)="playLater()"
+            >
+              Play Later
+            </button>
+            <button
+              mat-menu-item
+              [ngStyle]="buttonStyling"
+              (click)="copyLink()"
+            >
+              Copy Link
+            </button>
+          </mat-menu>
           </div>
         </div>
     </div>
-
   </header>
+
   <section [ngStyle]="{'background-image': 'linear-gradient(#04060c, ' + bgColor + ' 180%)'}">
     <div class="tracklist">
       <app-song
@@ -39,3 +93,4 @@
     </div>
   </section>
 </main>
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>

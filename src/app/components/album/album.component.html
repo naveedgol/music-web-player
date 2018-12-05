@@ -17,10 +17,10 @@
           <span class="album-name">{{albumData.attributes.name}}</span>
           <div>
             <span
-            *ngIf="!isLibrary"
-            [routerLink]="['/artists', albumData.relationships.artists.data[0].id]"
-            class="artist-name linkable">
-            {{albumData.attributes.artistName}}
+              *ngIf="!isLibrary"
+              [routerLink]="['/artists', albumData.relationships.artists.data[0].id]"
+              class="artist-name linkable">
+              {{albumData.attributes.artistName}}
             </span>
             <span
               *ngIf="isLibrary"
@@ -28,20 +28,22 @@
               {{albumData.attributes.artistName}}
             </span>
           </div>
-          <span class="runtime">{{ albumData.attributes.trackCount | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}</span>
+          <span class="runtime">
+            {{ albumData.attributes.trackCount | i18nPlural: {'=1': '# song', 'other': '# songs'} }} • {{totalDuration | formatMillisecondsToText}}
+          </span>
         </div>
 
         <div class="album-button-container">
           <button
             class="album-button" mat-raised-button
-            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            [ngStyle]="buttonStyling"
             (click)="playAlbum()"
           >
             Play
           </button>
           <button
             class="album-button" mat-raised-button
-            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            [ngStyle]="buttonStyling"
             (click)="playAlbum(true)"
           >
             Shuffle
@@ -49,28 +51,28 @@
           <button
             [matMenuTriggerFor]="menu"
             class="album-button-more" mat-raised-button
-            [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+            [ngStyle]="buttonStyling"
           >
             <mat-icon>more_horiz</mat-icon>
           </button>
 
           <mat-menu #menu="matMenu">
             <button
-              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="playNext()"
             >
               Play Next
             </button>
             <button
-              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="playLater()"
             >
               Play Later
             </button>
             <button
-              [ngStyle]="{'background-color': '#' + albumData.attributes.artwork.bgColor, 'color': '#' + albumData.attributes.artwork.textColor1}"
+              [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="copyLink()"
             >
@@ -96,3 +98,4 @@
   </section>
 
 </main>
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>

@@ -111,5 +111,11 @@ section {
     height: 100%;
     object-position: center 30%;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.45;
+}
+
+.spinner {
+    position: absolute;
+    top: calc( 50% - 50px );
+    left: calc( 50% - 50px );
 }

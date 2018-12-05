@@ -1,6 +1,6 @@
 # Apple Music Web Player
 
-A progressive web app for Apple Music built with Angular, Angular Material, and [MusicKit JS](https://developer.apple.com/documentation/musickitjs).
+A Progressive Web App for Apple Music built with Angular, Angular Material, and [MusicKit JS](https://developer.apple.com/documentation/musickitjs).
 
 ## Screenshots
 
