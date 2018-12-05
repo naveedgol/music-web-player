@@ -147,6 +147,11 @@ export class PlayerService {
 
   playbackStateDidChange( event: any ): void {
     this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
+    if ( this.playbackState === PlaybackStates.PAUSED || this.playbackState === PlaybackStates.STOPPED ) {
+      this.titleService.setTitle('Apple Music Player');
+    } else {
+      this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
+    }
   }
 
   mediaItemDidChange(event): void {
