@@ -1,6 +1,17 @@
-<mat-sidenav-container class="outer-container mat-typography">
+<mat-toolbar
+  *ngIf="isMobile"
+>
+  <button mat-icon-button (click)="opened = true">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <h1>Responsive App</h1>
+</mat-toolbar>
 
-  <mat-sidenav mode="side" opened>
+<mat-sidenav-container
+  [style.height]="isMobile ? 'calc( 100% - 156px)' : ''"
+  class="outer-container mat-typography">
+
+  <mat-sidenav [mode]="mode" [(opened)]="opened">
     <app-sidebar></app-sidebar>
   </mat-sidenav>
 

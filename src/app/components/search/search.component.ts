@@ -52,7 +52,7 @@ export class SearchComponent implements OnInit {
             q: this.query,
           }
         });
-    }, 600);
+    }, 500);
   }
 
   search(): void {
