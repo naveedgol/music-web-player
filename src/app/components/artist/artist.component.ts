@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute } from '@angular/router';
 
@@ -7,10 +7,11 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './artist.component.html',
   styleUrls: ['./artist.component.scss']
 })
-export class ArtistComponent implements OnInit {
+export class ArtistComponent {
   artistData;
   singlesCount = 0;
   albumsCount = 0;
+  isLoading = true;
 
   constructor(
     private apiService: ApiService,
@@ -18,10 +19,11 @@ export class ArtistComponent implements OnInit {
   ) {
     route.parent.parent.url.subscribe( url => {
       this.route.paramMap.subscribe( x => {
-        if ( url[0].path === 'library' ) {
+        if ( url.length && url[0].path === 'library' ) {
           this.apiService.fetchLibraryArtist( x.get('id') ).subscribe( data => {
             this.artistData = data;
             this.albumsCount = this.artistData.relationships.albums.data.length;
+            this.isLoading = false;
           });
         } else {
           this.apiService.fetchArtist( x.get('id') ).subscribe( data => {
@@ -29,13 +31,10 @@ export class ArtistComponent implements OnInit {
             for ( const album of this.artistData.relationships.albums.data ) {
               album.attributes.isSingle ? ++this.singlesCount : ++this.albumsCount;
             }
+            this.isLoading = false;
           });
         }
       });
     });
   }
-
-  ngOnInit() {
-  }
-
 }

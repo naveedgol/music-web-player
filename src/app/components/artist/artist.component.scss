@@ -30,3 +30,18 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+
+.outer-container {
+    animation: fadein 0.7s;
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+}
+
+.spinner {
+    position: absolute;
+    top: calc( 50% - 50px );
+    left: calc( 50% - 50px );
+}

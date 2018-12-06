@@ -1,4 +1,4 @@
-<div *ngIf="artistData">
+<div class="outer-container" *ngIf="!isLoading">
   <div class="artist-header">
     <div class="artist-name">{{artistData.attributes.name}}</div>
     <span *ngIf="albumsCount" class="albums-count">{{ albumsCount | i18nPlural: {'=1': '# album', 'other': '# albums'} }}</span>
@@ -10,7 +10,7 @@
     <div class="albums-title">Albums</div>
     <div class="albums-grid">
       <ng-container *ngFor="let albumData of artistData.relationships.albums.data">
-          <app-album-preview
+        <app-album-preview
           *ngIf="!albumData.attributes.isSingle"
           [albumData]="albumData"
         >
@@ -32,3 +32,5 @@
     </div>
   </div>
 </div>
+
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
