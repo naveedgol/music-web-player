@@ -45,4 +45,9 @@ export class MusicKitService {
       //   location.reload();
       // }
     }
+
+
+    addAuthChangeListener( func ) {
+      this.musicKit.addEventListener( MusicKit.Events.authorizationStatusDidChange, func );
+    }
 }

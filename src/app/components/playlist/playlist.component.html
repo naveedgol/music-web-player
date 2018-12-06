@@ -23,7 +23,7 @@
               {{playlistData.attributes.curatorName}}
             </span>
             <span
-              *ngIf="!isLibrary"
+              *ngIf="!isLibrary && playlistData.attributes.description"
               class="playlist-description">
               {{playlistData.attributes.description.short}}
             </span>

@@ -34,6 +34,7 @@ export class PlayerService {
   queuePosition = 0;
   repeatMode = 0;
   isShuffling = false;
+  infiniteLoadTimeout;
 
   nowPlayingItem = {
     albumName: '',
@@ -95,6 +96,10 @@ export class PlayerService {
     return from( this.player.pause() );
   }
 
+  stop(): Observable<any> {
+    return from( this.player.stop() );
+  }
+
   toggleRepeat(): void {
     const nextRepeatMode = (this.player.repeatMode + 1) % 3;
     this.player.repeatMode = nextRepeatMode;
@@ -112,9 +117,9 @@ export class PlayerService {
   }
 
   skipToNextItem(): Observable<any> {
-    if ( this.repeatMode === 1 ) {
-      return this.seekToTime( 0 );
-    }
+    // if ( this.repeatMode === 1 ) {
+    //   return this.seekToTime( 0 );
+    // }
     return from( this.player.skipToNextItem() );
   }
 
@@ -147,6 +152,19 @@ export class PlayerService {
 
   playbackStateDidChange( event: any ): void {
     this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
+
+    // sometimes loading just gets stuck, a stop and resume fixes that
+    if ( this.playbackState === PlaybackStates.WAITING ) {
+      const lastItem = this.nowPlayingItem;
+      this.infiniteLoadTimeout = setTimeout( () => {
+        if ( this.playbackState === PlaybackStates.WAITING && lastItem === this.nowPlayingItem ) {
+          this.stop().subscribe( () => this.play() );
+        }
+      }, 2000 );
+    } else {
+      clearTimeout( this.infiniteLoadTimeout );
+    }
+
     if ( this.playbackState === PlaybackStates.PAUSED || this.playbackState === PlaybackStates.STOPPED ) {
       this.titleService.setTitle('Apple Music Player');
     } else {
@@ -180,7 +198,7 @@ export class PlayerService {
     this.musicKitService.musicKit.changeToMediaAtIndex( index + this.queuePosition );
   }
 
-  addListener( func ) {
+  addMediaChangeListener( func ) {
     this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, func );
   }
 

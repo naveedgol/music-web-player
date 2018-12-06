@@ -21,7 +21,7 @@
         <mat-icon>shuffle</mat-icon>
       </button> -->
 
-      <button mat-icon-button (click)="skipToPreviousItem()">
+      <button mat-icon-button (click)="skipToPreviousItem()" [disabled]="isLoading">
         <mat-icon>skip_previous</mat-icon>
       </button>
 
@@ -35,7 +35,7 @@
 
       <mat-spinner class="spinner" *ngIf="isLoading" diameter="20"></mat-spinner>
 
-      <button mat-icon-button (click)="skipToNextItem()">
+      <button mat-icon-button (click)="skipToNextItem()" [disabled]="isLoading">
         <mat-icon>skip_next</mat-icon>
       </button>
 
@@ -50,7 +50,7 @@
     <div class="scrubber">
       <span class="time">{{currentPlaybackTime | formatSeconds }}</span>
       <mat-slider #slider
-        disabled="{{currentPlaybackDuration === 0}}"
+        [disabled]="currentPlaybackDuration === 0 || isLoading"
         class="slider"
         min="0"
         max="{{currentPlaybackDuration}}"

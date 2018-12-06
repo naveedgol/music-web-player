@@ -15,10 +15,17 @@ export class SidebarComponent {
     public musicKitService: MusicKitService,
     private apiService: ApiService
   ) {
+    this.musicKitService.addAuthChangeListener( this.fetchPlaylists.bind(this) );
+    this.fetchPlaylists();
+  }
+
+  fetchPlaylists(): void {
     if ( this.musicKitService.isAuthorized ) {
       this.apiService.fetchPlaylists().subscribe( x => {
         this.playlists = x;
       });
+    } else {
+      this.playlists = [];
     }
   }
 

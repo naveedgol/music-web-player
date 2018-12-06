@@ -30,7 +30,7 @@ export class SongComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.checkIfSelected();
-    this.playerService.addListener( this.checkIfSelected.bind(this) );
+    this.playerService.addMediaChangeListener( this.checkIfSelected.bind(this) );
   }
 
   ngOnDestroy() {

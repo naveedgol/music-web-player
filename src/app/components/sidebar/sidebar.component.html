@@ -74,7 +74,7 @@
       <div>Songs</div>
     </mat-list-item>
 
-    <mat-expansion-panel class="playlist-dropdown" [disabled]="!playlists.length">
+    <mat-expansion-panel class="playlist-dropdown" [disabled]="!playlists.length || !musicKitService.isAuthorized">
       <mat-expansion-panel-header class="playlist-dropdown-header">
         <mat-panel-title>
           <mat-icon>playlist_play</mat-icon>
