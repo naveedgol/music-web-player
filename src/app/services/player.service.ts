@@ -178,7 +178,7 @@ export class PlayerService {
   }
 
   mediaPlaybackError( event: any ): void {
-    console.log('err', event);
+    console.log('mediaPlayBackError', event);
   }
 
   queueItemsDidChange( event: any ): void {
