@@ -24,6 +24,12 @@ main {
     perspective: 1px;
     perspective-origin: center top;
     transform-style: preserve-3d;
+    animation: fadein 0.7s;
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 }
 
 .header {

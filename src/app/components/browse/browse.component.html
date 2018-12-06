@@ -1,5 +1,5 @@
-<div class="outer-container">
-  <div *ngIf="topAlbums.length">
+<div class="outer-container" *ngIf="!isLoading">
+  <div>
     <div class="section-title">Top Albums</div>
     <div class="container">
       <div *ngFor="let data of topAlbums">
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div *ngIf="topPlaylists.length">
+  <div>
     <div class="section-title">Top Playlists</div>
     <div class="container">
       <div *ngFor="let data of topPlaylists">
@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <div *ngIf="topSongs.length">
+  <div>
     <div class="section-title">Top Songs</div>
     <div class="top-songs-container">
       <app-song
@@ -35,5 +35,5 @@
     </div>
   </div>
 
-  <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
 </div>
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>

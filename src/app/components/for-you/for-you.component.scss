@@ -18,6 +18,12 @@
 .outer-container {
     padding-top: 15px;
     padding-bottom: 20px;
+    animation: fadein 0.7s;
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 }
 
 .spinner {

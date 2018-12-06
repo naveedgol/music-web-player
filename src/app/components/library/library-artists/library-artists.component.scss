@@ -3,6 +3,12 @@
     height: calc( 100% - 40px );
     // display: grid;
     // grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
+    animation: fadein 0.7s;
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
 }
 
 .spinner {

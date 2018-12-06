@@ -1,8 +1,8 @@
-<div class="outer-container">
+<div class="outer-container" *ngIf="!isLoading">
   <app-artist-preview
     *ngFor="let artistData of dataSource"
     [artistData]="artistData"
   >
   </app-artist-preview>
-  <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
 </div>
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>

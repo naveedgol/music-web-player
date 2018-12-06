@@ -1,4 +1,4 @@
-<div class="outer-container">
+<div class="outer-container" *ngIf="!isLoading">
     <cdk-virtual-scroll-viewport itemSize="60">
         <app-song
             *cdkVirtualFor="let songData of librarySongs; let i = index; templateCacheSize: 0"
@@ -7,6 +7,6 @@
         >
         </app-song>
     </cdk-virtual-scroll-viewport>
-    <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
 </div>
 
+<mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
