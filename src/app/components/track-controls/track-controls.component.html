@@ -1,13 +1,35 @@
 <div class="outer-container">
   <div class="track-info">
     <div
+      *ngIf="playerService.nowPlayingItem.assets[0].metadata.playlistId"
+      class="album-artwork linkable"
+      [routerLink]="['/albums', playerService.nowPlayingItem.assets[0].metadata.playlistId]"
+      [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artworkURL | formatArtworkUrl:60)+')'}"
+    >
+    </div>
+    <div
+      *ngIf="!playerService.nowPlayingItem.assets[0].metadata.playlistId"
       class="album-artwork"
       [ngStyle]="{'background-image':'url('+(playerService.nowPlayingItem.artworkURL | formatArtworkUrl:60)+')'}"
     >
     </div>
+
     <div class="track-text">
       <div class="track-title">{{playerService.nowPlayingItem.title}}</div>
-      <div class="track-artist">{{playerService.nowPlayingItem.artistName}}</div>
+      <div class="track-artist">
+        <span
+          *ngIf="!playerService.nowPlayingItem.assets[0].metadata.artistId"
+        >
+          {{playerService.nowPlayingItem.artistName}}
+        </span>
+        <span
+          *ngIf="playerService.nowPlayingItem.assets[0].metadata.artistId"
+          class="linkable"
+          [routerLink]="['/artists', playerService.nowPlayingItem.assets[0].metadata.artistId]"
+        >
+          {{playerService.nowPlayingItem.artistName}}
+        </span>
+      </div>
     </div>
   </div>
   <div class="playback-controls">

@@ -45,6 +45,24 @@
   background-size: cover;
 }
 
+.linkable {
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+div.linkable {
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+
 .playback-controls {
   width: 40%;
   flex: 1;
