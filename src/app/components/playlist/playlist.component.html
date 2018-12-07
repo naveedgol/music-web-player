@@ -1,4 +1,4 @@
-<main *ngIf="playlistData">
+<main *ngIf="!isLoading">
 
   <header>
     <div class="header-image-container">
@@ -82,7 +82,7 @@
     </div>
   </header>
 
-  <section [ngStyle]="{'background-image': 'linear-gradient(#04060c, ' + bgColor + ' 180%)'}">
+  <section *ngIf="!containsVideos" [ngStyle]="{'background-image': 'linear-gradient(#04060c, ' + bgColor + ' 180%)'}">
     <div class="tracklist">
       <app-song
         *ngFor="let songData of playlistData.relationships.tracks.data; let i = index"

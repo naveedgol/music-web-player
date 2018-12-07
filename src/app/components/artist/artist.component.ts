@@ -11,6 +11,7 @@ export class ArtistComponent {
   artistData;
   singlesCount = 0;
   albumsCount = 0;
+  playlistsCount = 0;
   isLoading = true;
 
   constructor(
@@ -31,6 +32,7 @@ export class ArtistComponent {
             for ( const album of this.artistData.relationships.albums.data ) {
               album.attributes.isSingle ? ++this.singlesCount : ++this.albumsCount;
             }
+            this.playlistsCount = this.artistData.relationships.playlists.data.length;
             this.isLoading = false;
           });
         }

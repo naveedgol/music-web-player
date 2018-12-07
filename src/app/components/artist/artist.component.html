@@ -4,6 +4,8 @@
     <span *ngIf="albumsCount" class="albums-count">{{ albumsCount | i18nPlural: {'=1': '# album', 'other': '# albums'} }}</span>
     <span *ngIf="albumsCount && singlesCount" class="albums-count"> • </span>
     <span *ngIf="singlesCount" class="albums-count">{{ singlesCount | i18nPlural: {'=1': '# single', 'other': '# singles'} }}</span>
+    <span *ngIf="(singlesCount || albumsCount) && playlistsCount" class="albums-count"> • </span>
+    <span *ngIf="playlistsCount" class="albums-count">{{ playlistsCount | i18nPlural: {'=1': '# playlist', 'other': '# playlists'} }}</span>
   </div>
 
   <div *ngIf="albumsCount">
@@ -28,6 +30,18 @@
           [albumData]="albumData"
         >
         </app-album-preview>
+      </ng-container>
+    </div>
+  </div>
+
+  <div *ngIf="playlistsCount">
+    <div class="albums-title">Playlists</div>
+    <div class="albums-grid">
+      <ng-container *ngFor="let playlistData of artistData.relationships.playlists.data">
+          <app-playlist-preview
+          [playlistData]="playlistData"
+        >
+        </app-playlist-preview>
       </ng-container>
     </div>
   </div>

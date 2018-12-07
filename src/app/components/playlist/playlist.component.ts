@@ -19,6 +19,7 @@ export class PlaylistComponent {
   bgColor: string;
   buttonStyling = {};
   isLibrary = false;
+  containsVideos = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -44,7 +45,13 @@ export class PlaylistComponent {
 
         obs.subscribe( data => {
           this.playlistData = data;
+
           for ( const songData of data.relationships.tracks.data ) {
+            if ( !songData.attributes ) {
+              this.containsVideos = true;
+              this.isLoading = false;
+              return;
+            }
             this.totalDuration += songData.attributes.durationInMillis;
           }
 

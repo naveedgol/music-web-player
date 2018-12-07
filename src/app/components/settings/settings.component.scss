@@ -1,5 +1,5 @@
 .authorize-button {
-    margin-top: 25px;
+    margin-top: 20px;
     width: 100%;
     background-color: #1e3264;
 }
@@ -21,4 +21,17 @@
 
 .mat-radio-button {
     margin-right: 20px;
+}
+
+.github-prompt {
+    padding-top: 20px;
+
+    a {
+        color: #69f0ae;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
