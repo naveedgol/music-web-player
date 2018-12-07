@@ -182,8 +182,6 @@ export class PlayerService {
 
   mediaItemDidChange(event): void {
     this.nowPlayingItem = event.item;
-    console.log(this.nowPlayingItem.assets[0].metadata);
-
     this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
   }
 

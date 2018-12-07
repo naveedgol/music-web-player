@@ -21,6 +21,7 @@ export class SongComponent implements OnInit, OnDestroy {
   isSelected = false;
   isAction = false;
   playbackStates = PlaybackStates;
+  isReleased = true;
 
   constructor(
     private playerService: PlayerService,
@@ -29,6 +30,12 @@ export class SongComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
+    const currentDate = new Date().getTime();
+    const songDate = Date.parse(this.songData.attributes.releaseDate);
+    if ( songDate > currentDate ) {
+      this.isReleased = false;
+    }
+
     this.checkIfSelected();
     this.playerService.addMediaChangeListener( this.checkIfSelected.bind(this) );
   }

@@ -4,6 +4,7 @@
   (mouseover)="isHovering = true"
   (mouseleave)="isHovering = false"
   [ngStyle]="{'background-color': isSelected ? 'rgba(0, 0, 0, 0.3)' : ''}"
+  *ngIf="isReleased"
 >
   <div class="inner-container">
     <div class="track-number" *ngIf="albumView">{{songData.attributes.trackNumber}}</div>

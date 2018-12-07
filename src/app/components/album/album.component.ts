@@ -44,8 +44,11 @@ export class AlbumComponent {
 
         obs.subscribe( data => {
           this.albumData = data;
+
           for ( const songData of data.relationships.tracks.data ) {
-            this.totalDuration += songData.attributes.durationInMillis;
+            if ( songData.attributes.durationInMillis ) {
+              this.totalDuration += songData.attributes.durationInMillis;
+            }
           }
 
           if ( !this.isLibrary ) {

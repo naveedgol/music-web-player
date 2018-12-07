@@ -9,6 +9,7 @@ export class SongModel {
 }
 
 export class SongAttributes {
+    releaseDate: string;
     albumName: string;
     artistName: string;
     durationInMillis: number;
