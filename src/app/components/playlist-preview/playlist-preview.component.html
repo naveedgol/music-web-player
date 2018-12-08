@@ -5,19 +5,21 @@
   >
     <img appLazyLoad class="album-cover" src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:170}}">
   </div>
-  <div>
 
-  </div>
-  <div class="album-text">
-    <div class="album-name-container">
-      <span
-        class="album-name"
-        title="{{playlistData.attributes.name}}"
-        [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
-      >
-        {{playlistData.attributes.name}}
-      </span>
-      <mat-icon *ngIf="playlistData.attributes.contentRating==='explicit'" class="explicit">explicit</mat-icon>
+  <div class="text-outer-container">
+    <span class="rank" *ngIf="rank">{{rank}}</span>
+    <div class="album-text">
+      <div class="album-name-container">
+        <span
+          class="album-name"
+          title="{{playlistData.attributes.name}}"
+          [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
+        >
+          {{playlistData.attributes.name}}
+        </span>
+        <mat-icon *ngIf="playlistData.attributes.contentRating==='explicit'" class="explicit">explicit</mat-icon>
+      </div>
     </div>
+
   </div>
 </div>

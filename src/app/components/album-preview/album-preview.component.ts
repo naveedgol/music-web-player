@@ -9,6 +9,7 @@ import { AlbumModel } from 'src/app/models/album-model';
 export class AlbumPreviewComponent {
 
   @Input() albumData: AlbumModel;
+  @Input() rank = 0;
 
   constructor() { }
 

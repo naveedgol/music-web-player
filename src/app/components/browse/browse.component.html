@@ -2,9 +2,10 @@
   <div>
     <div class="section-title">Top Albums</div>
     <div class="container">
-      <div *ngFor="let data of topAlbums">
+      <div *ngFor="let data of topAlbums; let i = index">
         <app-album-preview
           [albumData]="data"
+          [rank]="i+1"
         >
         </app-album-preview>
       </div>
@@ -14,9 +15,10 @@
   <div>
     <div class="section-title">Top Playlists</div>
     <div class="container">
-      <div *ngFor="let data of topPlaylists">
+      <div *ngFor="let data of topPlaylists; let i = index">
         <app-playlist-preview
           [playlistData]="data"
+          [rank]="i+1"
         >
         </app-playlist-preview>
       </div>
@@ -29,6 +31,7 @@
       <app-song
         *ngFor="let songData of topSongs; let i = index"
         [songData]="songData"
+        [rank]="i+1"
         (uponPlay)="playSong( i )"
       >
       </app-song>

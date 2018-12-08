@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class PlaylistPreviewComponent {
 
   @Input() playlistData;
+  @Input() rank = 0;
 
   constructor() { }
 

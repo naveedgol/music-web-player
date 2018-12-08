@@ -21,8 +21,8 @@
     appearance="legacy"
     (change)="isSearchingLibrary = !isSearchingLibrary; search()"
   >
-    <mat-button-toggle class="toggle-button" value="Apple Music" [checked]="true">Apple Music</mat-button-toggle>
-    <mat-button-toggle class="toggle-button" value="Library">Library</mat-button-toggle>
+    <mat-button-toggle class="toggle-button" value="Apple Music" [checked]="!isSearchingLibrary">Apple Music</mat-button-toggle>
+    <mat-button-toggle class="toggle-button" value="Library" [checked]="isSearchingLibrary">Library</mat-button-toggle>
   </mat-button-toggle-group>
 
   <div class="search-results">
@@ -60,11 +60,11 @@
 
       <mat-tab label="Playlists" [disabled]="!playlistResults.length">
         <div class="album-results">
-          <app-playlist-preview
+          <app-album-preview
             *ngFor="let playlistData of playlistResults"
-            [playlistData]="playlistData"
+            [albumData]="playlistData"
           >
-          </app-playlist-preview>
+          </app-album-preview>
         </div>
       </mat-tab>
     </mat-tab-group>

@@ -14,6 +14,7 @@ export class SongComponent implements OnInit, OnDestroy {
   @Input() songData: SongModel;
   @Input() albumView = false;
   @Input() queueView = false;
+  @Input() rank = 0;
   @Output() uponPlay: EventEmitter<any> = new EventEmitter();
   @Output() uponRemove: EventEmitter<any> = new EventEmitter();
 

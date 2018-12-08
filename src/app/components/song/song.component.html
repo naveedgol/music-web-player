@@ -7,6 +7,7 @@
   *ngIf="isReleased"
 >
   <div class="inner-container">
+    <div class="rank" *ngIf="rank">{{rank}}</div>
     <div class="track-number" *ngIf="albumView">{{songData.attributes.trackNumber}}</div>
     <img class="album-cover" *ngIf="!albumView" appLazyLoad [src]="songData.attributes.artwork.url | formatArtworkUrl:40">
     <div class="track-info">
