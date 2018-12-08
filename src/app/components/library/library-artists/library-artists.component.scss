@@ -1,8 +1,6 @@
 .outer-container {
     padding: 20px;
     height: calc( 100% - 40px );
-    // display: grid;
-    // grid-template-columns: repeat( auto-fill, minmax(186px, 1fr) );
     animation: fadein 0.7s;
 
     @keyframes fadein {
@@ -15,4 +13,17 @@
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
+}
+
+.letter-title {
+    line-height: normal;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: solid 2px #9c27b0;
+    padding-left: 5px;
+    width: 100%;
+}
+
+.letter-container {
+    margin-bottom: 15px;
 }

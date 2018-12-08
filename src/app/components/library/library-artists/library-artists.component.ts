@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
 })
 export class LibraryArtistsComponent implements OnInit, OnDestroy {
 
-  dataSource = [];
+  alphaGroups = new Map();
   isLoading = true;
   private subscriptions = new Subscription();
 
@@ -27,7 +27,18 @@ export class LibraryArtistsComponent implements OnInit, OnDestroy {
     this.subscriptions.add(
       this.apiService.fetchLibraryArtists( offset ).subscribe( data => {
         if ( data.length ) {
-          this.dataSource = this.dataSource.concat( data );
+          for ( const artist of data ) {
+            let key = '#';
+            if ( /^[A-Z]$/i.test(artist.attributes.name[0]) ) {
+              key = artist.attributes.name[0].toUpperCase();
+            }
+
+            if ( !this.alphaGroups.has(key) ) {
+              this.alphaGroups.set(key, []);
+            }
+
+            this.alphaGroups.get(key).push(artist);
+          }
           this.isLoading = false;
           this.fetchLibraryArtists( offset + 100 );
         }

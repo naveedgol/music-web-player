@@ -1,8 +1,13 @@
 <div class="outer-container" *ngIf="!isLoading">
-  <app-artist-preview
-    *ngFor="let artistData of dataSource"
-    [artistData]="artistData"
-  >
-  </app-artist-preview>
+  <div class="letter-container" *ngFor="let letterGroup of alphaGroups | keyvalue">
+    <div class="letter-title">{{letterGroup.key}}</div>
+    <div>
+      <app-artist-preview
+        *ngFor="let artistData of letterGroup.value"
+        [artistData]="artistData"
+      >
+      </app-artist-preview>
+    </div>
+  </div>
 </div>
 <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
