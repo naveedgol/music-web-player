@@ -99,6 +99,7 @@
       *ngIf="!musicKitService.isAuthorized"
     >
       <button
+        aria-label="Login"
         class="authorize-button"
         mat-raised-button
         (click)="authorize()"

@@ -5,6 +5,7 @@
       <img
         class="header-image"
         src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:500}}"
+        alt="playlist-art"
       >
     </div>
     <div class="header">
@@ -33,6 +34,7 @@
           </div>
           <div class="playlist-button-container">
             <button
+              aria-label="Play playlist"
               class="playlist-button" mat-raised-button
               [ngStyle]="buttonStyling"
               (click)="playPlaylist()"
@@ -40,6 +42,7 @@
               Play
             </button>
             <button
+              aria-label="Shuffle playlist"
               class="playlist-button" mat-raised-button
               [ngStyle]="buttonStyling"
               (click)="playPlaylist(true)"
@@ -47,6 +50,7 @@
               Shuffle
             </button>
             <button
+            aria-label="More"
             [matMenuTriggerFor]="menu"
             [ngStyle]="buttonStyling"
             class="playlist-button-more" mat-raised-button
@@ -56,6 +60,7 @@
 
           <mat-menu #menu="matMenu">
             <button
+              aria-label="Play next"
               mat-menu-item
               [ngStyle]="buttonStyling"
               (click)="playNext()"
@@ -63,6 +68,7 @@
               Play Next
             </button>
             <button
+              aria-label="Play later"
               mat-menu-item
               [ngStyle]="buttonStyling"
               (click)="playLater()"
@@ -70,6 +76,7 @@
               Play Later
             </button>
             <button
+              aria-label="Copy link"
               mat-menu-item
               [ngStyle]="buttonStyling"
               (click)="copyLink()"

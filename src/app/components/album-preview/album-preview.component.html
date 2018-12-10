@@ -3,7 +3,7 @@
     [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
     class="album-cover-container mat-elevation-z24"
   >
-    <img class="album-cover" appLazyLoad [src]="albumData.attributes.artwork.url | formatArtworkUrl:170">
+    <img class="album-cover" appLazyLoad [src]="albumData.attributes.artwork.url | formatArtworkUrl:170" alt="album-art">
   </div>
   <div class="text-outer-container">
     <span class="rank" *ngIf="rank">{{rank}}</span>

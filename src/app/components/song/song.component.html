@@ -9,7 +9,7 @@
   <div class="inner-container">
     <div class="rank" *ngIf="rank">{{rank}}</div>
     <div class="track-number" *ngIf="albumView">{{songData.attributes.trackNumber}}</div>
-    <img class="album-cover" *ngIf="!albumView" appLazyLoad [src]="songData.attributes.artwork.url | formatArtworkUrl:40">
+    <img class="album-cover" *ngIf="!albumView" appLazyLoad [src]="songData.attributes.artwork.url | formatArtworkUrl:40" alt="album-art">
     <div class="track-info">
       <div class="song-name-container">
           <span class="song-name" [ngStyle]="{'color': isSelected ? '#69f0ae' : ''}">{{songData.attributes.name}}</span>
@@ -23,6 +23,7 @@
     </div>
 
     <button
+      aria-label="More"
       mat-icon-button
       *ngIf="!queueView"
       [matMenuTriggerFor]="menu"
@@ -33,6 +34,7 @@
     </button>
 
     <button
+      aria-label="Remove"
       class="remove-button"
       mat-icon-button
       *ngIf="queueView && isHovering"
@@ -43,8 +45,8 @@
     </button>
 
     <mat-menu #menu="matMenu" (closed)="isAction = false">
-      <button mat-menu-item (click)="playNext()">Play Next</button>
-      <button mat-menu-item (click)="playLater()">Play Later</button>
+      <button aria-label="Play next" mat-menu-item (click)="playNext()">Play Next</button>
+      <button aria-label="Play later" mat-menu-item (click)="playLater()">Play Later</button>
     </mat-menu>
 
     <div

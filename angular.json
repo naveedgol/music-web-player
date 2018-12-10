@@ -24,7 +24,8 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/robots.txt"
             ],
             "styles": [
               "src/styles.scss"
@@ -89,7 +90,8 @@
             "scripts": [],
             "assets": [
               "src/assets",
-              "src/manifest.json"
+              "src/manifest.json",
+              "src/robots.txt"
             ]
           }
         },

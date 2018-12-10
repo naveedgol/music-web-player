@@ -43,11 +43,12 @@
         <mat-icon>shuffle</mat-icon>
       </button> -->
 
-      <button mat-icon-button (click)="skipToPreviousItem()" [disabled]="isLoading">
+      <button aria-label="Skip previous" mat-icon-button (click)="skipToPreviousItem()" [disabled]="isLoading">
         <mat-icon>skip_previous</mat-icon>
       </button>
 
       <button
+        aria-label="Toggle play"
         mat-icon-button
         (click)="togglePlayPause()"
         *ngIf="!isLoading"
@@ -57,7 +58,7 @@
 
       <mat-spinner class="spinner" *ngIf="isLoading" diameter="20"></mat-spinner>
 
-      <button mat-icon-button (click)="skipToNextItem()" [disabled]="isLoading">
+      <button aria-label="Skip next" mat-icon-button (click)="skipToNextItem()" [disabled]="isLoading">
         <mat-icon>skip_next</mat-icon>
       </button>
 
@@ -87,6 +88,7 @@
   </div>
   <div class="misc-controls">
     <button
+      aria-label="Settings"
       mat-icon-button
       (click)="openSettings()"
     >
@@ -94,6 +96,7 @@
     </button>
 
     <button
+      aria-label="Toggle queue"
       mat-icon-button
       (click)="toggleQueue()"
       [ngClass]="{'active-link': queueVisible}"
@@ -102,6 +105,7 @@
     </button>
 
     <button
+      aria-label="Toggle mute"
       mat-icon-button
       (click)="toggleMute(volume.value)"
     >
