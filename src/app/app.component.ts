@@ -7,7 +7,7 @@ import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  opened = true;
+  opened = false;
   mode = 'side';
   isMobile = false;
    constructor(breakpointObserver: BreakpointObserver) {

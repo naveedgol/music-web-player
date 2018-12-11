@@ -1,6 +1,9 @@
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(186px, 1fr));
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        grid-template-columns: repeat( auto-fill, minmax(156px, 1fr) );
+    }
     padding-left: 12px;
     padding-right: 12px;
 }

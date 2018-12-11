@@ -7,6 +7,9 @@
     display: flex;
     flex-direction: column;
     width: 170px;
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        width: 150px;
+    }
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 20px;
@@ -17,6 +20,10 @@
     outline: none;
     height: 170px;
     width: 170px;
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        width: 150px;
+        height: 150px;
+    }
     margin-bottom: 10px;
     border-radius: 5px;
     background-size: cover;
