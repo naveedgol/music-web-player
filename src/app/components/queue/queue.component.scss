@@ -22,6 +22,10 @@
         min-width: unset !important;
         width: 100%;
     }
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        margin-top: 76px;
+    }
 }
 
 .title {

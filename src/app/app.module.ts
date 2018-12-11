@@ -44,6 +44,7 @@ import { BrowseComponent } from './components/browse/browse.component';
 import { QueueSnackBarComponent } from './components/snack-bar/queue-snack-bar.component';
 import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent],
@@ -91,6 +92,7 @@ import { SettingsComponent } from './components/settings/settings.component';
     MatFormFieldModule,
     MatProgressSpinnerModule,
     MatCardModule,
+    LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,

@@ -1,4 +1,46 @@
-<div class="outer-container">
+<mat-toolbar *ngIf="isMobile" class="mobile-toolbar">
+  <button mat-icon-button (click)="uponOpened.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="misc-controls">
+    <button
+      aria-label="Settings"
+      mat-icon-button
+      (click)="openSettings()"
+    >
+      <mat-icon>settings</mat-icon>
+    </button>
+
+    <button
+      aria-label="Toggle queue"
+      mat-icon-button
+      (click)="toggleQueue()"
+      [ngClass]="{'active-link': queueVisible}"
+    >
+      <mat-icon>queue_music</mat-icon>
+    </button>
+
+    <button
+      aria-label="Toggle mute"
+      mat-icon-button
+      (click)="toggleMute(volume.value)"
+    >
+      <mat-icon>{{volume.value ? 'volume_up' : 'volume_off'}}</mat-icon>
+    </button>
+    <mat-slider
+      #volume
+      class="volume-slider"
+      min="0"
+      max="10"
+      step="1"
+      value="10"
+      (input)="changeVolume($event.value)"
+    >
+    </mat-slider>
+  </div>
+</mat-toolbar>
+
+<mat-toolbar class="outer-container">
   <div class="track-info">
     <div
       *ngIf="playerService.nowPlayingItem.assets[0].metadata.playlistId"
@@ -43,7 +85,13 @@
         <mat-icon>shuffle</mat-icon>
       </button> -->
 
-      <button aria-label="Skip previous" mat-icon-button (click)="skipToPreviousItem()" [disabled]="isLoading">
+      <button
+        aria-label="Skip previous"
+        mat-icon-button
+        (click)="skipToPreviousItem()"
+        [disabled]="isLoading"
+        *ngIf="!isMobile"
+      >
         <mat-icon>skip_previous</mat-icon>
       </button>
 
@@ -70,7 +118,7 @@
         <mat-icon>{{playerService.repeatMode === 1 ? 'repeat_one' : 'repeat'}}</mat-icon>
       </button> -->
     </div>
-    <div class="scrubber">
+    <div class="scrubber" *ngIf="!isMobile">
       <span class="time">{{currentPlaybackTime | formatSeconds }}</span>
       <mat-slider #slider
         [disabled]="currentPlaybackDuration === 0 || isLoading"
@@ -86,7 +134,7 @@
     </div>
 
   </div>
-  <div class="misc-controls">
+  <div class="misc-controls" *ngIf="!isMobile">
     <button
       aria-label="Settings"
       mat-icon-button
@@ -122,7 +170,8 @@
     >
     </mat-slider>
   </div>
-</div>
+</mat-toolbar>
+
 <app-queue
   (uponClose)="toggleQueue()"
   *ngIf="queueVisible"

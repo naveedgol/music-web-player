@@ -1,8 +1,14 @@
-:host {
-  width: 100%;
+.mobile-toolbar {
+  position: absolute;
+  top:0;
+  z-index: 100;
+  height: 56px;
+  display: flex;
+  overflow: hidden;
 }
 
 .outer-container {
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +18,10 @@
   width: 30%;
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+    flex: 1;
+  }
 }
 
 .track-text {
@@ -69,6 +79,11 @@ div.linkable {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+    width: unset;
+    flex: unset;
+  }
 }
 
 .playback-buttons {
@@ -81,6 +96,11 @@ div.linkable {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+    width: unset;
+    flex: 1;
+  }
 }
 
 .scrubber {
