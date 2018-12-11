@@ -60,11 +60,11 @@
 
       <mat-tab label="Playlists" [disabled]="!playlistResults.length">
         <div class="album-results">
-          <app-album-preview
+          <app-playlist-preview
             *ngFor="let playlistData of playlistResults"
-            [albumData]="playlistData"
+            [playlistData]="playlistData"
           >
-          </app-album-preview>
+          </app-playlist-preview>
         </div>
       </mat-tab>
     </mat-tab-group>
