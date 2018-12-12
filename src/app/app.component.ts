@@ -10,7 +10,8 @@ export class AppComponent {
   opened = false;
   mode = 'side';
   isMobile = false;
-   constructor(breakpointObserver: BreakpointObserver) {
+
+  constructor(breakpointObserver: BreakpointObserver) {
     breakpointObserver.observe([
       Breakpoints.Handset
     ]).subscribe(result => {

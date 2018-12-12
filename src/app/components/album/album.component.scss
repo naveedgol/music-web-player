@@ -45,6 +45,7 @@ main {
 
     @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
         padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -74,6 +75,10 @@ section {
 .album-name {
     font-weight: 500;
     font-size: 38px;
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        font-size: 30px;
+    }
 }
 
 .artist-name {
@@ -136,4 +141,10 @@ section {
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
+}
+
+.copy-link-button {
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        display: none;
+    }
 }

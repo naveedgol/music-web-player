@@ -3,6 +3,7 @@ import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatTabChangeEvent, MatInput } from '@angular/material';
 import { PlayerService } from 'src/app/services/player.service';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-search',
@@ -23,18 +24,32 @@ export class SearchComponent implements OnInit {
   timeout = null;
   numOfResults = 0;
   lastQuery = '';
+  isMobile = false;
   @ViewChild('searchInput') searchInput;
 
   constructor(
     private apiService: ApiService,
     private playerService: PlayerService,
     private router: Router,
-    private route: ActivatedRoute
-  ) { }
+    private route: ActivatedRoute,
+    private breakpointObserver: BreakpointObserver
+  ) {
+    breakpointObserver.observe([
+      Breakpoints.Handset
+    ]).subscribe(result => {
+      if (result.matches) {
+        this.isMobile = true;
+      } else {
+        this.isMobile = false;
+      }
+    });
+  }
 
 
   ngOnInit() {
-    this.searchInput.nativeElement.focus();
+    if ( !this.isMobile ) {
+      this.searchInput.nativeElement.focus();
+    }
     this.route.queryParams.subscribe( params => {
       this.query = params['q'] ? params['q'] : '';
       this.search();

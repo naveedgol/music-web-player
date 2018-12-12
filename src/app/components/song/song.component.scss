@@ -1,7 +1,6 @@
 .outer-container {
     display: flex;
     padding-right: 10px;
-    padding-left: 10px;
     height: 60px;
     border-radius: 5px;
     cursor: pointer;
@@ -60,6 +59,9 @@
 
 .time {
     color: #b3b3b3;
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        display: none;
+    }
 }
 
 .song-name-container {
@@ -86,6 +88,7 @@
     margin-right: 10px;
     border-radius: 2px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
 }
 
 .remove-button {
@@ -95,6 +98,10 @@
 .rank {
     text-align: center;
     width: 20px;
-    padding-right: 10px;
+    padding-left: 10px;
     font-weight: 600;
+}
+
+.more-button {
+    visibility: visible !important;
 }

@@ -134,3 +134,9 @@ section {
     font-weight: 500;
     padding-top: 5px;
 }
+
+.copy-link-button {
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        display: none;
+    }
+}

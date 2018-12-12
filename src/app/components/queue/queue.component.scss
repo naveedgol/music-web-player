@@ -1,5 +1,4 @@
 .popup {
-    cursor: move;
     z-index: 2;
     width: 300px;
     position: absolute;
@@ -36,6 +35,7 @@
 }
 
 .queue-header {
+    cursor: move;
     width: 300px;
     padding-bottom: 5px;
     display: flex;

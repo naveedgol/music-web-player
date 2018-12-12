@@ -3,7 +3,7 @@
   "short_name": "Apple Music",
   "theme_color": "#1e3264",
   "background_color": "#212121",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "icons": [
