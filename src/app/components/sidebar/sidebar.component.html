@@ -90,7 +90,12 @@
           [routerLinkActiveOptions]="{exact: true}"
           [routerLink]="['/library/playlists',playlist.id]"
         >
-          <div>{{playlist.attributes.name}}</div>
+          <div
+            title="{{playlist.attributes.name}}"
+            class="playlist-list-item-text"
+          >
+            {{playlist.attributes.name}}
+          </div>
         </mat-list-item>
       </mat-nav-list>
     </mat-expansion-panel>

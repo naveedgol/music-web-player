@@ -15,7 +15,7 @@ export class SidebarComponent {
     public musicKitService: MusicKitService,
     private apiService: ApiService
   ) {
-    this.musicKitService.addAuthChangeListener( this.fetchPlaylists.bind(this) );
+    this.musicKitService.addAuthChangeListener( this.onAuthorize.bind(this) );
     this.fetchPlaylists();
   }
 
@@ -31,6 +31,13 @@ export class SidebarComponent {
 
   authorize(): void {
     this.musicKitService.authorize();
+  }
+
+  onAuthorize(): void {
+    setTimeout( () =>
+      this.fetchPlaylists(),
+      500
+    );
   }
 
 }

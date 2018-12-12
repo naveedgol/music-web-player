@@ -38,6 +38,12 @@ mat-icon {
     height: 30px !important;
 }
 
+.playlist-list-item-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 .authorize-button-container {
     width: 100%;
     height: 56px;
