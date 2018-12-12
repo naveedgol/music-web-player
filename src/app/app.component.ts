@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,10 @@ export class AppComponent {
   mode = 'side';
   isMobile = false;
 
-  constructor(breakpointObserver: BreakpointObserver) {
+  constructor(
+    breakpointObserver: BreakpointObserver,
+    router: Router
+    ) {
     breakpointObserver.observe([
       Breakpoints.Handset
     ]).subscribe(result => {
@@ -23,6 +27,12 @@ export class AppComponent {
         this.opened = true;
         this.mode = 'side';
         this.isMobile = false;
+      }
+    });
+
+    router.events.subscribe(event => {
+      if ( this.isMobile ) {
+        this.opened = false;
       }
     });
   }

@@ -61,6 +61,7 @@ header {
 
     @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
         transform: none;
+        min-height: 50%;
     }
 }
 
@@ -69,6 +70,9 @@ section {
     background-image: linear-gradient(#04060c,#1e3264 120%);
     transform: translateZ(0);
     min-height: calc( 100% - 300px );
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        min-height: 50%;
+    }
 }
 
 .playlist-name {

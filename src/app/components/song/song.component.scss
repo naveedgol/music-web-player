@@ -1,6 +1,5 @@
 .outer-container {
     display: flex;
-    padding-right: 10px;
     height: 60px;
     border-radius: 5px;
     cursor: pointer;
@@ -59,6 +58,7 @@
 
 .time {
     color: #b3b3b3;
+    padding-right: 10px;
     @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
         display: none;
     }
@@ -80,6 +80,7 @@
 .track-number {
     font-size: 16px;
     width: 35px;
+    text-align: center;
 }
 
 .album-cover {
@@ -103,5 +104,7 @@
 }
 
 .more-button {
-    visibility: visible !important;
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        visibility: visible !important;
+    }
 }
