@@ -5,6 +5,7 @@ import { PlayerService } from 'src/app/services/player.service';
 import { MatSnackBar } from '@angular/material';
 import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
 import { TinyColor } from '@ctrl/tinycolor';
+import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
 
 @Component({
   selector: 'app-playlist',
@@ -91,10 +92,16 @@ export class PlaylistComponent {
 
   playNext(): void {
     this.playerService.playNext( this.playlistData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 
   playLater(): void {
     this.playerService.playLater( this.playlistData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 
   copyLink(): void {

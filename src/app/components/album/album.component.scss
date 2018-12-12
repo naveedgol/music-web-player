@@ -5,6 +5,10 @@
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 4px;
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        display: none;
+    }
 }
 
 .track-text {
@@ -35,9 +39,13 @@ main {
 .header {
     position: absolute;
     height: 100%;
-    width: 100%;
     display: flex;
     align-items: flex-end;
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 header {
@@ -50,6 +58,11 @@ header {
     transform:
         translateZ(-#{$scroll-factor * 2}px)
         scale(1 + $scroll-factor * 2);
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        transform: none;
+        min-height: 50%;
+    }
 }
 
 section {
@@ -57,11 +70,18 @@ section {
     background-image: linear-gradient(#04060c,#1e3264 120%);
     transform: translateZ(0);
     min-height: calc( 100% - 300px );
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        min-height: 50%;
+    }
 }
 
 .album-name {
     font-weight: 500;
     font-size: 38px;
+
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        font-size: 30px;
+    }
 }
 
 .artist-name {
@@ -124,4 +144,10 @@ section {
     position: absolute;
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
+}
+
+.copy-link-button {
+    @media screen and (max-width: 599.99px) and (orientation: portrait), (max-width: 959.99px) and (orientation: landscape) {
+        display: none;
+    }
 }

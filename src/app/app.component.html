@@ -1,7 +1,8 @@
 <mat-sidenav-container
+  [style.height]="isMobile ? 'calc( 100% - 156px )' : ''"
+  [style.margin-top]="isMobile ? '56px' : ''"
   class="outer-container mat-typography">
-
-  <mat-sidenav mode="side" opened>
+  <mat-sidenav [mode]="mode" [(opened)]="opened">
     <app-sidebar></app-sidebar>
   </mat-sidenav>
 
@@ -13,6 +14,7 @@
 
 <router-outlet name="popup"></router-outlet>
 
-<mat-toolbar [style.height.px]="100">
-  <app-track-controls></app-track-controls>
-</mat-toolbar>
+<app-track-controls
+  [isMobile]="isMobile"
+  (uponOpened)="opened = !opened"
+></app-track-controls>

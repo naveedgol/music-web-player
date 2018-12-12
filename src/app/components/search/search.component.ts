@@ -23,6 +23,7 @@ export class SearchComponent implements OnInit {
   timeout = null;
   numOfResults = 0;
   lastQuery = '';
+  isMobile = false;
   @ViewChild('searchInput') searchInput;
 
   constructor(
@@ -30,7 +31,8 @@ export class SearchComponent implements OnInit {
     private playerService: PlayerService,
     private router: Router,
     private route: ActivatedRoute
-  ) { }
+  ) {
+  }
 
 
   ngOnInit() {

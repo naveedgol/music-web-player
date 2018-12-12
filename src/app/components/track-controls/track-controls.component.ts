@@ -1,4 +1,4 @@
-import { Component, ViewChild, HostListener } from '@angular/core';
+import { Component, ViewChild, HostListener, Input, EventEmitter, Output } from '@angular/core';
 import { PlayerService, PlaybackStates } from '../../services/player.service';
 import { MatBottomSheet } from '@angular/material';
 import { SettingsComponent } from '../settings/settings.component';
@@ -10,6 +10,8 @@ import { SettingsComponent } from '../settings/settings.component';
 })
 export class TrackControlsComponent {
 
+  @Input() isMobile: boolean;
+  @Output() uponOpened: EventEmitter<any> = new EventEmitter();
   public playbackStates = PlaybackStates;
   lastVolume = 10;
   queueVisible = false;
