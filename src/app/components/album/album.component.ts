@@ -6,6 +6,7 @@ import { AlbumModel } from 'src/app/models/album-model';
 import { TinyColor } from '@ctrl/tinycolor';
 import { MatSnackBar } from '@angular/material';
 import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
+import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
 
 @Component({
   selector: 'app-album',
@@ -87,10 +88,16 @@ export class AlbumComponent {
 
   playNext(): void {
     this.playerService.playNext( this.albumData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 
   playLater(): void {
     this.playerService.playLater( this.albumData );
+    this.snackBar.openFromComponent(QueueSnackBarComponent, {
+      duration: 1000
+    });
   }
 
   copyLink(): void {
