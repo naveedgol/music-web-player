@@ -3,6 +3,7 @@ import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { MatTabChangeEvent, MatInput } from '@angular/material';
 import { PlayerService } from 'src/app/services/player.service';
+import { MusicKitService } from 'src/app/services/musicKit.service';
 
 @Component({
   selector: 'app-search',
@@ -30,7 +31,8 @@ export class SearchComponent implements OnInit {
     private apiService: ApiService,
     private playerService: PlayerService,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    public musicKitService: MusicKitService
   ) {
   }
 

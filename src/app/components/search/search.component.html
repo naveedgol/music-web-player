@@ -22,7 +22,7 @@
     (change)="isSearchingLibrary = !isSearchingLibrary; search()"
   >
     <mat-button-toggle class="toggle-button" value="Apple Music" [checked]="!isSearchingLibrary">Apple Music</mat-button-toggle>
-    <mat-button-toggle class="toggle-button" value="Library" [checked]="isSearchingLibrary">Library</mat-button-toggle>
+    <mat-button-toggle [disabled]="!musicKitService.isAuthorized" class="toggle-button" value="Library" [checked]="isSearchingLibrary">Library</mat-button-toggle>
   </mat-button-toggle-group>
 
   <div class="search-results">
