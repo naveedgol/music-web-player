@@ -32,7 +32,7 @@ export class SongComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.isSong = ( this.songData.type === 'songs' ) || ( this.songData.type === 'library-songs' );
+    this.isSong = this.songData.type !== 'music-videos';
     const currentDate = new Date().getTime();
     const songDate = Date.parse(this.songData.attributes.releaseDate);
     if ( songDate > currentDate ) {
