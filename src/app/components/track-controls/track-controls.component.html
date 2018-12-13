@@ -92,6 +92,10 @@
         <mat-icon>skip_next</mat-icon>
       </button>
 
+       <button aria-label="loopitem" mat-icon-button (click)="toggleRepeatItem()" [disabled]="isLoading" [ngStyle]="{'color' : repeatModeColor}">
+        <mat-icon>loop</mat-icon>
+      </button>
+
       <!-- <button
         mat-icon-button
         [style.color]="playerService.repeatMode !== 0 ? '#69f0ae' : ''"
