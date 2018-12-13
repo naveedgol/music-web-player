@@ -16,14 +16,21 @@ export class SidebarComponent {
     private apiService: ApiService
   ) {
     this.musicKitService.addAuthChangeListener( this.onAuthorize.bind(this) );
-    this.fetchPlaylists();
+    this.fetchPlaylists( 0 );
   }
 
-  fetchPlaylists(): void {
+  fetchPlaylistsHelper( offset: number ): void {
+    this.apiService.fetchPlaylists( offset ).subscribe( data => {
+      if ( data.length ) {
+        this.playlists = this.playlists.concat( data );
+        this.fetchPlaylistsHelper( offset + 100 );
+      }
+    });
+  }
+
+  fetchPlaylists( offset: number ): void {
     if ( this.musicKitService.isAuthorized ) {
-      this.apiService.fetchPlaylists().subscribe( x => {
-        this.playlists = x;
-      });
+      this.fetchPlaylistsHelper( offset );
     } else {
       this.playlists = [];
     }
@@ -35,7 +42,7 @@ export class SidebarComponent {
 
   onAuthorize(): void {
     setTimeout( () =>
-      this.fetchPlaylists(),
+      this.fetchPlaylists( 0 ),
       500
     );
   }

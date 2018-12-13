@@ -51,8 +51,8 @@ export class ApiService {
     return from( this.musicKitService.musicKit.api.library.search( query, { types: searchTypes, limit: 20 } ) );
   }
 
-  fetchPlaylists(): Observable<any> {
-    return from( this.musicKitService.musicKit.api.library.playlists() );
+  fetchPlaylists( offset: number ): Observable<any> {
+    return from( this.musicKitService.musicKit.api.library.playlists( null, { limit: 100, offset: offset } ) );
   }
 
   fetchLibraryPlaylist( id: string ): Observable<any> {
