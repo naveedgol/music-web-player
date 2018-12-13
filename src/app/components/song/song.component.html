@@ -17,8 +17,26 @@
           <mat-icon *ngIf="songData.attributes.contentRating === 'explicit'" class="explicit">explicit</mat-icon>
       </div>
       <div class="secondary-info" *ngIf="!albumView">
-        <span class="artist-name">
-          {{songData.attributes.artistName}}&nbsp;&nbsp;•&nbsp;&nbsp;{{songData.attributes.albumName}}
+        <div
+          *ngIf="artistData !== null"
+          class="artist-preview-container"
+          [routerLink]="artistData.type === 'library-artists' ? ['/library/artists', artistData.id] : ['/artists', artistData.id]"
+        >
+          <span
+            class="artist-name"
+            (init)="underline = false"
+            (mouseover)="underline = true"
+            (mouseleave)="underline = false"
+            [ngStyle]="{'text-decoration': underline ? 'underline' : 'none'}"
+          >{{artistData.attributes.name}}</span>
+        </div>
+        <span
+          class="artist-name"
+          *ngIf="artistData === null"
+        >{{songData.attributes.artistName}}</span>
+        &nbsp;&nbsp;•&nbsp;&nbsp;
+        <span class="album-name">
+          {{songData.attributes.albumName}}
         </span>
       </div>
     </div>

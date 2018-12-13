@@ -91,6 +91,16 @@ export class SearchComponent implements OnInit {
     this.playerService.setQueueFromItems( this.songResults, trackIndex ).subscribe();
   }
 
+  getArtist( songData ): string {
+    let matchedArtists = this.artistResults.filter((artist) => {
+      return artist.attributes.name === songData.attributes.artistName;
+    });
+    if (matchedArtists.length === 0) {
+      return null;
+    }
+    return matchedArtists[0];
+  }
+
   clearSearch(): void {
     this.query = '';
     this.hasQueried = false;
