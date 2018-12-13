@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -33,6 +33,9 @@ export class AppComponent {
     router.events.subscribe(event => {
       if ( this.isMobile ) {
         this.opened = false;
+      }
+      if ( event instanceof NavigationEnd ) {
+        (<any>window).gtag('config', 'UA-118675595-2', {'page_path': event.urlAfterRedirects});
       }
     });
   }
