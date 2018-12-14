@@ -47,8 +47,8 @@
     </button>
 
     <mat-menu #menu="matMenu" (closed)="isAction = false">
-      <button aria-label="Play next" mat-menu-item (click)="playNext()">Play Next</button>
-      <button aria-label="Play later" mat-menu-item (click)="playLater()">Play Later</button>
+      <button aria-label="Play next" mat-menu-item (click)="playNext()" i18n="@@playNext">Play Next</button>
+      <button aria-label="Play later" mat-menu-item (click)="playLater()" i18n="@@playLater">Play Later</button>
     </mat-menu>
 
     <div

@@ -1,16 +1,16 @@
 <div class="outer-settings-container">
-  <div class="bitrate-text">Bitrate</div>
+  <div class="bitrate-text" i18n="@@bitrate">Bitrate</div>
   <div class="bitrate-container">
     <mat-radio-group [(ngModel)]="playerService.bitrate" (change)="playerService.changeBitrate()">
-      <mat-radio-button [value]="256">High (256 kbps)</mat-radio-button>
-      <mat-radio-button [value]="64">Standard (64 kbps)</mat-radio-button>
+      <mat-radio-button [value]="256" i18n="@@high256">High (256 kbps)</mat-radio-button>
+      <mat-radio-button [value]="64" i18n="@@standard64">Standard (64 kbps)</mat-radio-button>
     </mat-radio-group>
   </div>
 
   <div class="github-prompt">
-    Please submit an issue on
+    <span i18n="@@pleaseSubmitIssue">Please submit an issue on</span>
     <a target="_blank" rel="noopener" href="https://github.com/naveedgol/apple-music-web-player/issues">GitHub</a>
-    for bugs and feature requests.
+    <span i18n="@@forBugsAndFeature">for bugs and feature requests</span>.
   </div>
 
   <button
@@ -19,6 +19,7 @@
     class="authorize-button"
     mat-raised-button
     (click)="unauthorize()"
+    i18n="@@logout"
   >
     Logout
   </button>

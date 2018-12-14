@@ -5,7 +5,7 @@
       routerLinkActive="active-link"
     >
       <mat-icon>search</mat-icon>
-      <div>Search</div>
+      <div i18n="@@search">Search</div>
     </mat-list-item>
 
     <mat-list-item
@@ -14,7 +14,7 @@
       [routerLinkActiveOptions]="{exact: true}"
     >
       <mat-icon>library_music</mat-icon>
-      <div>Browse</div>
+      <div i18n="@@browse">Browse</div>
     </mat-list-item>
 
     <mat-list-item
@@ -25,10 +25,10 @@
       [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>favorite</mat-icon>
-      <div>For You</div>
+      <div i18n="@@forYou">For You</div>
     </mat-list-item>
 
-    <h3 mat-subheader>Library</h3>
+    <h3 mat-subheader i18n="@@library">Library</h3>
 
     <mat-list-item
       routerLink="/library/recently-added"
@@ -38,7 +38,7 @@
       [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>calendar_today</mat-icon>
-      <div>Recently Added</div>
+      <div i18n="@@recentlyAdded">Recently Added</div>
     </mat-list-item>
 
     <mat-list-item
@@ -49,7 +49,7 @@
       [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>person</mat-icon>
-      <div>Artists</div>
+      <div i18n="@@artists">Artists</div>
     </mat-list-item>
 
     <mat-list-item
@@ -60,7 +60,7 @@
       [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>album</mat-icon>
-      <div>Albums</div>
+      <div i18n="@@albums">Albums</div>
     </mat-list-item>
 
     <mat-list-item
@@ -71,14 +71,14 @@
       [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
     >
       <mat-icon>music_note</mat-icon>
-      <div>Songs</div>
+      <div i18n="@@songs">Songs</div>
     </mat-list-item>
 
     <mat-expansion-panel class="playlist-dropdown" [disabled]="!playlists.length || !musicKitService.isAuthorized">
       <mat-expansion-panel-header class="playlist-dropdown-header">
         <mat-panel-title>
           <mat-icon>playlist_play</mat-icon>
-          <div class="playlist-header-text">Playlists</div>
+          <div class="playlist-header-text" i18n="@@playlists">Playlists</div>
         </mat-panel-title>
       </mat-expansion-panel-header>
       <mat-divider></mat-divider>
@@ -108,6 +108,7 @@
         class="authorize-button"
         mat-raised-button
         (click)="authorize()"
+        i18n="@@login"
       >
         Login
       </button>

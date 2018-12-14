@@ -5,6 +5,7 @@
       <input
         matInput
         #searchInput
+        i18n-placeholder="@@search"
         placeholder="Search"
         autocomplete="off"
         (keyup)="onSearch()"
@@ -22,7 +23,7 @@
     (change)="isSearchingLibrary = !isSearchingLibrary; search()"
   >
     <mat-button-toggle class="toggle-button" value="Apple Music" [checked]="!isSearchingLibrary">Apple Music</mat-button-toggle>
-    <mat-button-toggle [disabled]="!musicKitService.isAuthorized" class="toggle-button" value="Library" [checked]="isSearchingLibrary">Library</mat-button-toggle>
+    <mat-button-toggle [disabled]="!musicKitService.isAuthorized" class="toggle-button" value="Library" [checked]="isSearchingLibrary" i18n="@@library">Library</mat-button-toggle>
   </mat-button-toggle-group>
 
   <div class="search-results">
@@ -69,7 +70,7 @@
       </mat-tab>
     </mat-tab-group>
     <div class="no-results" *ngIf="!isLoading && !numOfResults && hasQueried">
-      No results found for "{{lastQuery}}"
+      <span i18n="@@noResultsFoundFor">No results found for</span> "{{lastQuery}}"
     </div>
     <mat-spinner class="spinner" *ngIf="isLoading"></mat-spinner>
   </div>

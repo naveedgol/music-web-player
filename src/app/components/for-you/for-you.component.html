@@ -21,7 +21,7 @@
 
   <div>
     <div *ngIf="heavyRotation.length">
-      <div class="section-title">Heavy Rotation</div>
+      <div class="section-title" i18n="@@heavyRotation">Heavy Rotation</div>
       <div class="container">
         <div *ngFor="let data of heavyRotation">
           <app-album-preview
@@ -41,7 +41,7 @@
 
   <div>
     <div *ngIf="recentlyPlayed.length">
-      <div class="section-title">Recently Played</div>
+      <div class="section-title" i18n="@@recentlyPlayed">Recently Played</div>
       <div class="container">
         <div *ngFor="let data of recentlyPlayed">
           <app-album-preview

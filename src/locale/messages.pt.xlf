@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="search" datatype="html">
+        <source>Search</source>
+        <target>Buscar</target>
+      </trans-unit>
+      <trans-unit id="browse" datatype="html">
+        <source>Browse</source>
+        <target>Explorar</target>
+      </trans-unit>
+      <trans-unit id="forYou" datatype="html">
+        <source>For You</source>
+        <target>Para Você</target>
+      </trans-unit>
+      <trans-unit id="library" datatype="html">
+        <source>Library</source>
+        <target>Biblioteca</target>
+      </trans-unit>
+      <trans-unit id="recentlyAdded" datatype="html">
+        <source>Recently Added</source>
+        <target>Adições Recentes</target>
+      </trans-unit>
+      <trans-unit id="artists" datatype="html">
+        <source>Artists</source>
+        <target>Artistas</target>
+      </trans-unit>
+      <trans-unit id="albums" datatype="html">
+        <source>Albums</source>
+        <target>Álbuns</target>
+      </trans-unit>
+      <trans-unit id="songs" datatype="html">
+        <source>Songs</source>
+        <target>Músicas</target>
+      </trans-unit>
+      <trans-unit id="playlists" datatype="html">
+        <source>Playlists</source>
+        <target>Playlists</target>
+      </trans-unit>
+      <trans-unit id="login" datatype="html">
+        <source>Login</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="upNext" datatype="html">
+        <source>Up Next</source>
+        <target>A Seguir</target>
+      </trans-unit>
+      <trans-unit id="queueIsEmpty" datatype="html">
+        <source>Queue is empty</source>
+        <target>Lista está vazia</target>
+      </trans-unit>
+      <trans-unit id="playNext" datatype="html">
+        <source>Play Next</source>
+        <target>Tocar Próxima</target>
+      </trans-unit>
+      <trans-unit id="playLater" datatype="html">
+        <source>Play Later</source>
+        <target>Tocar Anterior</target>
+      </trans-unit>
+      <trans-unit id="play" datatype="html">
+        <source>Play</source>
+        <target>Tocar</target>
+      </trans-unit>
+      <trans-unit id="shuffle" datatype="html">
+        <source>Shuffle</source>
+        <target>Embaralhar</target>
+      </trans-unit>
+      <trans-unit id="copyLink" datatype="html">
+        <source>Copy Link</source>
+        <target>Copiar Link</target>
+      </trans-unit>
+      <trans-unit id="noResultsFoundFor" datatype="html">
+        <source>No results found for</source>
+        <target>Nenhum resultado encontrado para</target>
+      </trans-unit>
+      <trans-unit id="singles" datatype="html">
+        <source>Singles</source>
+        <target>Singles</target>
+      </trans-unit>
+      <trans-unit id="heavyRotation" datatype="html">
+        <source>Heavy Rotation</source>
+        <target>Rotação Pesada</target>
+      </trans-unit>
+      <trans-unit id="recentlyPlayed" datatype="html">
+        <source>Recently Played</source>
+        <target>Tocadas Recentemente</target>
+      </trans-unit>
+      <trans-unit id="topAlbums" datatype="html">
+        <source>Top Albums</source>
+        <target>Top Álbuns</target>
+      </trans-unit>
+      <trans-unit id="topPlaylists" datatype="html">
+        <source>Top Playlists</source>
+        <target>Top Playlists</target>
+      </trans-unit>
+      <trans-unit id="topSongs" datatype="html">
+        <source>Top Songs</source>
+        <target>Top Músicas</target>
+      </trans-unit>
+      <trans-unit id="bitrate" datatype="html">
+        <source>Bitrate</source>
+        <target>Taxa de bits</target>
+      </trans-unit>
+      <trans-unit id="high256" datatype="html">
+        <source>High (256 kbps)</source>
+        <target>Alta (256 kbps)</target>
+      </trans-unit>
+      <trans-unit id="standard64" datatype="html">
+        <source>Standard (64 kbps)</source>
+        <target>Padrão (64 kbps)</target>
+      </trans-unit>
+      <trans-unit id="pleaseSubmitIssue" datatype="html">
+        <source>Please submit an issue on</source>
+        <target>Por favor, envie um problema em</target>
+      </trans-unit>
+      <trans-unit id="forBugsAndFeature" datatype="html">
+        <source>for bugs and feature requests</source>
+        <target>para bugs e solicitações de recursos</target>
+      </trans-unit>
+      <trans-unit id="logout" datatype="html">
+        <source>Logout</source>
+        <target>Logout</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

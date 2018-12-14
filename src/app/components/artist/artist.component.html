@@ -9,7 +9,7 @@
   </div>
 
   <div *ngIf="albumsCount">
-    <div class="albums-title">Albums</div>
+    <div class="albums-title" i18n="@@albums">Albums</div>
     <div class="albums-grid">
       <ng-container *ngFor="let albumData of artistData.relationships.albums.data">
         <app-album-preview
@@ -22,7 +22,7 @@
   </div>
 
   <div *ngIf="singlesCount">
-    <div class="albums-title">Singles</div>
+    <div class="albums-title" i18n="@@singles">Singles</div>
     <div class="albums-grid">
       <ng-container *ngFor="let albumData of artistData.relationships.albums.data">
           <app-album-preview
@@ -35,7 +35,7 @@
   </div>
 
   <div *ngIf="playlistsCount">
-    <div class="albums-title">Playlists</div>
+    <div class="albums-title" i18n="@@playlists">Playlists</div>
     <div class="albums-grid">
       <ng-container *ngFor="let playlistData of artistData.relationships.playlists.data">
           <app-playlist-preview
