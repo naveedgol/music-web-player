@@ -6,6 +6,10 @@
         <source>Search</source>
         <target>Search</target>
       </trans-unit>
+      <trans-unit id="browse" datatype="html">
+        <source>Browse</source>
+        <target>Browse</target>
+      </trans-unit>
       <trans-unit id="forYou" datatype="html">
         <source>For You</source>
         <target>For You</target>
