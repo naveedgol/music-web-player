@@ -18,10 +18,6 @@ export class TrackControlsComponent {
 
   repeatMode: boolean = false
 
-  repeatModeColor: string;
-  repeatModeOnColor: string = "#FA1A6F";       // when repeat is on it turns to slight red
-  repeatModeOffColor: string = "#FFFFFF";      // when repeat is off, it turns back to white
-
   @ViewChild('volume') volumeSlider;
 
   constructor(
@@ -60,16 +56,9 @@ export class TrackControlsComponent {
     this.playerService.skipToPreviousItem().subscribe();
   }
 
-  toggleRepeatItem(): void {
-    this.playerService.toggleRepeat();
-    this.repeatMode = !this.repeatMode;
-
-    if(this.repeatMode === true) {
-      this.repeatModeColor = this.repeatModeOnColor;
-    } else {
-      this.repeatModeColor = this.repeatModeOffColor;
-    }
-  }
+  // toggleRepeatItem(): void {
+  //   this.playerService.toggleRepeat();
+  // }
 
   seekToTime( time: number ): void {
     this.playerService.seekToTime( time ).subscribe();
@@ -89,7 +78,6 @@ export class TrackControlsComponent {
       this.volumeSlider.value = this.lastVolume;
     }
   }
-
 
   get currentPlaybackDuration(): number {
     return this.playerService.currentPlaybackDuration;
