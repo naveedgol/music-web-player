@@ -6,6 +6,7 @@ import { MatSnackBar } from '@angular/material';
 import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
 import { TinyColor } from '@ctrl/tinycolor';
 import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-playlist',
@@ -36,7 +37,7 @@ export class PlaylistComponent {
       this.isLoading = true;
       this.route.paramMap.subscribe( x => {
 
-        let obs;
+        let obs: Observable<any>;
         if ( url.length && url[0].path === 'library' ) {
           this.isLibrary = true;
           obs = this.apiService.fetchLibraryPlaylist( x.get('id') );
@@ -46,40 +47,64 @@ export class PlaylistComponent {
 
         obs.subscribe( data => {
           this.playlistData = data;
-
-          for ( const songData of data.relationships.tracks.data ) {
-            if ( !songData.attributes ) {
-              this.containsVideos = true;
-              this.isLoading = false;
-              return;
-            }
-            this.totalDuration += songData.attributes.durationInMillis;
+          if ( data.relationships.tracks.next ) {
+            this.fetchPlaylistTracks( data.relationships.tracks.next );
+          } else {
+            this.calculateRuntime();
+            this.colorize();
+            this.isLoading = false;
           }
-
-          if ( !this.isLibrary ) {
-            this.buttonStyling = {
-              'background-color': '#' + this.playlistData.attributes.artwork.bgColor,
-              'color': '#' + this.playlistData.attributes.artwork.textColor1
-            };
-
-            let color = new TinyColor(this.playlistData.attributes.artwork.bgColor);
-            if ( color.isLight() ) {
-              color = color.darken(20);
-            }
-            this.bgColor = color.toHexString();
-          }
-
-          this.isLoading = false;
         });
       });
     });
+  }
+
+  fetchPlaylistTracks( nextUrl: string ): void {
+    this.apiService.fetchPlaylistTracks( nextUrl ).subscribe( data => {
+      this.playlistData.relationships.tracks.data = this.playlistData.relationships.tracks.data.concat( data.data );
+      if ( data.next ) {
+        this.fetchPlaylistTracks( data.next );
+      } else {
+        this.calculateRuntime();
+        this.colorize();
+        this.isLoading = false;
+      }
+    });
+  }
+
+  calculateRuntime(): void {
+    for ( const songData of this.playlistData.relationships.tracks.data ) {
+      if ( !songData.attributes ) {
+        this.containsVideos = true;
+        this.isLoading = false;
+        return;
+      }
+      this.totalDuration += songData.attributes.durationInMillis;
+    }
+  }
+
+  colorize(): void {
+    if ( !this.isLibrary ) {
+      this.buttonStyling = {
+        'background-color': '#' + this.playlistData.attributes.artwork.bgColor,
+        'color': '#' + this.playlistData.attributes.artwork.textColor1
+      };
+
+      let color = new TinyColor(this.playlistData.attributes.artwork.bgColor);
+      if ( color.isLight() ) {
+        color = color.darken(20);
+      }
+      this.bgColor = color.toHexString();
+    }
   }
 
   playPlaylist( shuffle: boolean = false ): void {
     if ( shuffle ) {
       this.playerService.toggleShuffleOn();
     }
-    this.playerService.setQueue( this.playlistData ).subscribe(() => {
+    this.playerService.setQueueFromItems(
+      this.playlistData.relationships.tracks.data
+    ).subscribe(() => {
       if ( shuffle ) {
         this.playerService.toggleShuffleOff();
       }
@@ -87,7 +112,10 @@ export class PlaylistComponent {
   }
 
   playSong( trackIndex: number ): void {
-    this.playerService.setQueue( this.playlistData, trackIndex ).subscribe();
+    this.playerService.setQueueFromItems(
+      this.playlistData.relationships.tracks.data,
+      trackIndex
+    ).subscribe();
   }
 
   playNext(): void {

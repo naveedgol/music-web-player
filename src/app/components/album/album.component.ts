@@ -75,7 +75,7 @@ export class AlbumComponent {
     if ( shuffle ) {
       this.playerService.toggleShuffleOn();
     }
-    this.playerService.setQueue( this.albumData ).subscribe(() => {
+    this.playerService.setQueueFromItems( this.albumData.relationships.tracks.data ).subscribe(() => {
       if ( shuffle ) {
         this.playerService.toggleShuffleOff();
       }
@@ -83,7 +83,10 @@ export class AlbumComponent {
   }
 
   playSong( trackIndex: number ): void {
-    this.playerService.setQueue( this.albumData, trackIndex ).subscribe();
+    this.playerService.setQueueFromItems(
+      this.albumData.relationships.tracks.data,
+      trackIndex
+    ).subscribe();
   }
 
   playNext(): void {

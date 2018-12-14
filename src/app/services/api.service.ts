@@ -3,6 +3,7 @@ import { Observable, from } from 'rxjs';
 import { MusicKitService } from './musicKit.service';
 import { SongModel } from '../models/song-model';
 import { AlbumModel } from '../models/album-model';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 declare var MusicKit: any;
 
@@ -11,7 +12,21 @@ declare var MusicKit: any;
 })
 export class ApiService {
 
-  constructor( private musicKitService: MusicKitService ) {}
+  constructor(
+    private musicKitService: MusicKitService,
+    private http: HttpClient
+    ) {}
+
+  API_URL = 'https://api.music.apple.com';
+
+  getApiHeaders(): HttpHeaders {
+    return new HttpHeaders({
+      'Authorization': 'Bearer ' + this.musicKitService.musicKit.developerToken,
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+      'Music-User-Token': this.musicKitService.musicKit.musicUserToken
+    });
+  }
 
   fetchLibrarySongs( offset: number ): Observable<SongModel[]> {
     return from( this.musicKitService.musicKit.api.library.songs( null, { limit: 100, offset: offset } ) );
@@ -61,6 +76,13 @@ export class ApiService {
 
   fetchPlaylist( id: string ): Observable<any> {
     return from( this.musicKitService.musicKit.api.playlist( id ) );
+  }
+
+  fetchPlaylistTracks( nextUrl: string ): Observable<any> {
+    return this.http.get(
+      this.API_URL + nextUrl,
+      { headers: this.getApiHeaders() }
+    );
   }
 
   fetchRecentlyAdded( offset: number ): Observable<any> {

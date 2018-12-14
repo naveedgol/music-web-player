@@ -45,6 +45,7 @@ import { QueueSnackBarComponent } from './components/snack-bar/queue-snack-bar.c
 import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent],
@@ -79,6 +80,7 @@ import { LayoutModule } from '@angular/cdk/layout';
   imports: [
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
     ScrollingModule,
     DragDropModule,
     MatExpansionModule,
