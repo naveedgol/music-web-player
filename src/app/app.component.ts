@@ -35,7 +35,7 @@ export class AppComponent {
         this.opened = false;
       }
       if ( event instanceof NavigationEnd ) {
-        (<any>window).gtag('config', 'UA-118675595-2', {'page_path': event.urlAfterRedirects});
+        // (<any>window).gtag('config', '$id', {'page_path': event.urlAfterRedirects});
       }
     });
   }

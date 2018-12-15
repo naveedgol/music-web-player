@@ -41,9 +41,20 @@ The following is how to replace the tokens in the environment folder using Bash:
 
 ```Bash
 cd $projectFolder/environments/
-prodToken="Your token here"
+prodToken="Your AM token here"
 sed -i "/token/c\   token : \x27${prodToken}\x27" environment.prod.ts
 
-testToken="Your token here"
+testToken="Your AM token here"
 sed -i "/token/c\   token : \x27${testToken}\x27" environment.ts
+```
+
+##### Google Analytic tokens
+
+Google Analytics is disabled by default but easily uncommented in the source and enabled. You can easily find the snippets by searching the repo for "gtag" and changing as appropriate. Below is a simple example on how to replace the token using Bash.
+
+```Bash
+cd $projectFolder/src/
+gaID="Your GA token here"
+sed -i "s/\$id/${gaID}/" ./app/app.component.ts
+sed -i "s/\$id/${gaID}/" index.html
 ```
