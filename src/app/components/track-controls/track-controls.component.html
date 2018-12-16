@@ -3,6 +3,14 @@
     <mat-icon>menu</mat-icon>
   </button>
   <div class="misc-controls">
+      <button
+      aria-label="Help"
+      mat-icon-button
+      (click)="openHelp()"
+    >
+    <mat-icon>help</mat-icon>
+   </button>
+   
     <button
       aria-label="Settings"
       mat-icon-button
@@ -117,6 +125,14 @@
 
   </div>
   <div class="misc-controls" *ngIf="!isMobile">
+      <button
+      aria-label="Help"
+      mat-icon-button
+      (click)="openHelp()"
+    >
+      <mat-icon>help</mat-icon>
+    </button>
+
     <button
       aria-label="Settings"
       mat-icon-button

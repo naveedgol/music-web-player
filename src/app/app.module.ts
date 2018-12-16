@@ -44,11 +44,12 @@ import { BrowseComponent } from './components/browse/browse.component';
 import { QueueSnackBarComponent } from './components/snack-bar/queue-snack-bar.component';
 import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { HelpComponent } from './components/help/help.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent],
+  entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent, HelpComponent],
   declarations: [
     AppComponent,
     TrackControlsComponent,
@@ -75,7 +76,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowseComponent,
     QueueSnackBarComponent,
     CopySnackBarComponent,
-    SettingsComponent
+    SettingsComponent,
+    HelpComponent
   ],
   imports: [
     BrowserAnimationsModule,

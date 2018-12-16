@@ -11,7 +11,7 @@ import { PlayerService } from 'src/app/services/player.service';
 export class SettingsComponent implements OnInit {
 
   constructor(
-    private bottomSheetRef: MatBottomSheetRef<SettingsComponent>,
+    private settingsBottomSheetRef: MatBottomSheetRef<SettingsComponent>,
     public musicKitService: MusicKitService,
     public playerService: PlayerService
   ) { }
@@ -22,7 +22,7 @@ export class SettingsComponent implements OnInit {
 
   unauthorize(): void {
     this.musicKitService.unauthorize();
-    this.bottomSheetRef.dismiss();
+    this.settingsBottomSheetRef.dismiss();
   }
 
 }
