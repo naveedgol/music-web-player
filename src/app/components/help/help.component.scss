@@ -1,0 +1,33 @@
+.outer-settings-container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.help-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:  30px;
+}
+
+.controls-help-table {
+    th {
+        text-align: left;
+    }
+}
+
+.help-warning {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.controls-help {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.close-help-button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #1e3264;
+}
