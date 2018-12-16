@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  // tslint:disable-next-line:max-line-length
   token: 'APPLE_MUSIC_TOKEN'
 };
 
