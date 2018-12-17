@@ -1,24 +1,14 @@
 <div class="inner-container">
   <div
     [routerLink]="albumData.type === 'library-albums' ? ['/library/albums', albumData.id] : ['/albums', albumData.id]"
-    class="album-cover-container mat-elevation-z24"
+    (mouseover)="action.show()" (mouseleave)="action.hidden()"
+    class="album-cover-container mat-elevation-z24 album-action-hover"
   >
     <img class="album-cover" appLazyLoad [src]="albumData.attributes.artwork.url | formatArtworkUrl:170" alt="album-art">
-    <div class="album-actions"></div>
-    <div class="album-actions-button">
-      <button
-        aria-label="Play album"
-        (click)="playAlbum()"
-        mat-icon-button>
-        <mat-icon>play_arrow</mat-icon>
-      </button>
-      <button
-        aria-label="Shuffle album"
-        (click)="playAlbum(true)"
-        mat-icon-button>
-        <mat-icon>shuffle</mat-icon>
-      </button>
-    </div>
+    <app-action #action
+                       [id]="albumData.id"
+                       [isLibrary]="albumData.type === 'library-albums'"
+                       type="ALBUM"></app-action>
   </div>
   <div class="text-outer-container">
     <span class="rank" *ngIf="rank">{{rank}}</span>

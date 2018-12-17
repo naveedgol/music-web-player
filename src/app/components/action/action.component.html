@@ -1,0 +1,17 @@
+<div [class.show]="showActions">
+  <div class="album-actions"></div>
+  <div class="album-actions-button">
+    <button
+      aria-label="Play album"
+      (click)="playAlbum()"
+      mat-icon-button>
+      <mat-icon>play_arrow</mat-icon>
+    </button>
+    <button
+      aria-label="Shuffle album"
+      (click)="playAlbum(true)"
+      mat-icon-button>
+      <mat-icon>shuffle</mat-icon>
+    </button>
+  </div>
+</div>
