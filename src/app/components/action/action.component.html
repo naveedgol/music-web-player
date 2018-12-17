@@ -2,16 +2,41 @@
   <div class="album-actions"></div>
   <div class="album-actions-button">
     <button
-      aria-label="Play album"
+      aria-label="Play"
+      title="Play"
+      i18n-title="@@play"
       (click)="playAlbum()"
       mat-icon-button>
       <mat-icon>play_arrow</mat-icon>
     </button>
     <button
-      aria-label="Shuffle album"
+      aria-label="Shuffle"
+      title="Shuffle"
+      i18n-title="@@shuffle"
       (click)="playAlbum(true)"
       mat-icon-button>
       <mat-icon>shuffle</mat-icon>
     </button>
+    <button
+      aria-label="Songs"
+      title="Songs"
+      i18n-title="@@songs"
+      (click)="showList()"
+      [matMenuTriggerFor]="songMenu"
+      mat-icon-button>
+      <mat-icon>list</mat-icon>
+    </button>
   </div>
 </div>
+
+<mat-menu #songMenu="matMenu">
+  <div mat-menu-item
+       *ngFor="let songData of object?.relationships?.tracks?.data; let i = index">
+    <app-song
+      [songData]="songData"
+      [albumView]="true"
+      (uponPlay)="playSong(i)"
+    >
+    </app-song>
+  </div>
+</mat-menu>

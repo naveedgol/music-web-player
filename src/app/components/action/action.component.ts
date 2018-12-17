@@ -1,9 +1,9 @@
 import {Component, Input} from '@angular/core';
-import {AlbumModel} from 'src/app/models/album-model';
 import {PlayerService} from "../../services/player.service";
 import {ApiService} from "../../services/api.service";
 import {Observable} from "rxjs";
 import {ActionType} from "./action.type";
+import {TinyColor} from "@ctrl/tinycolor";
 
 @Component({
   selector: 'app-action',
@@ -30,9 +30,26 @@ export class ActionComponent {
     this.showActions = false;
   }
 
+  showList(): void {
+    event.stopPropagation();
+    this.load(() => console.log(this.object));
+  }
+
+  playSong(trackIndex: number): void {
+    this.playerService.setQueueFromItems(
+      this.object.relationships.tracks.data,
+      trackIndex
+    ).subscribe();
+  }
+
   playAlbum(shuffle: boolean = false): void {
     event.stopPropagation();
+    this.load(() => {
+      this.play(shuffle);
+    });
+  }
 
+  private load(callback?: Function): void {
     if (!this.isLoaded) {
       let obs: Observable<any>;
       if (this.type === ActionType.ALBUM) {
@@ -44,10 +61,14 @@ export class ActionComponent {
       obs.subscribe(data => {
         this.object = data;
         this.isLoaded = true;
-        this.play(shuffle);
+        if (callback) {
+          callback();
+        }
       });
     } else {
-      this.play(shuffle);
+      if (callback) {
+        callback();
+      }
     }
   }
 
