@@ -83,19 +83,6 @@ export class PlayerService {
       .pipe( mergeMap( x => this.musicKitService.musicKit.changeToMediaAtIndex( startIndex ) ) );
   }
 
-  setQueue( item, startIndex: number = 0 ): Observable<any> {
-    const itemPlayParams: PlayParams = item.attributes.playParams;
-    return from( this.musicKitService.musicKit.setQueue( { [itemPlayParams.kind]: itemPlayParams.id } ) )
-      .pipe( mergeMap( queue => {
-        queue['items'].forEach( queueItem => queueItem.collectionId = queueItem.id );
-        return this.musicKitService.musicKit.changeToMediaAtIndex( startIndex );
-      } ) );
-  }
-
-  playItem( item ): Observable<any> {
-    return this.setQueue( item ).pipe( mergeMap( x => this.play() ) );
-  }
-
   play(): Observable<any> {
     return from( this.player.play() );
   }
