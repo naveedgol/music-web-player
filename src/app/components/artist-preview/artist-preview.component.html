@@ -3,4 +3,28 @@
   [routerLink]="artistData.type === 'library-artists' ? ['/library/artists', artistData.id] : ['/artists', artistData.id]"
 >
   <span class="artist-name">{{artistData.attributes.name}}</span>
+  <button mat-icon-button [matMenuTriggerFor]="menu" (click)="moreActions()">
+    <mat-icon aria-label="More actions">more_vert</mat-icon>
+  </button>
 </div>
+
+<mat-menu #menu="matMenu">
+  <button
+    aria-label="Play"
+    title="Play"
+    i18n-title="@@play"
+    mat-menu-item
+    (click)="play()">
+    <mat-icon>play_arrow</mat-icon>
+    Play
+  </button>
+  <button
+    aria-label="Shuffle"
+    title="Shuffle"
+    i18n-title="@@shuffle"
+    mat-menu-item
+    (click)="play(true)">
+    <mat-icon>shuffle</mat-icon>
+    Shuffle
+  </button>
+</mat-menu>

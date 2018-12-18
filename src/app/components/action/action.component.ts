@@ -32,7 +32,7 @@ export class ActionComponent {
 
   showList(): void {
     event.stopPropagation();
-    this.load(() => console.log(this.object));
+    this.load();
   }
 
   playSong(trackIndex: number): void {
