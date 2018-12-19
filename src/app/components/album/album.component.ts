@@ -4,9 +4,10 @@ import { ApiService } from 'src/app/services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
 import { AlbumModel } from 'src/app/models/album-model';
 import { TinyColor } from '@ctrl/tinycolor';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar, MatDialog } from '@angular/material';
 import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
 import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
+import { AlbumDialogComponent } from '../dialog/album-dialog.component';
 
 @Component({
   selector: 'app-album',
@@ -28,7 +29,8 @@ export class AlbumComponent {
     private apiService: ApiService,
     private playerService: PlayerService,
     public snackBar: MatSnackBar,
-    private router: Router
+    private router: Router,
+    public dialog: MatDialog
   ) {
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
 
@@ -117,6 +119,14 @@ export class AlbumComponent {
     document.body.removeChild(selBox);
     this.snackBar.openFromComponent(CopySnackBarComponent, {
       duration: 1000
+    });
+  }
+
+  getInfo(): void {
+    this.dialog.open(AlbumDialogComponent, {
+      maxHeight: '50vh',
+      maxWidth: '800px',
+      data: this.albumData
     });
   }
 }

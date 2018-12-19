@@ -17,13 +17,13 @@
           <span class="album-name">{{albumData.attributes.name}}</span>
           <div>
             <span
-              *ngIf="!isLibrary"
+              *ngIf="!isLibrary && albumData.relationships.artists.data.length"
               [routerLink]="['/artists', albumData.relationships.artists.data[0].id]"
               class="artist-name linkable">
               {{albumData.attributes.artistName}}
             </span>
             <span
-              *ngIf="isLibrary"
+              *ngIf="isLibrary || !albumData.relationships.artists.data.length"
               class="artist-name">
               {{albumData.attributes.artistName}}
             </span>
@@ -75,6 +75,15 @@
               (click)="playLater()"
             >
               Play Later
+            </button>
+            <button
+              *ngIf="!isLibrary"
+              aria-label="Get info"
+              [ngStyle]="buttonStyling"
+              mat-menu-item
+              (click)="getInfo()"
+            >
+              Get Info
             </button>
             <button
               class="copy-link-button"
