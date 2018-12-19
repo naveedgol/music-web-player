@@ -3,7 +3,7 @@
   class="mat-typography outer-container"
 >
   <div *ngIf="albumData.attributes.editorialNotes">
-    <div class="editors-notes-title">Editors' Notes</div>
+    <div class="editors-notes-title" i18n="@@editorsNotes">Editors' Notes</div>
     <div
       *ngIf="albumData.attributes.editorialNotes.standard"
       [innerHTML]="albumData.attributes.editorialNotes.standard">
@@ -14,17 +14,17 @@
   </div>
 
   <div class="key-value-info" *ngIf="albumData.attributes.genreNames">
-    <span class="key">Genre:</span>
+    <span class="key"><span i18n="@@genre">Genre</span>:</span>
     <span>{{albumData.attributes.genreNames[0]}}</span>
   </div>
 
   <div class="key-value-info" *ngIf="albumData.attributes.releaseDate">
-    <span class="key">Release Date:</span>
+    <span class="key"><span i18n="@@releaseDate">Release Date</span>:</span>
     <span>{{albumData.attributes.releaseDate | date: 'longDate'}}</span>
   </div>
 
   <div class="key-value-info" *ngIf="albumData.attributes.recordLabel">
-    <span class="key">Record Label:</span>
+    <span class="key"><span i18n="@@recordLabel">Record Label</span>:</span>
     <span>{{albumData.attributes.recordLabel}}</span>
   </div>
 </div>

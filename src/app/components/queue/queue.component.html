@@ -1,6 +1,6 @@
 <mat-card class="popup" cdkDrag>
   <div class="queue-header" cdkDragHandle>
-    <span class="title">
+    <span class="title" i18n="@@upNext">
         Up Next
     </span>
     <button aria-label="Close" mat-icon-button (click)="close()">
@@ -18,7 +18,7 @@
       >
       </app-song>
     </cdk-virtual-scroll-viewport>
-    <div class="empty-queue-prompt" *ngIf="!playerService.queue.length">
+    <div class="empty-queue-prompt" *ngIf="!playerService.queue.length" i18n="@@queueIsEmpty">
       Queue is empty
     </div>
   </div>

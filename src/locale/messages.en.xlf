@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="search" datatype="html">
+        <source>Search</source>
+        <target>Search</target>
+      </trans-unit>
+      <trans-unit id="browse" datatype="html">
+        <source>Browse</source>
+        <target>Browse</target>
+      </trans-unit>
+      <trans-unit id="forYou" datatype="html">
+        <source>For You</source>
+        <target>For You</target>
+      </trans-unit>
+      <trans-unit id="library" datatype="html">
+        <source>Library</source>
+        <target>Library</target>
+      </trans-unit>
+      <trans-unit id="recentlyAdded" datatype="html">
+        <source>Recently Added</source>
+        <target>Recently Added</target>
+      </trans-unit>
+      <trans-unit id="artists" datatype="html">
+        <source>Artists</source>
+        <target>Artists</target>
+      </trans-unit>
+      <trans-unit id="albums" datatype="html">
+        <source>Albums</source>
+        <target>Albums</target>
+      </trans-unit>
+      <trans-unit id="songs" datatype="html">
+        <source>Songs</source>
+        <target>Songs</target>
+      </trans-unit>
+      <trans-unit id="playlists" datatype="html">
+        <source>Playlists</source>
+        <target>Playlists</target>
+      </trans-unit>
+      <trans-unit id="login" datatype="html">
+        <source>Login</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="upNext" datatype="html">
+        <source>Up Next</source>
+        <target>Up Next</target>
+      </trans-unit>
+      <trans-unit id="queueIsEmpty" datatype="html">
+        <source>Queue is empty</source>
+        <target>Queue is empty</target>
+      </trans-unit>
+      <trans-unit id="playNext" datatype="html">
+        <source>Play Next</source>
+        <target>Play Next</target>
+      </trans-unit>
+      <trans-unit id="playLater" datatype="html">
+        <source>Play Later</source>
+        <target>Play Later</target>
+      </trans-unit>
+      <trans-unit id="play" datatype="html">
+        <source>Play</source>
+        <target>Play</target>
+      </trans-unit>
+      <trans-unit id="shuffle" datatype="html">
+        <source>Shuffle</source>
+        <target>Shuffle</target>
+      </trans-unit>
+      <trans-unit id="copyLink" datatype="html">
+        <source>Copy Link</source>
+        <target>Copy Link</target>
+      </trans-unit>
+      <trans-unit id="noResultsFoundFor" datatype="html">
+        <source>No results found for</source>
+        <target>No results found for</target>
+      </trans-unit>
+      <trans-unit id="singles" datatype="html">
+        <source>Singles</source>
+        <target>Singles</target>
+      </trans-unit>
+      <trans-unit id="heavyRotation" datatype="html">
+        <source>Heavy Rotation</source>
+        <target>Heavy Rotation</target>
+      </trans-unit>
+      <trans-unit id="recentlyPlayed" datatype="html">
+        <source>Recently Played</source>
+        <target>Recently Played</target>
+      </trans-unit>
+      <trans-unit id="topAlbums" datatype="html">
+        <source>Top Albums</source>
+        <target>Top Albums</target>
+      </trans-unit>
+      <trans-unit id="topPlaylists" datatype="html">
+        <source>Top Playlists</source>
+        <target>Top Playlists</target>
+      </trans-unit>
+      <trans-unit id="topSongs" datatype="html">
+        <source>Top Songs</source>
+        <target>Top Songs</target>
+      </trans-unit>
+      <trans-unit id="bitrate" datatype="html">
+        <source>Bitrate</source>
+        <target>Bitrate</target>
+      </trans-unit>
+      <trans-unit id="high256" datatype="html">
+        <source>High (256 kbps)</source>
+        <target>High (256 kbps)</target>
+      </trans-unit>
+      <trans-unit id="standard64" datatype="html">
+        <source>Standard (64 kbps)</source>
+        <target>Standard (64 kbps)</target>
+      </trans-unit>
+      <trans-unit id="pleaseSubmitIssue" datatype="html">
+        <source>Please submit an issue on</source>
+        <target>Please submit an issue on</target>
+      </trans-unit>
+      <trans-unit id="forBugsAndFeature" datatype="html">
+        <source>for bugs and feature requests</source>
+        <target>for bugs and feature requests</target>
+      </trans-unit>
+      <trans-unit id="logout" datatype="html">
+        <source>Logout</source>
+        <target>Logout</target>
+      </trans-unit>
+      <trans-unit id="genre" datatype="html">
+        <source>Genre</source>
+        <target>Genre</target>
+      </trans-unit>
+      <trans-unit id="releaseDate" datatype="html">
+        <source>Release Date</source>
+        <target>Release Date</target>
+      </trans-unit>
+      <trans-unit id="recordLabel" datatype="html">
+        <source>Record Label</source>
+        <target>Record Label</target>
+      </trans-unit>
+      <trans-unit id="editorsNotes" datatype="html">
+        <source>Editors' Notes</source>
+        <target>Editors' Notes</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

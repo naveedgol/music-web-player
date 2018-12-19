@@ -1,6 +1,6 @@
 <div class="outer-container" *ngIf="!isLoading">
   <div>
-    <div class="section-title">Top Albums</div>
+    <div class="section-title" i18n="@@topAlbums">Top Albums</div>
     <div class="container">
       <div *ngFor="let data of topAlbums; let i = index">
         <app-album-preview
@@ -13,7 +13,7 @@
   </div>
 
   <div>
-    <div class="section-title">Top Playlists</div>
+    <div class="section-title" i18n="@@topPlaylists">Top Playlists</div>
     <div class="container">
       <div *ngFor="let data of topPlaylists; let i = index">
         <app-playlist-preview
@@ -26,7 +26,7 @@
   </div>
 
   <div>
-    <div class="section-title">Top Songs</div>
+    <div class="section-title" i18n="@@topSongs">Top Songs</div>
     <div class="top-songs-container">
       <app-song
         *ngFor="let songData of topSongs; let i = index"
