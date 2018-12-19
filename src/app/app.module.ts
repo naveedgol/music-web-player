@@ -47,6 +47,7 @@ import { SettingsComponent } from './components/settings/settings.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { AlbumDialogComponent } from './components/dialog/album-dialog.component';
+import {ActionComponent} from "./components/action/action.component";
 
 @NgModule({
   entryComponents: [
@@ -82,7 +83,8 @@ import { AlbumDialogComponent } from './components/dialog/album-dialog.component
     QueueSnackBarComponent,
     CopySnackBarComponent,
     SettingsComponent,
-    AlbumDialogComponent
+    AlbumDialogComponent,
+    ActionComponent
   ],
   imports: [
     BrowserAnimationsModule,
