@@ -9,7 +9,7 @@ import { TrackControlsComponent } from './components/track-controls/track-contro
 
 import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule, MatBottomSheetModule,
         MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatSnackBarModule, MatRadioModule,
-        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule } from '@angular/material';
+        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule, MatDialogModule } from '@angular/material';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';
@@ -46,9 +46,15 @@ import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.com
 import { SettingsComponent } from './components/settings/settings.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
+import { AlbumDialogComponent } from './components/dialog/album-dialog.component';
 
 @NgModule({
-  entryComponents: [QueueSnackBarComponent, CopySnackBarComponent, SettingsComponent],
+  entryComponents: [
+    QueueSnackBarComponent,
+    CopySnackBarComponent,
+    SettingsComponent,
+    AlbumDialogComponent
+  ],
   declarations: [
     AppComponent,
     TrackControlsComponent,
@@ -75,7 +81,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowseComponent,
     QueueSnackBarComponent,
     CopySnackBarComponent,
-    SettingsComponent
+    SettingsComponent,
+    AlbumDialogComponent
   ],
   imports: [
     BrowserAnimationsModule,
@@ -87,6 +94,7 @@ import { HttpClientModule } from '@angular/common/http';
     MatSnackBarModule,
     MatInputModule,
     MatRadioModule,
+    MatDialogModule,
     MatTabsModule,
     MatMenuModule,
     MatBottomSheetModule,
