@@ -41,6 +41,9 @@ export class TrackControlsComponent {
         case 'MediaPlay':
           this.togglePlayPause();
           break;
+        case 'MediaPlayPause':
+          this.togglePlayPause();
+          break;
         case 'MediaTrackNext':
           this.skipToNextItem();
           break;
