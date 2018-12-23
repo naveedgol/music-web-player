@@ -11,7 +11,11 @@ export class FormatArtworkUrlPipe implements PipeTransform {
     if ( !artworkUrl ) {
       return './assets/default.jpeg';
     }
-    return MusicKit.formatArtworkURL( { 'url': artworkUrl }, desiredDimension, desiredDimension );
+    const re = new RegExp('[0-9]{2,4}x[0-9]{2,4}');
+    if (re.test(artworkUrl)) {
+      artworkUrl = artworkUrl.replace(re, desiredDimension.toString() + 'x' + desiredDimension.toString());
+    }
+    return MusicKit.formatArtworkURL({ 'url': artworkUrl }, desiredDimension, desiredDimension); 
   }
 
 }
