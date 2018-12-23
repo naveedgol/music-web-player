@@ -44,16 +44,16 @@ export class TrackControlsComponent {
         case 'MediaTrackNext':
           this.skipToNextItem();
           break;
-        case 'ArrowRight':
-          this.skipToNextItem();
-          break;
         case 'MediaTrackPrevious':
           this.skipToPreviousItem();
           break;
-        case 'ArrowLeft':
+        case 'd':
+          this.skipToNextItem();
+          break;
+        case 'a':
           this.skipToPreviousItem();
           break;
-        case 'ArrowUp':
+        case 'w':
           if (this.lastVolume + .2 >= 10 || this.lastVolume === 10) {
             this.changeVolume(10);
             this.volumeSlider.value = 10;
@@ -62,7 +62,7 @@ export class TrackControlsComponent {
           this.changeVolume(this.lastVolume + .2);
           this.volumeSlider.value = this.lastVolume + .2;
           break;
-        case 'ArrowDown':
+        case 's':
           if (this.lastVolume - .2 <= 0 || this.lastVolume === 0) {
             this.changeVolume(0);
             this.volumeSlider.value = 0;
