@@ -1,0 +1,16 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - npm run build $APPLE_MUSIC_TOKEN
+  artifacts:
+    baseDirectory: dist/apple-music-web-player
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
