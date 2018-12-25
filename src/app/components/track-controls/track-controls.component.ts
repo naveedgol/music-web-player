@@ -2,7 +2,6 @@ import { Component, ViewChild, HostListener, Input, EventEmitter, Output } from 
 import { PlayerService, PlaybackStates } from '../../services/player.service';
 import { MatBottomSheet } from '@angular/material';
 import { SettingsComponent } from '../settings/settings.component';
-import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 
 @Component({
   selector: 'app-track-controls',
