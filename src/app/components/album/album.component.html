@@ -39,6 +39,7 @@
             class="album-button" mat-raised-button
             [ngStyle]="buttonStyling"
             (click)="playAlbum()"
+            i18n="@@play"
           >
             Play
           </button>
@@ -47,6 +48,7 @@
             class="album-button" mat-raised-button
             [ngStyle]="buttonStyling"
             (click)="playAlbum(true)"
+            i18n="@@shuffle"
           >
             Shuffle
           </button>
@@ -65,6 +67,7 @@
               [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="playNext()"
+              i18n="@@playNext"
             >
               Play Next
             </button>
@@ -73,6 +76,7 @@
               [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="playLater()"
+              i18n="@@playLater"
             >
               Play Later
             </button>
@@ -91,6 +95,7 @@
               [ngStyle]="buttonStyling"
               mat-menu-item
               (click)="copyLink()"
+              i18n="@@copyLink"
             >
               Copy Link
             </button>

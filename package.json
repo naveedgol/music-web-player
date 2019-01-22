@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "./build.sh",
+    "build-i18n": "for lang in pt en; do ./build-i18n.sh $lang; done",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
