@@ -16,7 +16,7 @@ export class MusicKitService {
         MusicKit.configure({
           developerToken: environment.token,
           app: {
-            name: 'Apple Music Web Player',
+            name: 'Music Web Player',
             build: '1.0'
           }
         });

@@ -1,6 +1,6 @@
 {
-  "name": "Apple Music",
-  "short_name": "Apple Music",
+  "name": "Music Player",
+  "short_name": "Music Player",
   "theme_color": "#1e3264",
   "background_color": "#212121",
   "display": "browser",

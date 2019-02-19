@@ -161,7 +161,7 @@ export class PlayerService {
     }
 
     if ( this.playbackState === PlaybackStates.PAUSED || this.playbackState === PlaybackStates.STOPPED ) {
-      this.titleService.setTitle('Apple Music Player');
+      this.titleService.setTitle('Music Player');
     } else {
       this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
     }
