@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "apple-music-web-player": {
+    "music-web-player": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/apple-music-web-player",
+            "outputPath": "dist/music-web-player",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "apple-music-web-player:build"
+            "browserTarget": "music-web-player:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "apple-music-web-player:build:production"
+              "browserTarget": "music-web-player:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "apple-music-web-player:build"
+            "browserTarget": "music-web-player:build"
           }
         },
         "test": {
@@ -109,7 +109,7 @@
         }
       }
     },
-    "apple-music-web-player-e2e": {
+    "music-web-player-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -118,11 +118,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "apple-music-web-player:serve"
+            "devServerTarget": "music-web-player:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "apple-music-web-player:serve:production"
+              "devServerTarget": "music-web-player:serve:production"
             }
           }
         },
@@ -138,5 +138,5 @@
       }
     }
   },
-  "defaultProject": "apple-music-web-player"
+  "defaultProject": "music-web-player"
 }

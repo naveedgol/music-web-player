@@ -8,7 +8,7 @@ frontend:
       commands:
         - npm run build $APPLE_MUSIC_TOKEN
   artifacts:
-    baseDirectory: dist/apple-music-web-player
+    baseDirectory: dist/music-web-player
     files:
       - '**/*'
   cache:
