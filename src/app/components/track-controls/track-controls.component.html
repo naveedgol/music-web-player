@@ -92,13 +92,18 @@
         <mat-icon>skip_next</mat-icon>
       </button>
 
-      <!-- <button
+       <!-- <button aria-label="loopitem" mat-icon-button (click)="toggleRepeatItem()" [disabled]="isLoading" [ngStyle]="{'color' : repeatModeColor}">
+        <mat-icon>loop</mat-icon>
+      </button> -->
+
+      <button
         mat-icon-button
         [style.color]="playerService.repeatMode !== 0 ? '#69f0ae' : ''"
         (click)="playerService.toggleRepeat()"
       >
         <mat-icon>{{playerService.repeatMode === 1 ? 'repeat_one' : 'repeat'}}</mat-icon>
-      </button> -->
+      </button>
+      
     </div>
     <div class="scrubber" *ngIf="!isMobile">
       <span class="time">{{currentPlaybackTime | formatSeconds }}</span>

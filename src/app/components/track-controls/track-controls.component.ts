@@ -16,6 +16,8 @@ export class TrackControlsComponent {
   lastVolume = 10;
   queueVisible = false;
 
+  repeatMode: boolean = false
+
   @ViewChild('volume') volumeSlider;
 
   constructor(
@@ -54,6 +56,10 @@ export class TrackControlsComponent {
     this.playerService.skipToPreviousItem().subscribe();
   }
 
+  // toggleRepeatItem(): void {
+  //   this.playerService.toggleRepeat();
+  // }
+
   seekToTime( time: number ): void {
     this.playerService.seekToTime( time ).subscribe();
   }
@@ -72,7 +78,6 @@ export class TrackControlsComponent {
       this.volumeSlider.value = this.lastVolume;
     }
   }
-
 
   get currentPlaybackDuration(): number {
     return this.playerService.currentPlaybackDuration;
