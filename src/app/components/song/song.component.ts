@@ -1,6 +1,7 @@
 import { Component, Input, Output, EventEmitter, OnInit, OnDestroy } from '@angular/core';
 import { PlayerService, PlaybackStates } from 'src/app/services/player.service';
 import { SongModel } from 'src/app/models/song-model';
+import { ArtistModel } from 'src/app/models/artist-model';
 import { MatSnackBar } from '@angular/material';
 import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
 
@@ -12,6 +13,7 @@ import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';
 export class SongComponent implements OnInit, OnDestroy {
 
   @Input() songData: SongModel;
+  @Input() artistData: ArtistModel;
   @Input() albumView = false;
   @Input() queueView = false;
   @Input() rank = 0;

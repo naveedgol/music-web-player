@@ -32,6 +32,7 @@
           <app-song
             *ngFor="let songData of songResults; let i = index"
             [songData]="songData"
+            [artistData]="getArtist(songData)"
             (uponPlay)="playSong(i)"
           >
           </app-song>
