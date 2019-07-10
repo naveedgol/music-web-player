@@ -13,11 +13,11 @@
     font-weight: 400;
     line-height: normal;
 
-    /deep/cdk-virtual-scroll-viewport {
+    ::ng-deepcdk-virtual-scroll-viewport {
         height: 100%;
     }
 
-    /deep/.cdk-virtual-scroll-content-wrapper {
+    ::ng-deep.cdk-virtual-scroll-content-wrapper {
         min-width: unset !important;
         width: 100%;
     }

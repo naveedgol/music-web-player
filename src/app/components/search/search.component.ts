@@ -25,7 +25,7 @@ export class SearchComponent implements OnInit {
   numOfResults = 0;
   lastQuery = '';
   isMobile = false;
-  @ViewChild('searchInput') searchInput;
+  @ViewChild('searchInput', { static: true }) searchInput;
 
   constructor(
     private apiService: ApiService,

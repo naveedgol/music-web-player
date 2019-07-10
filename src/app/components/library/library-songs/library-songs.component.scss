@@ -13,11 +13,11 @@
 .outer-container {
     height: 100%;
 
-    /deep/cdk-virtual-scroll-viewport {
+    ::ng-deepcdk-virtual-scroll-viewport {
         height: 100%;
     }
 
-    /deep/.cdk-virtual-scroll-content-wrapper {
+    ::ng-deep.cdk-virtual-scroll-content-wrapper {
         min-width: unset !important;
         padding: 10px;
         width: calc(100% - 20px);

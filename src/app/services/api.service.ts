@@ -28,19 +28,19 @@ export class ApiService {
     });
   }
 
-  fetchLibrarySongs( offset: number ): Observable<SongModel[]> {
+  fetchLibrarySongs( offset: number ): Observable<any> {
     return from( this.musicKitService.musicKit.api.library.songs( null, { limit: 100, offset: offset } ) );
   }
 
-  fetchLibraryAlbums( offset: number ): Observable<AlbumModel[]> {
+  fetchLibraryAlbums( offset: number ): Observable<any> {
     return from( this.musicKitService.musicKit.api.library.albums( null, { limit: 100, offset: offset } ) );
   }
 
-  fetchLibraryAlbum( id: string ): Observable<AlbumModel> {
+  fetchLibraryAlbum( id: string ): Observable<any> {
     return from( this.musicKitService.musicKit.api.library.album( id ) );
   }
 
-  fetchAlbum( id: string ): Observable<AlbumModel> {
+  fetchAlbum( id: string ): Observable<any> {
     return from( this.musicKitService.musicKit.api.album( id ) );
   }
 

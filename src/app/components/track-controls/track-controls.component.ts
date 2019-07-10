@@ -16,7 +16,7 @@ export class TrackControlsComponent {
   lastVolume = 10;
   queueVisible = false;
 
-  @ViewChild('volume') volumeSlider;
+  @ViewChild('volume', { static: false }) volumeSlider;
 
   constructor(
     public playerService: PlayerService,
