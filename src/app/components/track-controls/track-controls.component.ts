@@ -1,6 +1,6 @@
 import { Component, ViewChild, HostListener, Input, EventEmitter, Output } from '@angular/core';
 import { PlayerService, PlaybackStates } from '../../services/player.service';
-import { MatBottomSheet } from '@angular/material';
+import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SettingsComponent } from '../settings/settings.component';
 
 @Component({
@@ -24,7 +24,7 @@ export class TrackControlsComponent {
     ) {
   }
 
-  @HostListener('document:keydown.space', ['$event']) onSpaceKeydownHandler(event: KeyboardEvent) {
+  @HostListener('document:keydown.space', ['$event']) onSpaceKeydownHandler(event) {
     if ( event.srcElement.tagName !== 'INPUT' ) {
       event.preventDefault();
       this.togglePlayPause();

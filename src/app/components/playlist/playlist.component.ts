@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ApiService } from 'src/app/services/api.service';
 import { PlayerService } from 'src/app/services/player.service';
-import { MatSnackBar } from '@angular/material';
+import { MatSnackBar } from '@angular/material/snack-bar';
 import { CopySnackBarComponent } from '../snack-bar/copy-snack-bar.component';
 import { TinyColor } from '@ctrl/tinycolor';
 import { QueueSnackBarComponent } from '../snack-bar/queue-snack-bar.component';

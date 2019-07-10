@@ -7,9 +7,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrackControlsComponent } from './components/track-controls/track-controls.component';
 
-import { MatButtonModule, MatIconModule, MatSliderModule, MatListModule, MatFormFieldModule, MatBottomSheetModule,
-        MatSidenavModule, MatToolbarModule, MatCardModule, MatProgressSpinnerModule, MatSnackBarModule, MatRadioModule,
-        MatInputModule, MatButtonToggleModule, MatTabsModule, MatExpansionModule, MatMenuModule, MatDialogModule } from '@angular/material';
+import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
+import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatListModule } from '@angular/material/list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 
 import {DragDropModule} from '@angular/cdk/drag-drop';

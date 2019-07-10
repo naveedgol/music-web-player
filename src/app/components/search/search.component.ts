@@ -1,7 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ApiService } from 'src/app/services/api.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatTabChangeEvent, MatInput } from '@angular/material';
+import { MatInput } from '@angular/material/input';
+import { MatTabChangeEvent } from '@angular/material/tabs';
 import { PlayerService } from 'src/app/services/player.service';
 import { MusicKitService } from 'src/app/services/musicKit.service';
 
