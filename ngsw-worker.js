@@ -1909,7 +1909,8 @@ ${msgIdle}`, { headers: this.adapter.newHeaders({ 'Content-Type': 'text/plain' }
          * This is the transition point between the synchronous event handler and the
          * asynchronous execution that eventually resolves for respondWith() and waitUntil().
          */
-        onFetch(event){const req=event.request;const whitelist=['apple'];if(whitelist.some(word=>req.url.toLowerCase().includes(word.toLowerCase()))){return}
+        onFetch(event) {
+            const req = event.request;
             const scopeUrl = this.scope.registration.scope;
             const requestUrlObj = this.adapter.parseUrl(req.url, scopeUrl);
             if (req.headers.has('ngsw-bypass') || /[?&]ngsw-bypass(?:[=&]|$)/i.test(requestUrlObj.search)) {
