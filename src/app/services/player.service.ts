@@ -79,7 +79,7 @@ export class PlayerService {
 
   setQueueFromItems( items: SongModel[], startIndex: number = 0 ): Observable<any> {
     items.forEach( item => item['container'] = { 'id': item.id } );
-    return from( this.musicKitService.musicKit.setQueue( { 'items': items, startPosition: startIndex } ) )
+    return from( this.musicKitService.musicKit.setQueue( { 'items': items, startPosition: startIndex-1 } ) )
       .pipe( mergeMap( x => this.play() ) );
   }
 
