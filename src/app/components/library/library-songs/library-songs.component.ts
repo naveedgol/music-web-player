@@ -39,7 +39,14 @@ export class LibrarySongsComponent implements OnInit, OnDestroy {
     );
   }
 
-  playSong( trackIndex: number ): void {
-    this.playerService.setQueueFromItems( this.librarySongs, trackIndex ).subscribe();
+  playSong( trackIndex: number = 0, shuffle: boolean = false): void {
+    if (shuffle) {
+      this.playerService.toggleShuffleOn();
+    }
+    this.playerService.setQueueFromItems( this.librarySongs, trackIndex ).subscribe(() => {
+      if ( shuffle ) {
+        this.playerService.toggleShuffleOff();
+      }
+    });
   }
 }

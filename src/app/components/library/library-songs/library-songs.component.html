@@ -1,3 +1,20 @@
+<div class="library-bg">
+    <span class="library-title">Library</span>
+    <button
+      aria-label="Play playlist"
+      class="library-button" mat-raised-button
+      (click)="playSong()"
+    >
+      Play
+    </button>
+    <button
+      aria-label="Shuffle playlist"
+      class="library-button" mat-raised-button
+      (click)="playSong(0, true)"
+    >
+      Shuffle
+    </button>
+  </div>
 <div class="outer-container" *ngIf="!isLoading">
     <cdk-virtual-scroll-viewport itemSize="60">
         <app-song

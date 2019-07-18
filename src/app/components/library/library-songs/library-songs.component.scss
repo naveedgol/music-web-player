@@ -42,3 +42,24 @@
     top: calc( 50% - 50px );
     left: calc( 50% - 50px );
 }
+
+.library-bg{
+    background: rgba(255, 255, 255, 0.04);
+    margin-top: 10px;
+    height: 150px;
+
+}
+
+.library-button {
+    width: 100px;
+    margin-right: 10px;
+    opacity: 1.0;
+}
+
+.library-title {
+    font-weight: 500;
+    font-size: 38px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    display:block;
+}
