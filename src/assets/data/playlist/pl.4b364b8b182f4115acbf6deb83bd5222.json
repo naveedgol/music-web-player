@@ -1,0 +1,2140 @@
+{
+    "id": "pl.4b364b8b182f4115acbf6deb83bd5222",
+    "type": "playlists",
+    "href": "/v1/catalog/us/playlists/pl.4b364b8b182f4115acbf6deb83bd5222",
+    "attributes": {
+        "artwork": {
+            "width": 4320,
+            "height": 1080,
+            "url": "https://is3-ssl.mzstatic.com/image/thumb/Features113/v4/93/e6/90/93e69008-6e68-740c-2787-2366754cbf00/source/{w}x{h}cc.jpeg",
+            "bgColor": "000000",
+            "textColor1": "ffffff",
+            "textColor2": "d6dce5",
+            "textColor3": "cbcbcb",
+            "textColor4": "abb0b7"
+        },
+        "isChart": false,
+        "url": "https://music.apple.com/us/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
+        "lastModifiedDate": "2019-08-30T04:23:38Z",
+        "name": "¡Dale Play!",
+        "playlistType": "editorial",
+        "curatorName": "Apple Music Pop Latino",
+        "playParams": {
+            "id": "pl.4b364b8b182f4115acbf6deb83bd5222",
+            "kind": "playlist"
+        },
+        "description": {
+            "standard": "Hit play to hear the biggest Latin tracks from around the world. This playlist is updated often, so if you hear something you like, add it to your library.",
+            "short": "Manuel Turizo and Anuel AA remind you that if you play with fire—“Te Quemaste.”"
+        }
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1473377205",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473377205",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3a/90/77/3a90774a-041d-3d54-406f-163fb8bae8b7/mzaf_9344795204756098418.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/9b/07/49/9b074939-b31c-6f45-8501-afed44f91c52/886447833070.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "061128",
+                            "textColor1": "7bcde0",
+                            "textColor2": "64c3de",
+                            "textColor3": "63a8bb",
+                            "textColor4": "519fb9"
+                        },
+                        "artistName": "Manuel Turizo & Anuel AA",
+                        "url": "https://music.apple.com/us/album/te-quemaste/1473376798?i=1473377205",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 199091,
+                        "releaseDate": "2019-08-23",
+                        "name": "Te Quemaste",
+                        "isrc": "QZDYA1800017",
+                        "albumName": "ADN",
+                        "playParams": {
+                            "id": "1473377205",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Carlos E. Ortiz, Luis E. Ortiz & Nino Karlo Segarra"
+                    }
+                },
+                {
+                    "id": "1475557994",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475557994",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/88/0a/fb/880afb59-656c-1245-2b0e-6e1182f67835/mzaf_6779149862714418501.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4500,
+                            "height": 4500,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/ec/4c/cc/ec4cccec-3998-492a-6615-5d1c43fddd4d/886447540626.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d38f60",
+                            "textColor1": "170e0b",
+                            "textColor2": "321e0c",
+                            "textColor3": "3d281c",
+                            "textColor4": "52341d"
+                        },
+                        "artistName": "ROSALÍA & Ozuna",
+                        "url": "https://music.apple.com/us/album/yo-x-ti-tu-x-mi/1475557993?i=1475557994",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music"
+                        ],
+                        "durationInMillis": 201040,
+                        "releaseDate": "2019-08-15",
+                        "name": "Yo x Ti, Tu x Mi",
+                        "isrc": "USSM11900596",
+                        "albumName": "Yo x Ti, Tu x Mi - Single",
+                        "playParams": {
+                            "id": "1475557994",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Rosalia Vila Tobella, Pablo Diaz-Reixa & Jan Carlos Ozuna"
+                    }
+                },
+                {
+                    "id": "1473307010",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473307010",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/eb/b9/98/ebb99818-ef77-ca11-32c5-b45a9c257329/mzaf_5085885168368753749.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/25/f2/87/25f28785-831e-eec8-94c6-057e66edeba3/194491110918.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "c8d628",
+                            "textColor1": "000000",
+                            "textColor2": "0d1b26",
+                            "textColor3": "282b08",
+                            "textColor4": "324027"
+                        },
+                        "artistName": "Anuel AA, Daddy Yankee & KAROL G",
+                        "url": "https://music.apple.com/us/album/china-feat-j-balvin-ozuna/1473307002?i=1473307010",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 301714,
+                        "releaseDate": "2019-07-19",
+                        "name": "China (feat. J Balvin & Ozuna)",
+                        "isrc": "QM6P41952433",
+                        "albumName": "China (feat. J Balvin & Ozuna) - Single",
+                        "playParams": {
+                            "id": "1473307010",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Emmanuel Gazmey"
+                    }
+                },
+                {
+                    "id": "1476632805",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476632805",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/fc/74/b4/fc74b426-41a1-f5f6-22a0-0d4cbf39a981/mzaf_16935585239989759684.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/23/d7/51/23d75122-4d38-3f19-fd96-9958cd38dcb6/19UMGIM75188.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f5ec23",
+                            "textColor1": "000000",
+                            "textColor2": "4d0e24",
+                            "textColor3": "312f07",
+                            "textColor4": "6e3a24"
+                        },
+                        "artistName": "Reik, J Balvin & Lalo Ebratt",
+                        "url": "https://music.apple.com/us/album/indeciso/1476632804?i=1476632805",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 216848,
+                        "releaseDate": "2019-08-23",
+                        "name": "Indeciso",
+                        "isrc": "USUM71915898",
+                        "albumName": "Indeciso - Single",
+                        "playParams": {
+                            "id": "1476632805",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "J Balvin, German Duque, Felipe González, Eduardo Mario Ebratt & Chris Zadley"
+                    }
+                },
+                {
+                    "id": "1473531651",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473531651",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3f/05/3d/3f053d3b-66a7-6fff-c763-00713f75f983/mzaf_2371456736162186596.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/30/b6/8f/30b68fdd-cd11-d655-292b-5b48708b523f/192641345500_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1f061a",
+                            "textColor1": "f6d9e9",
+                            "textColor2": "feb2d0",
+                            "textColor3": "caafc0",
+                            "textColor4": "d18fac"
+                        },
+                        "artistName": "Sech, Ozuna & Anuel AA",
+                        "url": "https://music.apple.com/us/album/otro-trago-remix-feat-darell-nicky-jam/1473531650?i=1473531651",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music"
+                        ],
+                        "durationInMillis": 287773,
+                        "releaseDate": "2019-07-26",
+                        "name": "Otro Trago (Remix) [feat. Darell & Nicky Jam]",
+                        "isrc": "QM9WM1900138",
+                        "albumName": "Otro Trago (Remix) [feat. Darell & Nicky Jam] - Single",
+                        "playParams": {
+                            "id": "1473531651",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Carlos Isaias Morales Williams, Juan Carlos Ozuna Rosado, Nick Rivera Caminero, Darell Castro & Emmanuel Gazmey Santiago",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477662825",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477662825",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/52/2f/cc522fed-2d44-f3b7-bff9-f78b3c90c465/mzaf_1456654926025934671.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/65/81/50/6581508a-4bb8-3b85-b900-e68779277c58/19UMGIM34936.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a40c11",
+                            "textColor1": "feffff",
+                            "textColor2": "c5d9e4",
+                            "textColor3": "eccecf",
+                            "textColor4": "beb0ba"
+                        },
+                        "artistName": "Jhay Cortez, KAROL G & Haze",
+                        "url": "https://music.apple.com/us/album/des%C3%A9ame-suerte/1477662810?i=1477662825",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 208050,
+                        "releaseDate": "2019-08-30",
+                        "name": "Deséame Suerte",
+                        "isrc": "USUM71906435",
+                        "albumName": "Deséame Suerte - Single",
+                        "playParams": {
+                            "id": "1477662825",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jesús Manuel Nieves Cortes, Nydia Yera, Egbert Rosa, Julio Ramirez Egia, Pambo \"Alejandra Ruiz Ocampo\" & Carolina Giraldo Navarro"
+                    }
+                },
+                {
+                    "id": "1470146813",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470146813",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b4/6a/60/b46a602d-1d2d-f7e2-787e-545bed31fa1c/mzaf_17626143106472903169.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/0f/69/4f/0f694fcc-abac-817c-f60a-8534e1d643a1/19UMGIM55524.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "e7f4f4",
+                            "textColor2": "03caeb",
+                            "textColor3": "b9c4c4",
+                            "textColor4": "03a2bd"
+                        },
+                        "artistName": "J Balvin & Bad Bunny",
+                        "url": "https://music.apple.com/us/album/la-canci%C3%B3n/1470146332?i=1470146813",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 242573,
+                        "releaseDate": "2019-06-28",
+                        "name": "LA CANCIÓN",
+                        "isrc": "USUM71911618",
+                        "albumName": "OASIS",
+                        "playParams": {
+                            "id": "1470146813",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "J Balvin, José Nicael Arroyo, Benito Antonio Martinez Ocasio & Alejandro Ramirez"
+                    }
+                },
+                {
+                    "id": "1473876178",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473876178",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c1/61/80/c16180ed-fd6f-7386-0440-3a4dc9e9a072/mzaf_4300244294226924855.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/c6/2e/ef/c62eef64-e34d-3850-7f8a-5c2e9d9adc7d/886447860915.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "323232",
+                            "textColor1": "fefefe",
+                            "textColor2": "cffbf1",
+                            "textColor3": "d5d5d5",
+                            "textColor4": "b0d3ca"
+                        },
+                        "artistName": "Nicky Jam & Sech",
+                        "url": "https://music.apple.com/us/album/atr%C3%A9vete/1473876084?i=1473876178",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 198320,
+                        "releaseDate": "2019-08-02",
+                        "name": "Atrévete",
+                        "isrc": "USSD11900264",
+                        "albumName": "Atrévete - Single",
+                        "playParams": {
+                            "id": "1473876178",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nicky Jam, Juan Diego Medina, Carlos Isaías Morales Williams \"Sech\", Jorge Valdés \"Flow\", Manuel E. Cortés, Jhonattan Reyes & Joshua J. Méndez"
+                    }
+                },
+                {
+                    "id": "1461912690",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1461912690",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/65/a2/ec/65a2ecce-c30c-0b28-f117-f4a7c77874f5/mzaf_4000202172715903730.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/4a/38/b9/4a38b91e-77ea-63da-a693-d1a36690bf78/886447616321.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c1c1c",
+                            "textColor1": "dbf3f9",
+                            "textColor2": "74cbe1",
+                            "textColor3": "b8c8cd",
+                            "textColor4": "65a8ba"
+                        },
+                        "artistName": "Maluma",
+                        "url": "https://music.apple.com/us/album/no-se-me-quita-feat-ricky-martin/1461912465?i=1461912690",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 219933,
+                        "releaseDate": "2019-05-17",
+                        "name": "No Se Me Quita (feat. Ricky Martin)",
+                        "isrc": "USSD11900179",
+                        "albumName": "11:11",
+                        "playParams": {
+                            "id": "1461912690",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Juan Luis Londoño, Edgar Barrera, Servando Primera, Andrés Castro, Oscar Hernández & Jesus Herrera"
+                    }
+                },
+                {
+                    "id": "1475141984",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475141984",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/87/b5/86/87b586da-965f-b360-0d49-abc6f16fc3cc/mzaf_917369514874320140.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/42/e9/85/42e98519-641c-a346-be4d-bdf51cb4b6e4/886447860144.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "400906",
+                            "textColor1": "fee9ce",
+                            "textColor2": "d78e47",
+                            "textColor3": "d8bca6",
+                            "textColor4": "b9733a"
+                        },
+                        "artistName": "Camilo & Pedro Capó",
+                        "url": "https://music.apple.com/us/album/tutu/1475141976?i=1475141984",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 178613,
+                        "releaseDate": "2019-08-09",
+                        "name": "Tutu",
+                        "isrc": "USSD11900263",
+                        "albumName": "Tutu - Single",
+                        "playParams": {
+                            "id": "1475141984",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Camilo Echeverry \"Camilo\", Richi Lopez & Jon Leone"
+                    }
+                },
+                {
+                    "id": "1465503235",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1465503235",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8c/ee/20/8cee2085-7c1c-5fdb-f62d-b9a073db63f1/mzaf_6651000835579589989.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/04/7f/cd/047fcd74-c27a-55ab-1e0f-6add9cc0707b/193483903545.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "271a09",
+                            "textColor1": "ddf0f5",
+                            "textColor2": "e59d72",
+                            "textColor3": "b9c5c5",
+                            "textColor4": "bf835d"
+                        },
+                        "artistName": "Bad Bunny & Tainy",
+                        "url": "https://music.apple.com/us/album/callaita/1465503234?i=1465503235",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 250534,
+                        "releaseDate": "2019-05-31",
+                        "name": "Callaita",
+                        "isrc": "QM6N21919851",
+                        "albumName": "Callaita - Single",
+                        "playParams": {
+                            "id": "1465503235",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Benito A. Martinez",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477408903",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477408903",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b4/97/1b/b4971b61-28e5-536a-777f-22d371b3c1a1/mzaf_9785397679878221224.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/9d/3f/81/9d3f81f0-95ef-91e5-b916-9e955339ca02/192641066610_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f1f1f1",
+                            "textColor2": "87d4dd",
+                            "textColor3": "c1c1c1",
+                            "textColor4": "6caab0"
+                        },
+                        "artistName": "Dímelo Flow, Nicky Jam & Farruko",
+                        "url": "https://music.apple.com/us/album/el-favor-feat-sech-zion-lunay/1477408900?i=1477408903",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 233113,
+                        "releaseDate": "2019-08-30",
+                        "name": "El Favor (feat. Sech, Zion & Lunay)",
+                        "isrc": "USA2P1944692",
+                        "albumName": "El Favor (feat. Sech, Zion & Lunay) - Single",
+                        "playParams": {
+                            "id": "1477408903",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Farruko, Kevyn Mauricio Cruz Moreno, Justin Quiles, Jorge Valdez, Carlos Isaias Morales Williams, Jefnier Osorio, Nick Rivera Caminero, Félix Gerardo Ortíz, Ramses Herrera, Manuel Enrique Cortés, Simon Restrepo, Jhonattan Jacob Reyes, Joshua Mendez & Juan Camilo Vargas"
+                    }
+                },
+                {
+                    "id": "1472640369",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472640369",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/11/5d/ee/115dee13-6b81-9bcf-c002-67197e91ed6a/mzaf_16724373551855219642.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/f7/d1/56/f7d1567a-f8a6-1e2c-2fe3-f70b8c16941d/19UMGIM65616.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "eeb49c",
+                            "textColor1": "39090a",
+                            "textColor2": "101f0f",
+                            "textColor3": "5d2b27",
+                            "textColor4": "3c3d2b"
+                        },
+                        "artistName": "Guaynaa, Nicky Jam & Farruko",
+                        "url": "https://music.apple.com/us/album/rebota-feat-becky-g-sech-remix/1472640365?i=1472640369",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 261600,
+                        "releaseDate": "2019-07-12",
+                        "name": "Rebota (feat. Becky G. & Sech) [Remix]",
+                        "isrc": "QZGPB1910005",
+                        "albumName": "Rebota (Remix) [feat. Becky G. & Sech] - Single",
+                        "playParams": {
+                            "id": "1472640369",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Enrique L. Piñeiro Rivera, Jean Carlos Santiago, Carlos De Jesus Rodriguez, Juan L Rivera Medina, Nick Rivera Camerino, Juan Diego Medina, Rebbeca Marie Gomez, Carlos Efren Correa, Marcos G. Pérez, Franklin Jovani Martínez, Andy Bauza, Carlos Isaias Morales Williams, Jorge Valdés Vázquez, Luian Malavé, Kedin Maisonet, Xavier Semper Vargas, Edgar W Semper Vargas, Wander Manuel Mendez & Pablo Christian Fuentes"
+                    }
+                },
+                {
+                    "id": "1475830200",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475830200",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a4/d2/e3/a4d2e3f2-0fc0-9caa-f291-6e525999d5ee/mzaf_16281582501737995920.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/8d/7b/d5/8d7bd551-d58e-e54e-12c1-fb6f6fe6c75d/886447893951.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "19011e",
+                            "textColor1": "fce3fa",
+                            "textColor2": "eaa2a8",
+                            "textColor3": "cfb6ce",
+                            "textColor4": "c0818d"
+                        },
+                        "artistName": "Farina",
+                        "url": "https://music.apple.com/us/album/olv%C3%ADdame/1475830197?i=1475830200",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 193636,
+                        "releaseDate": "2019-08-16",
+                        "name": "Olvídame",
+                        "isrc": "USSD11900306",
+                        "albumName": "Olvídame - Single",
+                        "playParams": {
+                            "id": "1475830200",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Farina Pao Paucar Franco p/k/a Farina, Luis Jonuel González \"NaisGai\", Evaristo Pabon, Nino Karlo Segarra Sánchez \"Hutzle\", Mathew N. Perez, Emmanuel Sosa Pagán \"Sousa\" & Yajaira Neliza Muñiz Lago"
+                    }
+                },
+                {
+                    "id": "1473887703",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473887703",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/62/29/67/62296707-d853-f918-cdee-dc40f7aee922/mzaf_10450775290063684969.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/bb/0b/15/bb0b1547-f5d6-87e7-8637-0d181686c6ff/194491127794.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001323",
+                            "textColor1": "00dbee",
+                            "textColor2": "00b2db",
+                            "textColor3": "00b3c5",
+                            "textColor4": "0093b6"
+                        },
+                        "artistName": "Myke Towers, Farruko & Arcángel",
+                        "url": "https://music.apple.com/us/album/si-se-da-feat-sech-zion-remix/1473887702?i=1473887703",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 332240,
+                        "releaseDate": "2019-08-02",
+                        "name": "Si Se Da (feat. Sech & Zion) [Remix]",
+                        "isrc": "QM6P41962776",
+                        "albumName": "Si Se da Remix (feat. Sech & Zion) - Single",
+                        "playParams": {
+                            "id": "1473887703",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sech, Zion, Myke Towers, Farruko, Arcángel, Jose Reyes & Orlando Cepeda Matos",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473148905",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473148905",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e0/a9/9f/e0a99fa5-7e93-6ac0-34aa-1d6ba78b4fb4/mzaf_12501235096255542234.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/ec/e2/d0/ece2d014-5b1d-129c-0d39-c4a6721b09e1/19UMGIM60949.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ab1d1b",
+                            "textColor1": "f5e7d7",
+                            "textColor2": "fdc124",
+                            "textColor3": "e6bfb1",
+                            "textColor4": "eca022"
+                        },
+                        "artistName": "Tainy, Anuel AA & Ozuna",
+                        "url": "https://music.apple.com/us/album/adicto/1473148903?i=1473148905",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music"
+                        ],
+                        "durationInMillis": 270741,
+                        "releaseDate": "2019-08-16",
+                        "name": "Adicto",
+                        "isrc": "USUM71912751",
+                        "albumName": "Adicto - Single",
+                        "playParams": {
+                            "id": "1473148905",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Marco Masis, Jesús Manuel Nieves Cortes, EMMANUEL SANTIAGO & Juan Carlos Ozuna Rosado"
+                    }
+                },
+                {
+                    "id": "1472051304",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472051304",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c5/66/1e/c5661e88-704b-5f19-3665-053d0b83eb64/mzaf_11019374128662603274.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/de/7c/b8/de7cb8cb-73c0-586f-f389-7a66a6a81cd3/192641336713_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "010070",
+                            "textColor1": "fefbf4",
+                            "textColor2": "00fb01",
+                            "textColor3": "cbc8d9",
+                            "textColor4": "00c917"
+                        },
+                        "artistName": "IAmChino, Justin Quiles & Farruko",
+                        "url": "https://music.apple.com/us/album/baila-riddim-feat-quimico-ultra-mega/1472051295?i=1472051304",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 212880,
+                        "releaseDate": "2019-07-26",
+                        "name": "Baila Riddim (feat. Quimico Ultra Mega)",
+                        "isrc": "USNPW1900330",
+                        "albumName": "Baila Riddim (feat. Quimico Ultra Mega) - Single",
+                        "playParams": {
+                            "id": "1472051304",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jose Carlos Garcis, Jimmy Thornfeldt, Jorge Gomez Martinez, Brigam Zayas, Justin Quiles, Jose Carlos Garcis, Jimmy Thornfeldt, Jorge Gomez Martinez, Farruko & Jesus Jimenez"
+                    }
+                },
+                {
+                    "id": "1462982163",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462982163",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4b/50/53/4b505354-8714-9766-0d15-c42f94f9cfc1/mzaf_6573610732387033698.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f1/b8/65/f1b865ac-ec30-2a8c-8828-079729a8d964/192641311772_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000d31",
+                            "textColor1": "feb1fa",
+                            "textColor2": "0ca3d9",
+                            "textColor3": "cb91d1",
+                            "textColor4": "0a85b7"
+                        },
+                        "artistName": "Lunay, Daddy Yankee & Bad Bunny",
+                        "url": "https://music.apple.com/us/album/soltera-remix/1462982162?i=1462982163",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 266087,
+                        "releaseDate": "2019-05-01",
+                        "name": "Soltera (Remix)",
+                        "isrc": "USA2P1927909",
+                        "albumName": "Soltera (Remix) - Single",
+                        "playParams": {
+                            "id": "1462982163",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jefnier Osorio Moreno, Ramón L. Ayala, Benito A. Martinez, Juan G. Rivera, Carlos E. Ortiz, Luis E. Ortiz, Nino Karlo Segarra & Jorge Echevarria"
+                    }
+                },
+                {
+                    "id": "1476338343",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476338343",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4a/1b/d1/4a1bd193-2705-dc80-4a9d-545294fdbd0c/mzaf_8378192027013597863.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/38/8f/11/388f1199-79a7-456c-2f9b-71c1f33684ee/194491183394.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001037",
+                            "textColor1": "f1f0f5",
+                            "textColor2": "adbad3",
+                            "textColor3": "c1c3cf",
+                            "textColor4": "8a98b4"
+                        },
+                        "artistName": "Rauw Alejandro & Farruko",
+                        "url": "https://music.apple.com/us/album/fantas%C3%ADas/1476338342?i=1476338343",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 199711,
+                        "releaseDate": "2019-08-29",
+                        "name": "Fantasías",
+                        "isrc": "QM6P41989279",
+                        "albumName": "Fantasías - Single",
+                        "playParams": {
+                            "id": "1476338343",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Raul A. Ocasio, Carlos E. Reyes, Eric Perez, Franklin J. Martinez, Windel Edwards & Ricardo Lloyd Johnson"
+                    }
+                },
+                {
+                    "id": "1463090719",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1463090719",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ac/0f/f4/ac0ff413-0787-598a-b56d-ac2ca3894c0b/mzaf_5162741724172695762.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/63/3b/64/633b64e8-26bf-d25f-42e9-1ad0ce500c05/19UMGIM39417.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "181e1c",
+                            "textColor1": "01aeee",
+                            "textColor2": "3b9eea",
+                            "textColor3": "0591c4",
+                            "textColor4": "3484c1"
+                        },
+                        "artistName": "Jhay Cortez, J Balvin & Bad Bunny",
+                        "url": "https://music.apple.com/us/album/no-me-conoce-remix/1463090703?i=1463090719",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 307135,
+                        "releaseDate": "2019-05-24",
+                        "name": "No Me Conoce (Remix)",
+                        "isrc": "USUM71908293",
+                        "albumName": "Famouz",
+                        "playParams": {
+                            "id": "1463090719",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "J Balvin, Jesus M. Nieves Cortez, Benito Martinez Osorio, MICHAEL MASIS, Misael de la Cruz Reynoso PKA “MDLC & Nydia Yera"
+                    }
+                },
+                {
+                    "id": "1477670292",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477670292",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8c/15/0e/8c150eb6-9c7f-119d-c853-abcb72086ee6/mzaf_11112605596152793542.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4000,
+                            "height": 4000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/0f/04/63/0f0463c1-8295-f837-85d7-8756e671b636/190295369095.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0a0607",
+                            "textColor1": "f0f2f1",
+                            "textColor2": "f2a691",
+                            "textColor3": "c2c3c2",
+                            "textColor4": "c38675"
+                        },
+                        "artistName": "Lit Killah",
+                        "url": "https://music.apple.com/us/album/amor-ciego/1477670003?i=1477670292",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music",
+                            "Urbano latino"
+                        ],
+                        "durationInMillis": 191671,
+                        "releaseDate": "2019-08-29",
+                        "name": "Amor Ciego",
+                        "isrc": "ARF111900116",
+                        "albumName": "Amor Ciego - Single",
+                        "playParams": {
+                            "id": "1477670292",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Mauro Román Monzón & Sebastian Sanchez"
+                    }
+                },
+                {
+                    "id": "1473654755",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473654755",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/6d/e4/0a/6de40a86-8c9b-7bf3-6d2a-35bbee0b6a43/mzaf_14337898103829242751.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/06/6f/67/066f6784-fc27-ffa3-3340-566cb71c1660/19UMGIM62242.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d59a2",
+                            "textColor1": "d7f4f5",
+                            "textColor2": "add7f3",
+                            "textColor3": "aed5e4",
+                            "textColor4": "8dbee3"
+                        },
+                        "artistName": "DJ Snake, Sean Paul & Anitta",
+                        "url": "https://music.apple.com/us/album/fuego-feat-tainy/1473654374?i=1473654755",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 195427,
+                        "releaseDate": "2019-07-25",
+                        "name": "Fuego (feat. Tainy)",
+                        "isrc": "USUG11902391",
+                        "albumName": "Carte Blanche",
+                        "playParams": {
+                            "id": "1473654755",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "William Grigahcine, Marco Masis, Mike Sabath, Cris Chil & Camilo"
+                    }
+                },
+                {
+                    "id": "1470146805",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470146805",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/1d/a8/27/1da82771-09b5-60fd-57af-bb0994d4622c/mzaf_3797283600503588650.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/0f/69/4f/0f694fcc-abac-817c-f60a-8534e1d643a1/19UMGIM55524.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "e7f4f4",
+                            "textColor2": "03caeb",
+                            "textColor3": "b9c4c4",
+                            "textColor4": "03a2bd"
+                        },
+                        "artistName": "J Balvin & Bad Bunny",
+                        "url": "https://music.apple.com/us/album/qu%C3%A9-pretendes/1470146332?i=1470146805",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 222330,
+                        "releaseDate": "2019-06-28",
+                        "name": "QUÉ PRETENDES",
+                        "isrc": "USUM71912318",
+                        "albumName": "OASIS",
+                        "playParams": {
+                            "id": "1470146805",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "J Balvin, Benito Antonio Martinez Ocasio, Alejandro Ramirez & Daniel Esteban Taborda Valencia"
+                    }
+                },
+                {
+                    "id": "1466993305",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466993305",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/fa/8b/4a/fa8b4a20-3dd6-bedf-23d6-91daabcc7036/mzaf_13241182918688519015.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4000,
+                            "height": 4000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/aa/e3/ba/aae3ba37-f8a3-2399-9ade-ef3fbf47ce77/886447789803.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2e2020",
+                            "textColor1": "f9c224",
+                            "textColor2": "efaf27",
+                            "textColor3": "d0a223",
+                            "textColor4": "c89225"
+                        },
+                        "artistName": "Dayvi & Victor Cárdenas",
+                        "url": "https://music.apple.com/us/album/baila-conmigo-feat-kelly-ruiz/1466993282?i=1466993305",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 189818,
+                        "releaseDate": "2019-06-07",
+                        "name": "Baila Conmigo (feat. Kelly Ruiz)",
+                        "isrc": "MXF011900173",
+                        "albumName": "Baila Conmigo - Single (feat. Kelly Ruiz) - Single",
+                        "playParams": {
+                            "id": "1466993305",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Victor Cárdenas & David Sánchez"
+                    }
+                },
+                {
+                    "id": "1466147692",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466147692",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/68/37/df/6837dfe6-2c98-25fd-658d-75bf4088fae7/mzaf_9084840718259727656.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/b9/cb/5b/b9cb5bbc-6096-472a-4871-4bf8b937ef20/193483922843.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "efd319",
+                            "textColor1": "000914",
+                            "textColor2": "01121e",
+                            "textColor3": "2f3215",
+                            "textColor4": "31381d"
+                        },
+                        "artistName": "Ozuna",
+                        "url": "https://music.apple.com/us/album/te-so%C3%B1%C3%A9-de-nuevo/1466147687?i=1466147692",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 199813,
+                        "releaseDate": "2019-06-06",
+                        "name": "Te Soñé de Nuevo",
+                        "isrc": "QM6N21929871",
+                        "albumName": "Te Soñé de Nuevo - Single",
+                        "playParams": {
+                            "id": "1466147692",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jan Carlos Ozuna Rosado & Vicente Saavedra"
+                    }
+                },
+                {
+                    "id": "1472633171",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472633171",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e2/b0/36/e2b036c6-dbf3-ab58-28d6-780616cb6a90/mzaf_13826901281612470583.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/26/5c/32/265c3283-d06f-c0cc-8684-d42a6c40cb67/886447854662.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0e0e0e",
+                            "textColor1": "1fff2e",
+                            "textColor2": "7bf60d",
+                            "textColor3": "1bce28",
+                            "textColor4": "65c80d"
+                        },
+                        "artistName": "Mau y Ricky, Camilo & Lunay",
+                        "url": "https://music.apple.com/us/album/la-boca-remix/1472633162?i=1472633171",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 188468,
+                        "releaseDate": "2019-07-17",
+                        "name": "La Boca (Remix)",
+                        "isrc": "USSD11900247",
+                        "albumName": "La Boca (Remix) - Single",
+                        "playParams": {
+                            "id": "1472633171",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ricky Montaner, Marco Masis (Tainy), Jon Leone, Mau Montaner, Juan Morelli, Camilo Echeverry & Jefnier Osorio Moreno"
+                    }
+                },
+                {
+                    "id": "1466700569",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466700569",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9b/72/d2/9b72d2bc-4ffe-9630-eaaa-6b780e519b2c/mzaf_4133216719950725982.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/86/9b/b2/869bb204-8172-ad8b-76e8-6c524e96b7c2/19UMGIM46782.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "289cb1",
+                            "textColor1": "210104",
+                            "textColor2": "1b0710",
+                            "textColor3": "222027",
+                            "textColor4": "1d2530"
+                        },
+                        "artistName": "DJ Snake & J Balvin",
+                        "url": "https://music.apple.com/us/album/loco-contigo-feat-tyga/1466700223?i=1466700569",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 185195,
+                        "releaseDate": "2019-06-14",
+                        "name": "Loco Contigo (feat. Tyga)",
+                        "isrc": "USUG11901580",
+                        "albumName": "Loco Contigo (feat. Tyga) - Single",
+                        "playParams": {
+                            "id": "1466700569",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "J Balvin, William Grigahcine, Justin Quiles & Michael Ray Stevenson"
+                    }
+                },
+                {
+                    "id": "1470125391",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470125391",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/07/ee/3c/07ee3cb7-4fc5-e06f-9fb1-357bc6abd85b/mzaf_1072547673019259162.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/73/d0/04/73d0044d-bbe0-29f8-2f23-621e450c2b8d/190295389260.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "221e12",
+                            "textColor1": "e1a07f",
+                            "textColor2": "da8568",
+                            "textColor3": "bb8669",
+                            "textColor4": "b57057"
+                        },
+                        "artistName": "Piso 21 & Myke Towers",
+                        "url": "https://music.apple.com/us/album/una-vida-para-recordar/1470125386?i=1470125391",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 215087,
+                        "releaseDate": "2019-07-05",
+                        "name": "Una Vida Para Recordar",
+                        "isrc": "MXF151900280",
+                        "albumName": "Una Vida Para Recordar - Single",
+                        "playParams": {
+                            "id": "1470125391",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Myke Towers, David Escobar Gallego, David Lorduy Hernandez, Juan David Huertas Clavijo, Keityn, Mosty, Pablo Mejia Bermudez & Tezzel"
+                    }
+                },
+                {
+                    "id": "1468432223",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468432223",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/26/b1/b1/26b1b1fe-bfc9-f1ca-9a91-75109db3c74b/mzaf_6581011773684284568.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/14/38/e9/1438e9c9-a0f2-0e33-32c8-8c2acbb69538/19UMGIM51552.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "022f3d",
+                            "textColor1": "d2eae4",
+                            "textColor2": "b8dee0",
+                            "textColor3": "a9c5c3",
+                            "textColor4": "94bbbf"
+                        },
+                        "artistName": "Daddy Yankee & Wisin & Yandel",
+                        "url": "https://music.apple.com/us/album/si-supieras/1468432222?i=1468432223",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 241467,
+                        "releaseDate": "2019-06-28",
+                        "name": "Si Supieras",
+                        "isrc": "US2BU1900761",
+                        "albumName": "Si Supieras - Single",
+                        "playParams": {
+                            "id": "1468432223",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Daddy Yankee, Wisin & Yandel, Yandel, Eric Joel Lobo, Marco Masis, Raphy Pina, Francisco Saldaña & Gaby Music"
+                    }
+                },
+                {
+                    "id": "1461912470",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1461912470",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5d/e1/17/5de11726-b4da-6fae-385a-84e2eb267dd9/mzaf_6349662419285395073.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/4a/38/b9/4a38b91e-77ea-63da-a693-d1a36690bf78/886447616321.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c1c1c",
+                            "textColor1": "dbf3f9",
+                            "textColor2": "74cbe1",
+                            "textColor3": "b8c8cd",
+                            "textColor4": "65a8ba"
+                        },
+                        "artistName": "Maluma",
+                        "url": "https://music.apple.com/us/album/11-pm/1461912465?i=1461912470",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 175733,
+                        "releaseDate": "2019-05-17",
+                        "name": "11 PM",
+                        "isrc": "USSD11900166",
+                        "albumName": "11:11",
+                        "playParams": {
+                            "id": "1461912470",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Juan Luis Londoño, Edgar Barrera, Carlos Isaias Morales, Vicente Barco, Johany Alejandro Correa & Pedro Juan De La Ossa"
+                    }
+                },
+                {
+                    "id": "1475004183",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475004183",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/81/ab/57/81ab571f-a6e6-f581-fbec-010ebb6cbf29/mzaf_8420690074106532866.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/65/f9/00/65f900d8-2e8b-fe28-3988-8764706919c7/194491136789.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "16373e",
+                            "textColor1": "f7e386",
+                            "textColor2": "f6de70",
+                            "textColor3": "cac078",
+                            "textColor4": "c9bd66"
+                        },
+                        "artistName": "Arcángel",
+                        "url": "https://music.apple.com/us/album/te-esperar%C3%A9/1475004179?i=1475004183",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 196187,
+                        "releaseDate": "2019-08-16",
+                        "name": "Te Esperaré",
+                        "isrc": "QM6P41967393",
+                        "albumName": "Te Esperaré - Single",
+                        "playParams": {
+                            "id": "1475004183",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Austin Santos"
+                    }
+                },
+                {
+                    "id": "1461612465",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1461612465",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/77/cb/39/77cb39d5-4dcc-0567-1dae-49445160927b/mzaf_4657443195406453621.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/7d/c2/a1/7dc2a128-a137-0e32-bb18-7944e6909d95/858167007987_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ff8e41",
+                            "textColor1": "040001",
+                            "textColor2": "341419",
+                            "textColor3": "361c0e",
+                            "textColor4": "5c2c21"
+                        },
+                        "artistName": "Dalex, Nicky Jam & Justin Quiles",
+                        "url": "https://music.apple.com/us/album/cuaderno-feat-sech-lenny-tav%C3%A1rez-feid-rafa-pab%C3%B6n/1461611602?i=1461612465",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 286507,
+                        "releaseDate": "2019-05-10",
+                        "name": "Cuaderno (feat. Sech, Lenny Tavárez, Feid & Rafa Pabön)",
+                        "isrc": "QM9WM1900130",
+                        "albumName": "Climaxxx",
+                        "playParams": {
+                            "id": "1461612465",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Justin Quiles, PEDRO DAVID DALECCIO, Nick Rivera Caminero, Carlos Isaias Morales Williams, Julio Manuel González Tavarez, Salomón Villada Hoyos, Rafael E. Pabon Navedo & Ivo Alfredo Thomas Serue",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471233531",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471233531",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ed/04/6c/ed046c83-c7ed-67b6-09a2-a6f9f1eeecda/mzaf_15065469666606511721.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/94/3c/6b/943c6b13-a656-5057-5cb0-c530f51ceaa5/886447837375.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fefefc",
+                            "textColor1": "080800",
+                            "textColor2": "282b00",
+                            "textColor3": "393932",
+                            "textColor4": "525532"
+                        },
+                        "artistName": "Becky G. & Myke Towers",
+                        "url": "https://music.apple.com/us/album/dollar/1471233529?i=1471233531",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music"
+                        ],
+                        "durationInMillis": 203486,
+                        "releaseDate": "2019-07-10",
+                        "name": "DOLLAR",
+                        "isrc": "USRC11901917",
+                        "albumName": "DOLLAR - Single",
+                        "playParams": {
+                            "id": "1471233531",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nathaniel Campany, Rafa Rodriquez, Daniel Ignacio Rondon, Andrea Mangiamarchi, Luian Malavé Nieves, Edgar Semper, Xavier Semper, Hector Ramos Carbia, Rebbeca Marie Gomez, Michael Torres Monge, Jose M. Reyes Diaz & Orlando J. Cepeda Matos"
+                    }
+                },
+                {
+                    "id": "1465999773",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1465999773",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9a/aa/9c/9aaa9c68-e382-7237-fb9d-6a81963fca99/mzaf_18077293010622939055.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/df/94/3d/df943d4a-a0de-67d8-715a-68eb28b547ea/886447777954.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001f45",
+                            "textColor1": "faf1ea",
+                            "textColor2": "ede8e7",
+                            "textColor3": "c8c7c9",
+                            "textColor4": "bdc0c6"
+                        },
+                        "artistName": "Prince Royce & Manuel Turizo",
+                        "url": "https://music.apple.com/us/album/c%C3%BArame/1465999766?i=1465999773",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 203923,
+                        "releaseDate": "2019-06-07",
+                        "name": "Cúrame",
+                        "isrc": "USSD11900228",
+                        "albumName": "Cúrame - Single",
+                        "playParams": {
+                            "id": "1465999773",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Manuel Turizo, Prince Royce, Julian Turizo, Héctor Ramos, Kedin Maysonet, Edgar W. Semper, Xavier A. Semper, Luian Malavé Nieves, Henry Pulman, Elvin Peña, Francis Díaz & Juan Medina"
+                    }
+                },
+                {
+                    "id": "1460707404",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1460707404",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ed/62/47/ed62475b-7721-07e7-5e0c-c34bcf028300/mzaf_4970912332314097869.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/10/e3/39/10e33937-d323-6ded-03c0-d25459170eb4/193483775180.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "efd319",
+                            "textColor1": "01111d",
+                            "textColor2": "051f28",
+                            "textColor3": "30381c",
+                            "textColor4": "344325"
+                        },
+                        "artistName": "Ozuna, Daddy Yankee & J Balvin",
+                        "url": "https://music.apple.com/us/album/baila-baila-baila-feat-daddy-yankee-j-balvin-farruko/1460707396?i=1460707404",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 235284,
+                        "releaseDate": "2019-04-25",
+                        "name": "Baila Baila Baila (feat. Daddy Yankee, J Balvin, Farruko & Anuel AA) [Remix]",
+                        "isrc": "QM6MZ1955291",
+                        "albumName": "Baila Baila Baila (feat. Farruko, Anuel AA) [Remix] - Single",
+                        "playParams": {
+                            "id": "1460707404",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jan Carlos Ozuna Rosado"
+                    }
+                },
+                {
+                    "id": "1469125482",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469125482",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4e/ae/94/4eae9403-0e02-6ca8-902e-92e8d26781da/mzaf_4162032257883598761.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a6/cc/32/a6cc32fb-95e9-7fa2-83ca-0a55c99d09d1/193483993454.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "84ceb7",
+                            "textColor1": "010000",
+                            "textColor2": "341903",
+                            "textColor3": "1b2924",
+                            "textColor4": "443d27"
+                        },
+                        "artistName": "Anuel AA, Mambo Kingz & DJ Luian",
+                        "url": "https://music.apple.com/us/album/t%C3%BA-no-amas-feat-karol-g-arc%C3%A1ngel/1469125477?i=1469125482",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 273321,
+                        "releaseDate": "2019-06-19",
+                        "name": "Tú No Amas (feat. Karol G & Arcángel)",
+                        "isrc": "QZ7B81900012",
+                        "albumName": "Tú No Amas (feat. Karol G & Arcangel) - Single",
+                        "playParams": {
+                            "id": "1469125482",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Xavier Semper, Edgar W. Semper, Luian Malavé, Henry Pulman, Francis Díaz, Elvin Peña, Emanuel Gazmey, Austin Santos, Carolina Giraldo Navarro, Héctor Ramos, Wander Manuel Mendez & Kedin Maysonet"
+                    }
+                },
+                {
+                    "id": "1471401221",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471401221",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/43/b7/67/43b76772-ebd8-c790-139b-92fe7868b32f/mzaf_8647131350529742485.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/58/f8/a9/58f8a9aa-60d3-54e9-a3f3-c2decc15dc8a/886447816653.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ffffff",
+                            "textColor1": "02050b",
+                            "textColor2": "2a3639",
+                            "textColor3": "34373c",
+                            "textColor4": "555e60"
+                        },
+                        "artistName": "Abraham Mateo & CNCO",
+                        "url": "https://music.apple.com/us/album/me-vuelvo-loco/1471401218?i=1471401221",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 200709,
+                        "releaseDate": "2019-08-02",
+                        "name": "Me Vuelvo Loco",
+                        "isrc": "ES5021901158",
+                        "albumName": "Me Vuelvo Loco - Single",
+                        "playParams": {
+                            "id": "1471401221",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Abraham Mateo, Andrés Castro, Hector Montaner, Ender Thomas, Claudia Virginia Prieto, Joel Pimentel, Erick Brian Colón, Christopher Vélez, Richard Camacho, Zabdiel De Jesús & Víctor Viera Moore"
+                    }
+                },
+                {
+                    "id": "1473377126",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473377126",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/d7/ff/ccd7ff1a-2da2-7a58-39b2-a765e09d7462/mzaf_2840715624375709628.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/9b/07/49/9b074939-b31c-6f45-8501-afed44f91c52/886447833070.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "061128",
+                            "textColor1": "7bcde0",
+                            "textColor2": "64c3de",
+                            "textColor3": "63a8bb",
+                            "textColor4": "519fb9"
+                        },
+                        "artistName": "Manuel Turizo",
+                        "url": "https://music.apple.com/us/album/caso-perdido/1473376798?i=1473377126",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 211125,
+                        "releaseDate": "2019-08-16",
+                        "name": "Caso Perdido",
+                        "isrc": "QZDYA1800009",
+                        "albumName": "ADN",
+                        "playParams": {
+                            "id": "1473377126",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Manuel Turizo, Alejandro Patiño (Mosty), Julian Turizo, Juan Diego Medina & Julian Maya"
+                    }
+                },
+                {
+                    "id": "1464786951",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1464786951",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2e/39/0f/2e390f47-493d-1ca4-5354-473ffbe86035/mzaf_15155157251496771029.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2400,
+                            "height": 2400,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/77/4b/ce/774bce4c-0b00-9e89-4e65-d187cb07e069/190296870767.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "130e18",
+                            "textColor1": "e8f90e",
+                            "textColor2": "f8d190",
+                            "textColor3": "bdca10",
+                            "textColor4": "caaa78"
+                        },
+                        "artistName": "Reykon",
+                        "url": "https://music.apple.com/us/album/latina-feat-maluma/1464786950?i=1464786951",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 226739,
+                        "releaseDate": "2019-05-31",
+                        "name": "Latina (feat. Maluma)",
+                        "isrc": "USWL11900162",
+                        "albumName": "Latina (feat. Maluma) - Single",
+                        "playParams": {
+                            "id": "1464786951",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Alvaro Enrique Farias Cabrera, Andres Felipe Robeldo, David Muñoz, Gustavo Lopez, Jerickson Jesus Mendoza Gainza, Juan Luis Londoño, Mauricio Rojas, Rodrigo Rolando Mata & Sebastian Sanchez"
+                    }
+                },
+                {
+                    "id": "1472258781",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472258781",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ab/77/b8/ab77b836-eda6-02c1-d1c6-25b161496c1f/mzaf_5008099142602988558.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/ad/03/51/ad035123-e71e-5349-a044-400a768093fe/886447801772.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e3dfe0",
+                            "textColor1": "1d1d1d",
+                            "textColor2": "252427",
+                            "textColor3": "454444",
+                            "textColor4": "4b4a4c"
+                        },
+                        "artistName": "Leslie Grace, Justin Quiles & Play-N-Skillz",
+                        "url": "https://music.apple.com/us/album/sola/1472258780?i=1472258781",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 188420,
+                        "releaseDate": "2019-07-19",
+                        "name": "Sola",
+                        "isrc": "USSD11900213",
+                        "albumName": "Sola - Single",
+                        "playParams": {
+                            "id": "1472258781",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Leslie Grace, Juan Salinas, Oscar Salinas, David Macias, Willy \"Will\" Yanez, Rafael Regginalds Aponte a/k/a Reggi El Auténtico & Justin Rafael Quiles"
+                    }
+                },
+                {
+                    "id": "1461615036",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1461615036",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/7d/7a/f5/7d7af5c7-6fb4-da43-4441-c16cd75b16f8/mzaf_5958624558140547746.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/7d/c2/a1/7dc2a128-a137-0e32-bb18-7944e6909d95/858167007987_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ff8e41",
+                            "textColor1": "040001",
+                            "textColor2": "341419",
+                            "textColor3": "361c0e",
+                            "textColor4": "5c2c21"
+                        },
+                        "artistName": "Dalex",
+                        "url": "https://music.apple.com/us/album/pa-m%C3%AD-feat-rafa-pab%C3%B6n-khea-sech-feid-cazzu-lenny-tav%C3%A1rez/1461611602?i=1461615036",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 360960,
+                        "releaseDate": "2019-02-07",
+                        "name": "Pa Mí (feat. Rafa Pabön, Khea, Sech, Feid, Cazzu & Lenny Tavárez) [Remix]",
+                        "isrc": "QM9WM1900002",
+                        "albumName": "Climaxxx",
+                        "playParams": {
+                            "id": "1461615036",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "PEDRO DAVID DALECCIO, Rafael E. Pabon Navedo, Ivo Alfredo Thomas Serue, Carlos Isaias Morales Williams, Salomón Villada Hoyos, Julieta Cazzuchelli & Julio Manuel González Tavarez",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1456308572",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1456308572",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/93/ef/f2/93eff29a-95c1-ed7c-2922-3cf0f06f134c/mzaf_5894296296092319419.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/32/47/cf/3247cf88-9d55-ee47-c45e-0db86e64e59a/193483615998.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "006450",
+                            "textColor1": "fcffff",
+                            "textColor2": "faef39",
+                            "textColor3": "c9dfdc",
+                            "textColor4": "c8d33d"
+                        },
+                        "artistName": "DJ Luian, Mambo Kingz & Anuel AA",
+                        "url": "https://music.apple.com/us/album/verte-ir-feat-nicky-jam-darell-brytiago/1456308569?i=1456308572",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 267500,
+                        "releaseDate": "2019-03-28",
+                        "name": "Verte Ir (feat. Nicky Jam, Darell & Brytiago)",
+                        "isrc": "QZ7B81700011",
+                        "albumName": "Verte Ir (feat. Nicky Jam, Darell & Brytiago) - Single",
+                        "playParams": {
+                            "id": "1456308572",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Eladio Carrión, Bryan Cancel, Osval Elias Castro, Emanuel Gazmey, Nick Caminero, Héctor Ramos, Xavier Semper, Edgar Semper, Luian Malavé & Kedin Maysonet"
+                    }
+                },
+                {
+                    "id": "1445474682",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1445474682",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/1a/38/52/1a38520d-d2af-1194-e584-6b2aa551bdf0/mzaf_7772941638898840938.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/76/46/fa/7646fa1b-7f74-19c2-453a-2931bd954f01/050742349004_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "7b5b54",
+                            "textColor1": "fbf8f9",
+                            "textColor2": "f2beb4",
+                            "textColor3": "e2d9d8",
+                            "textColor4": "daaaa0"
+                        },
+                        "artistName": "Anuel AA & Haze",
+                        "url": "https://music.apple.com/us/album/amanece/1445474496?i=1445474682",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 190005,
+                        "releaseDate": "2018-12-14",
+                        "name": "Amanece",
+                        "isrc": "USDXS1806044",
+                        "albumName": "Amanece - Single",
+                        "playParams": {
+                            "id": "1445474682",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472240887",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472240887",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d2/24/63/d224634c-ba1a-316b-2236-8431ad8fc0a4/mzaf_4894319202577217636.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/99/ff/47/99ff4748-b049-b756-7191-94f3d7d6aa41/194491072599.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "8bc64b",
+                            "textColor1": "360330",
+                            "textColor2": "3a0a34",
+                            "textColor3": "472a35",
+                            "textColor4": "4a2f39"
+                        },
+                        "artistName": "Ozuna & Anitta",
+                        "url": "https://music.apple.com/us/album/muito-calor/1472240878?i=1472240887",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino",
+                            "Pop"
+                        ],
+                        "durationInMillis": 185147,
+                        "releaseDate": "2019-07-11",
+                        "name": "Muito Calor",
+                        "isrc": "QM6P41935596",
+                        "albumName": "Muito Calor - Single",
+                        "playParams": {
+                            "id": "1472240887",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jan Carlos Ozuna Rosado, Larissa de Macedo Machado, Gabriel Rodríguez, José Antonio Aponte, Luis A. O'Neill, Salomón Villada Hoyos & Vicente Saavedra"
+                    }
+                },
+                {
+                    "id": "1456422565",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1456422565",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2e/5d/1e/2e5d1ee7-d110-02af-c0a0-6596fcdcf32b/mzaf_6622256699994937094.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/58/11/d9/5811d9be-751f-a707-5387-1e9549d63cf8/886447628355.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "515151",
+                            "textColor1": "f2f2f2",
+                            "textColor2": "eaeaea",
+                            "textColor3": "d2d2d2",
+                            "textColor4": "cbcbcb"
+                        },
+                        "artistName": "Nicky Jam & Ozuna",
+                        "url": "https://music.apple.com/us/album/te-robar%C3%A9/1456422563?i=1456422565",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 201818,
+                        "releaseDate": "2019-03-22",
+                        "name": "Te Robaré",
+                        "isrc": "USSD11900072",
+                        "albumName": "Te Robaré - Single",
+                        "playParams": {
+                            "id": "1456422565",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nick Rivera Caminero, Juan Diego Medina, Carlos E. Ortiz, Juan G. Rivera & Nino Karlo Segarra"
+                    }
+                },
+                {
+                    "id": "1462966665",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462966665",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/20/c1/4b/20c14b60-859a-4d78-0506-181a7dccd328/mzaf_5171562853263610664.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2400,
+                            "height": 2400,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/88/dd/43/88dd4369-2f35-72df-9ab4-a76b279e5499/190296871962.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ddcabb",
+                            "textColor1": "0a0d12",
+                            "textColor2": "0b111b",
+                            "textColor3": "343333",
+                            "textColor4": "35363b"
+                        },
+                        "artistName": "Paulo Londra",
+                        "url": "https://music.apple.com/us/album/tal-vez/1462966662?i=1462966665",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 263899,
+                        "releaseDate": "2019-05-23",
+                        "name": "Tal Vez",
+                        "isrc": "USWL11900063",
+                        "albumName": "Homerun",
+                        "playParams": {
+                            "id": "1462966665",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Cristian Salazar, Daniel Echavarria Oviedo & Paulo Ezequiel Londra"
+                    }
+                },
+                {
+                    "id": "1467301766",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1467301766",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e4/52/9e/e4529e54-2cf5-450b-fdbd-c14153da8b72/mzaf_16669043242507085573.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/70/61/ad/7061ad7a-3a3e-5a51-8d50-8139bb3b9563/19UMGIM49625.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "091418",
+                            "textColor1": "fbffff",
+                            "textColor2": "4fd5ed",
+                            "textColor3": "cacfd0",
+                            "textColor4": "41afc2"
+                        },
+                        "artistName": "Sebastián Yatra, Daddy Yankee & Natti Natasha",
+                        "url": "https://music.apple.com/us/album/runaway-feat-jonas-brothers/1467301462?i=1467301766",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 200693,
+                        "releaseDate": "2019-06-21",
+                        "name": "Runaway (feat. Jonas Brothers)",
+                        "isrc": "USUM71910638",
+                        "albumName": "Runaway (feat. Jonas Brothers) - Single",
+                        "playParams": {
+                            "id": "1467301766",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sebastián Yatra, Daddy Yankee, Natti Natasha, Andrés Torres, Mauricio Rengifo, J. Angel & Raphy Pina"
+                    }
+                },
+                {
+                    "id": "1472694084",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472694084",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/90/41/93/90419349-1251-e2f1-11d6-ad941c20ff39/mzaf_17109421763982965095.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/d6/4a/b8/d64ab802-cdec-3352-1f9a-2ee09311d2c8/19UMGIM49790.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "cac5cb",
+                            "textColor1": "291610",
+                            "textColor2": "2a1c14",
+                            "textColor3": "493935",
+                            "textColor4": "4a3e38"
+                        },
+                        "artistName": "Lalo Ebratt, Juanes & Skinny Happy",
+                        "url": "https://music.apple.com/us/album/todo-bien-feat-yera-trapical/1472694082?i=1472694084",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 217091,
+                        "releaseDate": "2019-07-26",
+                        "name": "Todo Bien (feat. Yera & Trapical)",
+                        "isrc": "ES5701900589",
+                        "albumName": "Todo Bien (feat. Yera & Trapical) - Single",
+                        "playParams": {
+                            "id": "1472694084",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Miguel Angel Ospino Herrera, Eduardo Mario Ebratt Troncoso, Santiago Delgado Melguizo, Camilo Santiago Vasquez & Juan Esteban Aristizabal"
+                    }
+                },
+                {
+                    "id": "1468143887",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468143887",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9e/38/56/9e3856b7-6176-a078-8ff8-033970a0c9ce/mzaf_13950981143820668311.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/05/61/d9/0561d956-3123-ba41-f98a-3f5a858896ea/193483969503.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0b4432",
+                            "textColor1": "dfe0e2",
+                            "textColor2": "a7dad0",
+                            "textColor3": "b4c1bf",
+                            "textColor4": "88bcb0"
+                        },
+                        "artistName": "Bad Bunny & Myke Towers",
+                        "url": "https://music.apple.com/us/album/estamos-arriba/1468143875?i=1468143887",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 225694,
+                        "releaseDate": "2019-06-14",
+                        "name": "Estamos Arriba",
+                        "isrc": "QM6N21969039",
+                        "albumName": "Estamos Arriba - Single",
+                        "playParams": {
+                            "id": "1468143887",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Benito A. Martinez Ocasio & MICHAEL TORRES",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469593214",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469593214",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5a/42/9a/5a429ad7-dbd8-3ec7-3af6-a30b5ff6a7ba/mzaf_8603090603802004980.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/3a/b5/e2/3ab5e284-112d-8df1-96d3-a8ddedc9e43a/886447819135.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c2c2c",
+                            "textColor1": "f8d37c",
+                            "textColor2": "dead66",
+                            "textColor3": "cfb16c",
+                            "textColor4": "ba935a"
+                        },
+                        "artistName": "ChocQuibTown & Becky G.",
+                        "url": "https://music.apple.com/us/album/que-me-baile/1469593201?i=1469593214",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 223846,
+                        "releaseDate": "2019-06-28",
+                        "name": "Que Me Baile",
+                        "isrc": "USSD11900243",
+                        "albumName": "Que Me Baile - Single",
+                        "playParams": {
+                            "id": "1469593214",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Carlos Valencia \"Tostao\", Yhoan Jimenez, Miguel Martínez \"Slow Mike\", Gloria Martínez \"Goyo\", Johnattan Gaviria, Felipe Arias, Kevyn Cruz Moreno, Juan Camilo Vargas & Rebecca Marie Gomez"
+                    }
+                },
+                {
+                    "id": "1449106558",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1449106558",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/80/23/56/8023562a-071e-6451-5ccc-4dfcf54556d4/mzaf_2374377263711850405.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/d4/4f/c3/d44fc356-b037-4fe1-3ecb-d2575bc776b0/00602577433467.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "bd0520",
+                            "textColor1": "f8ffff",
+                            "textColor2": "f2ccdb",
+                            "textColor3": "eccdd2",
+                            "textColor4": "e8a4b6"
+                        },
+                        "artistName": "Daddy Yankee",
+                        "url": "https://music.apple.com/us/album/con-calma-feat-snow/1449106551?i=1449106558",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 192827,
+                        "releaseDate": "2019-01-24",
+                        "name": "Con Calma (feat. Snow)",
+                        "isrc": "US2BU1900125",
+                        "albumName": "Con Calma (feat. Snow) - Single",
+                        "playParams": {
+                            "id": "1449106558",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ramón Ayala, Juan G. Rivera “Gaby Music” & Darrin Kenneth O'Brien"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.4b364b8b182f4115acbf6deb83bd5222/tracks"
+        },
+        "curator": {
+            "data": [
+                {
+                    "id": "976439549",
+                    "type": "apple-curators",
+                    "href": "/v1/catalog/us/apple-curators/976439549"
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.4b364b8b182f4115acbf6deb83bd5222/curator"
+        }
+    }
+}

@@ -20,7 +20,7 @@ export class BrowseComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.apiService.fetchChart().subscribe( data => {
+    this.apiService.fetchChartStatic().subscribe(data => {
       this.topAlbums = data.albums[0].data;
       this.topPlaylists = data.playlists[0].data;
       this.topSongs = data.songs[0].data;
@@ -28,8 +28,8 @@ export class BrowseComponent implements OnInit {
     });
   }
 
-  playSong( trackIndex: number ): void {
-    this.playerService.setQueueFromItems( this.topSongs, trackIndex ).subscribe();
+  playSong(trackIndex: number): void {
+    this.playerService.setQueueFromItems(this.topSongs, trackIndex).subscribe();
   }
 
 }

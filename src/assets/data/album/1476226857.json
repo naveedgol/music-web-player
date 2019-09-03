@@ -1,0 +1,1530 @@
+{
+    "id": "1476226857",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1476226857",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "050a0d",
+            "textColor1": "e4edef",
+            "textColor2": "c5bca3",
+            "textColor3": "b7bfc1",
+            "textColor4": "9f9885"
+        },
+        "artistName": "Quality Control",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/quality-control-control-the-streets-vol-2/1476226857",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music",
+            "Dirty South",
+            "Rap"
+        ],
+        "trackCount": 36,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-08-16",
+        "name": "Quality Control: Control the Streets, Vol. 2",
+        "recordLabel": "Quality Control Music/Motown Records",
+        "copyright": "Quality Control Music/Motown Records; ℗ 2019 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+        "playParams": {
+            "id": "1476226857",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Having spent a quick half-decade launching the careers of hip-hop superstars like Migos, Lil Yachty, and Lil Baby, as well as supporting the journeys of countless others, Atlanta-based Quality Control has not-so-quietly become one of the most formidable labels in music. Its <i>Control the Streets, Vol. 1</i>, released in 2017, was a showcase for huge stars both on the label (Migos, Yachty) and off (Cardi B, Young Thug), as well as a preview of acts whose profiles had yet to fully blossom, including Tee Grizzley, Moneybagg Yo, and newly minted Quality Control signees Lil Baby and City Girls.<br />\n<i>Control the Streets, Vol. 2</i> follows a similar blueprint, headlined by those two up-and-comers turned actual stars alongside increasingly familiar QC faces Stefflon Don and Marlo. Yachty and Migos anchor the compilation of 36 new tracks, the latter appearing both together and solo on songs with Megan Thee Stallion, DaBaby, and Travis Scott. Appearances from burgeoning voices like Renni Rucci, 24 Heavy, and Rylo Rodriguez are also not to be missed, if for no other reason than the opportunity to say you knew who they were before the rest of the world did.",
+            "short": "A talent-rich showcase from hip-hop’s fastest-growing empire."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "1273783982",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/1273783982"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1476226857/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1476226874",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226874",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c6/cc/ed/c6cced48-f489-4517-a256-6c1a7f07e05b/mzaf_4692038330658088689.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Migos & Lil Yachty",
+                        "url": "https://music.apple.com/us/album/intro-feat-gucci-mane/1476226857?i=1476226874",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 213613,
+                        "releaseDate": "2019-08-01",
+                        "name": "Intro (feat. Gucci Mane)",
+                        "isrc": "USUG11900752",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226874",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Miles Parks McCollum, Kiari Kendrell Cephus, Kirsnick Khari Ball, Quavious Keyate Marshall, Radric Delantic Davis & Daryl McPherson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226880",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226880",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/bb/9e/9e/bb9e9e3d-3a18-2837-27ad-0112e451b2e4/mzaf_4904053756149089234.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Lil Yachty",
+                        "url": "https://music.apple.com/us/album/once-again-feat-tee-grizzley/1476226857?i=1476226880",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 167944,
+                        "releaseDate": "2019-08-09",
+                        "name": "Once Again (feat. Tee Grizzley)",
+                        "isrc": "USUG11902833",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226880",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Terry Sanchez Wallace Jr., Miles Parks McCollum & Martin McCurtis",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226882",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226882",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/23/3c/a6/233ca669-8f2b-d891-d88e-b298cacc3606/mzaf_7138883152618389925.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Lil Baby & DaBaby",
+                        "url": "https://music.apple.com/us/album/baby/1476226857?i=1476226882",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 142417,
+                        "releaseDate": "2019-07-17",
+                        "name": "Baby",
+                        "isrc": "USUG11900748",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226882",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Dominique Jones, Jonathan L. Kirk & Wesley Glass",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226884",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226884",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/94/48/5f/94485f90-95da-af7a-2328-c872ae4c19f7/mzaf_6337387256703207375.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Offset",
+                        "url": "https://music.apple.com/us/album/what-it-is/1476226857?i=1476226884",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 147692,
+                        "releaseDate": "2019-08-16",
+                        "name": "What It Is",
+                        "isrc": "USUG11902847",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226884",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Kedrick Cannady & Kiari Kendrell Cephus",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226948",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226948",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d8/39/8b/d8398ba7-1bf2-5773-9373-0cada7bf097f/mzaf_10399354134978875219.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Migos",
+                        "url": "https://music.apple.com/us/album/frosted-flakes/1476226857?i=1476226948",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 258741,
+                        "releaseDate": "2019-08-15",
+                        "name": "Frosted Flakes",
+                        "isrc": "USUG11900774",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226948",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Earl Isaac Bynum, Ty-Ron Douglas, Joshua Parker, Quavious Keyate Marshall, Kirsnick Khari Ball & Kiari Kendrell Cephus",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226951",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226951",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/3b/48/7e/3b487eca-1bca-f030-9e80-a09099b3b44d/mzaf_3115822590717414630.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Quavo & City Girls",
+                        "url": "https://music.apple.com/us/album/pastor-feat-megan-thee-stallion/1476226857?i=1476226951",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 160014,
+                        "releaseDate": "2019-08-16",
+                        "name": "Pastor (feat. Megan Thee Stallion)",
+                        "isrc": "USUG11902845",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226951",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Quavious Marshall, Jatavia Johnson, Caresha Brownlee & Shane Lindstrom",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226956",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226956",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/03/17/c6/0317c6ef-b4d5-1ca0-199e-c48b7acc139e/mzaf_4125150076322507042.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Takeoff",
+                        "url": "https://music.apple.com/us/album/i-suppose/1476226857?i=1476226956",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 151891,
+                        "releaseDate": "2019-08-16",
+                        "name": "I Suppose",
+                        "isrc": "USUG11902831",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226956",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Kirsnick Khari Ball, Daryl McPherson, Tim Gomringer & Kevin Gomringer",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226958",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226958",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/fb/53/db/fb53db19-6a6e-b0de-2d0e-e01daadd0c97/mzaf_10770007235667572223.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Lil Baby",
+                        "url": "https://music.apple.com/us/album/back-on/1476226857?i=1476226958",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 145349,
+                        "releaseDate": "2019-08-16",
+                        "name": "Back On",
+                        "isrc": "USUG11900762",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226958",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Dominique Jones",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226959",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226959",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/87/80/f1/8780f1c4-3d58-d146-7eba-2912e37dc74b/mzaf_12580348643254355341.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Offset & DaBaby",
+                        "url": "https://music.apple.com/us/album/pink-toes-feat-gunna/1476226857?i=1476226959",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 217220,
+                        "releaseDate": "2019-08-16",
+                        "name": "Pink Toes (feat. Gunna)",
+                        "isrc": "USUG11902849",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226959",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Kiari Kendrell Cephus, Sergio Kitchens, Jonathan Kirk & Leland Wayne",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226965",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226965",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2e/f7/75/2ef77576-12d3-2086-9378-b9e9d9189928/mzaf_13773213678417141160.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Lil Yachty",
+                        "url": "https://music.apple.com/us/album/dead-man-walking/1476226857?i=1476226965",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 121939,
+                        "releaseDate": "2019-08-16",
+                        "name": "Dead Man Walking",
+                        "isrc": "USUG11900772",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226965",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Miles Parks McCollum & Ty-Ron Douglas",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226966",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226966",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/00/16/71/001671e8-fb27-a89d-691b-187e14ac5fc0/mzaf_17630799879626090191.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Offset",
+                        "url": "https://music.apple.com/us/album/100-racks-feat-playboi-carti/1476226857?i=1476226966",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 157645,
+                        "releaseDate": "2019-08-16",
+                        "name": "100 Racks (feat. Playboi Carti)",
+                        "isrc": "USUG11900756",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226966",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Kiari Kendrell Cephus, Leland Wayne & Jordan Carti",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226970",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226970",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/15/c2/43/15c24398-f639-4390-9484-fc9c3d3dfee4/mzaf_14764723317075326295.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Quavo",
+                        "url": "https://music.apple.com/us/album/double-trouble-feat-meek-mill/1476226857?i=1476226970",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 176911,
+                        "releaseDate": "2019-08-16",
+                        "name": "Double Trouble (feat. Meek Mill)",
+                        "isrc": "USUG11900754",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226970",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Quavious Marshall, Joshua Parker, Terence Williams, Robert Rihmeek Williams & Dylan Krell",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226972",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226972",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/6b/9e/f8/6b9ef864-f288-087e-8f2d-40365172fde3/mzaf_17176998360019806490.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Takeoff",
+                        "url": "https://music.apple.com/us/album/bless-em-feat-travis-scott/1476226857?i=1476226972",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180447,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bless Em (feat. Travis Scott)",
+                        "isrc": "USUG11900770",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226972",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Kirsnick Khari Ball, Jacques Webster & Dwan Avery",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226973",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226973",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/99/f9/b8/99f9b87b-96b2-055b-86b4-1d145a919341/mzaf_8614897838816593155.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, City Girls & Stefflon Don",
+                        "url": "https://music.apple.com/us/album/like-that-feat-renni-rucci-mustard/1476226857?i=1476226973",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 219034,
+                        "releaseDate": "2019-08-16",
+                        "name": "Like That (feat. Renni Rucci & Mustard)",
+                        "isrc": "USUG11902851",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226973",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Caresha Brownlee, Jatavia Johnson & Stephanie Allen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226974",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226974",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/fa/59/a6/fa59a635-7a59-6876-d857-a71234d86c8d/mzaf_1513551888085587718.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Offset",
+                        "url": "https://music.apple.com/us/album/big-rocks-feat-young-thug/1476226857?i=1476226974",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 144000,
+                        "releaseDate": "2019-08-16",
+                        "name": "Big Rocks (feat. Young Thug)",
+                        "isrc": "USUG11900768",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226974",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Kiari Kendrell Cephus, Jeffrey Williams & Wesley Glass",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226975",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226975",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c1/c0/4d/c1c04db0-c8fa-f281-623f-e34bf5ac3adf/mzaf_17838725780947612521.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Quavo",
+                        "url": "https://music.apple.com/us/album/virgil/1476226857?i=1476226975",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 170935,
+                        "releaseDate": "2019-08-16",
+                        "name": "Virgil",
+                        "isrc": "USUG11902841",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226975",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Quavious Marshall & Daryl McPherson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227036",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227036",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/79/e2/45/79e24538-fb0d-6c7c-94e3-37226dfacb73/mzaf_1604396674043424149.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Takeoff",
+                        "url": "https://music.apple.com/us/album/magellanic/1476226857?i=1476227036",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 139784,
+                        "releaseDate": "2019-08-16",
+                        "name": "Magellanic",
+                        "isrc": "USUG11900760",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227036",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Kirsnick Khari Ball & Daryl McPherson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227038",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227038",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/6b/07/ba/6b07ba22-6298-e432-cb4b-2e93c767cab4/mzaf_12601745332198016498.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Layton Greene & Lil Baby",
+                        "url": "https://music.apple.com/us/album/leave-em-alone-feat-city-girls-pnb-rock/1476226857?i=1476227038",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 171647,
+                        "releaseDate": "2019-05-29",
+                        "name": "Leave Em Alone (feat. City Girls & PnB Rock)",
+                        "isrc": "USUG11900730",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227038",
+                            "kind": "song"
+                        },
+                        "trackNumber": 18,
+                        "composerName": "Layton Greene, Rodney Jerkins, Ciara Harris, Curtis Jackson, Lashawn Daniels, Christian Ward, Lerron Carson, Carl McCormick, Raquelle Anteola, Dominique Jones & Rakim Allen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227039",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227039",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/96/9d/9f/969d9f72-9138-f7eb-a55b-23183db4db8b/mzaf_15331294791511506568.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Lil Baby",
+                        "url": "https://music.apple.com/us/album/ride-feat-rylo-rodriguez-24heavy/1476226857?i=1476227039",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 234099,
+                        "releaseDate": "2019-08-16",
+                        "name": "Ride (feat. Rylo Rodriguez & 24Heavy)",
+                        "isrc": "USUG11902825",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227039",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "composerName": "Dominique Jones, Ryan Adams & Ricky Hill",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227041",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227041",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c1/d0/5b/c1d05b30-00a2-b0d2-04e2-bbbe43577eed/mzaf_4754896817727420346.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "French Montana",
+                        "url": "https://music.apple.com/us/album/wiggle-it-feat-city-girls/1476226857?i=1476227041",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 171235,
+                        "releaseDate": "2019-07-12",
+                        "name": "Wiggle It (feat. City Girls)",
+                        "isrc": "USSM11904316",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "trackNumber": 20,
+                        "composerName": "Karim Kharbouch, Caresha Brownlee, Jatavia Johnson, Raynford Humphrey, Benjamin Diehl, Gamal Lewis, Hugh Brankin, John Reid, Ross Campbell & Graham Wilson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227043",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227043",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8c/e9/90/8ce99076-081b-bfc5-28d6-dc4464c59c1d/mzaf_5265332336617726877.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Migos",
+                        "url": "https://music.apple.com/us/album/stripper-bowl/1476226857?i=1476227043",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 202072,
+                        "releaseDate": "2019-06-20",
+                        "name": "Stripper Bowl",
+                        "isrc": "USUG11900740",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227043",
+                            "kind": "song"
+                        },
+                        "trackNumber": 21,
+                        "composerName": "Ty-Ron Douglas, Quavious Keyate Marshall, Kirsnick Khari Ball & Kiari Kendrell Cephus",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227044",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227044",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/59/ea/78/59ea78fe-02c6-d899-8b3d-1aadae4fce05/mzaf_9931531347117727724.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, City Girls & Saweetie",
+                        "url": "https://music.apple.com/us/album/come-on-feat-dj-durel/1476226857?i=1476227044",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 187995,
+                        "releaseDate": "2019-07-17",
+                        "name": "Come On (feat. DJ Durel)",
+                        "isrc": "USUG11900746",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227044",
+                            "kind": "song"
+                        },
+                        "trackNumber": 22,
+                        "composerName": "Jatavia Johnson, Diamonté Harper, Daryl McPherson, Kevin Gomringer, Tim Gomringer, Caresha Brownlee, Teiron Robinson & Kinta Cox",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227045",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227045",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/81/40/5e/81405e1c-c9a3-0cae-c661-fab2fa51451e/mzaf_9626499617266041859.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Marlo & Offset",
+                        "url": "https://music.apple.com/us/album/soakin-wet-feat-city-girls/1476226857?i=1476227045",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 177586,
+                        "releaseDate": "2019-05-09",
+                        "name": "Soakin Wet (feat. City Girls)",
+                        "isrc": "QZ4JX1761064",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227045",
+                            "kind": "song"
+                        },
+                        "trackNumber": 23,
+                        "composerName": "Rudolph Johnson, Kiari Cephus & Kinta Cox",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227046",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227046",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/26/9e/2d/269e2d33-5f73-242b-09f0-5c8488909918/mzaf_18427918931262698705.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & 24Heavy",
+                        "url": "https://music.apple.com/us/album/longtime-feat-young-thug/1476226857?i=1476227046",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180380,
+                        "releaseDate": "2019-08-01",
+                        "name": "Longtime (feat. Young Thug)",
+                        "isrc": "USUG11900750",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227046",
+                            "kind": "song"
+                        },
+                        "trackNumber": 24,
+                        "composerName": "Mario Petersen, Leon Krol, Vladislav Mokhin, Pascal Punz, Ricky Hill & Jeffery Williams",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227047",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227047",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9a/56/e7/9a56e70d-5c0e-de97-b482-b2e31ddc9e6c/mzaf_14738522925447523842.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Duke Deuce",
+                        "url": "https://music.apple.com/us/album/yeh/1476226857?i=1476227047",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 186854,
+                        "releaseDate": "2019-08-16",
+                        "name": "Yeh",
+                        "isrc": "QZ4JX1761069",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227047",
+                            "kind": "song"
+                        },
+                        "trackNumber": 25,
+                        "composerName": "Patavious Isom",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227049",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227049",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a9/b8/1f/a9b81f26-3c9b-eb74-880d-2bd4678ed285/mzaf_11278250075684132549.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Migos & Lil Yachty",
+                        "url": "https://music.apple.com/us/album/menace/1476226857?i=1476227049",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 144337,
+                        "releaseDate": "2019-08-16",
+                        "name": "Menace",
+                        "isrc": "USUG11902843",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227049",
+                            "kind": "song"
+                        },
+                        "trackNumber": 26,
+                        "composerName": "Miles Parks McCollum, Quavious Marshall, Kiari Kendrell Cephus & Earl Isaac Bynum",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227050",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227050",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/0a/8f/7a/0a8f7a08-b6d2-7628-385a-50a59d210aa5/mzaf_12432237332976891767.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Marlo",
+                        "url": "https://music.apple.com/us/album/big-bag/1476226857?i=1476227050",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 175584,
+                        "releaseDate": "2019-08-16",
+                        "name": "Big Bag",
+                        "isrc": "USUG11900766",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227050",
+                            "kind": "song"
+                        },
+                        "trackNumber": 27,
+                        "composerName": "Rudolph Johnson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227058",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227058",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/1d/4d/53/1d4d53d0-7ff7-0ac3-4981-349f1966db6d/mzaf_737742602373900839.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Duke Deuce",
+                        "url": "https://music.apple.com/us/album/grab-a-feat-tay-keith/1476226857?i=1476227058",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 143996,
+                        "releaseDate": "2019-08-16",
+                        "name": "Grab a... (feat. Tay Keith)",
+                        "isrc": "USUG11902827",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227058",
+                            "kind": "song"
+                        },
+                        "trackNumber": 28,
+                        "composerName": "Patavious Isom & Brytavious Lakeith Chambers",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227059",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227059",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/34/3c/c8/343cc867-7f89-f177-fbe1-e52b09db5865/mzaf_261202349121773007.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Lil Yachty",
+                        "url": "https://music.apple.com/us/album/killin-time-feat-offset-mango-foo/1476226857?i=1476227059",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 132761,
+                        "releaseDate": "2019-08-16",
+                        "name": "Killin' Time (feat. Offset & Mango Foo)",
+                        "isrc": "USUG11902853",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227059",
+                            "kind": "song"
+                        },
+                        "trackNumber": 29,
+                        "composerName": "Miles Parks McCollum, Kiari Kendrell Cephus & Earl Isaac Bynum",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227159",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227159",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/84/4b/d5/844bd58b-a08c-15b8-6310-70ecd9e926bc/mzaf_6953138504218517037.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Kollision",
+                        "url": "https://music.apple.com/us/album/bait/1476226857?i=1476227159",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 145449,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bait",
+                        "isrc": "USUG11900764",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227159",
+                            "kind": "song"
+                        },
+                        "trackNumber": 30,
+                        "composerName": "Rodriquez Woods",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227160",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227160",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/89/61/73/8961732b-ee09-c477-66d4-c27cd604d877/mzaf_6834508765882675400.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, DAYYTONA FOX & YRN Lingo",
+                        "url": "https://music.apple.com/us/album/shoulder/1476226857?i=1476227160",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 112144,
+                        "releaseDate": "2019-08-16",
+                        "name": "Shoulder",
+                        "isrc": "USUG11902835",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227160",
+                            "kind": "song"
+                        },
+                        "trackNumber": 31,
+                        "composerName": "David Miguel Southworth, Timothy Johnson III & Ezekiel Davenport",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227168",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227168",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ea/58/e3/ea58e324-cdb2-c51c-28c0-f76d483257bf/mzaf_7943575136732139440.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Jordan Hollywood",
+                        "url": "https://music.apple.com/us/album/testament/1476226857?i=1476227168",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 223245,
+                        "releaseDate": "2019-08-16",
+                        "name": "Testament",
+                        "isrc": "USUG11902837",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227168",
+                            "kind": "song"
+                        },
+                        "trackNumber": 32,
+                        "composerName": "Jordan Gomez & Samuel Jiminez",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227170",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227170",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ef/3f/24/ef3f2431-48df-7b44-b5cd-ebde97ded9d1/mzaf_9409911539565313697.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Mango Foo & Offset",
+                        "url": "https://music.apple.com/us/album/get-em-in/1476226857?i=1476227170",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 222722,
+                        "releaseDate": "2019-08-16",
+                        "name": "Get Em In",
+                        "isrc": "USUG11900776",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227170",
+                            "kind": "song"
+                        },
+                        "trackNumber": 33,
+                        "composerName": "Shane Lindstrom, Kiari Kendrell Cephus & Michael Millhouse",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227181",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227181",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/aa/c3/dc/aac3dc21-bfc5-c4d2-4cde-92cbd68537de/mzaf_4233124499075838890.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Domingo & Duke Deuce",
+                        "url": "https://music.apple.com/us/album/murda/1476226857?i=1476227181",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 223627,
+                        "releaseDate": "2019-08-16",
+                        "name": "Murda",
+                        "isrc": "USUG11902839",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227181",
+                            "kind": "song"
+                        },
+                        "trackNumber": 34,
+                        "composerName": "Fabio Aguilar, Patavious Isom, Keanu Dean Torres, Niles Terrell Groce & Dominic Spigner",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476227191",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227191",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b0/af/23/b0af2369-0a85-c031-ee16-3f3b4e3e1673/mzaf_8242507724621863845.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Street Bud",
+                        "url": "https://music.apple.com/us/album/aint-nuthin/1476226857?i=1476227191",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 177515,
+                        "releaseDate": "2019-08-16",
+                        "name": "Ain't Nuthin",
+                        "isrc": "USUG11900758",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227191",
+                            "kind": "song"
+                        },
+                        "trackNumber": 35,
+                        "composerName": "Leon T Smith, Derrick Baker, Marcus Cooper, Corey Mathis, James Scheffer, Diamond Smith, Joseph Smith & Spectacular Smith"
+                    }
+                },
+                {
+                    "id": "1476227201",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476227201",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/18/13/50/18135013-0123-0df5-6494-1cbf6c1bd6d0/mzaf_15397243133782754449.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & YRN Murk",
+                        "url": "https://music.apple.com/us/album/hit/1476226857?i=1476227201",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 206769,
+                        "releaseDate": "2019-08-16",
+                        "name": "Hit",
+                        "isrc": "USUG11902829",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476227201",
+                            "kind": "song"
+                        },
+                        "trackNumber": 36,
+                        "composerName": "Kedrick Cannady",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1476226857/tracks"
+        }
+    }
+}

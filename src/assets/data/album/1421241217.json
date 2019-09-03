@@ -1,0 +1,755 @@
+{
+    "id": "1421241217",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1421241217",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "a2bad1",
+            "textColor1": "1b0300",
+            "textColor2": "082647",
+            "textColor3": "36272a",
+            "textColor4": "264463"
+        },
+        "artistName": "Travis Scott",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/astroworld/1421241217",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music",
+            "Dirty South",
+            "Rap"
+        ],
+        "trackCount": 17,
+        "isMasteredForItunes": true,
+        "releaseDate": "2018-08-03",
+        "name": "ASTROWORLD",
+        "recordLabel": "Cactus Jack / Epic / Grand Hustle",
+        "copyright": "℗ 2018 Epic Records/Sony. With Cactus Jack and Grand Hustle.",
+        "playParams": {
+            "id": "1421241217",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Travis Scott sent a message to Apple Music about his third album, playfully attributed to Stormi, his infant daughter: “Just BUCKLE UP.” Stormi can’t speak yet, presumably, but the sentiment still rings true for a record named after a closed amusement park in his native Houston. <i>ASTROWORLD</i> delivers its twists and turns via some of Scott’s most personal lyrics yet, unexpected musical arrangements, and a diverse guest list. “SICKO MODE” features multiple beat changes and Drake halted midverse, playing like some kind of funhouse trip. Other sideshows include Stevie Wonder playing harmonica, James Blake crooning, The Weeknd emoting, and Tame Impala’s Kevin Parker shredding — but the main attraction is still Scott's life. On album closer “COFFEE BEAN,” Scott tells an unnamed lover, \"Your family told you I'm a bad move...plus I'm already a black dude.\" At 17 tracks, <i>ASTROWORLD</i> is like any great theme park: There’s just so much to see.",
+            "short": "A tour of the shadowy theme park that is the Houston MC’s mind."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1421242380",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242380",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/f0/fc/37/f0fc37bc-e4e7-1604-2861-035f36fda2eb/mzaf_8260832711220275169.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/stargazing/1421241217?i=1421242380",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 270715,
+                        "releaseDate": "2018-08-03",
+                        "name": "STARGAZING",
+                        "isrc": "USSM11806658",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242380",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421242388",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242388",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/99/d6/4c/99d64c5d-b236-c1f5-37b6-966f1255d6c3/mzaf_145897888127549803.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/carousel/1421241217?i=1421242388",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180183,
+                        "releaseDate": "2018-08-03",
+                        "name": "CAROUSEL",
+                        "isrc": "USSM11806659",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242388",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421242781",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242781",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/95/83/ee/9583ee9b-68bb-7e91-c032-1f8805157854/mzaf_896336562892407790.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/sicko-mode/1421241217?i=1421242781",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 312820,
+                        "releaseDate": "2018-08-21",
+                        "name": "SICKO MODE",
+                        "isrc": "USSM11806660",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242781",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421242785",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242785",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/54/80/a0/5480a03b-cf5f-c8a3-5afb-da627127be62/mzaf_5786825707226229393.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/r-i-p-screw/1421241217?i=1421242785",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 185610,
+                        "releaseDate": "2018-08-03",
+                        "name": "R.I.P. SCREW",
+                        "isrc": "USSM11806661",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242785",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421242791",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242791",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/57/77/a5/5777a57a-b64d-b312-0098-697286d26c52/mzaf_6880755996149600693.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/stop-trying-to-be-god/1421241217?i=1421242791",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 338438,
+                        "releaseDate": "2018-08-03",
+                        "name": "STOP TRYING TO BE GOD",
+                        "isrc": "USSM11806662",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242791",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421242807",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421242807",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/67/85/ec/6785ec8d-3f36-8342-861e-11499df4b228/mzaf_6756779891234244192.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/no-bystanders/1421241217?i=1421242807",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 218283,
+                        "releaseDate": "2018-08-03",
+                        "name": "NO BYSTANDERS",
+                        "isrc": "USSM11806663",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421242807",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243024",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243024",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/fc/37/13/fc3713f5-ddc8-2b1e-69a9-e82bcd6ac145/mzaf_675376708312896896.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/skeletons/1421241217?i=1421243024",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 145588,
+                        "releaseDate": "2018-08-03",
+                        "name": "SKELETONS",
+                        "isrc": "USSM11806664",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243024",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243049",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243049",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/13/c4/ff/13c4ff1b-205f-92e2-98c0-ef548de37e88/mzaf_5553434005461499865.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/wake-up/1421241217?i=1421243049",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 231964,
+                        "releaseDate": "2018-08-03",
+                        "name": "WAKE UP",
+                        "isrc": "USSM11806665",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243049",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243055",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243055",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/e9/04/b7/e904b748-9514-b53d-33cf-76d9388ca2bf/mzaf_1729118271254458208.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/5-tint/1421241217?i=1421243055",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 196138,
+                        "releaseDate": "2018-08-03",
+                        "name": "5% TINT",
+                        "isrc": "USSM11806666",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243055",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243057",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243057",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/30/2b/b9/302bb90a-2472-f55f-80ad-785ad4f4844a/mzaf_1857485246974518998.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/nc-17/1421241217?i=1421243057",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 156886,
+                        "releaseDate": "2018-08-03",
+                        "name": "NC-17",
+                        "isrc": "USSM11806667",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243057",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243071",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243071",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/6d/f3/eb/6df3ebe7-b914-0df1-e72f-27528c3c6a2c/mzaf_8715017748656468491.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/astrothunder/1421241217?i=1421243071",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 142969,
+                        "releaseDate": "2018-08-03",
+                        "name": "ASTROTHUNDER",
+                        "isrc": "USSM11806668",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243071",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243212",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243212",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/c8/80/b5/c880b530-8435-8513-ceee-021f8c19bf77/mzaf_6180028164852192500.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/yosemite/1421241217?i=1421243212",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 150043,
+                        "releaseDate": "2018-08-03",
+                        "name": "YOSEMITE",
+                        "isrc": "USSM11806669",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243212",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243220",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243220",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/a7/b9/d1/a7b9d1dc-ac34-d9ba-2e60-becda731e52f/mzaf_1532046502800309002.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/cant-say/1421241217?i=1421243220",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 198408,
+                        "releaseDate": "2018-08-03",
+                        "name": "CAN'T SAY",
+                        "isrc": "USSM11806670",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243220",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243225",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243225",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/cc/db/c9/ccdbc906-541e-3798-371d-13d731f4ce4e/mzaf_7732436933014992217.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/who-what/1421241217?i=1421243225",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 176720,
+                        "releaseDate": "2018-08-03",
+                        "name": "WHO? WHAT!",
+                        "isrc": "USSM11806748",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243225",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243623",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243623",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/68/fe/da/68fedaf9-a819-76d0-b6af-9939f2e08f4b/mzaf_2565171707007228221.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/butterfly-effect/1421241217?i=1421243623",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 190557,
+                        "releaseDate": "2017-05-15",
+                        "name": "BUTTERFLY EFFECT",
+                        "isrc": "USSM11704799",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243623",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Jacques Webster, Shane Lindstrom & Donald Paton"
+                    }
+                },
+                {
+                    "id": "1421243638",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243638",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/25/b8/67/25b867cf-2b99-031a-ecfe-2d82020af01f/mzaf_5855355130570511410.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/houstonfornication/1421241217?i=1421243638",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 217828,
+                        "releaseDate": "2018-08-03",
+                        "name": "HOUSTONFORNICATION",
+                        "isrc": "USSM11806671",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243638",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421243639",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1421243639",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/a7/8b/8c/a78b8c77-cda9-6e2b-815f-ee0e796ed904/mzaf_2195330167446438251.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "url": "https://music.apple.com/us/album/coffee-bean/1421241217?i=1421243639",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 209116,
+                        "releaseDate": "2018-08-03",
+                        "name": "COFFEE BEAN",
+                        "isrc": "USSM11806672",
+                        "albumName": "ASTROWORLD",
+                        "playParams": {
+                            "id": "1421243639",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Jacques Webster",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1421241217/tracks"
+        },
+        "artists": {
+            "data": [
+                {
+                    "id": "549236696",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/549236696"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1421241217/artists"
+        }
+    }
+}

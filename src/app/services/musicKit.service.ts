@@ -8,46 +8,46 @@ declare var MusicKit: any;
   providedIn: 'root'
 })
 export class MusicKitService {
-    musicKit: any;
-    isAuthorized = false;
+  musicKit: any;
+  isAuthorized = false;
 
-    constructor() {
+  constructor() {
 
-        MusicKit.configure({
-          developerToken: environment.token,
-          app: {
-            name: 'Music Web Player',
-            build: '1.0'
-          }
-        });
+    // MusicKit.configure({
+    //   developerToken: environment.token,
+    //   app: {
+    //     name: 'Music Web Player',
+    //     build: '1.0'
+    //   }
+    // });
 
-        this.musicKit = MusicKit.getInstance();
-        this.musicKit.addEventListener( MusicKit.Events.authorizationStatusDidChange, this.authorizationStatusDidChange.bind(this) );
+    // this.musicKit = MusicKit.getInstance();
+    // this.musicKit.addEventListener(MusicKit.Events.authorizationStatusDidChange, this.authorizationStatusDidChange.bind(this));
 
-        this.isAuthorized = this.musicKit.isAuthorized;
-    }
+    this.isAuthorized = this.musicKit.isAuthorized;
+  }
 
-    authorize(): void {
-      from( this.musicKit.authorize() ).subscribe( () => {
-        this.isAuthorized = true;
-      });
-    }
+  authorize(): void {
+    // from(this.musicKit.authorize()).subscribe(() => {
+    //   this.isAuthorized = true;
+    // });
+  }
 
-    unauthorize(): void {
-      from( this.musicKit.unauthorize() ).subscribe( () => {
-        this.isAuthorized = false;
-      });
-    }
+  unauthorize(): void {
+    from(this.musicKit.unauthorize()).subscribe(() => {
+      this.isAuthorized = false;
+    });
+  }
 
-    authorizationStatusDidChange(event): void {
-      this.isAuthorized = event.authorizationStatus;
-      // if ( this.isAuthorized ) {
-      //   location.reload();
-      // }
-    }
+  authorizationStatusDidChange(event): void {
+    this.isAuthorized = event.authorizationStatus;
+    // if ( this.isAuthorized ) {
+    //   location.reload();
+    // }
+  }
 
 
-    addAuthChangeListener( func ) {
-      this.musicKit.addEventListener( MusicKit.Events.authorizationStatusDidChange, func );
-    }
+  addAuthChangeListener(func) {
+    // this.musicKit.addEventListener(MusicKit.Events.authorizationStatusDidChange, func);
+  }
 }

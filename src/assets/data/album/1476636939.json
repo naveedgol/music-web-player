@@ -1,0 +1,818 @@
+{
+    "id": "1476636939",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1476636939",
+    "attributes": {
+        "artwork": {
+            "width": 1425,
+            "height": 1425,
+            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "012000",
+            "textColor1": "97d939",
+            "textColor2": "92d624",
+            "textColor3": "79b42d",
+            "textColor4": "75b11d"
+        },
+        "artistName": "Young Thug",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/so-much-fun/1476636939",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music"
+        ],
+        "trackCount": 19,
+        "isMasteredForItunes": false,
+        "releaseDate": "2019-08-16",
+        "name": "So Much Fun",
+        "recordLabel": "300 Entertainment/Atl",
+        "copyright": "℗ 2019 300 Entertainment / Atlantic Recording Corporation",
+        "playParams": {
+            "id": "1476636939",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "There aren’t many rappers who can claim to have the stylistic influence that Young Thug has had—a fact that may or may not have slowed the once prolific artist’s rate of output. Never lacking in feature work, the majority of Thug’s career saw him release multiple projects annually before dropping the Future collaboration <i>SUPER SLIMEY</i> and the YSL Records showcase <i>Slime Language</i> in 2017 and 2018, respectively. A little more than halfway through 2019, Thugger awards his fans’ patience with <i>So Much Fun</i>, an album that not only reminds us what we’d been missing, but one whose title seems to speak directly to the experience of creating it.<br />\nThug sounds elated to be making music across <i>So Much Fun</i>, unloading quirky stream-of-consciousness bars like rounds from one of the many guns he so often cites. “I put on my brothers, I put on my b***h/Had to wear the dress, ’cause I had a stick,” he raps on “Just How It Is.” He gets explicit on “Lil Baby,” telling us, “She put my c*m in her cup like it was shake/I’ll never f**k this b***h again, it was a mistake,” but also proclaims via “Ecstasy,” “I don’t wanna talk about no hoes with my dad.” Fair.<br />\nThe production on <i>So Much Fun</i>, along with the way Thug processes it, is based in trap but equally indebted to video game scoring and some unplaceable fantasy world. Frequent collaborators like Wheezy and Southside, as well as friend and former tourmate J. Cole, have pushed themselves to their weirdest in attempts to keep up with Thug’s vocal experiments. Here, they include playing with British slang (“Sup Mate”), aping Louis Armstrong’s singing voice (“Cartier Gucci Scarf”), and punctuating bars with Michael Jackson-reminiscent ad-libs (“Light It Up”). The MC is very clearly in his bag on <i>So Much Fun</i>, something that we might attribute to the peace he may have found as one of rap’s most revered innovators. He alludes to this himself on “Jumped Out the Window,” rapping, “I been in the top room at Tootsie’s, they ain’t stunt me/They know I got money, and I don’t want nothing.”",
+            "short": "An album whose title seems to speak directly to the experience of creating it."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "81886939",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/81886939"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1476636939/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1476636940",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636940",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/87/ea/e9/87eae9be-80da-6732-f7a2-001ae071b0f5/mzaf_8944982404256560955.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/just-how-it-is/1476636939?i=1476636940",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 207133,
+                        "releaseDate": "2019-08-16",
+                        "name": "Just How It Is",
+                        "isrc": "USAT21904714",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636940",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636941",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636941",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/6d/5c/6c/6d5c6c7f-71ef-3201-14fd-0cecde69bf9a/mzaf_8125198828211045560.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/sup-mate-feat-future/1476636939?i=1476636941",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 238027,
+                        "releaseDate": "2019-08-16",
+                        "name": "Sup Mate (feat. Future)",
+                        "isrc": "USAT21904738",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636941",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636942",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636942",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b6/49/a5/b649a574-c690-2d36-e5e0-9cc05959694d/mzaf_16450919521438142194.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/ecstasy-feat-machine-gun-kelly/1476636939?i=1476636942",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 178240,
+                        "releaseDate": "2019-08-16",
+                        "name": "Ecstasy (feat. Machine Gun Kelly)",
+                        "isrc": "USAT21904709",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636942",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636943",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636943",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/22/8f/86/228f86bf-d6f4-c4cf-004d-8b2616e6d17f/mzaf_7042445925457145839.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/hot-feat-gunna/1476636939?i=1476636943",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 193027,
+                        "releaseDate": "2019-08-16",
+                        "name": "Hot (feat. Gunna)",
+                        "isrc": "USAT21904711",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636943",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636944",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636944",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a1/48/90/a1489017-776d-f7ec-9525-2373e64ea4ea/mzaf_792103865013054631.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/light-it-up/1476636939?i=1476636944",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 209253,
+                        "releaseDate": "2019-08-16",
+                        "name": "Light It Up",
+                        "isrc": "USAT21904713",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636944",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636945",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636945",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9c/a8/c8/9ca8c88b-2420-5fde-29f4-7e6d3b2958e4/mzaf_14888816751505826959.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/surf-feat-gunna/1476636939?i=1476636945",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 184093,
+                        "releaseDate": "2019-08-16",
+                        "name": "Surf (feat. Gunna)",
+                        "isrc": "USAT21903328",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636945",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636946",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636946",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/9a/ce/499aced7-309a-23bd-4440-4ef8e087da7d/mzaf_867055641473460386.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/bad-bad-bad-feat-lil-baby/1476636939?i=1476636946",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 149040,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bad Bad Bad (feat. Lil Baby)",
+                        "isrc": "USAT21904712",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636946",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636947",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636947",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/0d/db/1c/0ddb1c3d-298f-27b5-3af4-8873cbf96232/mzaf_6961051175998547995.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/lil-baby/1476636939?i=1476636947",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 201893,
+                        "releaseDate": "2019-08-16",
+                        "name": "Lil Baby",
+                        "isrc": "USAT21904717",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636947",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636948",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636948",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/58/93/a1/5893a189-b2e1-c1d3-d85f-8ab65b78ca05/mzaf_3364698892747299804.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/whats-the-move-feat-lil-uzi-vert/1476636939?i=1476636948",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 251080,
+                        "releaseDate": "2019-08-16",
+                        "name": "What's the Move (feat. Lil Uzi Vert)",
+                        "isrc": "USAT21904715",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636948",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636949",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636949",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/36/ba/10/36ba10da-c0ee-644e-e36e-47807e1d423c/mzaf_11947739543339477472.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/i-bought-her-feat-lil-duke/1476636939?i=1476636949",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 201747,
+                        "releaseDate": "2019-08-16",
+                        "name": "I Bought Her (feat. Lil Duke)",
+                        "isrc": "USAT21904716",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636949",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636950",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636950",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d4/d6/2f/d4d62f90-478c-625d-2af3-1f18abce8cfb/mzaf_6169233922296424793.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/jumped-out-the-window/1476636939?i=1476636950",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 204027,
+                        "releaseDate": "2019-08-16",
+                        "name": "Jumped Out the Window",
+                        "isrc": "USAT21904710",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636950",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636951",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636951",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/dd/75/fa/dd75fa03-0a9f-baa4-80f5-1799c55dbb0c/mzaf_11307091385034718970.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/im-scared-feat-21-savage-doe-boy/1476636939?i=1476636951",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 200733,
+                        "releaseDate": "2019-08-16",
+                        "name": "I'm Scared (feat. 21 Savage & Doe boy)",
+                        "isrc": "USAT21904718",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636951",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636953",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636953",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3a/87/33/3a8733f0-5804-0cb4-4140-aa6363d47f42/mzaf_18284214900896976644.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/cartier-gucci-scarf-feat-lil-duke/1476636939?i=1476636953",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 198173,
+                        "releaseDate": "2019-08-16",
+                        "name": "Cartier Gucci Scarf (feat. Lil Duke)",
+                        "isrc": "USAT21904719",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636953",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636954",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636954",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e1/85/a3/e185a31b-82c6-68ac-e5a9-132135ea820d/mzaf_9155365704927486477.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/big-tipper-feat-lil-keed/1476636939?i=1476636954",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 223173,
+                        "releaseDate": "2019-08-16",
+                        "name": "Big Tipper (feat. Lil Keed)",
+                        "isrc": "USAT21904720",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636954",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636955",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636955",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/68/52/99/68529916-b2b9-6e20-1409-3acbb940a9d0/mzaf_9911896265977228742.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/pussy/1476636939?i=1476636955",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 141493,
+                        "releaseDate": "2019-08-16",
+                        "name": "Pussy",
+                        "isrc": "USAT21904721",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636955",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476637106",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476637106",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c5/d9/70/c5d97037-9566-d287-27d3-ee392cf2b375/mzaf_4516527342353376261.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/circle-of-bosses-feat-quavo/1476636939?i=1476637106",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 179467,
+                        "releaseDate": "2019-08-16",
+                        "name": "Circle of Bosses (feat. Quavo)",
+                        "isrc": "USAT21904722",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476637106",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476637107",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476637107",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a8/77/dc/a877dcbe-0e65-69ef-9528-dbebe58c17e1/mzaf_3287811623877208427.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/mannequin-challenge-feat-juice-wrld/1476636939?i=1476637107",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 162400,
+                        "releaseDate": "2019-08-16",
+                        "name": "Mannequin Challenge (feat. Juice WRLD)",
+                        "isrc": "USAT21904723",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476637107",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476637108",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476637108",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/df/08/05/df08057a-b29a-21aa-e253-0ccd840c10fa/mzaf_8629386429301407329.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/boy-back-feat-nav/1476636939?i=1476637108",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 202600,
+                        "releaseDate": "2019-08-16",
+                        "name": "Boy Back (feat. NAV)",
+                        "isrc": "USAT21904724",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476637108",
+                            "kind": "song"
+                        },
+                        "trackNumber": 18,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476637109",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476637109",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a4/ff/66/a4ff6681-a6cd-4d36-a6f0-0fc2cb2477ca/mzaf_7807781995434247016.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/the-london-feat-j-cole-travis-scott/1476636939?i=1476637109",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 200187,
+                        "releaseDate": "2019-05-23",
+                        "name": "The London (feat. J. Cole & Travis Scott)",
+                        "isrc": "USAT21903320",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476637109",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "composerName": "Jacques Webster II, Jeffery Williams, Jermaine Cole & Tyler Williams",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1476636939/tracks"
+        }
+    }
+}

@@ -61,152 +61,158 @@ export class PlayerService {
     private musicKitService: MusicKitService,
     private titleService: Title
   ) {
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.queueItemsDidChange, this.queueItemsDidChange.bind(this) );
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.queuePositionDidChange, this.queuePositionDidChange.bind(this) );
+    // this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaPlaybackError, this.mediaPlaybackError.bind(this) );
+    // this.musicKitService.musicKit.addEventListener( MusicKit.Events.playbackStateDidChange, this.playbackStateDidChange.bind(this) );
+    // this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, this.mediaItemDidChange.bind(this) );
+    // this.musicKitService.musicKit.addEventListener( MusicKit.Events.queueItemsDidChange, this.queueItemsDidChange.bind(this) );
+    // this.musicKitService.musicKit.addEventListener( MusicKit.Events.queuePositionDidChange, this.queuePositionDidChange.bind(this) );
 
-    this.player = this.musicKitService.musicKit.player;
+    // this.player = this.musicKitService.musicKit.player;
 
-    if ( localStorage.getItem('bitrate') === null ) {
+    if (localStorage.getItem('bitrate') === null) {
       this.bitrate = 256;
     } else {
-      this.bitrate = parseInt( localStorage.getItem('bitrate'), 10 );
+      this.bitrate = parseInt(localStorage.getItem('bitrate'), 10);
     }
     this.changeBitrate();
   }
 
-  setQueueFromItems( items: SongModel[], startIndex: number = 0 ): Observable<any> {
-    items.forEach( item => item['container'] = { 'id': item.id } );
-    return from( this.musicKitService.musicKit.setQueue( { 'items': items, startPosition: startIndex-1 } ) )
-      .pipe( mergeMap( x => this.play() ) );
+  setQueueFromItems(items: SongModel[], startIndex: number = 0): Observable<any> {
+    items.forEach(item => item['container'] = { 'id': item.id });
+    return from(this.musicKitService.musicKit.setQueue({ 'items': items, startPosition: startIndex - 1 }))
+      .pipe(mergeMap(x => this.play()));
   }
 
   play(): Observable<any> {
-    return from( this.player.play() );
+    return new Observable<any>();
+    // return from(this.player.play());
   }
 
   pause(): Observable<any> {
-    return from( this.player.pause() );
+    return new Observable<any>();
+    // return from(this.player.pause());
   }
 
   stop(): Observable<any> {
-    return from( this.player.stop() );
+    return new Observable<any>();
+    // return from(this.player.stop());
   }
 
   toggleRepeat(): void {
-    const nextRepeatMode = (this.player.repeatMode + 1) % 3;
-    this.player.repeatMode = nextRepeatMode;
-    this.repeatMode = this.player.repeatMode;
+    // const nextRepeatMode = (this.player.repeatMode + 1) % 3;
+    // this.player.repeatMode = nextRepeatMode;
+    // this.repeatMode = this.player.repeatMode;
   }
 
   toggleShuffleOn(): void {
-    this.player.shuffleMode = 1;
-    this.isShuffling = true;
+    // this.player.shuffleMode = 1;
+    // this.isShuffling = true;
   }
 
   toggleShuffleOff(): void {
-    this.player.shuffleMode = 0;
-    this.isShuffling = false;
+    // this.player.shuffleMode = 0;
+    // this.isShuffling = false;
   }
 
   skipToNextItem(): Observable<any> {
     // if ( this.repeatMode === 1 ) {
     //   return this.seekToTime( 0 );
     // }
-    return from( this.player.skipToNextItem() );
+    return new Observable<any>();
+    // return from(this.player.skipToNextItem());
   }
 
   skipToPreviousItem(): Observable<any> {
-    if ( this.repeatMode === 1 ) {
-      return this.seekToTime( 0 );
-    }
-    return from( this.player.skipToPreviousItem() );
+    // if (this.repeatMode === 1) {
+    //   return this.seekToTime(0);
+    // }
+    // return from(this.player.skipToPreviousItem());
+    return new Observable<any>();
   }
 
-  seekToTime( time: number ): Observable<any> {
-    return from( this.player.seekToTime( time ) );
+  seekToTime(time: number): Observable<any> {
+    // return from(this.player.seekToTime(time));
+    return new Observable<any>();
   }
 
-  playNext( item ): void {
-    this.player.queue.prepend( item );
+  playNext(item): void {
+    // this.player.queue.prepend(item);
   }
 
-  playLater( item ): void {
-    this.player.queue.append( item );
+  playLater(item): void {
+    // this.player.queue.append(item);
   }
 
   get currentPlaybackDuration(): number {
-    return this.player.currentPlaybackDuration;
+    return 0;
   }
 
   get currentPlaybackTime(): number {
-    return this.player.currentPlaybackTime;
+    return 0;
   }
 
-  playbackStateDidChange( event: any ): void {
-    this.playbackState = PlaybackStates[ PlaybackStates[event.state] ];
+  playbackStateDidChange(event: any): void {
+    // this.playbackState = PlaybackStates[PlaybackStates[event.state]];
 
-    // sometimes loading just gets stuck, a stop and resume fixes that
-    if ( this.playbackState === PlaybackStates.WAITING ) {
-      const lastItem = this.nowPlayingItem;
-      this.infiniteLoadTimeout = setTimeout( () => {
-        if ( this.playbackState === PlaybackStates.WAITING && lastItem === this.nowPlayingItem ) {
-          this.stop().subscribe( () => this.play() );
-        }
-      }, 2000 );
-    } else {
-      clearTimeout( this.infiniteLoadTimeout );
-    }
+    // // sometimes loading just gets stuck, a stop and resume fixes that
+    // if (this.playbackState === PlaybackStates.WAITING) {
+    //   const lastItem = this.nowPlayingItem;
+    //   this.infiniteLoadTimeout = setTimeout(() => {
+    //     if (this.playbackState === PlaybackStates.WAITING && lastItem === this.nowPlayingItem) {
+    //       this.stop().subscribe(() => this.play());
+    //     }
+    //   }, 2000);
+    // } else {
+    //   clearTimeout(this.infiniteLoadTimeout);
+    // }
 
-    if ( this.playbackState === PlaybackStates.PAUSED || this.playbackState === PlaybackStates.STOPPED ) {
-      this.titleService.setTitle('Music Player');
-    } else {
-      this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
-    }
+    // if (this.playbackState === PlaybackStates.PAUSED || this.playbackState === PlaybackStates.STOPPED) {
+    //   this.titleService.setTitle('Music Player');
+    // } else {
+    //   this.titleService.setTitle(this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName);
+    // }
   }
 
   mediaItemDidChange(event): void {
-    this.nowPlayingItem = event.item;
-    this.titleService.setTitle( this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName );
+    // this.nowPlayingItem = event.item;
+    // this.titleService.setTitle(this.nowPlayingItem.title + ' • ' + this.nowPlayingItem.artistName);
   }
 
-  mediaPlaybackError( event: any ): void {
+  mediaPlaybackError(event: any): void {
     console.log('mediaPlayBackError', event);
   }
 
-  queueItemsDidChange( event: any ): void {
-    this.queue = this.player.queue.items.slice(this.queuePosition);
+  queueItemsDidChange(event: any): void {
+    // this.queue = this.player.queue.items.slice(this.queuePosition);
   }
 
-  queuePositionDidChange( event: any ): void {
-    this.queuePosition = event.position + 1;
-    this.queue = this.player.queue.items.slice(this.queuePosition);
+  queuePositionDidChange(event: any): void {
+    // this.queuePosition = event.position + 1;
+    // this.queue = this.player.queue.items.slice(this.queuePosition);
   }
 
-  removeFromQueue( index: number ): void {
-    this.player.queue.remove( index + this.queuePosition );
+  removeFromQueue(index: number): void {
+    // this.player.queue.remove(index + this.queuePosition);
   }
 
-  changeQueuePosition( index ): void {
-    this.musicKitService.musicKit.changeToMediaAtIndex( index + this.queuePosition );
+  changeQueuePosition(index): void {
+    // this.musicKitService.musicKit.changeToMediaAtIndex(index + this.queuePosition);
   }
 
-  addMediaChangeListener( func ) {
-    this.musicKitService.musicKit.addEventListener( MusicKit.Events.mediaItemDidChange, func );
+  addMediaChangeListener(func) {
+    // this.musicKitService.musicKit.addEventListener(MusicKit.Events.mediaItemDidChange, func);
   }
 
-  removeListener( func ) {
-    this.musicKitService.musicKit.removeEventListener( MusicKit.Events.mediaItemDidChange, func );
+  removeListener(func) {
+    // this.musicKitService.musicKit.removeEventListener(MusicKit.Events.mediaItemDidChange, func);
   }
 
-  changeVolume( volume: number ): void {
-    this.player.volume = volume;
+  changeVolume(volume: number): void {
+    // this.player.volume = volume;
   }
 
   changeBitrate() {
-    this.musicKitService.musicKit.bitrate = this.bitrate;
-    localStorage.setItem('bitrate', this.bitrate.toString());
+    // this.musicKitService.musicKit.bitrate = this.bitrate;
+    // localStorage.setItem('bitrate', this.bitrate.toString());
   }
 }

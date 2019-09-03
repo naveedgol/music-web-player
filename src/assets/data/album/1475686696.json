@@ -1,0 +1,469 @@
+{
+    "id": "1475686696",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1475686696",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "020205",
+            "textColor1": "f7bf62",
+            "textColor2": "edc359",
+            "textColor3": "c69a4f",
+            "textColor4": "be9d48"
+        },
+        "artistName": "TOOL",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/fear-inoculum/1475686696",
+        "isComplete": true,
+        "genreNames": [
+            "Metal",
+            "Music",
+            "Rock"
+        ],
+        "trackCount": 10,
+        "isMasteredForItunes": false,
+        "releaseDate": "2019-08-30",
+        "name": "Fear Inoculum",
+        "recordLabel": "RCA Records Label",
+        "copyright": "℗ 2019 Tool Dissectional, L.L.C./Volcano Entertainment II, L.L.C..",
+        "playParams": {
+            "id": "1475686696",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "We could keep agonizing over why TOOL took so long to release <i>Fear Inoculum</i>, or to put their catalog onto streaming services, or all the ways the world has changed since the alt/prog-metal band’s last album came out in 2006. But we just spent 13 years doing all that. Instead, put on the best headphones you can find. It’s time to explore the 87 minutes of music we waited thousands of hours to hear.<br />\nWhether or not this album is the “grand finale… swan song and epilogue” that Maynard James Keenan alludes to in “Descending,” the first thing to say is that <i>Fear Inoculum</i> will not disappoint. On their longest-ever album (despite only containing seven songs, broken up by three brief ambient interludes), TOOL refines and expands on their greatest strengths to create a meditative, intensely complex album that may, in terms of sheer musical skill, be their most impressive yet.<br />\nDanny Carey’s extraordinarily creative and technical approach to rhythm takes center stage, from assaultive double pedaling to atmospheric tablas and electronic tinkering, heard best on “Chocolate Chip Trip,” a five-minute, multidimensional percussion solo. Guitarist Adam Jones unleashes more jams and solos than ever, particularly on the 15-minute opus “7empest,” which begins by sounding like the most traditionally TOOL song of the lot—but it sure doesn’t end that way. (Plus, Jones apparently wrote part of it in 21/16 time.) Justin Chancellor’s bass riffs are hypnotizing and powerful, unique in their ability to be both repetitive, even monotonous, and completely engulfing. Keenan’s lyrics—layered, poetic, often elegiac—are as fun to analyze and interpret as ever. And though the album is easily their most drawn-out and ambient, it’s also immensely heavy. The balance is calculated and sublime.<br />\nSo, what’s <i>Fear Inoculum</i> actually about? Keenan deliberately evades explanation, allowing the listener to find their own meaning. But in the most lyrically lucid moments, you’ll find reflections on life, growing up and facing your fear (he’s stated it could mean giving in to <i>or</i> becoming immune to it). There’s no pretending that 13 years haven’t passed—on “Invincible,” he sings: “Age old battle, mine/Weapon out and belly in/Tales told, battles won… Once invincible, now the armor’s wearing thin.” Still, there’s no sign of weakness, just acceptance and the kind of wisdom that comes with age. “We’re not buying your dubious state of serenity,” he knowingly roars on “7empest.” “Acting all surprised when you’re caught in the lie/It’s not unlike you… We know your nature.”",
+            "short": "Thirteen years. Worth the wait."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "140870416",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/140870416"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1475686696/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1475686698",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475686698",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/46/0b/95/460b9572-93ba-df7f-d7be-e668bba5f9b9/mzaf_7716239232388798724.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/fear-inoculum/1475686696?i=1475686698",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 620101,
+                        "releaseDate": "2019-08-07",
+                        "name": "Fear Inoculum",
+                        "isrc": "USRC11902032",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475686698",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475686700",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475686700",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c6/86/c3/c686c3c2-ed60-4675-10f2-09db9cbc1e28/mzaf_8888627302211623321.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/pneuma/1475686696?i=1475686700",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 713192,
+                        "releaseDate": "2019-08-30",
+                        "name": "Pneuma",
+                        "isrc": "USRC11902033",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475686700",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687047",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687047",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c0/bd/5e/c0bd5eab-175f-ffbc-3d22-8766e4915cc5/mzaf_17340564277850405336.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/litanie-contre-la-peur/1475686696?i=1475687047",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 134490,
+                        "releaseDate": "2019-08-30",
+                        "name": "Litanie contre la Peur",
+                        "isrc": "USRC11902034",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687047",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687049",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687049",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/40/37/64/4037648d-5db2-ce09-537d-ec1dc8002ecd/mzaf_12303883989448325000.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/invincible/1475686696?i=1475687049",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 764456,
+                        "releaseDate": "2019-08-30",
+                        "name": "Invincible",
+                        "isrc": "USRC11902035",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687049",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687055",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687055",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/22/40/c4/2240c49c-152c-a4ff-a7a2-f704fc54586b/mzaf_1193465542079817030.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/legion-inoculant/1475686696?i=1475687055",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 189979,
+                        "releaseDate": "2019-08-30",
+                        "name": "Legion Inoculant",
+                        "isrc": "USRC11902036",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687055",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687061",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687061",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1d/8a/ed/1d8aed55-98cd-7a97-efaf-d83b898a41bd/mzaf_14912888373420695295.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/descending/1475686696?i=1475687061",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 817832,
+                        "releaseDate": "2019-08-30",
+                        "name": "Descending",
+                        "isrc": "USRC11902037",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687061",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687062",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687062",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/cc/65/1d/cc651d9f-22d9-8000-348e-ef8e05fd96ae/mzaf_10171500166020113726.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/culling-voices/1475686696?i=1475687062",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 605369,
+                        "releaseDate": "2019-08-30",
+                        "name": "Culling Voices",
+                        "isrc": "USRC11902038",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687062",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687195",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687195",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3b/c0/ea/3bc0eaf6-a07c-4d32-93e8-aa78c736edc2/mzaf_17434438800680298714.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/chocolate-chip-trip/1475686696?i=1475687195",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 288199,
+                        "releaseDate": "2019-08-30",
+                        "name": "Chocolate Chip Trip",
+                        "isrc": "USRC11902164",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687195",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "TOOL"
+                    }
+                },
+                {
+                    "id": "1475687200",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687200",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/03/c8/7e/03c87eb1-11e6-045e-0be5-45153eb79a61/mzaf_12002263669902750781.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/7empest/1475686696?i=1475687200",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 943529,
+                        "releaseDate": "2019-08-30",
+                        "name": "7empest",
+                        "isrc": "USRC11902165",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687200",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "TOOL",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475687208",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687208",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/75/a9/c5/75a9c5e8-794b-36a3-df28-4d0e3989b0de/mzaf_15095817017095465822.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/mockingbeat/1475686696?i=1475687208",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 125938,
+                        "releaseDate": "2019-08-30",
+                        "name": "Mockingbeat",
+                        "isrc": "USRC11902166",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687208",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "TOOL"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1475686696/tracks"
+        }
+    }
+}

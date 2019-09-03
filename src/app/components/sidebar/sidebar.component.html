@@ -1,75 +1,46 @@
 <div class="sidebar-container">
   <mat-nav-list>
-    <mat-list-item
-      routerLink="/search"
-      routerLinkActive="active-link"
-    >
+    <mat-list-item routerLink="/search" routerLinkActive="active-link"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>search</mat-icon>
       <div>Search</div>
     </mat-list-item>
 
-    <mat-list-item
-      routerLink="/browse"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-    >
+    <mat-list-item routerLink="/browse" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
       <mat-icon>library_music</mat-icon>
       <div>Browse</div>
     </mat-list-item>
 
-    <mat-list-item
-      routerLink="/for-you"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-      [disableRipple]="!musicKitService.isAuthorized"
-      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
-    >
+    <mat-list-item routerLink="/for-you" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized" [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>favorite</mat-icon>
       <div>For You</div>
     </mat-list-item>
 
     <h3 mat-subheader>Library</h3>
 
-    <mat-list-item
-      routerLink="/library/recently-added"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-      [disableRipple]="!musicKitService.isAuthorized"
-      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
-    >
+    <mat-list-item routerLink="/library/recently-added" routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}" [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>calendar_today</mat-icon>
       <div>Recently Added</div>
     </mat-list-item>
 
-    <mat-list-item
-      routerLink="/library/artists"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-      [disableRipple]="!musicKitService.isAuthorized"
-      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
-    >
+    <mat-list-item routerLink="/library/artists" routerLinkActive="active-link"
+      [routerLinkActiveOptions]="{exact: true}" [disableRipple]="!musicKitService.isAuthorized"
+      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>person</mat-icon>
       <div>Artists</div>
     </mat-list-item>
 
-    <mat-list-item
-      routerLink="/library/albums"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-      [disableRipple]="!musicKitService.isAuthorized"
-      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
-    >
+    <mat-list-item routerLink="/library/albums" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized" [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>album</mat-icon>
       <div>Albums</div>
     </mat-list-item>
 
-    <mat-list-item
-      routerLink="/library/songs"
-      routerLinkActive="active-link"
-      [routerLinkActiveOptions]="{exact: true}"
-      [disableRipple]="!musicKitService.isAuthorized"
-      [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'"
-    >
+    <mat-list-item routerLink="/library/songs" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}"
+      [disableRipple]="!musicKitService.isAuthorized" [ngClass]="musicKitService.isAuthorized ? '' : 'disabled'">
       <mat-icon>music_note</mat-icon>
       <div>Songs</div>
     </mat-list-item>
@@ -83,32 +54,17 @@
       </mat-expansion-panel-header>
       <mat-divider></mat-divider>
       <mat-nav-list>
-        <mat-list-item
-          class="playlist-list-item"
-          *ngFor="let playlist of playlists"
-          routerLinkActive="active-link"
-          [routerLinkActiveOptions]="{exact: true}"
-          [routerLink]="['/library/playlists',playlist.id]"
-        >
-          <div
-            title="{{playlist.attributes.name}}"
-            class="playlist-list-item-text"
-          >
+        <mat-list-item class="playlist-list-item" *ngFor="let playlist of playlists" routerLinkActive="active-link"
+          [routerLinkActiveOptions]="{exact: true}" [routerLink]="['/library/playlists',playlist.id]">
+          <div title="{{playlist.attributes.name}}" class="playlist-list-item-text">
             {{playlist.attributes.name}}
           </div>
         </mat-list-item>
       </mat-nav-list>
     </mat-expansion-panel>
 
-    <div class="authorize-button-container"
-      *ngIf="!musicKitService.isAuthorized"
-    >
-      <button
-        aria-label="Login"
-        class="authorize-button"
-        mat-raised-button
-        (click)="authorize()"
-      >
+    <div class="authorize-button-container" *ngIf="!musicKitService.isAuthorized">
+      <button aria-label="Login" class="authorize-button" mat-raised-button (click)="authorize()">
         Login
       </button>
     </div>

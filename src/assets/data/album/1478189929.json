@@ -1,0 +1,754 @@
+{
+    "id": "1478189929",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1478189929",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "fb6b49",
+            "textColor1": "0a0f0a",
+            "textColor2": "37150c",
+            "textColor3": "3a2217",
+            "textColor4": "5e2618"
+        },
+        "artistName": "Lil Tecca",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/we-love-you-tecca/1478189929",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music"
+        ],
+        "trackCount": 17,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-08-30",
+        "name": "We Love You Tecca",
+        "recordLabel": "Republic Records",
+        "copyright": "Galactic Records; ℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+        "playParams": {
+            "id": "1478189929",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Bespectacled, with braids and braces, Lil Tecca looks every inch the typical high schooler. His music, however, reveals a different reality and ambition than his classmates. After guest features and a big hit, “Ransom,” a fuller picture of the Queens-based rapper emerges. <i>We Love You Tecca</i> is his mission statement, filled with buzzy, boasting takes on the changing scenery. Tender piano on “Did It Again” and “Out of Luck” deepens the drama (producers on this project include Menoh Beats, Nick Mira, Taz Taylor, Etrou, Dystinkt Beats, and Rambow). Songs like “Shots” and “Sidenote” illustrate the annoyances that come with fame, while the tender “Love Me” nods to his Jamaican heritage.",
+            "short": "A detailed portrait of the “Ransom” star emerges."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "1366503504",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/1366503504"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1478189929/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1478190057",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190057",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/30/66/78/306678fa-3f3f-80d9-7bbb-056be03198dd/mzaf_17332084746318112905.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/ransom/1478189929?i=1478190057",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 131248,
+                        "releaseDate": "2019-05-22",
+                        "name": "Ransom",
+                        "isrc": "QZ85M1940160",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190057",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nick Mira, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190062",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190062",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c6/50/77/c65077da-f8f5-2569-422c-2362d0283c44/mzaf_17491691540290742805.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/shots/1478189929?i=1478190062",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 109375,
+                        "releaseDate": "2019-08-30",
+                        "name": "Shots",
+                        "isrc": "USUM71917711",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190062",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Nick Mira, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190065",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190065",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/af/28/b5/af28b559-43f4-147b-eac4-b60ea5e9f376/mzaf_11515092757209914980.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/sidenote/1478189929?i=1478190065",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 157932,
+                        "releaseDate": "2019-08-30",
+                        "name": "Sidenote",
+                        "isrc": "USUM71917709",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190065",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Jordan Timothy Jenks PKA Pierre Bourne & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190068",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190068",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7c/1a/35/7c1a352e-1041-7863-da08-b6aa6a341d72/mzaf_12842733018812466810.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/did-it-again/1478189929?i=1478190068",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 116191,
+                        "releaseDate": "2019-07-24",
+                        "name": "Did It Again",
+                        "isrc": "USUG11902664",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190068",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Nick Mira, Taz Taylor, Tyler-Justin Anthony Sharpe & Elias Latrou",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190069",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190069",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/37/b6/8e/37b68ee5-7858-6263-2560-6f753d6628e2/mzaf_4951905267476700436.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/out-of-luck/1478189929?i=1478190069",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 163319,
+                        "releaseDate": "2019-08-30",
+                        "name": "Out of Luck",
+                        "isrc": "USUM71917721",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190069",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Tyler-Justin Anthony Sharpe & Amin Elamin",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190070",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190070",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/4a/9e/90/4a9e9075-a63a-5dd3-60e3-9ba808d6ef48/mzaf_17790027208454754351.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/left-right/1478189929?i=1478190070",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 154875,
+                        "releaseDate": "2019-08-30",
+                        "name": "Left, Right",
+                        "isrc": "USUM71917708",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190070",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Miguel Curtidor, Tyler-Justin Anthony Sharpe & Othello Houston",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190071",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190071",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/05/7c/7b/057c7b35-595f-3931-41fd-4b98553e428b/mzaf_1592383990814876153.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/bossanova/1478189929?i=1478190071",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 123577,
+                        "releaseDate": "2019-07-04",
+                        "name": "Bossanova",
+                        "isrc": "USUG11902491",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190071",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Michelangelo Pulvirenti, Nick Mira, Tyler-Justin Anthony Sharpe & Denis Berger",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190072",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190072",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2a/6d/e5/2a6de512-080b-7a9d-7e85-39d6e9508e29/mzaf_11781030538010413893.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/amigo/1478189929?i=1478190072",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 150092,
+                        "releaseDate": "2019-08-30",
+                        "name": "Amigo",
+                        "isrc": "USUM71917722",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190072",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Taz Taylor, Tomas Martinez PKA Manso Beats, Joel Abraham PKA Jo L’Z & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190078",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190078",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/00/e3/af/00e3afde-d655-de47-7d47-4a1ba1051dbd/mzaf_12595669840783076492.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/phenom/1478189929?i=1478190078",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 202666,
+                        "releaseDate": "2019-08-30",
+                        "name": "Phenom",
+                        "isrc": "USUM71917707",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190078",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Nick Mira, Tyler-Justin Anthony Sharpe, Dylan Cleary-Krell & Moritz Lepper",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190083",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190083",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/dc/65/b5/dc65b5a6-3d35-5f92-58b4-53329f676de8/mzaf_14974881216284161981.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/weatherman/1478189929?i=1478190083",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 172788,
+                        "releaseDate": "2019-08-30",
+                        "name": "Weatherman",
+                        "isrc": "USUM71917723",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190083",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Alex Petit & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190117",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190117",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/85/51/d6/8551d6dc-d78b-f17b-5fe7-211cc3ba30ac/mzaf_8111893563291232466.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/dui/1478189929?i=1478190117",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 134524,
+                        "releaseDate": "2019-08-30",
+                        "name": "DUI",
+                        "isrc": "USUM71917710",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190117",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Milo Ben-Amotz & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190118",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190118",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/eb/6a/92/eb6a92a9-db83-249c-3710-172ebc543474/mzaf_8039371104119471741.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/love-me/1478189929?i=1478190118",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 116881,
+                        "releaseDate": "2019-07-15",
+                        "name": "Love Me",
+                        "isrc": "SE6A91812468",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190118",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Tyler-Justin Anthony Sharpe & Tomislav Ratesic",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190121",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190121",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/64/fe/dd/64feddbe-c472-736e-fbe7-91918d5d9bad/mzaf_3148219311495536576.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/molly-girl/1478189929?i=1478190121",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 117144,
+                        "releaseDate": "2019-07-15",
+                        "name": "Molly Girl",
+                        "isrc": "QZ85M1918619",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190121",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Amin Elamin & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190122",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190122",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ae/ba/1e/aeba1e06-97fa-24ba-07d7-6d930c4327e0/mzaf_7276068417191953716.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/the-score/1478189929?i=1478190122",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 128715,
+                        "releaseDate": "2019-08-30",
+                        "name": "The Score",
+                        "isrc": "USUM71917712",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190122",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Dez Wright, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190123",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190123",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/05/ee/ab/05eeab38-1a55-c4da-f424-4a0daf758763/mzaf_18368198250114311371.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/senorita/1478189929?i=1478190123",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 135387,
+                        "releaseDate": "2019-08-30",
+                        "name": "Senorita",
+                        "isrc": "USUM71917713",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190123",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Tyler-Justin Anthony Sharpe, Alex Petit & Kiowa Roukema",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190125",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190125",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/34/63/c4/3463c405-b13c-5560-ebbd-2fa8a4f669e0/mzaf_13803054472153533483.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/count-me-out/1478189929?i=1478190125",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174087,
+                        "releaseDate": "2018-09-23",
+                        "name": "Count Me Out",
+                        "isrc": "UST8K1867474",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190125",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Tyler-Justin Anthony Sharpe & Tomislav Ratesic",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190126",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190126",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b0/6b/48/b06b482c-84b5-6216-d888-22e8f7163423/mzaf_3260737372910122004.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca & Juice WRLD",
+                        "url": "https://music.apple.com/us/album/ransom-remix/1478189929?i=1478190126",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 171179,
+                        "releaseDate": "2019-08-15",
+                        "name": "Ransom (Remix)",
+                        "isrc": "USUG11903068",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190126",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Nick Mira, Taz Taylor, Jarad Higgins & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1478189929/tracks"
+        }
+    }
+}

@@ -1,0 +1,753 @@
+{
+    "id": "1475177816",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1475177816",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "000100",
+            "textColor1": "feffff",
+            "textColor2": "b6c6dd",
+            "textColor3": "cbcccb",
+            "textColor4": "929eb1"
+        },
+        "artistName": "Drake",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/care-package/1475177816",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music"
+        ],
+        "trackCount": 17,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-08-02",
+        "name": "Care Package",
+        "recordLabel": "OVO",
+        "copyright": "℗ 2019 OVO",
+        "playParams": {
+            "id": "1475177816",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Just hours before the arrival of <i>Care Package</i>, Drake announced the 17-track compilation on Instagram as “some of our most important moments together available in one place.” Call it curious that one of the most impactful artists of the era can hold in such high regard a collection of songs that largely were never officially released, but such is the incredibly bountiful catalog of Drake, where even tracks that didn’t make the cut hold a special place in the hearts of his supporters.<br />\nThe strays that make up <i>Care Package</i> span the 10 years of his stardom. The earliest inclusion, 2010’s “Paris Morton Music,” came to us via the OVO blog, while others, like 2015’s “Can I,” were loosed through more dubious channels ahead of their planned rollouts. He raps over a sample of Jai Paul’s “BTSTU” on 2011’s “Dreams Money Can Buy,” and has included album bonus cuts like “My Side,” a song once attached to 2015’s <i>If You’re Reading This It’s Too Late</i>. For the most part, <i>Care Package</i> is composed of songs Drake fanatics have long enjoyed and sought out, making for a listening experience that plays out like an alternate-universe greatest hits. That universe, however, is the one Drake created, and then nourished, both in and out of proper album cycles. Those same fans may question why certain tracks were left behind, but they'll never have to wonder whether or not he cares.",
+            "short": "Strays from the past decade that play like an alternate-universe greatest hits."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "271256",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/271256"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1475177816/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1475177817",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177817",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/43/f6/41/43f6419a-882a-84c5-82fc-4a6b72b34092/mzaf_16103186965776542315.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/dreams-money-can-buy/1475177816?i=1475177817",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 253803,
+                        "releaseDate": "2011-05-20",
+                        "name": "Dreams Money Can Buy",
+                        "isrc": "USUG11902743",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177817",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177818",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177818",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/bc/40/0b/bc400b92-0b81-51f9-4820-6b98e9e7d304/mzaf_10021983261903174131.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/the-motion/1475177816?i=1475177818",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 240957,
+                        "releaseDate": "2013-06-24",
+                        "name": "The Motion",
+                        "isrc": "USUG11902744",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177818",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177819",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177819",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/33/86/1c/33861c4e-b8de-b7a1-d4c2-928ffdf1c997/mzaf_8158525469253750630.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/how-bout-now/1475177816?i=1475177819",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 235566,
+                        "releaseDate": "2014-10-19",
+                        "name": "How Bout Now",
+                        "isrc": "USUG11902745",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177819",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177820",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177820",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a3/69/76/a369761d-dff7-0b18-72dd-7cd5d2a94ae3/mzaf_5455722716177116875.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/trust-issues/1475177816?i=1475177820",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 281519,
+                        "releaseDate": "2011-06-21",
+                        "name": "Trust Issues",
+                        "isrc": "USUG11902746",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177820",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177821",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177821",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/91/fc/66/91fc66b4-53b3-9788-b775-e86b717a7a36/mzaf_10281018339603851853.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/days-in-the-east/1475177816?i=1475177821",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 353698,
+                        "releaseDate": "2014-04-03",
+                        "name": "Days in the East",
+                        "isrc": "USUG11902747",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177821",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177822",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177822",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/73/e2/cf/73e2cf89-a301-da1f-5dd7-ad571f31d9a2/mzaf_17692945654455544768.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/draft-day/1475177816?i=1475177822",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 266325,
+                        "releaseDate": "2014-04-01",
+                        "name": "Draft Day",
+                        "isrc": "USUG11902748",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177822",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177824",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177824",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/24/2a/78/242a7856-7807-ee83-8207-9ea509dc4b03/mzaf_17235816289190170096.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/4pm-in-calabasas/1475177816?i=1475177824",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 240218,
+                        "releaseDate": "2016-06-04",
+                        "name": "4pm in Calabasas",
+                        "isrc": "USUG11902749",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177824",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177826",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177826",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/82/4f/fc/824ffce5-5930-93b9-8e7f-039f0e2bb9c8/mzaf_1570512259360891171.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/5-am-in-toronto/1475177816?i=1475177826",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205264,
+                        "releaseDate": "2013-03-17",
+                        "name": "5 Am in Toronto",
+                        "isrc": "USUG11902750",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177826",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177827",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177827",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a4/e3/22/a4e3223a-ef21-12da-2f24-a63d1b0dac5d/mzaf_17024331096457366280.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/i-get-lonely/1475177816?i=1475177827",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 253562,
+                        "releaseDate": "2010-10-05",
+                        "name": "I Get Lonely",
+                        "isrc": "USUG11902751",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177827",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Aubrey Graham"
+                    }
+                },
+                {
+                    "id": "1475177828",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177828",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/3e/be/7b/3ebe7bb0-d721-a16f-62ee-b2cd933bb773/mzaf_1166723883434715490.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/my-side/1475177816?i=1475177828",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 294651,
+                        "releaseDate": "2015-04-21",
+                        "name": "My Side",
+                        "isrc": "USUG11902752",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177828",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177831",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177831",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/09/18/14/09181477-f217-3dfe-78b5-285c43c21db0/mzaf_10721596368853259982.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/jodeci-freestyle-feat-j-cole/1475177816?i=1475177831",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 254022,
+                        "releaseDate": "2013-06-22",
+                        "name": "Jodeci Freestyle (feat. J. Cole)",
+                        "isrc": "USUG11902753",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177831",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177832",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177832",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/5e/f9/60/5ef960fe-ccb9-3697-7ef0-207806edf9ea/mzaf_8872780432958633.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/club-paradise/1475177816?i=1475177832",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 283816,
+                        "releaseDate": "2011-09-10",
+                        "name": "Club Paradise",
+                        "isrc": "USUG11902754",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177832",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177833",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177833",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7b/4a/6d/7b4a6dd2-7630-8cc1-7027-7ff60830524e/mzaf_9714641451428412552.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/free-spirit-feat-rick-ross/1475177816?i=1475177833",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 252884,
+                        "releaseDate": "2011-09-10",
+                        "name": "Free Spirit (feat. Rick Ross)",
+                        "isrc": "USUG11902755",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177833",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177834",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177834",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/31/6f/fe/316ffe4d-5576-c907-f242-fce0f63847ba/mzaf_1616878327153083671.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/heat-of-the-moment/1475177816?i=1475177834",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 343455,
+                        "releaseDate": "2014-10-25",
+                        "name": "Heat of the Moment",
+                        "isrc": "USUG11902756",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177834",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177835",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177835",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/36/30/57/36305784-d20d-48ff-9ef6-d4d8b8907afb/mzaf_14231395241544572080.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/girls-love-beyonc%C3%A9-feat-james-fauntleroy/1475177816?i=1475177835",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 225012,
+                        "releaseDate": "2013-04-16",
+                        "name": "Girls Love Beyoncé (feat. James Fauntleroy)",
+                        "isrc": "USUG11902757",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177835",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177836",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177836",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f3/37/91/f33791aa-af95-d918-3b04-190f02ac7d3a/mzaf_10500122149996896971.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/paris-morton-music/1475177816?i=1475177836",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 251240,
+                        "releaseDate": "2010-07-10",
+                        "name": "Paris Morton Music",
+                        "isrc": "USUG11902758",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177836",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177837",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475177837",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/22/1f/a7/221fa7a1-ec2e-cf47-c948-58492667cea2/mzaf_91739722970483223.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/can-i/1475177816?i=1475177837",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 189289,
+                        "releaseDate": "2015-10-03",
+                        "name": "Can I",
+                        "isrc": "USUG11902759",
+                        "albumName": "Care Package",
+                        "playParams": {
+                            "id": "1475177837",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Aubrey Graham",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1475177816/tracks"
+        }
+    }
+}

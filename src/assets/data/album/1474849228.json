@@ -1,0 +1,714 @@
+{
+    "id": "1474849228",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1474849228",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "000000",
+            "textColor1": "f9f9f9",
+            "textColor2": "cfb98a",
+            "textColor3": "c7c7c7",
+            "textColor4": "a6946e"
+        },
+        "artistName": "Lil Durk",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/love-songs-4-the-streets-2/1474849228",
+        "isComplete": true,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music",
+            "Rap"
+        ],
+        "trackCount": 16,
+        "isMasteredForItunes": false,
+        "releaseDate": "2019-08-02",
+        "name": "Love Songs 4 the Streets 2",
+        "recordLabel": "Alamo (Interscope Records)",
+        "copyright": "℗ 2019 Alamo (Interscope Records)",
+        "playParams": {
+            "id": "1474849228",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Arguably the most enduring artist to come out of Chicago’s drill scene, Lil Durk has spent close to a decade in the game. His perseverance matched only by inherent talent, he continues to consistently deliver the hardened yet palatable anthems that keep him respected and beloved nationally even as former peers have come, gone, and come again. A mix of smooth jams and thug anthems, <i>Love Songs 4 The Streets 2</i> covers all his bases. As has been the case since the “Dis Ain’t What You Want” days, Auto-Tune often cushions his unrepentant bars, exemplified by tracks like “Locked Up” and the hedonistic Nicki Minaj feature “Extravagant.” Stripped of any such padding, “Die Slow” finds a raw-throated Durk in revenge mode.",
+            "short": "A mix of smooth jams and thug anthems from Chicago’s drill scene vet."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1474849231",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849231",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/88/e2/58/88e2584c-c77c-75a8-1b2c-acf9560aeaa6/mzaf_12287372903884943771.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/rn4l/1474849228?i=1474849231",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 196272,
+                        "releaseDate": "2019-08-02",
+                        "name": "RN4L",
+                        "isrc": "USUM71914465",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849231",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Durk Banks & Darrel Gregory Jackson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849232",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849232",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/61/25/b8/6125b850-c640-a2a8-2f05-a66c427b70d3/mzaf_3657190464101029652.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/like-that-feat-king-von/1474849228?i=1474849232",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 165015,
+                        "releaseDate": "2019-07-09",
+                        "name": "Like That (feat. King Von)",
+                        "isrc": "USUM71912472",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849232",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Durk Banks, Dwan Avery & Dayvon Bennett",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849233",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849233",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a5/d6/7f/a5d67fca-42a9-52e0-6720-78723b7e9135/mzaf_689871143191478806.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/green-light/1474849228?i=1474849233",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 142982,
+                        "releaseDate": "2019-07-26",
+                        "name": "Green Light",
+                        "isrc": "USUM71913983",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849233",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Durk Banks, Dwan Avery & Anthony Beechan",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849234",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849234",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/b6/f8/49b6f85a-04cd-36c8-0ee4-9ecee89f9b61/mzaf_4752658003272979204.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/die-slow-feat-21-savage/1474849228?i=1474849234",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 198526,
+                        "releaseDate": "2019-08-02",
+                        "name": "Die Slow (feat. 21 Savage)",
+                        "isrc": "USUM71914445",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849234",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Durk Banks, Darrel Gregory Jackson & She'yaa Bin Abraham-Joseph",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849241",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849241",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ec/a9/ea/eca9ead8-2f22-d29a-c64a-44d51102d506/mzaf_8249320540888049385.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/locked-up/1474849228?i=1474849241",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174655,
+                        "releaseDate": "2019-08-02",
+                        "name": "Locked Up",
+                        "isrc": "USUM71914450",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849241",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Durk Banks, Harrison Lipsitz, Clarence Lazar Gray & Adrian Appleby",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849245",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849245",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ad/73/dc/ad73dc11-f91c-21ab-f9bb-bc091fdb67a3/mzaf_17758052275182277149.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/rebellious/1474849228?i=1474849245",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 179288,
+                        "releaseDate": "2019-08-02",
+                        "name": "Rebellious",
+                        "isrc": "USUM71914452",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849245",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Durk Banks, Kevin Andre Price, Nicodemo Lalli & Joshua Samuel",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849253",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849253",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/3f/ab/27/3fab274e-377b-d432-c6da-7e0eb44fda9a/mzaf_9135760542900775925.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/u-said-feat-a-boogie-wit-da-hoodie/1474849228?i=1474849253",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 168482,
+                        "releaseDate": "2019-08-02",
+                        "name": "U Said (feat. A Boogie wit da Hoodie)",
+                        "isrc": "USUM71914459",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849253",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Jahaan Sweet, Durk Banks, Julius Dabone, Ryan Vojtesak & Matthew Samuels",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849321",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849321",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2d/c9/f3/2dc9f3b2-b1ee-06c8-0dad-86319b959e02/mzaf_17079756058692752238.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/prada-you/1474849228?i=1474849321",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 158043,
+                        "releaseDate": "2019-08-02",
+                        "name": "Prada You",
+                        "isrc": "USUM71914455",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849321",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Durk Banks, Dwan Avery & Robert Richardson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849329",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849329",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/c8/ef/49c8ef4e-3738-9faa-04b7-f17612360f9e/mzaf_1909835424536104878.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/extravagant-feat-nicki-minaj/1474849228?i=1474849329",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 284640,
+                        "releaseDate": "2019-08-02",
+                        "name": "Extravagant (feat. Nicki Minaj)",
+                        "isrc": "USUM71914447",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849329",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Durk Banks, Onika Maraj, Jose Julian De La Cruz & Widnick Prevalon",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849337",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849337",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f6/a7/06/f6a706c2-e086-81e6-1280-7860199a7013/mzaf_13471857499657510455.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/bora-bora/1474849228?i=1474849337",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 162206,
+                        "releaseDate": "2019-08-02",
+                        "name": "Bora Bora",
+                        "isrc": "USUM71914440",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849337",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Durk Banks & Darrel Gregory Jackson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849345",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849345",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/bd/f0/db/bdf0db8b-bdbf-d2b3-8ca2-f7ec1690ab26/mzaf_4696294841684904801.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/weirdo-hoes/1474849228?i=1474849345",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 197697,
+                        "releaseDate": "2019-08-02",
+                        "name": "Weirdo Hoes",
+                        "isrc": "USUM71914462",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849345",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Durk Banks & Geraldo Mejia",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849353",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849353",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8b/05/80/8b0580ec-064b-8053-0f1a-4a8e920f1ccf/mzaf_17573755305971833299.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/therlbread/1474849228?i=1474849353",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 166383,
+                        "releaseDate": "2019-08-02",
+                        "name": "TherlBread",
+                        "isrc": "USUM71914461",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849353",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Durk Banks & Willie Jerome Byrd",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849362",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849362",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8c/db/6c/8cdb6cd2-608e-656d-b46c-9681240f8074/mzaf_16186242173937143573.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/bougie-feat-meek-mill/1474849228?i=1474849362",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180994,
+                        "releaseDate": "2019-07-19",
+                        "name": "Bougie (feat. Meek Mill)",
+                        "isrc": "USUM71913583",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849362",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Durk Banks, Orlando J. Tucker, Anthony Tucker & Robert Rihmeek Williams",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849374",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849374",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/81/60/78/81607887-207e-8c04-196c-04fff34985d8/mzaf_6625702254119143346.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/wooh-feat-key-glock/1474849228?i=1474849374",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 133919,
+                        "releaseDate": "2019-08-02",
+                        "name": "Wooh (feat. Key Glock)",
+                        "isrc": "USUM71914464",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849374",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Durk Banks, Dwan Avery, Mario Martinez & Markeyvius Cathey",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849412",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849412",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/09/19/1e/09191ea0-59bd-5bec-3496-79a1e696441b/mzaf_8903221479089781943.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/david-ruffin/1474849228?i=1474849412",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 160350,
+                        "releaseDate": "2019-08-02",
+                        "name": "David Ruffin",
+                        "isrc": "USUM71914446",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849412",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Durk Banks, Eric Sandoval & Spencer Harris",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849422",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849422",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c9/ef/60/c9ef607f-5d63-7da0-c1e9-88ac06e3aeab/mzaf_8155280503771558180.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/love-songs-4-the-streets/1474849228?i=1474849422",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 186116,
+                        "releaseDate": "2019-08-02",
+                        "name": "Love Songs 4 the Streets",
+                        "isrc": "USUM71914448",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849422",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Durk Banks, Darrel Gregory Jackson & Lionel Richie",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1474849228/tracks"
+        },
+        "artists": {
+            "data": [
+                {
+                    "id": "541282483",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/541282483"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1474849228/artists"
+        }
+    }
+}

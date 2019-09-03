@@ -1,0 +1,629 @@
+{
+    "id": "1477880265",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1477880265",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "171916",
+            "textColor1": "b6ccc7",
+            "textColor2": "bbc4cd",
+            "textColor3": "96a8a4",
+            "textColor4": "9aa2a8"
+        },
+        "artistName": "Post Malone",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/hollywoods-bleeding/1477880265",
+        "isComplete": false,
+        "genreNames": [
+            "Hip-Hop/Rap",
+            "Music"
+        ],
+        "trackCount": 17,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-09-06",
+        "name": "Hollywood's Bleeding",
+        "recordLabel": "Republic Records",
+        "copyright": "℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+        "playParams": {
+            "id": "1477880265",
+            "kind": "album"
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "artists": {
+            "data": [
+                {
+                    "id": "966309175",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/966309175"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1477880265/artists"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1477880487",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880487",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-1/1477880265?i=1477880487",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 1",
+                        "isrc": "USUM71915730",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 1,
+                        "composerName": "Austin Post"
+                    }
+                },
+                {
+                    "id": "1477880548",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880548",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-2/1477880265?i=1477880548",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 2",
+                        "isrc": "USUM71915733",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 2,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880552",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880552",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-3/1477880265?i=1477880552",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 3",
+                        "isrc": "USUM71915725",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 3,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880554",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880554",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-4/1477880265?i=1477880554",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 4",
+                        "isrc": "USUM71915722",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 4,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880558",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880558",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-5/1477880265?i=1477880558",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 5",
+                        "isrc": "USUM71915724",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 5,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880561",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880561",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/00/39/f6/0039f6b4-8a14-1639-863f-a5dac44a3b36/mzaf_12141909738172358872.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/circles/1477880265?i=1477880561",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 214867,
+                        "releaseDate": "2019-08-31",
+                        "name": "Circles",
+                        "isrc": "USUM71915699",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880561",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Louis Bell, Austin Post, Kaan Gunesberk, Adam Feeney & Billy Walsh"
+                    }
+                },
+                {
+                    "id": "1477880563",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880563",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-7/1477880265?i=1477880563",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 7",
+                        "isrc": "USUM71915723",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 7,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880565",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880565",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-8/1477880265?i=1477880565",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 8",
+                        "isrc": "USUM71915729",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 8,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880568",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880568",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-9/1477880265?i=1477880568",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 9",
+                        "isrc": "USUM71915731",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 9,
+                        "composerName": "Austin Post"
+                    }
+                },
+                {
+                    "id": "1477880759",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880759",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-10/1477880265?i=1477880759",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 10",
+                        "isrc": "USUM71915727",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 10,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880762",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880762",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-11/1477880265?i=1477880762",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 11",
+                        "isrc": "USUM71915728",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 11,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880764",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880764",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4f/65/a2/4f65a2b5-849b-6dd5-02bd-55d190804c74/mzaf_10528172136527279168.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone & Swae Lee",
+                        "url": "https://music.apple.com/us/album/sunflower-spider-man-into-the-spider-verse/1477880265?i=1477880764",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 158040,
+                        "releaseDate": "2018-10-18",
+                        "name": "Sunflower (Spider-Man: Into the Spider-Verse)",
+                        "isrc": "USUM71814888",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880764",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Carter Lang, Khalif Malik Ibin Shaman Brown, Louis Russel Bell, Austin Richard Post, William Walsh & Carl Rosen"
+                    }
+                },
+                {
+                    "id": "1477880766",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880766",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-13/1477880265?i=1477880766",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 13",
+                        "isrc": "USUM71915726",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 13,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880768",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880768",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/88/ae/5d/88ae5d3e-a44f-a5bf-61ad-e6e92c4f02a9/mzaf_10669247848615477796.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/goodbyes-feat-young-thug/1477880265?i=1477880768",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174947,
+                        "releaseDate": "2019-07-05",
+                        "name": "Goodbyes (feat. Young Thug)",
+                        "isrc": "USUM71912330",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880768",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Brian Lee, Louis Bell, Austin Post, Billy Walsh, Jeffery Williams, Jessie Lauren Foutz & Val Blavatnik",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880771",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880771",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-15/1477880265?i=1477880771",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 15",
+                        "isrc": "USUM71915734",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 15,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880775",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880775",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/track-16/1477880265?i=1477880775",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "releaseDate": "2019-09-06",
+                        "name": "Track 16",
+                        "isrc": "USUM71915732",
+                        "albumName": "Hollywood's Bleeding",
+                        "trackNumber": 16,
+                        "composerName": "Austin Post",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880777",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880777",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/13/25/8a/13258a56-60dc-8567-aeda-28cbf3393d71/mzaf_12116292312332323259.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/wow/1477880265?i=1477880777",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 149501,
+                        "releaseDate": "2018-12-24",
+                        "name": "Wow.",
+                        "isrc": "USUM71822626",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880777",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Louis Bell, Austin Post, Adam Feeny & Billy Walsh",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1477880265/tracks"
+        }
+    }
+}
