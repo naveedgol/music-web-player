@@ -1,9 +1,14 @@
 <div class="inner-container">
   <div
     [routerLink]="playlistData.type === 'library-playlists' ? ['/library/playlists', playlistData.id] : ['/playlists', playlistData.id]"
+    (mouseover)="action.show()" (mouseleave)="action.hidden()"
     class="album-cover-container mat-elevation-z24"
   >
     <img appLazyLoad class="album-cover" src="{{(playlistData.attributes.artwork ? playlistData.attributes.artwork.url : '') | formatArtworkUrl:170}}" alt="playlist-art">
+    <app-action #action
+                [id]="playlistData.id"
+                [isLibrary]="playlistData.type === 'library-playlists'"
+                type="PLAYLIST"></app-action>
   </div>
 
   <div class="text-outer-container">
