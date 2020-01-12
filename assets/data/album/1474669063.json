@@ -1,0 +1,623 @@
+{
+    "id": "1474669063",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1474669063",
+    "attributes": {
+        "artwork": {
+            "width": 3000,
+            "height": 3000,
+            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "10120f",
+            "textColor1": "a8cee4",
+            "textColor2": "86bfd4",
+            "textColor3": "89a9ba",
+            "textColor4": "6f9cad"
+        },
+        "artistName": "Lana Del Rey",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/norman-f-g-rockwell/1474669063",
+        "isComplete": true,
+        "genreNames": [
+            "Alternative",
+            "Music"
+        ],
+        "trackCount": 14,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-08-30",
+        "name": "Norman F*****g Rockwell!",
+        "recordLabel": "Polydor Records",
+        "copyright": "A Polydor Records Release / An Interscope Records Release In The USA; ℗ 2019 Lana Del Rey, under exclusive licence to Universal Music Operations Limited",
+        "playParams": {
+            "id": "1474669063",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "Part of the fun of listening to Lana Del Rey’s ethereal lullabies is the sly sense of humor that brings them back down to earth. Tucked inside her dreamscapes about Hollywood and the Hamptons are reminders—and celebrations—of just how empty these places can be. Here, on her sixth album, she fixes her gaze on another place primed for exploration: the art world. Winking and vivid, <i>Norman F*****g Rockwell!</i> is a conceptual riff on the rules that govern integrity and authenticity from an artist who has made a career out of breaking them.<br />\nIn a 2018 interview with Apple Music's Zane Lowe, Del Rey said working with songwriter Jack Antonoff (who produced the album along with Rick Nowels and Andrew Watt) put her in a lighter mood: “He was so <i>funny</i>,” she said. Their partnership—as seen on the title track, a study of inflated egos—allowed her to take her subjects less seriously. \"It's about this guy who is such a genius artist, but he thinks he’s the s**t and he knows it,” she said. \"So often I end up with these creative types. They just go on and on about themselves and I'm like, 'Yeah, yeah.' But there’s merit to it also—they are so good.”<br />\nThis paradox becomes a theme on <i>Rockwell</i>, a canvas upon which she paints with sincerity and satire and challenges you to spot the difference. (On “The Next Best American Record,” she sings, “We were so obsessed with writing the next best American record/’Cause we were just that good/It was just that good.”) Whether she’s wistfully nostalgic or jaded and detached is up for interpretation—really, everything is. The album’s finale, “hope is a dangerous thing for a woman like me to have - but I have it,” is packaged like a confessional—first-person, reflective, sung over simple piano chords—but it’s also flamboyantly cinematic, interweaving references to Sylvia Plath and Slim Aarons with anecdotes from Del Rey's own life to make us question, again, what's real. When she repeats the phrase “a woman like me,” it feels like a taunt; she’s spent the last decade mixing personas—outcast and pop idol, debutante and witch, pinup girl and poet, sinner and saint—ostensibly in an effort to render them all moot. Here, she suggests something even bolder: that the only thing more dangerous than a complicated woman is one who refuses to give up.",
+            "short": "Witty and psychedelic, Lana’s sixth LP is her strangest and strongest yet."
+        },
+        "contentRating": "explicit"
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1474669065",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669065",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f6/ea/2c/f6ea2c08-c967-5118-634b-07bb0c3745d3/mzaf_4227268612436022228.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/norman-f-g-rockwell/1474669063?i=1474669065",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 248934,
+                        "releaseDate": "2019-08-30",
+                        "name": "Norman f*****g Rockwell",
+                        "isrc": "GBUM71903153",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669065",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669066",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669066",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c0/05/b1/c005b1d9-dfaa-4b1e-30a4-e9c6c6178d91/mzaf_1188331919193130238.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/mariners-apartment-complex/1474669063?i=1474669066",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 247150,
+                        "releaseDate": "2018-09-14",
+                        "name": "Mariners Apartment Complex",
+                        "isrc": "USUG11801801",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669066",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669067",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669067",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/41/eb/c8/41ebc8f2-ea85-f7e4-a654-cfb0fdc54460/mzaf_10415616516397083178.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/venice-bitch/1474669063?i=1474669067",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 577199,
+                        "releaseDate": "2018-09-21",
+                        "name": "Venice Bitch",
+                        "isrc": "USUG11801802",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669067",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669068",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669068",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/45/62/f0/4562f0a9-149d-9459-ae5b-867f54cc5bc7/mzaf_3689518268860693772.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/f-k-it-i-love-you/1474669063?i=1474669068",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 218288,
+                        "releaseDate": "2019-08-16",
+                        "name": "F**k it I love you",
+                        "isrc": "GBUM71903510",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669068",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669071",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669071",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/7d/d6/d8/7dd6d815-6b35-46f8-3fe8-78f38e709d63/mzaf_6986871950112498910.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/doin-time/1474669063?i=1474669071",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 202193,
+                        "releaseDate": "2019-05-17",
+                        "name": "Doin' Time",
+                        "isrc": "GBUM71903894",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669071",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Bradley James Nowell, Rick Rubin, Adam Keefe Horovitz, Adam Nathaniel Yauch, Marshall Raymond Goodman, Ira Gershwin, Dubose Heyward, Dorothy Heyward & George Gershwin",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669073",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669073",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/04/51/f7/0451f720-855a-939b-9075-3aef5e97f6d7/mzaf_5123987273651841751.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/love-song/1474669063?i=1474669073",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 229326,
+                        "releaseDate": "2019-08-30",
+                        "name": "Love song",
+                        "isrc": "GBUM71903152",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669073",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Lana Del Rey & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1474669074",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669074",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/df/05/2b/df052b7a-c720-6656-c833-f19da8974a53/mzaf_176358334436407572.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/cinnamon-girl/1474669063?i=1474669074",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 300683,
+                        "releaseDate": "2019-08-30",
+                        "name": "Cinnamon Girl",
+                        "isrc": "GBUM71903147",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669074",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Lana Del Rey & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1474669286",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669286",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b7/9b/3b/b79b3b20-5c13-ef03-d705-32586952763f/mzaf_12481735588887259918.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/how-to-disappear/1474669063?i=1474669286",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 228071,
+                        "releaseDate": "2019-08-30",
+                        "name": "How to disappear",
+                        "isrc": "GBUM71903148",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669286",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Lana Del Rey & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1474669287",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669287",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/57/8a/e3/578ae311-12ee-ae7b-7ef7-8f6f72a8bfd2/mzaf_4239285721621051037.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/california/1474669063?i=1474669287",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 305900,
+                        "releaseDate": "2019-08-30",
+                        "name": "California",
+                        "isrc": "GBUM71701863",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669287",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Lana Del Rey & Zachary Edwin Dawes"
+                    }
+                },
+                {
+                    "id": "1474669290",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669290",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/02/14/ba/0214ba50-70e6-533a-4f41-e5985962311e/mzaf_8409268966259240132.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/the-next-best-american-record/1474669063?i=1474669290",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 349347,
+                        "releaseDate": "2019-08-30",
+                        "name": "The Next Best American Record",
+                        "isrc": "GBUM71701687",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669290",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Lana Del Rey & Rick Nowels"
+                    }
+                },
+                {
+                    "id": "1474669292",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669292",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8c/79/51/8c7951fe-dcce-09fa-0754-9f3fe03e7a7e/mzaf_1431681598974214309.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/the-greatest/1474669063?i=1474669292",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 300361,
+                        "releaseDate": "2019-08-17",
+                        "name": "The greatest",
+                        "isrc": "GBUM71903151",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669292",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Lana Del Rey & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1474669293",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669293",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f5/89/00/f5890072-7baf-979a-a887-ad40f12add4a/mzaf_18022252341469792777.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/bartender/1474669063?i=1474669293",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 263441,
+                        "releaseDate": "2019-08-30",
+                        "name": "Bartender",
+                        "isrc": "GBUM71903146",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669293",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Lana Del Rey & Rick Nowels"
+                    }
+                },
+                {
+                    "id": "1474669295",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669295",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ac/18/55/ac185539-f367-bd8d-0fbc-90abbe7b7a0e/mzaf_8650802460532656553.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/happiness-is-a-butterfly/1474669063?i=1474669295",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 272485,
+                        "releaseDate": "2019-08-30",
+                        "name": "Happiness is a butterfly",
+                        "isrc": "GBUM71903150",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669295",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Lana Del Rey, Jack Antonoff & Rick"
+                    }
+                },
+                {
+                    "id": "1474669296",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669296",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/12/ad/fe/12adfe5f-c2ac-5d83-28be-70910b0fe49b/mzaf_2758359682860360517.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/hope-is-dangerous-thing-for-woman-like-me-to-have-but/1474669063?i=1474669296",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 324540,
+                        "releaseDate": "2019-01-09",
+                        "name": "hope is a dangerous thing for a woman like me to have - but I have it",
+                        "isrc": "USUG11900001",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669296",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1474669063/tracks"
+        },
+        "artists": {
+            "data": [
+                {
+                    "id": "464296584",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/464296584"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1474669063/artists"
+        }
+    }
+}

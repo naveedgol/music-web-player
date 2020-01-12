@@ -1,0 +1,2652 @@
+{
+    "id": "pl.87bb5b36a9bd49db8c975607452bfa2b",
+    "type": "playlists",
+    "href": "/v1/catalog/us/playlists/pl.87bb5b36a9bd49db8c975607452bfa2b",
+    "attributes": {
+        "artwork": {
+            "width": 4320,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features71/v4/7d/3a/f6/7d3af6e1-236e-e9ff-3185-b238bf947b7f/source/{w}x{h}cc.jpeg",
+            "bgColor": "d09c72",
+            "textColor1": "140603",
+            "textColor2": "321d16",
+            "textColor3": "3a2419",
+            "textColor4": "523628"
+        },
+        "isChart": false,
+        "url": "https://music.apple.com/us/playlist/the-a-list-country/pl.87bb5b36a9bd49db8c975607452bfa2b",
+        "lastModifiedDate": "2019-08-30T22:38:50Z",
+        "name": "The A-List: Country",
+        "playlistType": "editorial",
+        "curatorName": "Apple Music Country",
+        "playParams": {
+            "id": "pl.87bb5b36a9bd49db8c975607452bfa2b",
+            "kind": "playlist"
+        },
+        "description": {
+            "standard": "After combing through countless releases each week, our editors select their favorites for The A-List: Country—the hottest tracks from across the genre. This playlist is updated regularly, so if you like a song, add it to your library.",
+            "short": "Ashley McBryde just wants to stick to the \"One Night Standards\" on her latest single."
+        }
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1475788528",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475788528",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/49/52/4c/49524cc1-ed98-cf9a-377f-cf4f928a7137/mzaf_77823978555217348.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/18/f0/48/18f04884-aa7b-8018-b78f-622d73ef1c8a/886447890448.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "4e0101",
+                            "textColor1": "efccb1",
+                            "textColor2": "e19500",
+                            "textColor3": "cea38e",
+                            "textColor4": "c47800"
+                        },
+                        "artistName": "Diplo",
+                        "url": "https://music.apple.com/us/album/heartless-feat-morgan-wallen/1475788526?i=1475788528",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 169227,
+                        "releaseDate": "2019-08-16",
+                        "name": "Heartless (feat. Morgan Wallen)",
+                        "isrc": "USSM11905215",
+                        "albumName": "Heartless (feat. Morgan Wallen) - Single",
+                        "playParams": {
+                            "id": "1475788528",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Morgan Wallen, Thomas Wesley Pentz, Henry Agincourt Allen, Ernest Keith Smith, Ryan Hurd & Ryan Vojtesak",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1462318862",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462318862",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/91/8b/43/918b4362-8850-d243-8452-694149223aaf/mzaf_4179603632131213021.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/2d/de/ea/2ddeea87-c548-0e93-600b-8a2ab2e2ea63/886447697009.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1d191a",
+                            "textColor1": "d0cdce",
+                            "textColor2": "cdbda6",
+                            "textColor3": "aca9aa",
+                            "textColor4": "aa9c8a"
+                        },
+                        "artistName": "Matt Stell",
+                        "url": "https://music.apple.com/us/album/prayed-for-you/1462318490?i=1462318862",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 210373,
+                        "releaseDate": "2018-03-16",
+                        "name": "Prayed for You",
+                        "isrc": "QM4MA1800019",
+                        "albumName": "Everywhere but On - EP",
+                        "playParams": {
+                            "id": "1462318862",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Matthew Stell, Allison Cruz & Ashley Bowers"
+                    }
+                },
+                {
+                    "id": "1477062894",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477062894",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/9d/f6/2c/9df62cc8-124d-9e4c-d5da-d5140de043f4/mzaf_17135363506418445752.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/e7/a8/e6/e7a8e67c-da99-1355-c938-0565b5330d63/054391942210.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "784428",
+                            "textColor1": "f1e7e5",
+                            "textColor2": "e1bbab",
+                            "textColor3": "d9c6bf",
+                            "textColor4": "cca391"
+                        },
+                        "artistName": "Ashley McBryde",
+                        "url": "https://music.apple.com/us/album/one-night-standards/1477062875?i=1477062894",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 190973,
+                        "releaseDate": "2019-08-30",
+                        "name": "One Night Standards",
+                        "isrc": "USWB11902033",
+                        "albumName": "One Night Standards - Single",
+                        "playParams": {
+                            "id": "1477062894",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ashley McBryde, Nicolette Hayford & Shane McAnally"
+                    }
+                },
+                {
+                    "id": "1354570161",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1354570161",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/56/46/9b/56469b75-a339-070d-499a-13176377feed/mzaf_3713483310218020574.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/97/87/8c/97878c51-f420-eb73-4f81-fdebf688c79c/4050538376074.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "110c09",
+                            "textColor1": "ebbe6e",
+                            "textColor2": "deb581",
+                            "textColor3": "bf9a5a",
+                            "textColor4": "b59369"
+                        },
+                        "artistName": "Jason Aldean",
+                        "url": "https://music.apple.com/us/album/rearview-town/1354570152?i=1354570161",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 183867,
+                        "releaseDate": "2018-04-13",
+                        "name": "Rearview Town",
+                        "isrc": "QMRSZ1800224",
+                        "albumName": "Rearview Town",
+                        "playParams": {
+                            "id": "1354570161",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Jason Aldean"
+                    }
+                },
+                {
+                    "id": "1383989665",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1383989665",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/1a/cf/2c/1acf2c72-e3d5-b957-31cf-71c128d1d25a/mzaf_9145689423170139925.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/76/b6/e4/76b6e4e2-5d85-1d5c-d524-c3b1f9cb8f8f/093624906407.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "dadcdb",
+                            "textColor1": "0a0b0a",
+                            "textColor2": "151615",
+                            "textColor3": "343434",
+                            "textColor4": "3d3d3d"
+                        },
+                        "artistName": "Dan + Shay",
+                        "url": "https://music.apple.com/us/album/all-to-myself/1383989073?i=1383989665",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 169613,
+                        "releaseDate": "2018-05-03",
+                        "name": "All To Myself",
+                        "isrc": "USWB11800877",
+                        "albumName": "Dan + Shay",
+                        "playParams": {
+                            "id": "1383989665",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Dan Smyers, Jordan Reynolds, Nicolle Galyon & Shay Mooney"
+                    }
+                },
+                {
+                    "id": "1467018998",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1467018998",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e6/5c/7d/e65c7d01-3876-cf41-48b0-31b7739ca5ee/mzaf_1289160591951486818.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/c5/e7/4b/c5e74b33-26d4-64ea-db55-74c85c26eb74/19OPBMR00582.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "c6858b",
+                            "textColor1": "080803",
+                            "textColor2": "251712",
+                            "textColor3": "2e211e",
+                            "textColor4": "452d2a"
+                        },
+                        "artistName": "Midland",
+                        "url": "https://music.apple.com/us/album/mr-lonely/1467018612?i=1467018998",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 180405,
+                        "releaseDate": "2019-03-29",
+                        "name": "Mr. Lonely",
+                        "isrc": "USCJY1938093",
+                        "albumName": "Let It Roll",
+                        "playParams": {
+                            "id": "1467018998",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Shane McAnally, Josh Osborne, Jess Carson, Cameron Duddy & Mark Wystrach"
+                    }
+                },
+                {
+                    "id": "1466124737",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466124737",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/d1/0c/49d10ccd-7d27-159a-b518-92945ac14f8d/mzaf_3966596158285634011.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/01/3a/f3/013af3cc-11ee-cdcf-7b2b-0bd57d5ceae5/886447669327.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1a1a18",
+                            "textColor1": "f4f2ee",
+                            "textColor2": "c9c7c4",
+                            "textColor3": "c8c7c3",
+                            "textColor4": "a5a4a2"
+                        },
+                        "artistName": "Luke Combs",
+                        "url": "https://music.apple.com/us/album/even-though-im-leaving/1466124733?i=1466124737",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 225253,
+                        "releaseDate": "2019-06-07",
+                        "name": "Even Though I'm Leaving",
+                        "isrc": "US6XF1700254",
+                        "albumName": "The Prequel - EP",
+                        "playParams": {
+                            "id": "1466124737",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Luke Combs, Wyatt Durrette & Ray Fulcher"
+                    }
+                },
+                {
+                    "id": "1475873104",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475873104",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/90/c2/2d/90c22d8d-0ffd-36b5-b2dd-661eacca8d66/mzaf_9731106819609198178.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/ff/d3/b8/ffd3b8fe-0061-38c1-54da-0feb55023f82/886447882511.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fffbef",
+                            "textColor1": "000000",
+                            "textColor2": "640201",
+                            "textColor3": "33322f",
+                            "textColor4": "833431"
+                        },
+                        "artistName": "Miranda Lambert",
+                        "url": "https://music.apple.com/us/album/bluebird/1475872912?i=1475873104",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 209760,
+                        "releaseDate": "2019-08-15",
+                        "name": "Bluebird",
+                        "isrc": "US6XF1800265",
+                        "albumName": "Wildcard",
+                        "playParams": {
+                            "id": "1475873104",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Miranda Lambert, Luke Dick & Natalie Hemby"
+                    }
+                },
+                {
+                    "id": "1454614791",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454614791",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ec/56/23/ec5623c9-1db9-2b80-ba2a-eca510ba8518/mzaf_8431000460436334420.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/9c/26/cb9c2671-06a1-5fff-8f33-b9b1f0cd4cf6/00843930041176.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "281c0e",
+                            "textColor1": "fbe2ce",
+                            "textColor2": "d6b3aa",
+                            "textColor3": "d1baa7",
+                            "textColor4": "b3958b"
+                        },
+                        "artistName": "Thomas Rhett",
+                        "url": "https://music.apple.com/us/album/remember-you-young/1454614683?i=1454614791",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 180467,
+                        "releaseDate": "2019-05-31",
+                        "name": "Remember You Young",
+                        "isrc": "USLXJ1907471",
+                        "albumName": "Center Point Road",
+                        "playParams": {
+                            "id": "1454614791",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Thomas Rhett, Jesse Frasure & Ashley Gorley"
+                    }
+                },
+                {
+                    "id": "1410277875",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1410277875",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/cb/20/76cb2013-6dd0-7734-28da-0aac952c40d9/mzaf_8848939733924584855.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/7c/dd/007cdd95-f3b7-c4f8-ca9d-9eaf839f6c2a/093624905202.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "161d0d",
+                            "textColor1": "fdfdfd",
+                            "textColor2": "b0c75e",
+                            "textColor3": "cfd0cd",
+                            "textColor4": "91a54e"
+                        },
+                        "artistName": "Cole Swindell",
+                        "url": "https://music.apple.com/us/album/love-you-too-late/1410277094?i=1410277875",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 203893,
+                        "releaseDate": "2018-07-13",
+                        "name": "Love You Too Late",
+                        "isrc": "USWB11801410",
+                        "albumName": "All of It",
+                        "playParams": {
+                            "id": "1410277875",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Cole Swindell, Brandon Kinney & Michael Carter"
+                    }
+                },
+                {
+                    "id": "1463372552",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1463372552",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b0/0f/a2/b00fa275-c2a4-c15a-87a6-c9120b906876/mzaf_5323651184644303661.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/df/49/ee/df49ee26-e09d-96c3-17c0-b13161f89b9b/4050538508727.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "9aaabb",
+                            "textColor1": "0f0902",
+                            "textColor2": "20252f",
+                            "textColor3": "2b2a27",
+                            "textColor4": "39404b"
+                        },
+                        "artistName": "Runaway June",
+                        "url": "https://music.apple.com/us/album/buy-my-own-drinks/1463372365?i=1463372552",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 202643,
+                        "releaseDate": "2018-06-29",
+                        "name": "Buy My Own Drinks",
+                        "isrc": "QMRSZ1801082",
+                        "albumName": "Blue Roses",
+                        "playParams": {
+                            "id": "1463372552",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Runaway June, Hannah Mulholland, Hillary Lindsey, Jennifer Wayne, Josh Kear & Naomi Cooke"
+                    }
+                },
+                {
+                    "id": "1455555963",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1455555963",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/51/2f/28/512f286b-f88f-9202-6a99-889c5825defb/mzaf_3034020065906589603.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/f1/c7/0c/f1c70c93-3694-621f-cb50-b1b83b16e411/Jakefinal_notracks.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f0e7c8",
+                            "textColor1": "050406",
+                            "textColor2": "1b1611",
+                            "textColor3": "34322d",
+                            "textColor4": "454035"
+                        },
+                        "artistName": "Jake Owen",
+                        "url": "https://music.apple.com/us/album/homemade/1455555956?i=1455555963",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 192653,
+                        "releaseDate": "2019-03-29",
+                        "name": "Homemade",
+                        "isrc": "QZ22S1800048",
+                        "albumName": "Greetings From...Jake",
+                        "playParams": {
+                            "id": "1455555963",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Ben Goldsmith, Jared Mullins, Drew Parker & Bobby Pinson"
+                    }
+                },
+                {
+                    "id": "1470368844",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470368844",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e9/c0/4e/e9c04e95-60f6-935d-5128-87ef55ea0afa/mzaf_12891210148000656080.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/81/0b/20810b07-03e1-2458-68f5-b5d8c42ef22f/054391943453.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a1a1a1",
+                            "textColor1": "050505",
+                            "textColor2": "0e0d0d",
+                            "textColor3": "242424",
+                            "textColor4": "2b2b2b"
+                        },
+                        "artistName": "Kenny Chesney",
+                        "url": "https://music.apple.com/us/album/tip-of-my-tongue/1470368843?i=1470368844",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 199413,
+                        "releaseDate": "2019-07-12",
+                        "name": "Tip of My Tongue",
+                        "isrc": "USWB11901594",
+                        "albumName": "Tip of My Tongue - Single",
+                        "playParams": {
+                            "id": "1470368844",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kenny Chesney, Ed Sheeran & Ross Copperman"
+                    }
+                },
+                {
+                    "id": "1472084809",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472084809",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/46/47/43/464743ea-58fb-2e47-f603-974038039092/mzaf_753115474884438283.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3600,
+                            "height": 3600,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/a2/12/78/a2127839-87b1-eeb8-aa86-c47cc6eb2f4c/886447840375.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "184e69",
+                            "textColor1": "f8e1a3",
+                            "textColor2": "fad78d",
+                            "textColor3": "cbc497",
+                            "textColor4": "cdbb86"
+                        },
+                        "artistName": "Kane Brown",
+                        "url": "https://music.apple.com/us/album/homesick/1472084155?i=1472084809",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 205405,
+                        "releaseDate": "2018-09-07",
+                        "name": "Homesick",
+                        "isrc": "USRN11800032",
+                        "albumName": "Experiment",
+                        "playParams": {
+                            "id": "1472084809",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Kane Brown, Brock Berryhill, Matt McGinn & Taylor, Phillips"
+                    }
+                },
+                {
+                    "id": "1462700318",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462700318",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/3e/d1/55/3ed155ae-9a13-dfd6-62b9-5fcb24d3aa61/mzaf_10785082868334990345.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/a0/1f/53/a01f53e6-72fb-1dc9-566d-1e5531309ca5/886447705766.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "dcdbd9",
+                            "textColor1": "282228",
+                            "textColor2": "372f30",
+                            "textColor3": "4c474b",
+                            "textColor4": "585151"
+                        },
+                        "artistName": "Walker Hayes",
+                        "url": "https://music.apple.com/us/album/dont-let-her/1462700316?i=1462700318",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 193753,
+                        "releaseDate": "2019-05-17",
+                        "name": "Don't Let Her",
+                        "isrc": "QZ6U91900011",
+                        "albumName": "Don't Let Her - Single",
+                        "playParams": {
+                            "id": "1462700318",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Walker Hayes, Shane McAnally & Andrew DeRoberts"
+                    }
+                },
+                {
+                    "id": "1468058699",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058699",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f9/23/dc/f923dc49-8dc4-9547-c549-8a6eb11e7f54/mzaf_8274825863494040744.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/soon-youll-get-better-feat-dixie-chicks/1468058165?i=1468058699",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 201590,
+                        "releaseDate": "2019-08-23",
+                        "name": "Soon You'll Get Better (feat. Dixie Chicks)",
+                        "isrc": "USUG11901482",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058699",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1466173361",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466173361",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/3c/35/9a/3c359ac4-7d9b-3b18-0fb3-6c57e51c0e35/mzaf_18386055726144142258.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/d2/1c/a4/d21ca4f5-4e2a-e260-c664-fb0f6ccc213e/193483849423.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "fffffd",
+                            "textColor2": "d8d6dc",
+                            "textColor3": "cbcbca",
+                            "textColor4": "adabb0"
+                        },
+                        "artistName": "Kelsea Ballerini",
+                        "url": "https://music.apple.com/us/album/better-luck-next-time/1466173359?i=1466173361",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 172371,
+                        "releaseDate": "2019-06-11",
+                        "name": "Better Luck Next Time",
+                        "isrc": "QM6MZ1990263",
+                        "albumName": "Better Luck Next Time - Single",
+                        "playParams": {
+                            "id": "1466173361",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kelsea Ballerini, Ryan Tedder, Andrew DeRoberts, Darius Coleman, Taylor Sparks, Shane McAnally & Ester Dean"
+                    }
+                },
+                {
+                    "id": "1469319642",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469319642",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/09/9a/a2/099aa2bc-612f-adf4-b14f-b39735d51cbf/mzaf_16757524702211500924.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/98/2e/96/982e96a0-3cdb-0d74-dc52-2b1db4d15733/193436164610_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ffffff",
+                            "textColor1": "000000",
+                            "textColor2": "2b2b2b",
+                            "textColor3": "333333",
+                            "textColor4": "555555"
+                        },
+                        "artistName": "Chris Lane",
+                        "url": "https://music.apple.com/us/album/big-big-plans/1469319641?i=1469319642",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 187307,
+                        "releaseDate": "2019-06-28",
+                        "name": "Big, Big Plans",
+                        "isrc": "QZ22S1800062",
+                        "albumName": "Big, Big Plans - Single",
+                        "playParams": {
+                            "id": "1469319642",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Chris Lane, Jacob Durrett & Ernest K Smith"
+                    }
+                },
+                {
+                    "id": "1472758945",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472758945",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/fc/e8/84/fce884fe-c5aa-807c-85cf-742d1e23dfc7/mzaf_7472397699687380181.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/e4/62/cd/e462cd1b-a00d-a2ae-c026-d57291cbefbf/19UMGIM53805.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "140100",
+                            "textColor1": "ff9703",
+                            "textColor2": "f59109",
+                            "textColor3": "cf7903",
+                            "textColor4": "c87507"
+                        },
+                        "artistName": "Billy Currington",
+                        "url": "https://music.apple.com/us/album/details/1472758929?i=1472758945",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 201053,
+                        "releaseDate": "2019-07-19",
+                        "name": "Details",
+                        "isrc": "USUM71910602",
+                        "albumName": "Details - Single",
+                        "playParams": {
+                            "id": "1472758945",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Mark Trussell, Nicolle Galyon & Steven Lee Olsen"
+                    }
+                },
+                {
+                    "id": "1446770833",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1446770833",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/bd/ad/23/bdad23d0-cbf8-409c-83fa-b0e3b5a1c389/mzaf_3987244600939915264.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/bb/49/ad/bb49ad92-4035-81ca-9624-fc1958cf37ec/00843930038275.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c1818",
+                            "textColor1": "fef9fd",
+                            "textColor2": "cdc0a8",
+                            "textColor3": "d4cccf",
+                            "textColor4": "ad9e8b"
+                        },
+                        "artistName": "Florida Georgia Line",
+                        "url": "https://music.apple.com/us/album/blessings/1446769509?i=1446770833",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 196520,
+                        "releaseDate": "2019-02-15",
+                        "name": "Blessings",
+                        "isrc": "QM3E21802180",
+                        "albumName": "Can't Say I Ain't Country",
+                        "playParams": {
+                            "id": "1446770833",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "composerName": "Brian Kelley, Tyler Hubbard, Tom Douglas, Jesse Frasure, Jordan Schmidt & Keith Smith"
+                    }
+                },
+                {
+                    "id": "1432044897",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1432044897",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/1e/33/25/1e3325ca-b3bc-6e12-4e48-7fb7f6dd5a4f/mzaf_1141322275702306048.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/2d/ec/ab/2decab97-81a8-e73b-a172-23baff50c1a3/00602567809142.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "c0b2c1",
+                            "textColor1": "1f1616",
+                            "textColor2": "271c17",
+                            "textColor3": "3f3538",
+                            "textColor4": "453a39"
+                        },
+                        "artistName": "Carrie Underwood",
+                        "url": "https://music.apple.com/us/album/southbound/1432044881?i=1432044897",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 202853,
+                        "releaseDate": "2018-09-14",
+                        "name": "Southbound",
+                        "isrc": "USUM71808326",
+                        "albumName": "Cry Pretty",
+                        "playParams": {
+                            "id": "1432044897",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Carrie Underwood, David Garcia & Josh Miller"
+                    }
+                },
+                {
+                    "id": "1476032931",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476032931",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/db/30/f0/db30f00d-fa89-9d57-5f15-d4b37f5f25cc/mzaf_1868468453112835745.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/f0/d1/19/f0d11971-b183-5886-dc09-345ecf701df7/886447882528.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b69872",
+                            "textColor1": "0f0b06",
+                            "textColor2": "171008",
+                            "textColor3": "30271c",
+                            "textColor4": "372b1d"
+                        },
+                        "artistName": "Old Dominion",
+                        "url": "https://music.apple.com/us/album/one-man-band/1476032694?i=1476032931",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 186240,
+                        "releaseDate": "2019-08-16",
+                        "name": "One Man Band",
+                        "isrc": "USRN11800147",
+                        "albumName": "Old Dominion",
+                        "playParams": {
+                            "id": "1476032931",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Matthew Ramsey, Trevor Rosen, Brad Tursi & Josh Osborne"
+                    }
+                },
+                {
+                    "id": "1451231037",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1451231037",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/58/68/38/58683800-c86a-025c-3f65-6b4cb0f84fc8/mzaf_3221510222877114004.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3600,
+                            "height": 3600,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ab/24/5a/ab245a92-79a8-3d66-4fff-a5116908bce8/886447532270.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f4eade",
+                            "textColor1": "110a07",
+                            "textColor2": "1b2010",
+                            "textColor3": "3e3732",
+                            "textColor4": "464939"
+                        },
+                        "artistName": "Maren Morris",
+                        "url": "https://music.apple.com/us/album/the-bones/1451230484?i=1451231037",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 197299,
+                        "releaseDate": "2019-03-08",
+                        "name": "The Bones",
+                        "isrc": "USG4X1800054",
+                        "albumName": "GIRL",
+                        "playParams": {
+                            "id": "1451231037",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Maren Morris, Jimmy Robbins & Laura Veltz"
+                    }
+                },
+                {
+                    "id": "1439623665",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1439623665",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/fe/9b/a4/fe9ba430-8bf3-42cd-36ed-49cb32d1d108/mzaf_6366316660777696946.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/37/95/2d/37952d4c-bddc-aaba-1503-0e9ccd2f7a15/193436045971_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "111000",
+                            "textColor1": "de8774",
+                            "textColor2": "df7948",
+                            "textColor3": "b56f5d",
+                            "textColor4": "b66439"
+                        },
+                        "artistName": "HARDY",
+                        "url": "https://music.apple.com/us/album/rednecker/1439623662?i=1439623665",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 201832,
+                        "releaseDate": "2018-10-19",
+                        "name": "REDNECKER",
+                        "isrc": "QZ22S1800035",
+                        "albumName": "THIS OLE BOY - EP",
+                        "playParams": {
+                            "id": "1439623665",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Andy Albert, Michael Hardy & Jordan Schmidt"
+                    }
+                },
+                {
+                    "id": "1473533122",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473533122",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/90/34/c1/9034c1fb-29de-c9a3-5b28-c56a1a24f045/mzaf_17084447314942648137.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/a0/92/14/a0921473-7bfb-05b6-78c8-ec853aa3236e/19OPBMR00628.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "9c412b",
+                            "textColor1": "fdfac6",
+                            "textColor2": "f5e5a9",
+                            "textColor3": "e9d5a7",
+                            "textColor4": "e3c490"
+                        },
+                        "artistName": "Riley Green",
+                        "url": "https://music.apple.com/us/album/i-wish-grandpas-never-died/1473533101?i=1473533122",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 248583,
+                        "releaseDate": "2019-08-02",
+                        "name": "I Wish Grandpas Never Died",
+                        "isrc": "QM3E21913022",
+                        "albumName": "I Wish Grandpas Never Died - Single",
+                        "playParams": {
+                            "id": "1473533122",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Riley Green, Lendon Bonds & Buford Green"
+                    }
+                },
+                {
+                    "id": "1466901776",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466901776",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/6c/0e/df/6c0edf33-21e5-c7a8-43fb-f77369e9f8b3/mzaf_7953624334824554370.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/ea/9c/ad/ea9cad5c-09bd-2a19-7a86-17441bd7db79/850001590044.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "dbe6e8",
+                            "textColor1": "271f19",
+                            "textColor2": "342721",
+                            "textColor3": "4b4642",
+                            "textColor4": "554d49"
+                        },
+                        "artistName": "Trisha Yearwood",
+                        "url": "https://music.apple.com/us/album/every-girl-in-this-town/1466901579?i=1466901776",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Contemporary Country",
+                            "Music",
+                            "Country"
+                        ],
+                        "durationInMillis": 179667,
+                        "releaseDate": "2019-06-06",
+                        "name": "Every Girl in This Town",
+                        "isrc": "QZ5EY1910104",
+                        "albumName": "Every Girl",
+                        "playParams": {
+                            "id": "1466901776",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Caitlyn Smith, Erik Dylan, Connie Harrington"
+                    }
+                },
+                {
+                    "id": "1440914751",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440914751",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/c4/d8/81/c4d881c0-7804-f12d-3007-20aa7fe638ee/mzaf_8970491959997647893.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/96/21/ce/9621ce3c-75c8-800a-f89b-3d43cf5c40ee/00602567383246.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "027177",
+                            "textColor1": "ffffff",
+                            "textColor2": "f1d9ad",
+                            "textColor3": "cce2e3",
+                            "textColor4": "c1c4a2"
+                        },
+                        "artistName": "Jordan Davis",
+                        "url": "https://music.apple.com/us/album/slow-dance-in-a-parking-lot/1440914448?i=1440914751",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 193929,
+                        "releaseDate": "2017-09-08",
+                        "name": "Slow Dance in a Parking Lot",
+                        "isrc": "USUM71709445",
+                        "albumName": "Home State",
+                        "playParams": {
+                            "id": "1440914751",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Jordan Davis & Lonnie Lee Fowler"
+                    }
+                },
+                {
+                    "id": "1435146261",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1435146261",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/3d/11/a5/3d11a5d9-ba90-7a9d-9810-d43cae1f4012/mzaf_5344068172206479437.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/62/a9/10/62a9104f-da82-721b-11bf-8ac7b8830422/4050538411119.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fdfdfb",
+                            "textColor1": "1f0400",
+                            "textColor2": "3d1610",
+                            "textColor3": "4b3532",
+                            "textColor4": "63443f"
+                        },
+                        "artistName": "Jimmie Allen",
+                        "url": "https://music.apple.com/us/album/make-me-want-to/1435145919?i=1435146261",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 172280,
+                        "releaseDate": "2018-08-09",
+                        "name": "Make Me Want To",
+                        "isrc": "QMRSZ1800885",
+                        "albumName": "Mercury Lane",
+                        "playParams": {
+                            "id": "1435146261",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Jimmie Allen, Jennifer Denmark & Paul Sikes"
+                    }
+                },
+                {
+                    "id": "1471313840",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471313840",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/50/13/f8/5013f8c0-8ec8-3fe6-083d-841494499407/mzaf_17410349784510951806.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/a8/1f/17/a81f1777-6db1-6c75-329d-7bccf47dbe3a/054391943118.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d2c7d5",
+                            "textColor1": "0f0905",
+                            "textColor2": "3a2c23",
+                            "textColor3": "362f2e",
+                            "textColor4": "584b47"
+                        },
+                        "artistName": "Gabby Barrett",
+                        "url": "https://music.apple.com/us/album/the-good-ones/1471313839?i=1471313840",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 213729,
+                        "releaseDate": "2019-07-12",
+                        "name": "The Good Ones",
+                        "isrc": "USWB11901698",
+                        "albumName": "The Good Ones - Single",
+                        "playParams": {
+                            "id": "1471313840",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Gabby Barrett, Emily Landis, Jim McCormick & Zachary Kale"
+                    }
+                },
+                {
+                    "id": "1440111985",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440111985",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/62/40/0b/62400ba0-88fc-227c-fafa-847ecdb245b3/mzaf_5129354423786850270.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/be/9d/e6/be9de62d-d780-de18-f355-da4029f4829c/842812106569_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2f2e2a",
+                            "textColor1": "e0dad5",
+                            "textColor2": "d5cbc1",
+                            "textColor3": "bcb7b3",
+                            "textColor4": "b3aca3"
+                        },
+                        "artistName": "Morgan Wallen",
+                        "url": "https://music.apple.com/us/album/chasin-you/1440111976?i=1440111985",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 205453,
+                        "releaseDate": "2018-04-27",
+                        "name": "Chasin' You",
+                        "isrc": "QZ22S1800006",
+                        "albumName": "If I Know Me",
+                        "playParams": {
+                            "id": "1440111985",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Morgan Wallen, Jamie Moore & Craig Wiseman"
+                    }
+                },
+                {
+                    "id": "1457351152",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1457351152",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ec/f4/c4/ecf4c4fe-1d7f-850c-638a-758e8e7e9899/mzaf_1698511535496898504.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/62/3b/e6/623be63a-e6ff-a704-f393-ce6904b0ad03/054391945518.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "180e09",
+                            "textColor1": "f6f2ef",
+                            "textColor2": "daa368",
+                            "textColor3": "cac5c1",
+                            "textColor4": "b38555"
+                        },
+                        "artistName": "Ingrid Andress",
+                        "url": "https://music.apple.com/us/album/more-hearts-than-mine/1457350987?i=1457351152",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 214160,
+                        "releaseDate": "2019-04-05",
+                        "name": "More Hearts Than Mine",
+                        "isrc": "USWB11901026",
+                        "albumName": "More Hearts Than Mine - Single",
+                        "playParams": {
+                            "id": "1457351152",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ingrid Andress, Sam Ellis & Derrick Southerland"
+                    }
+                },
+                {
+                    "id": "1454055653",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454055653",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/23/9f/af/239faf0e-8845-71ea-43e7-cecd01ad32f0/mzaf_5482391136961434946.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/81/eb/37/81eb3709-99ac-e87c-437e-a2c836be68d3/825396116650.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "191c2b",
+                            "textColor1": "eddfe9",
+                            "textColor2": "cbdfec",
+                            "textColor3": "c2b8c3",
+                            "textColor4": "a7b8c5"
+                        },
+                        "artistName": "Dallas Smith",
+                        "url": "https://music.apple.com/us/album/drop/1454055652?i=1454055653",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 203213,
+                        "releaseDate": "2019-03-15",
+                        "name": "Drop",
+                        "isrc": "CAB391902405",
+                        "albumName": "The Fall - EP",
+                        "playParams": {
+                            "id": "1454055653",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Mark Holman, Michael Hardy & Steven Lee Olsen"
+                    }
+                },
+                {
+                    "id": "1328808163",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1328808163",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/58/1f/77/581f77a6-b251-2e45-a80b-ea17ad9d473f/mzaf_4689080318217600604.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music118/v4/db/94/cb/db94cb7b-2e90-5510-2ba3-7ca2f6a41963/886446885094.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "463c3a",
+                            "textColor1": "f0c096",
+                            "textColor2": "dca282",
+                            "textColor3": "cea683",
+                            "textColor4": "be8e74"
+                        },
+                        "artistName": "Scotty McCreery",
+                        "url": "https://music.apple.com/us/album/in-between/1328807946?i=1328808163",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 221600,
+                        "releaseDate": "2018-03-16",
+                        "name": "In Between",
+                        "isrc": "USQX91702631",
+                        "albumName": "Seasons Change",
+                        "playParams": {
+                            "id": "1328808163",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Scotty McCreery, Frank Rogers, Jessi Alexander & Jonathan Singleton"
+                    }
+                },
+                {
+                    "id": "1475873097",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475873097",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b6/43/9d/b6439d06-d015-929c-5bfd-2a8e2de026b5/mzaf_2741032425674413307.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/ff/d3/b8/ffd3b8fe-0061-38c1-54da-0feb55023f82/886447882511.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fffbef",
+                            "textColor1": "000000",
+                            "textColor2": "640201",
+                            "textColor3": "33322f",
+                            "textColor4": "833431"
+                        },
+                        "artistName": "Miranda Lambert",
+                        "url": "https://music.apple.com/us/album/it-all-comes-out-in-the-wash/1475872912?i=1475873097",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 214787,
+                        "releaseDate": "2019-07-18",
+                        "name": "It All Comes out in the Wash",
+                        "isrc": "US6XF1800259",
+                        "albumName": "Wildcard",
+                        "playParams": {
+                            "id": "1475873097",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Miranda Lambert, Hillary Lindsey, Lori McKenna & Liz Rose"
+                    }
+                },
+                {
+                    "id": "1450670472",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1450670472",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/95/cb/26/95cb262e-a301-3ef2-91d4-b7a079901818/mzaf_3145154309294661307.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/4f/de/a2/4fdea259-255f-0e2d-81a9-4ff5c27b29da/054391946461.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e8e3e0",
+                            "textColor1": "24150e",
+                            "textColor2": "3a2e24",
+                            "textColor3": "4b3e38",
+                            "textColor4": "5d524a"
+                        },
+                        "artistName": "Chris Janson",
+                        "url": "https://music.apple.com/us/album/good-vibes/1450670471?i=1450670472",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 165587,
+                        "releaseDate": "2019-02-08",
+                        "name": "Good Vibes",
+                        "isrc": "USWB11900337",
+                        "albumName": "Good Vibes - Single",
+                        "playParams": {
+                            "id": "1450670472",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Chris Janson, Ashley Gorley & Zach Crowell"
+                    }
+                },
+                {
+                    "id": "1435520801",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1435520801",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/88/63/5f/88635f74-15e4-40c4-aa78-5118d42ccd1d/mzaf_5261749846951467968.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/69/15/cf/6915cf7c-a730-3130-4b3e-34026509f984/00843930036905.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "bcbbc3",
+                            "textColor1": "090908",
+                            "textColor2": "352822",
+                            "textColor3": "2d2c2d",
+                            "textColor4": "504642"
+                        },
+                        "artistName": "Brett Young",
+                        "url": "https://music.apple.com/us/album/catch/1435520668?i=1435520801",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 196428,
+                        "releaseDate": "2018-12-07",
+                        "name": "Catch",
+                        "isrc": "QM3E21806154",
+                        "albumName": "Ticket to L.A.",
+                        "playParams": {
+                            "id": "1435520801",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Brett Young, Ross Copperman & Ashley Gorley"
+                    }
+                },
+                {
+                    "id": "1449318223",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1449318223",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/bd/4c/1d/bd4c1ddc-a180-6cfb-fbf8-e41fc00def9f/mzaf_5899298988665029237.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/32/0e/03/320e03e5-b7d0-69d7-32ec-cc8153ce1734/00602577402319.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "410700",
+                            "textColor1": "ef9f8b",
+                            "textColor2": "e3706f",
+                            "textColor3": "cc816f",
+                            "textColor4": "c35b59"
+                        },
+                        "artistName": "Caylee Hammack",
+                        "url": "https://music.apple.com/us/album/family-tree/1449317972?i=1449318223",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 210171,
+                        "releaseDate": "2019-01-18",
+                        "name": "Family Tree",
+                        "isrc": "USUM71822369",
+                        "albumName": "Family Tree - Single",
+                        "playParams": {
+                            "id": "1449318223",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Caylee Hammack, Troy Verges & Gordie Sampson"
+                    }
+                },
+                {
+                    "id": "1447439315",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1447439315",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/71/eb/34/71eb34a4-43a0-e1f1-600b-4695d3e0f08b/mzaf_8361434743859585263.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/94/c0/79/94c079e6-d774-a703-a7b1-915301c37bbc/886447498088.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fcf3ee",
+                            "textColor1": "030504",
+                            "textColor2": "2a2d36",
+                            "textColor3": "353433",
+                            "textColor4": "54555a"
+                        },
+                        "artistName": "Ryan Hurd",
+                        "url": "https://music.apple.com/us/album/to-a-t/1447439307?i=1447439315",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 178813,
+                        "releaseDate": "2018-08-31",
+                        "name": "To a T",
+                        "isrc": "USRN11800116",
+                        "albumName": "To a T - Single",
+                        "playParams": {
+                            "id": "1447439315",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ryan Hurd, Jerry Roe, Nathan Spicer & Laura Veltz"
+                    }
+                },
+                {
+                    "id": "1359255755",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1359255755",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/c5/28/54/c52854d9-402c-89fd-69bd-236d3cdbc037/mzaf_2179283638291997604.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/36/a6/0d/36a60d52-4735-7a2a-bb0f-a7282360657e/00602567409748.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001321",
+                            "textColor1": "d3d9d0",
+                            "textColor2": "bed0c6",
+                            "textColor3": "a9b1ad",
+                            "textColor4": "98aaa5"
+                        },
+                        "artistName": "Brothers Osborne",
+                        "url": "https://music.apple.com/us/album/i-dont-remember-me-before-you/1359255188?i=1359255755",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 192720,
+                        "releaseDate": "2018-04-20",
+                        "name": "I Don't Remember Me (Before You)",
+                        "isrc": "USUM71800512",
+                        "albumName": "Port Saint Joe",
+                        "playParams": {
+                            "id": "1359255755",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "John Osborne, T.J. Osborne, Shane McAnally & Matt Dragstrem"
+                    }
+                },
+                {
+                    "id": "1465083943",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1465083943",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/19/25/4d/19254d17-e6ec-ad68-11ed-71d6aea069f6/mzaf_13259170321872432446.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/c0/58/d5/c058d56e-5ee7-71a9-9c23-a7bba72a2b75/4050538515749.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "101010",
+                            "textColor1": "e6e6e6",
+                            "textColor2": "c3c3c3",
+                            "textColor3": "bbbbbb",
+                            "textColor4": "9f9f9f"
+                        },
+                        "artistName": "Chase Rice",
+                        "url": "https://music.apple.com/us/album/lonely-if-you-are/1465083935?i=1465083943",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 175067,
+                        "releaseDate": "2019-06-07",
+                        "name": "Lonely If You Are",
+                        "isrc": "QMRSZ1900870",
+                        "albumName": "Lonely If You Are - Single",
+                        "playParams": {
+                            "id": "1465083943",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Chase Rice, Hunter Phelps & Lindsay Rimes"
+                    }
+                },
+                {
+                    "id": "1462368898",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462368898",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9a/b3/74/9ab37421-cb1c-3f38-a9fb-15e2e03daef9/mzaf_4685170425727580178.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/01/c2/4e/01c24e4c-5370-51b7-5ccb-89f995d61f8b/19OPBMR00535.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f6f1de",
+                            "textColor1": "120d0e",
+                            "textColor2": "312118",
+                            "textColor3": "3f3a38",
+                            "textColor4": "584a40"
+                        },
+                        "artistName": "Lady Antebellum",
+                        "url": "https://music.apple.com/us/album/what-if-i-never-get-over-you/1462368565?i=1462368898",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 206230,
+                        "releaseDate": "2019-05-17",
+                        "name": "What If I Never Get Over You",
+                        "isrc": "QM3E21914000",
+                        "albumName": "What If I Never Get Over You - Single",
+                        "playParams": {
+                            "id": "1462368898",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sam Ellis, Jon Green, Ryan Hurd & Laura Veltz"
+                    }
+                },
+                {
+                    "id": "1439113027",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1439113027",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/02/ff/39/02ff3983-beb1-7c4b-9a1a-107553de3a8a/mzaf_2776126745072773759.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music128/v4/d3/6c/89/d36c8932-b1ba-b6db-c000-d73562c5e4c9/093624903604.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "261810",
+                            "textColor1": "fefefc",
+                            "textColor2": "e7d4c8",
+                            "textColor3": "d3d0cd",
+                            "textColor4": "c0aea4"
+                        },
+                        "artistName": "Cody Johnson",
+                        "url": "https://music.apple.com/us/album/nothin-on-you/1439113008?i=1439113027",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 260467,
+                        "releaseDate": "2019-01-18",
+                        "name": "Nothin' on You",
+                        "isrc": "QMCQK1800048",
+                        "albumName": "Ain't Nothin' to It",
+                        "playParams": {
+                            "id": "1439113027",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Barrett Baber & Trent Willmon"
+                    }
+                },
+                {
+                    "id": "1466124734",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466124734",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f9/a6/55/f9a65536-0378-3f83-ce60-4dd792ada146/mzaf_6411791585077986095.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/01/3a/f3/013af3cc-11ee-cdcf-7b2b-0bd57d5ceae5/886447669327.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1a1a18",
+                            "textColor1": "f4f2ee",
+                            "textColor2": "c9c7c4",
+                            "textColor3": "c8c7c3",
+                            "textColor4": "a5a4a2"
+                        },
+                        "artistName": "Luke Combs",
+                        "url": "https://music.apple.com/us/album/beer-never-broke-my-heart/1466124733?i=1466124734",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 186227,
+                        "releaseDate": "2019-05-08",
+                        "name": "Beer Never Broke My Heart",
+                        "isrc": "US6XF1700264",
+                        "albumName": "The Prequel - EP",
+                        "playParams": {
+                            "id": "1466124734",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Luke Combs, Randy Montana & Jonathan Singleton"
+                    }
+                },
+                {
+                    "id": "1469157075",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469157075",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/89/49/48/8949485e-052b-5017-a751-b441eb2b5eaf/mzaf_7355327281578475098.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/5c/7c/99/5c7c99b5-f02b-40bb-5da9-f5e0460e4c0a/artwork.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "32312d",
+                            "textColor1": "dec67e",
+                            "textColor2": "d0b068",
+                            "textColor3": "bca86e",
+                            "textColor4": "b0965c"
+                        },
+                        "artistName": "Koe Wetzel",
+                        "url": "https://music.apple.com/us/album/forever/1469157068?i=1469157075",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 177867,
+                        "releaseDate": "2019-06-21",
+                        "name": "Forever",
+                        "isrc": "QZFYY1965812",
+                        "albumName": "Harold Saul High",
+                        "playParams": {
+                            "id": "1469157075",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Koe Wetzel",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468373430",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468373430",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7d/e0/0a/7de00aaf-6d22-7148-0bf0-c19f635570b0/mzaf_7117313844975483096.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/41/b4/30/41b4306e-9c07-0f69-ac31-a65bfd2df88d/19UMGIM43785.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "502e22",
+                            "textColor1": "ebd6c3",
+                            "textColor2": "dec3a7",
+                            "textColor3": "ccb4a3",
+                            "textColor4": "c2a58d"
+                        },
+                        "artistName": "Jon Pardi",
+                        "url": "https://music.apple.com/us/album/heartache-medication/1468373427?i=1468373430",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 209110,
+                        "releaseDate": "2019-05-20",
+                        "name": "Heartache Medication",
+                        "isrc": "USUM71907930",
+                        "albumName": "Heartache Medication",
+                        "playParams": {
+                            "id": "1468373430",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Jon Pardi, Barry Dean & Natalie Hemby"
+                    }
+                },
+                {
+                    "id": "1369348557",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1369348557",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/78/45/ed/7845ed92-75dd-b734-de02-3b4ae50f7ca6/mzaf_8142774675429590284.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/f7/8c/ae/f78cae8e-588e-0720-e3ad-dfea8df264b5/00602567573449.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "eae4ce",
+                            "textColor1": "020502",
+                            "textColor2": "303434",
+                            "textColor3": "30322b",
+                            "textColor4": "555752"
+                        },
+                        "artistName": "Dierks Bentley",
+                        "url": "https://music.apple.com/us/album/living/1369348197?i=1369348557",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 222139,
+                        "releaseDate": "2018-04-27",
+                        "name": "Living",
+                        "isrc": "USUG11800491",
+                        "albumName": "The Mountain",
+                        "playParams": {
+                            "id": "1369348557",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Dierks Bentley, Ross Copperman, Jon Nite & Ashley Gorley"
+                    }
+                },
+                {
+                    "id": "1452951804",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1452951804",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/98/9d/cf/989dcf2f-a3b0-017e-35fc-4d3d3757391b/mzaf_9155694146812062352.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/95/75/39/9575395d-51df-1099-b3a5-8966d26de681/886447550373.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0f1110",
+                            "textColor1": "f1d685",
+                            "textColor2": "efc351",
+                            "textColor3": "c4ae6e",
+                            "textColor4": "c29f44"
+                        },
+                        "artistName": "Brooks & Dunn",
+                        "url": "https://music.apple.com/us/album/neon-moon-with-kacey-musgraves/1452951797?i=1452951804",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 278666,
+                        "releaseDate": "2019-04-05",
+                        "name": "Neon Moon (with Kacey Musgraves)",
+                        "isrc": "USAN21800058",
+                        "albumName": "Reboot",
+                        "playParams": {
+                            "id": "1452951804",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Ronnie Dunn"
+                    }
+                },
+                {
+                    "id": "1472976737",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472976737",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1d/68/aa/1d68aa5d-7ffe-c582-83ee-71eab64e89d6/mzaf_5912513683328617779.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/27/b8/ec/27b8ec7b-d99d-ab3a-a7ce-c29b29c155dc/075679842404.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "3e3e3e",
+                            "textColor1": "fdfdfd",
+                            "textColor2": "f5f5f5",
+                            "textColor3": "d6d6d6",
+                            "textColor4": "d0d0d0"
+                        },
+                        "artistName": "The Highwomen",
+                        "url": "https://music.apple.com/us/album/redesigning-women/1472976734?i=1472976737",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 174933,
+                        "releaseDate": "2019-07-19",
+                        "name": "Redesigning Women",
+                        "isrc": "USAT21904088",
+                        "albumName": "The Highwomen",
+                        "playParams": {
+                            "id": "1472976737",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Natalie Hemby & Rodney Clawson"
+                    }
+                },
+                {
+                    "id": "1468501928",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468501928",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/15/8c/a8/158ca850-5292-c4da-f2df-a90eeea65aee/mzaf_820333377382043062.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/87/64/1c/87641ca4-5796-4602-4e54-c6c3fd55db61/886447798775.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "13120e",
+                            "textColor1": "ffffff",
+                            "textColor2": "f6d712",
+                            "textColor3": "cfcfce",
+                            "textColor4": "c8b011"
+                        },
+                        "artistName": "Marshmello & Kane Brown",
+                        "url": "https://music.apple.com/us/album/one-thing-right/1468501921?i=1468501928",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 181824,
+                        "releaseDate": "2019-06-21",
+                        "name": "One Thing Right",
+                        "isrc": "US6XF1800275",
+                        "albumName": "One Thing Right - Single",
+                        "playParams": {
+                            "id": "1468501928",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Marshmello, Kane Brown, Jesse Frasure, Josh Hoge & Matt McGinn"
+                    }
+                },
+                {
+                    "id": "1475008471",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475008471",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1b/5b/0e/1b5b0e37-3196-b565-bd46-6dd21c8b64c2/mzaf_4305448420274590502.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/7d/7e/fa/7d7efa93-6710-c1da-3fbc-d150454422ff/19UMGIM67919.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1c1914",
+                            "textColor1": "fae9df",
+                            "textColor2": "c8b5a9",
+                            "textColor3": "cebfb6",
+                            "textColor4": "a6958b"
+                        },
+                        "artistName": "Kip Moore",
+                        "url": "https://music.apple.com/us/album/shes-mine/1475008468?i=1475008471",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 229933,
+                        "releaseDate": "2019-08-09",
+                        "name": "She's Mine",
+                        "isrc": "USUM71914430",
+                        "albumName": "She's Mine - Single",
+                        "playParams": {
+                            "id": "1475008471",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kip Moore, Dan Couch & Scott Stepakoff"
+                    }
+                },
+                {
+                    "id": "1458014506",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1458014506",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ad/98/d6/ad98d6b1-908a-2fed-f1aa-cfa8f05166c2/mzaf_3575541674210224709.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/9d/fe/ce/9dfece79-2b35-df61-f495-241a70e24998/00602577666964.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0c0c0c",
+                            "textColor1": "eeedeb",
+                            "textColor2": "e9ac01",
+                            "textColor3": "c1c0be",
+                            "textColor4": "bd8c03"
+                        },
+                        "artistName": "Luke Bryan",
+                        "url": "https://music.apple.com/us/album/knockin-boots/1458014502?i=1458014506",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 199382,
+                        "releaseDate": "2019-03-29",
+                        "name": "Knockin' Boots",
+                        "isrc": "USUG11901024",
+                        "albumName": "Knockin' Boots - Single",
+                        "playParams": {
+                            "id": "1458014506",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jon Nite, Gordie Sampson & Hillary Lindsey"
+                    }
+                },
+                {
+                    "id": "1447395646",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1447395646",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/cf/41/2f/cf412f1d-a9ed-141c-361f-5432553d2731/mzaf_7832676177025606460.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/59/92/e6/5992e6df-0e66-e346-e173-850c2a6891c2/859730088631_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1c211d",
+                            "textColor1": "b8e3da",
+                            "textColor2": "badad5",
+                            "textColor3": "99bcb4",
+                            "textColor4": "9ab5b0"
+                        },
+                        "artistName": "Adam Doleac",
+                        "url": "https://music.apple.com/us/album/famous/1447395429?i=1447395646",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music",
+                            "Pop"
+                        ],
+                        "durationInMillis": 186450,
+                        "releaseDate": "2019-01-04",
+                        "name": "Famous",
+                        "isrc": "TCAEA1808217",
+                        "albumName": "Famous - Single",
+                        "playParams": {
+                            "id": "1447395646",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Adam Doleac, Bobby Hamrick & Andy Skib"
+                    }
+                },
+                {
+                    "id": "1463459105",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1463459105",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ca/20/ce/ca20ce40-6ec8-a922-afb7-f1966612781d/mzaf_1649613248613005746.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/33/6a/9a/336a9a4d-3f68-b5b9-26bb-000a83603eec/886447722282.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "111a1f",
+                            "textColor1": "eadcad",
+                            "textColor2": "e1a27d",
+                            "textColor3": "beb591",
+                            "textColor4": "b7866a"
+                        },
+                        "artistName": "Gone West",
+                        "url": "https://music.apple.com/us/album/what-couldve-been/1463458613?i=1463459105",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 222650,
+                        "releaseDate": "2019-06-07",
+                        "name": "What Could've Been",
+                        "isrc": "USQX91901222",
+                        "albumName": "What Could've Been - Single",
+                        "playParams": {
+                            "id": "1463459105",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Colbie Caillat, Justin Kawika Young, Jason Reeves, Nelly Reeves & Jamie Kenney"
+                    }
+                },
+                {
+                    "id": "1462929680",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462929680",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7f/ff/70/7fff70e6-23a5-06db-b085-e33251dd0e20/mzaf_8014371482483275374.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/da/b8/04/dab804d9-4e04-68cb-bfbd-c65afa6c3e36/886447696750.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "090b0a",
+                            "textColor1": "fdea36",
+                            "textColor2": "f8bca3",
+                            "textColor3": "ccbd2d",
+                            "textColor4": "c89884"
+                        },
+                        "artistName": "Tyler Childers",
+                        "url": "https://music.apple.com/us/album/all-yourn/1462929670?i=1462929680",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 218290,
+                        "releaseDate": "2019-08-02",
+                        "name": "All Your'n",
+                        "isrc": "USRC11901124",
+                        "albumName": "Country Squire",
+                        "playParams": {
+                            "id": "1462929680",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Tyler Childers"
+                    }
+                },
+                {
+                    "id": "1450537595",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1450537595",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/73/2f/5a/732f5ae6-2d49-ca71-6e4c-17555868d925/mzaf_1037958430807968296.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/63/f9/65/63f96516-dec3-dd44-915d-b69727490f79/4050538476088.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1d1f1e",
+                            "textColor1": "f6ede5",
+                            "textColor2": "efdacb",
+                            "textColor3": "cac3bd",
+                            "textColor4": "c5b5a8"
+                        },
+                        "artistName": "LOCASH",
+                        "url": "https://music.apple.com/us/album/one-big-country-song/1450537592?i=1450537595",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 192199,
+                        "releaseDate": "2019-03-29",
+                        "name": "One Big Country Song",
+                        "isrc": "QMRSZ1802611",
+                        "albumName": "Brothers",
+                        "playParams": {
+                            "id": "1450537595",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ashley Gorley, Jesse Frasure & Michael Hardy"
+                    }
+                },
+                {
+                    "id": "1454717577",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454717577",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8d/d0/9d/8dd09d71-0dc9-540d-add3-515cd28b15f4/mzaf_2905601532061744061.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ff/7a/e9/ff7ae9a1-dd52-7463-48a5-0471f3c84e6f/00843930041282.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d5d7c1",
+                            "textColor1": "110709",
+                            "textColor2": "1f0e0e",
+                            "textColor3": "38302e",
+                            "textColor4": "443632"
+                        },
+                        "artistName": "Justin Moore",
+                        "url": "https://music.apple.com/us/album/the-ones-that-didnt-make-it-back-home/1454717418?i=1454717577",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 191018,
+                        "releaseDate": "2018-10-12",
+                        "name": "The Ones That Didn’t Make It Back Home",
+                        "isrc": "USLXJ1802507",
+                        "albumName": "Late Nights and Longnecks",
+                        "playParams": {
+                            "id": "1454717577",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Justin Moore, Jeremy Stover, Paul DiGiovanni & Chase McGill"
+                    }
+                },
+                {
+                    "id": "1454614773",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454614773",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b5/85/6d/b5856d36-decb-ca65-4358-a81eb287426e/mzaf_5178641668583727415.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cb/9c/26/cb9c2671-06a1-5fff-8f33-b9b1f0cd4cf6/00843930041176.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "281c0e",
+                            "textColor1": "fbe2ce",
+                            "textColor2": "d6b3aa",
+                            "textColor3": "d1baa7",
+                            "textColor4": "b3958b"
+                        },
+                        "artistName": "Thomas Rhett",
+                        "url": "https://music.apple.com/us/album/notice/1454614683?i=1454614773",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 222853,
+                        "releaseDate": "2019-05-31",
+                        "name": "Notice",
+                        "isrc": "USLXJ1907467",
+                        "albumName": "Center Point Road",
+                        "playParams": {
+                            "id": "1454614773",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Thomas Rhett, Jesse Frasure, Sean Douglas & Ashley Gorley"
+                    }
+                },
+                {
+                    "id": "1240901048",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1240901048",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview117/v4/1c/bc/90/1cbc9062-ff72-3842-cc97-4b6632422105/mzaf_9018847208002555878.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music127/v4/51/a4/9e/51a49ec2-2a3c-16b0-00ac-460e4d23fa55/886446521015.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "9cd3d6",
+                            "textColor1": "070b0b",
+                            "textColor2": "123132",
+                            "textColor3": "243333",
+                            "textColor4": "2d5153"
+                        },
+                        "artistName": "Russell Dickerson",
+                        "url": "https://music.apple.com/us/album/every-little-thing/1240901047?i=1240901048",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 190640,
+                        "releaseDate": "2016-01-18",
+                        "name": "Every Little Thing",
+                        "isrc": "QM3FG1500005",
+                        "albumName": "Yours",
+                        "playParams": {
+                            "id": "1240901048",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Russell Dickerson, Casey Brown & Parker Welling"
+                    }
+                },
+                {
+                    "id": "1475458208",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475458208",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/61/0f/95/610f95c8-35f3-2358-de89-4d32081d6483/mzaf_11012337639460203853.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/c6/b7/61/c6b7615c-0028-454c-0ee6-7fe2d867f323/054391942685.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1b1610",
+                            "textColor1": "e4ebeb",
+                            "textColor2": "b5d6bd",
+                            "textColor3": "bcc0bf",
+                            "textColor4": "96af9a"
+                        },
+                        "artistName": "Blake Shelton",
+                        "url": "https://music.apple.com/us/album/hell-right-feat-trace-adkins/1475458204?i=1475458208",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 207480,
+                        "releaseDate": "2019-08-16",
+                        "name": "Hell Right (feat. Trace Adkins)",
+                        "isrc": "USWB11901915",
+                        "albumName": "Hell Right (feat. Trace Adkins) - Single",
+                        "playParams": {
+                            "id": "1475458208",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "David Garcia, Brett Tyler & Michael Hardy"
+                    }
+                },
+                {
+                    "id": "1450583584",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1450583584",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/79/4c/89/794c89e3-a72e-c915-34f7-06b1a27be7ae/mzaf_8268123403671898203.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music124/v4/b7/97/29/b79729b4-a73f-f3a7-5afd-b5bf4ccdf13c/193436089739_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "00010b",
+                            "textColor1": "eed7a6",
+                            "textColor2": "d9ca95",
+                            "textColor3": "bfad87",
+                            "textColor4": "aea279"
+                        },
+                        "artistName": "Cassadee Pope",
+                        "url": "https://music.apple.com/us/album/ive-been-good/1450583385?i=1450583584",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 207547,
+                        "releaseDate": "2019-02-01",
+                        "name": "I've Been Good",
+                        "isrc": "QM24S1903121",
+                        "albumName": "stages",
+                        "playParams": {
+                            "id": "1450583584",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Andy Albert, Marc Beeson & Jordan Walker"
+                    }
+                },
+                {
+                    "id": "1454068261",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454068261",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/4a/84/6f/4a846fee-80bf-000b-2baf-e71d291facf3/mzaf_7928402802478611009.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music114/v4/fa/25/22/fa25221f-1ce4-0bc8-54e5-ab033963dfcd/4050538479621.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f0e9e3",
+                            "textColor1": "000b1b",
+                            "textColor2": "23232b",
+                            "textColor3": "303743",
+                            "textColor4": "4c4b50"
+                        },
+                        "artistName": "Dustin Lynch",
+                        "url": "https://music.apple.com/us/album/ridin-roads/1454068258?i=1454068261",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 205427,
+                        "releaseDate": "2019-03-08",
+                        "name": "Ridin' Roads",
+                        "isrc": "QMRSZ1900179",
+                        "albumName": "Ridin' Roads - Single",
+                        "playParams": {
+                            "id": "1454068261",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Dustin Lynch, Ashley Gorley & Zach Crowell"
+                    }
+                },
+                {
+                    "id": "1464080084",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1464080084",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/4e/c6/53/4ec65332-49a2-6c1b-ae49-98819e8ddc07/mzaf_5195740689688638884.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/53/d3/b8/53d3b83d-85c7-42d9-01c3-c1dbdc64b577/19UMGIM41274.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "291d1d",
+                            "textColor1": "e4a9b1",
+                            "textColor2": "db8f99",
+                            "textColor3": "bf8d94",
+                            "textColor4": "b77880"
+                        },
+                        "artistName": "Travis Denning",
+                        "url": "https://music.apple.com/us/album/tank-of-gas-and-a-radio-song/1464080074?i=1464080084",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 172547,
+                        "releaseDate": "2019-05-31",
+                        "name": "Tank Of Gas And A Radio Song",
+                        "isrc": "USUM71908703",
+                        "albumName": "Tank Of Gas And A Radio Song - Single",
+                        "playParams": {
+                            "id": "1464080084",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Travis Denning, Nathan Spicer & Shane Minor"
+                    }
+                },
+                {
+                    "id": "1278567741",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1278567741",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b9/74/f4/b974f4b4-5bcb-4c2b-86b4-2ffd42bb7083/mzaf_1073638914203229781.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c2/3d/30/c23d3012-4ef0-d436-11ea-fd413b119370/79452_-_Lee_Brice.png/{w}x{h}bb.jpeg",
+                            "bgColor": "141b26",
+                            "textColor1": "d1efea",
+                            "textColor2": "d3d6db",
+                            "textColor3": "abc4c3",
+                            "textColor4": "adb0b7"
+                        },
+                        "artistName": "Lee Brice",
+                        "url": "https://music.apple.com/us/album/rumor/1278567733?i=1278567741",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 198440,
+                        "releaseDate": "2017-09-15",
+                        "name": "Rumor",
+                        "isrc": "USCRB1713686",
+                        "albumName": "Lee Brice",
+                        "playParams": {
+                            "id": "1278567741",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8
+                    }
+                },
+                {
+                    "id": "1473863148",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473863148",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/55/4a/f6/554af63f-f2fa-eb85-266e-5a2f98a59c71/mzaf_5419120841152407485.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/f9/02/28/f90228b0-1ef8-da6b-6ccc-3bbc0276c5c3/19OPBMR00635.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "17181a",
+                            "textColor1": "fff9eb",
+                            "textColor2": "cfcaba",
+                            "textColor3": "d0cbc1",
+                            "textColor4": "aaa69a"
+                        },
+                        "artistName": "Brantley Gilbert & Lindsay Ell",
+                        "url": "https://music.apple.com/us/album/what-happens-in-a-small-town/1473862788?i=1473863148",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 203560,
+                        "releaseDate": "2018-12-14",
+                        "name": "What Happens in a Small Town",
+                        "isrc": "USLXJ1806594",
+                        "albumName": "Fire & Brimstone",
+                        "playParams": {
+                            "id": "1473863148",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Brantley Gilbert, Rhett Akins, Brock Berryhill & Josh Dunne"
+                    }
+                },
+                {
+                    "id": "1462202916",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462202916",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/07/55/44/0755448b-7df6-4b71-ae9c-d6b23f917a99/mzaf_5517815814430292734.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/90/7c/5a/907c5a66-c1a4-d70e-ebf0-49af3b1c9b9a/19UMGIM38302.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fcfbf9",
+                            "textColor1": "5f011f",
+                            "textColor2": "640b26",
+                            "textColor3": "7f334a",
+                            "textColor4": "833b50"
+                        },
+                        "artistName": "Keith Urban",
+                        "url": "https://music.apple.com/us/album/we-were/1462202907?i=1462202916",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 189104,
+                        "releaseDate": "2019-05-14",
+                        "name": "We Were",
+                        "isrc": "USUG11901266",
+                        "albumName": "We Were - Single",
+                        "playParams": {
+                            "id": "1462202916",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Eric Church, Jeff Hyde & Ryan Tyndell"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.87bb5b36a9bd49db8c975607452bfa2b/tracks"
+        },
+        "curator": {
+            "data": [
+                {
+                    "id": "976439534",
+                    "type": "apple-curators",
+                    "href": "/v1/catalog/us/apple-curators/976439534"
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.87bb5b36a9bd49db8c975607452bfa2b/curator"
+        }
+    }
+}

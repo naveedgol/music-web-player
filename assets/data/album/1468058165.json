@@ -1,0 +1,776 @@
+{
+    "id": "1468058165",
+    "type": "albums",
+    "href": "/v1/catalog/us/albums/1468058165",
+    "attributes": {
+        "artwork": {
+            "width": 3900,
+            "height": 3900,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+            "bgColor": "fecde3",
+            "textColor1": "2e241d",
+            "textColor2": "2c2622",
+            "textColor3": "574545",
+            "textColor4": "564749"
+        },
+        "artistName": "Taylor Swift",
+        "isSingle": false,
+        "url": "https://music.apple.com/us/album/lover/1468058165",
+        "isComplete": true,
+        "genreNames": [
+            "Pop",
+            "Music"
+        ],
+        "trackCount": 18,
+        "isMasteredForItunes": true,
+        "releaseDate": "2019-08-23",
+        "name": "Lover",
+        "recordLabel": "Taylor Swift",
+        "copyright": "℗ 2019 Taylor Swift",
+        "playParams": {
+            "id": "1468058165",
+            "kind": "album"
+        },
+        "editorialNotes": {
+            "standard": "There’s a reason Taylor Swift sounds so confident and cool on <i>Lover</i>, her seventh album and the most free-spirited yet. She’s in <i>love</i>—pure, steady, starry-eyed, shout-it-from-the-rooftops love. Arriving 13 years after her eponymous debut album—and following a string of songs that sometimes felt like battle scars from public breakups and celebrity feuds—this project comes off clear-eyed, thick-skinned, and grown-up. It may be a sign that the 29-year-old has entered a new phase of her life: She’s now impressively private (she and her long-term boyfriend are rarely seen together in public), politically fired up (this album finds her fighting for queer and women’s rights), and eager to see the big picture (fans have speculated that the gut-wrenching “Soon You’ll Get Better” is about her mother’s battles with cancer).<br />\nAs a result, she’s never sounded stronger or more in control. She calls out dark-age bigots on the Pride anthem “You Need to Calm Down,” sends up the patriarchy on “The Man,” perfects flippant indifference on “I Forgot That You Existed,” and dares to sing her own praises on “ME!,” a duet with Brendon Urie of Panic! At the Disco. Tonally, these songs couldn’t be more different than 2017’s vengeful and self-conscious <i>Reputation</i>.<br />\nMost of the album is baked in the atmospheric synths and ’80s drums favored by collaborator Jack Antonoff (“The Archer,” “Lover”). And yet some of the best moments are also the most surprising. “It’s Nice to Have a Friend” is daydreamy and delicate, illuminated with laidback strumming, twinkling trumpet, and high-pitched <i>ooh-ooh</i>s. And the percussive, playful “I Think He Knows” is a rollercoaster of a song, spiking and dipping from chatty whispers to breathy shout-singing in a matter of seconds.",
+            "short": "Taylor’s new album is a love letter to love itself."
+        }
+    },
+    "relationships": {
+        "tracks": {
+            "data": [
+                {
+                    "id": "1468058169",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058169",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/06/af/8f/06af8f97-fe7c-0c04-e2dd-ec954fd5050c/mzaf_975514324373508822.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/i-forgot-that-you-existed/1468058165?i=1468058169",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 170651,
+                        "releaseDate": "2019-08-23",
+                        "name": "I Forgot That You Existed",
+                        "isrc": "USUG11901471",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058169",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Taylor Swift, Louis Bell & Adam Feeney"
+                    }
+                },
+                {
+                    "id": "1468058171",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058171",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/bb/7f/d5/bb7fd525-c377-5d24-382b-5db8a47da0f9/mzaf_12038039531827586915.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/cruel-summer/1468058165?i=1468058171",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 178426,
+                        "releaseDate": "2019-08-23",
+                        "name": "Cruel Summer",
+                        "isrc": "USUG11901472",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058171",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Taylor Swift, Jack Antonoff & Annie Clark"
+                    }
+                },
+                {
+                    "id": "1468058173",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058173",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f1/9c/e1/f19ce15a-94ad-7765-a295-0941b25b782f/mzaf_11800340106358309499.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/lover/1468058165?i=1468058173",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 221300,
+                        "releaseDate": "2019-08-16",
+                        "name": "Lover",
+                        "isrc": "USUG11901473",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058173",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Taylor Swift"
+                    }
+                },
+                {
+                    "id": "1468058176",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058176",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d2/b6/5a/d2b65a3c-0f03-bf12-7d2b-e937d7d43beb/mzaf_15365464898309942643.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/the-man/1468058165?i=1468058176",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 190363,
+                        "releaseDate": "2019-08-23",
+                        "name": "The Man",
+                        "isrc": "USUG11901474",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058176",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Taylor Swift & Joel Little"
+                    }
+                },
+                {
+                    "id": "1468058177",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058177",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/08/c9/86/08c98676-0d5b-604c-c1f0-05aff082bb3f/mzaf_7410875496299941335.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/the-archer/1468058165?i=1468058177",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 211235,
+                        "releaseDate": "2019-07-23",
+                        "name": "The Archer",
+                        "isrc": "USUG11901475",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058177",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058178",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058178",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c1/a4/21/c1a42117-29e7-68e4-8e55-833204943824/mzaf_6002623766148380084.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/i-think-he-knows/1468058165?i=1468058178",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 173396,
+                        "releaseDate": "2019-08-23",
+                        "name": "I Think He Knows",
+                        "isrc": "USUG11901476",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058178",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058180",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058180",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d3/85/6a/d3856aa7-58f8-847b-b79a-ebdf42cfc3af/mzaf_7669710125778277577.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/miss-americana-the-heartbreak-prince/1468058165?i=1468058180",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 234137,
+                        "releaseDate": "2019-08-23",
+                        "name": "Miss Americana & The Heartbreak Prince",
+                        "isrc": "USUG11901477",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058180",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Taylor Swift & Joel Little"
+                    }
+                },
+                {
+                    "id": "1468058181",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058181",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e8/30/60/e8306070-1a30-f5f9-d3c5-195273a2b12a/mzaf_770993705388331292.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/paper-rings/1468058165?i=1468058181",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 222407,
+                        "releaseDate": "2019-08-23",
+                        "name": "Paper Rings",
+                        "isrc": "USUG11901478",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058181",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058184",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058184",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8d/d3/29/8dd32916-53f8-9420-a1d8-116184ed3fd6/mzaf_5979060154485588037.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/cornelia-street/1468058165?i=1468058184",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 287267,
+                        "releaseDate": "2019-08-23",
+                        "name": "Cornelia Street",
+                        "isrc": "USUG11901479",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058184",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Taylor Swift"
+                    }
+                },
+                {
+                    "id": "1468058185",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058185",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/59/a4/74/59a4749e-a61d-3431-31c4-b647a0178d2f/mzaf_1204039373597741982.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/death-by-a-thousand-cuts/1468058165?i=1468058185",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 198530,
+                        "releaseDate": "2019-08-23",
+                        "name": "Death By A Thousand Cuts",
+                        "isrc": "USUG11901480",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058185",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058696",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058696",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e7/49/64/e74964f0-e1a3-6e01-3900-1f86beda06f9/mzaf_16879803587306693454.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/london-boy/1468058165?i=1468058696",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 190239,
+                        "releaseDate": "2019-08-23",
+                        "name": "London Boy",
+                        "isrc": "USUG11901481",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058696",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Taylor Swift, Jack Antonoff, Cautious Clay & Mark Anthony Spears"
+                    }
+                },
+                {
+                    "id": "1468058699",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058699",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f9/23/dc/f923dc49-8dc4-9547-c549-8a6eb11e7f54/mzaf_8274825863494040744.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/soon-youll-get-better-feat-dixie-chicks/1468058165?i=1468058699",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 201590,
+                        "releaseDate": "2019-08-23",
+                        "name": "Soon You'll Get Better (feat. Dixie Chicks)",
+                        "isrc": "USUG11901482",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058699",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058701",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058701",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/80/37/4c/80374cde-182f-4bfd-598c-174d05e3909f/mzaf_9541404338862003636.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/false-god/1468058165?i=1468058701",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 200310,
+                        "releaseDate": "2019-08-23",
+                        "name": "False God",
+                        "isrc": "USUG11901483",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058701",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Taylor Swift & Jack Antonoff"
+                    }
+                },
+                {
+                    "id": "1468058704",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058704",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/27/0e/fd/270efd5d-bbd9-dadd-a0f1-b932578a120a/mzaf_12422943688508050575.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/you-need-to-calm-down/1468058165?i=1468058704",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 171352,
+                        "releaseDate": "2019-06-14",
+                        "name": "You Need To Calm Down",
+                        "isrc": "USUG11901470",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058704",
+                            "kind": "song"
+                        },
+                        "trackNumber": 14,
+                        "composerName": "Taylor Swift & Joel Little"
+                    }
+                },
+                {
+                    "id": "1468058705",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058705",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/9b/d6/cd/9bd6cdc0-067d-274a-70aa-832441dc133a/mzaf_6478760074411762949.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/afterglow/1468058165?i=1468058705",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 223295,
+                        "releaseDate": "2019-08-23",
+                        "name": "Afterglow",
+                        "isrc": "USUG11901484",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058705",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Taylor Swift, Louis Bell & Adam Feeney"
+                    }
+                },
+                {
+                    "id": "1468058706",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058706",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/49/ee/f3/49eef323-6f47-ba73-04e8-8f97d86a4b1a/mzaf_1692064058048634346.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/me-feat-brendon-urie-of-panic-at-the-disco/1468058165?i=1468058706",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 193000,
+                        "releaseDate": "2019-04-26",
+                        "name": "ME! (feat. Brendon Urie of Panic! At the Disco)",
+                        "isrc": "USUG11901267",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058706",
+                            "kind": "song"
+                        },
+                        "trackNumber": 16,
+                        "composerName": "Taylor Swift, Brendon Urie & Joel Little"
+                    }
+                },
+                {
+                    "id": "1468058707",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058707",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2f/17/a4/2f17a4f9-f47d-47f7-dabb-f39776b70593/mzaf_14851199426048403837.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/its-nice-to-have-a-friend/1468058165?i=1468058707",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 150435,
+                        "releaseDate": "2019-08-23",
+                        "name": "It's Nice To Have A Friend",
+                        "isrc": "USUG11901485",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058707",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Taylor Swift, Louis Bell & Adam Feeney"
+                    }
+                },
+                {
+                    "id": "1468058708",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058708",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f8/cf/70/f8cf706f-8c33-9f99-46d6-30574d03ea80/mzaf_12060394202627098724.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/daylight/1468058165?i=1468058708",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 293435,
+                        "releaseDate": "2019-08-23",
+                        "name": "Daylight",
+                        "isrc": "USUG11901486",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058708",
+                            "kind": "song"
+                        },
+                        "trackNumber": 18,
+                        "composerName": "Taylor Swift"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1468058165/tracks"
+        },
+        "artists": {
+            "data": [
+                {
+                    "id": "159260351",
+                    "type": "artists",
+                    "href": "/v1/catalog/us/artists/159260351"
+                }
+            ],
+            "href": "/v1/catalog/us/albums/1468058165/artists"
+        }
+    }
+}

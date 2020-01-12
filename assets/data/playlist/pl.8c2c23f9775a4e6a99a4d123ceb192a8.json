@@ -1,0 +1,865 @@
+{
+    "id": "pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+    "type": "playlists",
+    "href": "/v1/catalog/us/playlists/pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+    "attributes": {
+        "artwork": {
+            "width": 4320,
+            "height": 1080,
+            "url": "https://is2-ssl.mzstatic.com/image/thumb/Features113/v4/2d/1d/ed/2d1ded74-d524-ae32-4c4d-a2ceb59999f5/source/{w}x{h}cc.jpeg",
+            "bgColor": "171717",
+            "textColor1": "fbfbfb",
+            "textColor2": "e3e3e3",
+            "textColor3": "cecece",
+            "textColor4": "bababa"
+        },
+        "isChart": false,
+        "url": "https://music.apple.com/us/playlist/post-malone-essentials/pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+        "lastModifiedDate": "2019-08-30T11:51:10Z",
+        "name": "Post Malone Essentials",
+        "playlistType": "editorial",
+        "curatorName": "Apple Music Hip-Hop",
+        "playParams": {
+            "id": "pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+            "kind": "playlist"
+        },
+        "description": {
+            "standard": "When Austin Post dropped “White Iverson” on his SoundCloud in early 2015, he was just another 19-year-old kid from Texas trying to scratch out a living in LA. What a difference a year makes. Mixing the spaciousness of trap with the anthemic heart of country and classic rock, his signature songs—which also include the 21 Savage collab “rockstar” and the chill Swae Lee team-up “Sunflower” (from Spider-Man: Into the Spider-Verse)—have become some of the biggest (and most totally unhurried) blockbusters of the late 2010s, ambassadors from a post-genre world where anything is fair game so long as it sounds good. That he grew up on emo is evident—it oozes in his melodies. Singing, rapping, guitar, whatever—Post is doing it, and taking his sweet time, too.",
+            "short": "Explore the pop-rap rockstar's biggest tracks."
+        }
+    },
+    "relationships": {
+        "curator": {
+            "data": [
+                {
+                    "id": "976439539",
+                    "type": "apple-curators",
+                    "href": "/v1/catalog/us/apple-curators/976439539"
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.8c2c23f9775a4e6a99a4d123ceb192a8/curator"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1477880561",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880561",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/00/39/f6/0039f6b4-8a14-1639-863f-a5dac44a3b36/mzaf_12141909738172358872.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/circles/1477880265?i=1477880561",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 214867,
+                        "releaseDate": "2019-08-31",
+                        "name": "Circles",
+                        "isrc": "USUM71915699",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880561",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Louis Bell, Austin Post, Kaan Gunesberk, Adam Feeney & Billy Walsh"
+                    }
+                },
+                {
+                    "id": "1453877003",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1453877003",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/2c/35/50/2c355091-b31b-787a-55c1-18723af1c292/mzaf_9110975435626308077.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ac/75/87/ac758738-3eab-1218-3121-1fe396971422/00602577504266.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "dfdefe",
+                            "textColor2": "c0d6ff",
+                            "textColor3": "b2b1cb",
+                            "textColor4": "99abcb"
+                        },
+                        "artistName": "Post Malone & Swae Lee",
+                        "url": "https://music.apple.com/us/album/sunflower-spider-man-into-the-spider-verse/1453876765?i=1453877003",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 158040,
+                        "releaseDate": "2018-10-18",
+                        "name": "Sunflower (Spider-Man: Into the Spider-Verse)",
+                        "isrc": "USUM71814888",
+                        "albumName": "Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture) [Deluxe Edition]",
+                        "playParams": {
+                            "id": "1453877003",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Carter Lang, Khalif Malik Ibin Shaman Brown, Louis Russel Bell, Austin Richard Post, William Walsh & Carl Rosen"
+                    }
+                },
+                {
+                    "id": "1470523861",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470523861",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e8/04/59/e80459fb-9429-3323-4f43-ce12d5df1be5/mzaf_5785529815715338950.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/40/25/e3/4025e3d0-0876-05ff-abcc-893906725863/19UMGIM60243.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "221d21",
+                            "textColor1": "03a7f0",
+                            "textColor2": "ff4446",
+                            "textColor3": "098bc6",
+                            "textColor4": "d23c3e"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/goodbyes-feat-young-thug/1470523856?i=1470523861",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174947,
+                        "releaseDate": "2019-07-05",
+                        "name": "Goodbyes (feat. Young Thug)",
+                        "isrc": "USUM71912330",
+                        "albumName": "Goodbyes (feat. Young Thug) - Single",
+                        "playParams": {
+                            "id": "1470523861",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Brian Lee, Louis Bell, Austin Post, Billy Walsh, Jeffery Williams, Jessie Lauren Foutz & Val Blavatnik",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373516920",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373516920",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/01/ad/22/01ad2293-277f-45b0-c176-5b252301ace6/mzaf_96445936474020701.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/rockstar-feat-21-savage/1373516902?i=1373516920",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 218146,
+                        "releaseDate": "2017-09-15",
+                        "name": "rockstar (feat. 21 Savage)",
+                        "isrc": "USUM71710087",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373516920",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Louis Bell, Austin Post, Olufunmibi Awoshiley, Jo-Vaughn Virginie, Shayaa Bin Abraham-Joseph & Carl Austin Rosen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1447204033",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1447204033",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/b9/b5/75/b9b575c3-ecfe-fcdb-1a6c-7726e28ee279/mzaf_6654386524259477044.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/32/06/97/320697d8-9313-cba2-39ad-046fd67b80f7/00602577412790.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d6d8d7",
+                            "textColor1": "171719",
+                            "textColor2": "232829",
+                            "textColor3": "3d3e3f",
+                            "textColor4": "474b4c"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/wow/1447203905?i=1447204033",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 149501,
+                        "releaseDate": "2018-12-24",
+                        "name": "Wow.",
+                        "isrc": "USUM71822626",
+                        "albumName": "Wow. - Single",
+                        "playParams": {
+                            "id": "1447204033",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Louis Bell, Austin Post, Adam Feeny & Billy Walsh",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373517313",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373517313",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/1b/ef/cd/1befcdd7-413e-d667-1c7f-e20d29bf0917/mzaf_5522566760795502126.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/better-now/1373516902?i=1373517313",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 231261,
+                        "releaseDate": "2018-04-27",
+                        "name": "Better Now",
+                        "isrc": "USUM71805170",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373517313",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Louis Bell, Austin Post, Billy Walsh & Adam Feeney",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887523",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887523",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/17/d5/c9/17d5c9ad-c668-2f01-5c1d-a609f3297646/mzaf_7670437552558980145.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/white-iverson/1440887225?i=1440887523",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 256532,
+                        "releaseDate": "2015-08-14",
+                        "name": "White Iverson",
+                        "isrc": "USUM71511528",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887523",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Austin Post & Trocon Markous Roberts",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373517312",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373517312",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/08/10/b2/0810b2fa-e923-e884-7d74-77943743c178/mzaf_1223714406919277310.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/psycho-feat-ty-dolla-%24ign/1373516902?i=1373517312",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 221446,
+                        "releaseDate": "2018-02-23",
+                        "name": "Psycho (feat. Ty Dolla $ign)",
+                        "isrc": "USUM71710836",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373517312",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Louis Bell, Austin Post & Tyrone Griffin Jr",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887757",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887757",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/94/9b/bf/949bbfc0-4126-39b6-4be9-1fd879397f94/mzaf_7349144798416922250.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/congratulations-feat-quavo/1440887225?i=1440887757",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 220285,
+                        "releaseDate": "2016-11-04",
+                        "name": "Congratulations (feat. Quavo)",
+                        "isrc": "USUM71614484",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887757",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Austin Post, Louis Bell, Adam Feeney, Quavious Marshall & Leland Wayne",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887527",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887527",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/00/7e/79/007e795a-4dbc-6c40-3bd4-fb8573aff162/mzaf_5410441058862361043.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/i-fall-apart/1440887225?i=1440887527",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 223350,
+                        "releaseDate": "2016-12-09",
+                        "name": "I Fall Apart",
+                        "isrc": "USUM71614475",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887527",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Austin Post, Carlo Montagnese & Billy Walsh",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373517314",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373517314",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/f0/8f/c9/f08fc917-d1da-9a3d-2a15-97f51488a80c/mzaf_2781117809447735583.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/ball-for-me-feat-nicki-minaj/1373516902?i=1373517314",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 206269,
+                        "releaseDate": "2018-04-27",
+                        "name": "Ball For Me (feat. Nicki Minaj)",
+                        "isrc": "USUM71710834",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373517314",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Louis Bell, Austin Post & Onika Maraj",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440907412",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440907412",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/c0/41/e2/c041e2fe-b4cf-1ad8-f39a-90cf2b0c5781/mzaf_4135331231703043945.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/79/73/44/7973449f-09c9-824f-eebf-25295f19af09/00602567359814.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "922326",
+                            "textColor1": "f3f3f3",
+                            "textColor2": "d6d4d2",
+                            "textColor3": "e0caca",
+                            "textColor4": "c8b1af"
+                        },
+                        "artistName": "Migos",
+                        "url": "https://music.apple.com/us/album/notice-me-feat-post-malone/1440907256?i=1440907412",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 233880,
+                        "releaseDate": "2018-01-26",
+                        "name": "Notice Me (feat. Post Malone)",
+                        "isrc": "USUM71800988",
+                        "albumName": "Culture II",
+                        "playParams": {
+                            "id": "1440907412",
+                            "kind": "song"
+                        },
+                        "trackNumber": 20,
+                        "composerName": "Post Malone, Quavious Marshall, Kiari Cephus & Kirsnick Ball",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1464024216",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1464024216",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/fe/e8/34/fee834ea-e55d-c7ae-67e2-2074fdb97102/mzaf_15757203439528159376.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/f4/43/f2/f443f2b7-edd1-6675-0483-6f7a63626b14/886447753538.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "201a0e",
+                            "textColor1": "fefefe",
+                            "textColor2": "3487fe",
+                            "textColor3": "d2d0ce",
+                            "textColor4": "3071ce"
+                        },
+                        "artistName": "DJ Khaled",
+                        "url": "https://music.apple.com/us/album/celebrate-feat-travis-scott-post-malone/1464024147?i=1464024216",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 206499,
+                        "releaseDate": "2019-05-17",
+                        "name": "Celebrate (feat. Travis Scott & Post Malone)",
+                        "isrc": "USSM11903539",
+                        "albumName": "Father of Asahd",
+                        "playParams": {
+                            "id": "1464024216",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Khaled Khaled, Jacques Webster, Austin Post, Teddy Walton & Adam Feeney"
+                    }
+                },
+                {
+                    "id": "1440887746",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887746",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/e6/5e/63/e65e639e-e21f-252d-dceb-10489a661b5d/mzaf_1014718538045730372.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/go-flex/1440887225?i=1440887746",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 179603,
+                        "releaseDate": "2016-04-21",
+                        "name": "Go Flex",
+                        "isrc": "USUM71603455",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887746",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Austin Post, Ryan Vojtesak, Idan Kalai & Rex Kudo",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373516908",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373516908",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/ba/e1/31/bae13108-f7da-9654-2f82-d1dd7ef4da96/mzaf_4373048389494011765.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/spoil-my-night-feat-swae-lee/1373516902?i=1373516908",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 194553,
+                        "releaseDate": "2018-04-27",
+                        "name": "Spoil My Night (feat. Swae Lee)",
+                        "isrc": "USUM71805153",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373516908",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Teddy Walton, Louis Bell, Austin Post, Khalif Brown & Adam Feeney",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1443063995",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1443063995",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/11/78/c4/1178c493-4724-9de1-321a-001ad082cc49/mzaf_1057199796752477970.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/46/34/a9/4634a9e9-39f4-1edd-2235-34dc4bd6b07f/00602557027334.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f58b57",
+                            "textColor1": "000000",
+                            "textColor2": "28150e",
+                            "textColor3": "311c11",
+                            "textColor4": "512d1c"
+                        },
+                        "artistName": "Kanye West",
+                        "url": "https://music.apple.com/us/album/fade/1443063578?i=1443063995",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 193748,
+                        "releaseDate": "2016-02-14",
+                        "name": "Fade",
+                        "isrc": "USUM71605435",
+                        "albumName": "The Life of Pablo",
+                        "playParams": {
+                            "id": "1443063995",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "composerName": "Kanye West, Tyrone Griffin Jr, Austin Post, Anthony Kilhoffer, Mike Dean, Ryan Vojtesak, Noah Goldstein, Benjamin Benstead, Jerome Potter, Samuel Griesemer, Cornelius Grant, Eddie Holland, Norman Whitfield, Larry Heard, Robert Owens, Louie Vega, Ronald Carroll, Barbara Tucker, Harold Matthews, Stephen Garrett, Rapture Stewart & Eric Seats",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887513",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887513",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/91/53/8e/91538eba-782c-1c4e-951f-aea2bd5e657f/mzaf_9021917135112636803.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/deja-vu-feat-justin-bieber/1440887225?i=1440887513",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 234213,
+                        "releaseDate": "2016-09-08",
+                        "name": "Deja Vu (feat. Justin Bieber)",
+                        "isrc": "USUM71608604",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887513",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Justin Bieber, Austin Post, Adam Feeney, Matthew Tavares, Louis Bell, ANDERSON HERNANDEZ & Kaan Gunesberk",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1373516909",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1373516909",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/c9/ed/76/c9ed7672-6adc-ae2e-e5d0-3dc6b3b33056/mzaf_7411969468659272417.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music128/v4/9f/54/d0/9f54d048-2e01-63ff-2efc-4f1c5d8fe1be/00602567647461.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d8d002",
+                            "textColor1": "131312",
+                            "textColor2": "333004",
+                            "textColor3": "3a390f",
+                            "textColor4": "545003"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/rich-sad/1373516902?i=1373516909",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 206460,
+                        "releaseDate": "2018-04-27",
+                        "name": "Rich & Sad",
+                        "isrc": "USUM71805166",
+                        "albumName": "beerbongs & bentleys",
+                        "playParams": {
+                            "id": "1373516909",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Louis Bell, Austin Post, Adam Feeney & Billy Walsh",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887516",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887516",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/42/da/0b/42da0ba6-b1c7-168b-9f63-91f01a754fa9/mzaf_3011809358449935572.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/no-option/1440887225?i=1440887516",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 179824,
+                        "releaseDate": "2016-12-09",
+                        "name": "No Option",
+                        "isrc": "USUM71614471",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887516",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Austin Post, Idan Kalai, T. Markous Roberts, Louis Bell, Michael Hancock, Michael McGinnis, Christopher Rudd & Justin Bieber",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1440887751",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1440887751",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview118/v4/69/45/74/694574a1-0f3c-9a94-1e84-279e383bb91e/mzaf_9199043637272083938.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2100,
+                            "height": 2100,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/fa/29/c4/fa29c4bd-d8da-84c2-1992-020154ce27ed/00602557261707.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d2421",
+                            "textColor1": "f66434",
+                            "textColor2": "e36b61",
+                            "textColor3": "c85730",
+                            "textColor4": "b95d54"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/feel-feat-kehlani/1440887225?i=1440887751",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 197121,
+                        "releaseDate": "2016-12-09",
+                        "name": "Feel (feat. Kehlani)",
+                        "isrc": "USUM71614479",
+                        "albumName": "Stoney (Deluxe)",
+                        "playParams": {
+                            "id": "1440887751",
+                            "kind": "song"
+                        },
+                        "trackNumber": 10,
+                        "composerName": "Kehlani, Austin Post, Idan Kalai & Charlie Handsome",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.8c2c23f9775a4e6a99a4d123ceb192a8/tracks"
+        }
+    }
+}

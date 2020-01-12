@@ -1,0 +1,3113 @@
+{
+    "id": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+    "type": "playlists",
+    "href": "/v1/catalog/us/playlists/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+    "attributes": {
+        "artwork": {
+            "width": 4320,
+            "height": 1080,
+            "url": "https://is5-ssl.mzstatic.com/image/thumb/Features123/v4/80/6a/66/806a6614-1d9e-8df2-a92f-922d5c06ae65/source/{w}x{h}cc.jpeg",
+            "bgColor": "dadada",
+            "textColor1": "000000",
+            "textColor2": "242424",
+            "textColor3": "2b2b2b",
+            "textColor4": "484848"
+        },
+        "isChart": false,
+        "url": "https://music.apple.com/us/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+        "lastModifiedDate": "2019-08-30T17:44:48Z",
+        "name": "Rap Life",
+        "playlistType": "editorial",
+        "curatorName": "Apple Music Hip-Hop",
+        "playParams": {
+            "id": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+            "kind": "playlist"
+        },
+        "description": {
+            "standard": "Young Thug’s So Much Fun marks the return of one of hip-hop’s most original and innovative voices. The project is filled with hits—no one sounding anything like another—but his duet with Gunna, “Hot,” is probably most exemplary of what his presence means for the game at large. Producer Wheezy’s horns announce a king’s procession, headed by Thug and the marquee MC of his Young Stoner Life records, Gunna. For his part, though, Thug attributes any joy the song may bring simply to him sharing his lifestyle. “You should listen to this track if you want to have fun, if you want to turn up with your friends,” he tells Apple Music. “‘Hot’ is special because it is actually what I just said. It’s so much fun and I made it with my bradas.” Listen to “Hot” in the Rap Life playlist, along with the rest of the songs leading the charge in hip-hop culture today, and if you hear something you like, add it to your library.",
+            "short": "Young Thug and Gunna’s “Hot” is what victory sounds like."
+        }
+    },
+    "relationships": {
+        "curator": {
+            "data": [
+                {
+                    "id": "976439539",
+                    "type": "apple-curators",
+                    "href": "/v1/catalog/us/apple-curators/976439539"
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5/curator"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1476636943",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636943",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/22/8f/86/228f86bf-d6f4-c4cf-004d-8b2616e6d17f/mzaf_7042445925457145839.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/hot-feat-gunna/1476636939?i=1476636943",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 193027,
+                        "releaseDate": "2019-08-16",
+                        "name": "Hot (feat. Gunna)",
+                        "isrc": "USAT21904711",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636943",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190126",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190126",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b0/6b/48/b06b482c-84b5-6216-d888-22e8f7163423/mzaf_3260737372910122004.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca & Juice WRLD",
+                        "url": "https://music.apple.com/us/album/ransom-remix/1478189929?i=1478190126",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 171179,
+                        "releaseDate": "2019-08-15",
+                        "name": "Ransom (Remix)",
+                        "isrc": "USUG11903068",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190126",
+                            "kind": "song"
+                        },
+                        "trackNumber": 17,
+                        "composerName": "Nick Mira, Taz Taylor, Jarad Higgins & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477644655",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477644655",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4e/b3/f9/4eb3f907-5638-f5f3-100b-aa69d935c2d0/mzaf_5519556253649441279.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/e6/e8/98/e6e89822-e840-1a2b-4c18-d3660fcf853d/886447624715.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "130908",
+                            "textColor1": "ffdd0f",
+                            "textColor2": "df8e42",
+                            "textColor3": "cfb20d",
+                            "textColor4": "b67336"
+                        },
+                        "artistName": "A$AP Rocky",
+                        "url": "https://music.apple.com/us/album/babushka-boi/1477644647?i=1477644655",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 187105,
+                        "releaseDate": "2019-08-28",
+                        "name": "Babushka Boi",
+                        "isrc": "USRC11900451",
+                        "albumName": "Babushka Boi - Single",
+                        "playParams": {
+                            "id": "1477644655",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Rakim Mayers, Hector Delgado, Alexander Ridha & Mario Reddick",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226882",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226882",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/23/3c/a6/233ca669-8f2b-d891-d88e-b298cacc3606/mzaf_7138883152618389925.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Lil Baby & DaBaby",
+                        "url": "https://music.apple.com/us/album/baby/1476226857?i=1476226882",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 142417,
+                        "releaseDate": "2019-07-17",
+                        "name": "Baby",
+                        "isrc": "USUG11900748",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226882",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Dominique Jones, Jonathan L. Kirk & Wesley Glass",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476883399",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476883399",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/74/f9/5c/74f95c64-443b-f9e2-a6b0-ce617408940d/mzaf_3174816413977675749.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/2c/a1/1d/2ca11d46-05a0-72d0-e98a-0f3106180c87/19UMGIM75712.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fbfbfb",
+                            "textColor1": "1a1a1a",
+                            "textColor2": "2b2b2b",
+                            "textColor3": "474747",
+                            "textColor4": "545454"
+                        },
+                        "artistName": "Pusha T",
+                        "url": "https://music.apple.com/us/album/sociopath-feat-kash-doll/1476883396?i=1476883399",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 161997,
+                        "releaseDate": "2019-08-26",
+                        "name": "Sociopath (feat. Kash Doll)",
+                        "isrc": "USUM71916223",
+                        "albumName": "Sociopath (feat. Kash Doll) - Single",
+                        "playParams": {
+                            "id": "1476883399",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kanye West, Terrence Thornton & Arkeisha Knight",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636946",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636946",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/9a/ce/499aced7-309a-23bd-4440-4ef8e087da7d/mzaf_867055641473460386.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/bad-bad-bad-feat-lil-baby/1476636939?i=1476636946",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 149040,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bad Bad Bad (feat. Lil Baby)",
+                        "isrc": "USAT21904712",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636946",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190068",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190068",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7c/1a/35/7c1a352e-1041-7863-da08-b6aa6a341d72/mzaf_12842733018812466810.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/did-it-again/1478189929?i=1478190068",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 116191,
+                        "releaseDate": "2019-07-24",
+                        "name": "Did It Again",
+                        "isrc": "USUG11902664",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190068",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Nick Mira, Taz Taylor, Tyler-Justin Anthony Sharpe & Elias Latrou",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468618077",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468618077",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c1/9d/fb/c19dfbed-dc5e-dab0-1f99-fb72500fd4ea/mzaf_10258549227768899187.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cf/e8/66/cfe866bd-4aa1-c250-be6a-10137dd2d1ad/19UMGIM54644.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "fffcff",
+                            "textColor2": "f61f1a",
+                            "textColor3": "cbc9cb",
+                            "textColor4": "c41914"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205369,
+                        "releaseDate": "2019-06-15",
+                        "name": "Money In The Grave (feat. Rick Ross)",
+                        "isrc": "USCM51900314",
+                        "albumName": "The Best In The World Pack - Single",
+                        "playParams": {
+                            "id": "1468618077",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Aubrey Graham, W. Roberts, L. Currie, C. Dade & A. Joergensen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476432957",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476432957",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d7/f0/79/d7f07953-7bdf-7761-1281-0683e6fa9fb9/mzaf_4809668102257751829.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1a/29/fc/1a29fc5f-0ca6-45f9-a549-284fef4e2b1b/19UMGIM74411.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e5e3e4",
+                            "textColor1": "050709",
+                            "textColor2": "432a1f",
+                            "textColor3": "323335",
+                            "textColor4": "634f47"
+                        },
+                        "artistName": "Trippie Redd",
+                        "url": "https://music.apple.com/us/album/mac-10-feat-lil-baby-lil-duke/1476432283?i=1476432957",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 127843,
+                        "releaseDate": "2019-07-23",
+                        "name": "Mac 10 (feat. Lil Baby & Lil Duke)",
+                        "isrc": "QMEU31908359",
+                        "albumName": "!",
+                        "playParams": {
+                            "id": "1476432957",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Wesley Tyler Glass",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469500921",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469500921",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/53/32/c6/5332c6ec-47f5-0040-1b65-d6fb7f8191dd/mzaf_3165796725557249153.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/9b/5d/1b/9b5d1b5c-c6f8-7bd4-24f9-95575c5144c2/19UMGIM55036.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "391614",
+                            "textColor1": "dfdce0",
+                            "textColor2": "f48445",
+                            "textColor3": "bdb5b7",
+                            "textColor4": "cf6e3b"
+                        },
+                        "artistName": "Mustard",
+                        "url": "https://music.apple.com/us/album/baguettes-in-face-feat-nav-playboi-carti-boogie-wit/1469500805?i=1469500921",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174100,
+                        "releaseDate": "2019-06-28",
+                        "name": "Baguettes in the Face (feat. NAV, Playboi Carti & A Boogie wit da Hoodie)",
+                        "isrc": "USUM71911804",
+                        "albumName": "Perfect Ten",
+                        "playParams": {
+                            "id": "1469500921",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Dijon McFarlane, Larry Sanders, Navraj Singh Goraya, Jordan Terrell Carter & Artist Julius Dubose",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477497970",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477497970",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/53/aa/fa/53aafa8e-1601-8d60-7942-5711fb37965b/mzaf_5557987659591724569.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/21/bb/3c/21bb3ceb-cf0a-44e3-b08d-7d0d62a21448/19UMGIM74033.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "eeeff3",
+                            "textColor1": "550609",
+                            "textColor2": "591016",
+                            "textColor3": "743438",
+                            "textColor4": "773d42"
+                        },
+                        "artistName": "Big Sean",
+                        "url": "https://music.apple.com/us/album/bezerk-feat-a%24ap-ferg-hit-boy/1477497960?i=1477497970",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 151040,
+                        "releaseDate": "2019-08-26",
+                        "name": "Bezerk (feat. A$AP Ferg & Hit-Boy)",
+                        "isrc": "USUM71911828",
+                        "albumName": "Bezerk (feat. A$AP Ferg & Hit-Boy) - Single",
+                        "playParams": {
+                            "id": "1477497970",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sean Anderson, Chauncey Hollis, Dustin James Corbett, Greg Davis & Darold Brown",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190062",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190062",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c6/50/77/c65077da-f8f5-2569-422c-2362d0283c44/mzaf_17491691540290742805.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/shots/1478189929?i=1478190062",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 109375,
+                        "releaseDate": "2019-08-30",
+                        "name": "Shots",
+                        "isrc": "USUM71917711",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190062",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Nick Mira, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469500935",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469500935",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e2/84/d3/e284d344-c767-babe-2ef6-9ab05230b44e/mzaf_2563261137290516884.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/9b/5d/1b/9b5d1b5c-c6f8-7bd4-24f9-95575c5144c2/19UMGIM55036.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "391614",
+                            "textColor1": "dfdce0",
+                            "textColor2": "f48445",
+                            "textColor3": "bdb5b7",
+                            "textColor4": "cf6e3b"
+                        },
+                        "artistName": "Mustard",
+                        "url": "https://music.apple.com/us/album/ballin-feat-roddy-ricch/1469500805?i=1469500935",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180435,
+                        "releaseDate": "2019-06-28",
+                        "name": "Ballin’ (feat. Roddy Ricch)",
+                        "isrc": "USUM71911808",
+                        "albumName": "Perfect Ten",
+                        "playParams": {
+                            "id": "1469500935",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Dijon McFarlane, Shah Rukh Zaman Khan & Rodrick Wayne Moore",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472445387",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472445387",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ec/e6/bd/ece6bdfa-7e79-9a21-49fd-937c9aac0eaf/mzaf_7946208018446960515.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/1f/65/90/1f659083-eb54-e450-2779-e59db7588e37/19UMGIM63605.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "3b483f",
+                            "textColor1": "f6f2e9",
+                            "textColor2": "faeac5",
+                            "textColor3": "d1d0c7",
+                            "textColor4": "d4caaa"
+                        },
+                        "artistName": "Tory Lanez",
+                        "url": "https://music.apple.com/us/album/forever/1472445386?i=1472445387",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 172253,
+                        "releaseDate": "2019-07-19",
+                        "name": "Forever",
+                        "isrc": "USUM71913066",
+                        "albumName": "Forever - Single",
+                        "playParams": {
+                            "id": "1472445387",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Daystar Peterson & Joshua Cross",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226959",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226959",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/87/80/f1/8780f1c4-3d58-d146-7eba-2912e37dc74b/mzaf_12580348643254355341.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Offset & DaBaby",
+                        "url": "https://music.apple.com/us/album/pink-toes-feat-gunna/1476226857?i=1476226959",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 217220,
+                        "releaseDate": "2019-08-16",
+                        "name": "Pink Toes (feat. Gunna)",
+                        "isrc": "USUG11902849",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226959",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Kiari Kendrell Cephus, Sergio Kitchens, Jonathan Kirk & Leland Wayne",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477286470",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477286470",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c9/4c/f0/c94cf0fa-292f-b1c2-f9ab-95eb4b499497/mzaf_7188902777425431926.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/38/1e/56/381e56d3-7729-1fd9-61ca-5eb4b1b35c80/886447903612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "b9e514",
+                            "textColor2": "f6b11b",
+                            "textColor3": "94b710",
+                            "textColor4": "c48e15"
+                        },
+                        "artistName": "Yo Gotti",
+                        "url": "https://music.apple.com/us/album/pose-feat-lil-uzi-vert/1477286469?i=1477286470",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 170156,
+                        "releaseDate": "2019-08-23",
+                        "name": "Pose (feat. Lil Uzi Vert)",
+                        "isrc": "USSM11905414",
+                        "albumName": "Pose (feat. Lil Uzi Vert) - Single",
+                        "playParams": {
+                            "id": "1477286470",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Mario Mims, Symere Woods, Salomon Naar, Benjamin Diehl, Julian Bohorquez & Jason Silber",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475080333",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475080333",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1f/b6/70/1fb670d6-876f-5ee0-73ab-8c303cf6d92f/mzaf_2844359711604203982.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/6d/14/8b/6d148b1d-5d6d-4198-7f32-a6124ce3e9ce/814908028734.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ff9933",
+                            "textColor1": "0f0704",
+                            "textColor2": "2d0f04",
+                            "textColor3": "3f240e",
+                            "textColor4": "572b0d"
+                        },
+                        "artistName": "Megan Thee Stallion",
+                        "url": "https://music.apple.com/us/album/hot-girl-summer-feat-nicki-minaj-ty-dolla-%24ign/1475080332?i=1475080333",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 199427,
+                        "releaseDate": "2019-08-09",
+                        "name": "Hot Girl Summer (feat. Nicki Minaj & Ty Dolla $ign)",
+                        "isrc": "QMCE31902405",
+                        "albumName": "Hot Girl Summer (feat. Nicki Minaj & Ty Dolla $ign) - Single",
+                        "playParams": {
+                            "id": "1475080333",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478190072",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190072",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2a/6d/e5/2a6de512-080b-7a9d-7e85-39d6e9508e29/mzaf_11781030538010413893.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/amigo/1478189929?i=1478190072",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 150092,
+                        "releaseDate": "2019-08-30",
+                        "name": "Amigo",
+                        "isrc": "USUM71917722",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190072",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Taz Taylor, Tomas Martinez PKA Manso Beats, Joel Abraham PKA Jo L’Z & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226970",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226970",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/15/c2/43/15c24398-f639-4390-9484-fc9c3d3dfee4/mzaf_14764723317075326295.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Quavo",
+                        "url": "https://music.apple.com/us/album/double-trouble-feat-meek-mill/1476226857?i=1476226970",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 176911,
+                        "releaseDate": "2019-08-16",
+                        "name": "Double Trouble (feat. Meek Mill)",
+                        "isrc": "USUG11900754",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226970",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Quavious Marshall, Joshua Parker, Terence Williams, Robert Rihmeek Williams & Dylan Krell",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636382",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636382",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/0f/8f/60/0f8f606d-bf09-a087-40a1-9c7153302d62/mzaf_15237021555958402376.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/72/7f/81/727f81ef-4dc9-755a-4141-9d77680f3e59/19UMGIM74864.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "fac162",
+                            "textColor2": "cca660",
+                            "textColor3": "c89b4f",
+                            "textColor4": "a3854d"
+                        },
+                        "artistName": "Swae Lee",
+                        "url": "https://music.apple.com/us/album/wont-be-late-feat-drake/1476636380?i=1476636382",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 218710,
+                        "releaseDate": "2019-08-16",
+                        "name": "Won't Be Late (feat. Drake)",
+                        "isrc": "USUM71916703",
+                        "albumName": "Won't Be Late (feat. Drake) - Single",
+                        "playParams": {
+                            "id": "1476636382",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Khalif Brown, Aubrey Graham, Kelechukwu Augustine & Michael Williams"
+                    }
+                },
+                {
+                    "id": "1476637109",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476637109",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a4/ff/66/a4ff6681-a6cd-4d36-a6f0-0fc2cb2477ca/mzaf_7807781995434247016.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/the-london-feat-j-cole-travis-scott/1476636939?i=1476637109",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 200187,
+                        "releaseDate": "2019-05-23",
+                        "name": "The London (feat. J. Cole & Travis Scott)",
+                        "isrc": "USAT21903320",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476637109",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "composerName": "Jacques Webster II, Jeffery Williams, Jermaine Cole & Tyler Williams",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469334068",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469334068",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/26/ca/13/26ca131b-5f38-ce7a-d747-d628983222e5/mzaf_5139609688729934116.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/1d/61/91/1d6191c9-b784-d45d-408c-16be12e3d2c7/19UMGIM55603.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "473a31",
+                            "textColor1": "eeeee3",
+                            "textColor2": "d1c3b5",
+                            "textColor3": "cccabf",
+                            "textColor4": "b5a79b"
+                        },
+                        "artistName": "Lil Baby & Future",
+                        "url": "https://music.apple.com/us/album/out-the-mud/1469334065?i=1469334068",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 157816,
+                        "releaseDate": "2019-06-21",
+                        "name": "Out the Mud",
+                        "isrc": "USUG11900742",
+                        "albumName": "Out the Mud - Single",
+                        "playParams": {
+                            "id": "1469334068",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Chris Rosser, Dominique Jones & Nayvadius Wilburn",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1464202241",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1464202241",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/dc/02/85/dc028542-545d-ddab-dd88-d573bd268c42/mzaf_17572578450162040328.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1600,
+                            "height": 1600,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1b/88/33/1b883372-6890-ea08-d6b8-b42baa763001/19UMGIM44420.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "12181f",
+                            "textColor1": "a9c4de",
+                            "textColor2": "8cb3da",
+                            "textColor3": "8ba2b7",
+                            "textColor4": "7494b5"
+                        },
+                        "artistName": "Moneybagg Yo",
+                        "url": "https://music.apple.com/us/album/dior-feat-gunna/1464202236?i=1464202241",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 173396,
+                        "releaseDate": "2019-05-24",
+                        "name": "Dior (feat. Gunna)",
+                        "isrc": "USUG11900229",
+                        "albumName": "43VA HEARTLESS",
+                        "playParams": {
+                            "id": "1464202241",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Demario Dewayne White, Jr., Dylan McKinney & Sergio Kitchens",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474378535",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474378535",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8f/1e/e7/8f1ee76f-6933-f68e-750e-5d77dd1880e1/mzaf_12327895781761697474.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4387,
+                            "height": 4387,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/78/95/f2/7895f237-ddbc-3eef-972f-594ab09df933/5059033580312.png/{w}x{h}bb.jpeg",
+                            "bgColor": "90553e",
+                            "textColor1": "fefdfb",
+                            "textColor2": "f2e2da",
+                            "textColor3": "e8dbd5",
+                            "textColor4": "dec6bb"
+                        },
+                        "artistName": "Chance the Rapper",
+                        "url": "https://music.apple.com/us/album/handsome-feat-megan-thee-stallion/1474378343?i=1474378535",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 173489,
+                        "releaseDate": "2019-07-26",
+                        "name": "Handsome (feat. Megan Thee Stallion)",
+                        "isrc": "GBMA21863202",
+                        "albumName": "The Big Day",
+                        "playParams": {
+                            "id": "1474378535",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Dex Coleman, Trap Money Benny, Pink Sweat$, Peter CottonTale, Chancelor J. Bennett, Darian Garcia & Megan Pete",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471461789",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471461789",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/4d/b3/fa/4db3faa2-cd6a-5094-24a8-bd63b2c5f2e3/mzaf_5759519846651972439.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/93/4a/e5934a43-b96d-b0b4-7a1b-590c9698d5ba/19UMGIM61944.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020202",
+                            "textColor1": "ffe6b1",
+                            "textColor2": "f8be6f",
+                            "textColor3": "ccb88d",
+                            "textColor4": "c79959"
+                        },
+                        "artistName": "Dreamville, Bas & JID",
+                        "url": "https://music.apple.com/us/album/costa-rica-feat-guapdad-4000-reese-laflare-jace-mez/1471461700?i=1471461789",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 217867,
+                        "releaseDate": "2019-07-01",
+                        "name": "Costa Rica (feat. Guapdad 4000, Reese LAFLARE, Jace, Mez, Smokepurpp, Buddy & Ski Mask the Slump God)",
+                        "isrc": "USUM71912266",
+                        "albumName": "Revenge of the Dreamers III",
+                        "playParams": {
+                            "id": "1471461789",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "composerName": "Destin Route, Abbas Hamad, Morris W. Ricks II, Akeem Hayes, Thaddeus Maurice Williams, Jason Harris, Omar Jeffery Pineiro, Simmie Sims III, Stokeley Clevon Goulbourne, Kedrick Cannady, Tim Gomringer & Kevin Gomringer",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477260912",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477260912",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/2b/0e/4e/2b0e4ecc-2a04-40b8-24e0-56797ec3477b/mzaf_7322817851218016553.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/9a/64/19/9a641997-a8d6-f373-eda7-0255fb063230/886447912546.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c111f",
+                            "textColor1": "cbd5e8",
+                            "textColor2": "a6bedf",
+                            "textColor3": "abaec0",
+                            "textColor4": "8e9cb9"
+                        },
+                        "artistName": "A$AP Ferg",
+                        "url": "https://music.apple.com/us/album/jet-lag/1477260803?i=1477260912",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 203720,
+                        "releaseDate": "2019-08-16",
+                        "name": "Jet Lag",
+                        "isrc": "USRC11902221",
+                        "albumName": "Floor Seats",
+                        "playParams": {
+                            "id": "1477260912",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Darold Brown, Shamann Cooke & Benjamin Jayne",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472432682",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472432682",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/71/d2/e5/71d2e5d9-900b-aa7a-db68-e5704ab8bdb3/mzaf_14793534784108976341.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/96/08/95/96089578-608f-d257-b22b-ddc2a4642999/886447852897.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b3acb4",
+                            "textColor1": "010207",
+                            "textColor2": "281819",
+                            "textColor3": "24242a",
+                            "textColor4": "433638"
+                        },
+                        "artistName": "Future",
+                        "url": "https://music.apple.com/us/album/100-shooters-feat-meek-mill-doe-boy/1472432679?i=1472432682",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 209120,
+                        "releaseDate": "2019-07-12",
+                        "name": "100 Shooters (feat. Meek Mill & Doe Boy)",
+                        "isrc": "USSM11904347",
+                        "albumName": "100 Shooters (feat. Meek Mill & Doe Boy) - Single",
+                        "playParams": {
+                            "id": "1472432682",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nayvadius Wilburn, Robert Rihmeek Williams, Cotrell Dennard, Brytavious Chambers, Kevin Gomringer & Tim Gomringer",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473864916",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473864916",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/60/8e/e8/608ee834-067d-6549-87ba-bda84cca69c0/mzaf_4856193919886161369.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/0d/3f/67/0d3f6709-7ae6-1b94-1d55-4bed87a86506/886446874272.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d1112",
+                            "textColor1": "fefdfb",
+                            "textColor2": "d7a980",
+                            "textColor3": "cdcdcc",
+                            "textColor4": "af8b6a"
+                        },
+                        "artistName": "Rick Ross",
+                        "url": "https://music.apple.com/us/album/gold-roses-feat-drake/1473864777?i=1473864916",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 349600,
+                        "releaseDate": "2019-07-26",
+                        "name": "Gold Roses (feat. Drake)",
+                        "isrc": "USSM11904574",
+                        "albumName": "Port of Miami 2",
+                        "playParams": {
+                            "id": "1473864916",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "William Leonard Roberts II, Aubrey Graham, Ozan Yildirim, Joshua Quinton Scruggs, ANDERSON HERNANDEZ, Leon Thomas III, Khristopher Riddick-Tynes, Sylvain Krief & Boris Bergman",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476020397",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476020397",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/1e/dd/44/1edd44c0-7019-0a04-be8e-d95465851697/mzaf_16956516127502127496.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/21/4e/8d/214e8dd9-008d-b84b-2bde-762ffd04464f/19UMGIM73087.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0b0b0b",
+                            "textColor1": "f8e4e8",
+                            "textColor2": "d69a8d",
+                            "textColor3": "c8b9bc",
+                            "textColor4": "ae7d73"
+                        },
+                        "artistName": "Rapsody",
+                        "url": "https://music.apple.com/us/album/sojourner-feat-j-cole/1476020071?i=1476020397",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 331200,
+                        "releaseDate": "2019-08-23",
+                        "name": "Sojourner (feat. J. Cole)",
+                        "isrc": "QMJMT1902145",
+                        "albumName": "Eve",
+                        "playParams": {
+                            "id": "1476020397",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Patrick Douthit, Marlanna Evans, Jermaine Cole, Kendra Morris & Jeremy Page",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226972",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476226972",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/6b/9e/f8/6b9ef864-f288-087e-8f2d-40365172fde3/mzaf_17176998360019806490.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control & Takeoff",
+                        "url": "https://music.apple.com/us/album/bless-em-feat-travis-scott/1476226857?i=1476226972",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180447,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bless Em (feat. Travis Scott)",
+                        "isrc": "USUG11900770",
+                        "albumName": "Quality Control: Control the Streets, Vol. 2",
+                        "playParams": {
+                            "id": "1476226972",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Kirsnick Khari Ball, Jacques Webster & Dwan Avery",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1454074602",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454074602",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/1d/c2/e7/1dc2e7c6-f437-502e-de00-132f68365c27/mzaf_7990741248318803325.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/fd/88/17/fd881718-ce7a-c70f-5064-11d7832b0f4e/00602577528491.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "4c5ea6",
+                            "textColor1": "ffffff",
+                            "textColor2": "efe1d0",
+                            "textColor3": "dbdeed",
+                            "textColor4": "cec7c7"
+                        },
+                        "artistName": "DaBaby",
+                        "url": "https://music.apple.com/us/album/suge/1454074600?i=1454074602",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 163320,
+                        "releaseDate": "2019-03-01",
+                        "name": "Suge",
+                        "isrc": "USUM71902966",
+                        "albumName": "Baby on Baby",
+                        "playParams": {
+                            "id": "1454074602",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "DaBaby, JetsonMade & Pooh Beatz",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476604389",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476604389",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/bd/a4/f4/bda4f44c-62fd-403a-f33f-954c0a5be92b/mzaf_5505793275366219484.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2000,
+                            "height": 2000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/be/89/41/be8941a8-7968-d824-cc29-908224201f98/19UMGIM51043.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "260c17",
+                            "textColor1": "c6c9c5",
+                            "textColor2": "c4beac",
+                            "textColor3": "a6a3a2",
+                            "textColor4": "a49a8e"
+                        },
+                        "artistName": "Vince Staples",
+                        "url": "https://music.apple.com/us/album/so-what-episode-01/1476604386?i=1476604389",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 125149,
+                        "releaseDate": "2019-08-22",
+                        "name": "So What? (Episode 01)",
+                        "isrc": "USUM71911117",
+                        "albumName": "So What? (Episode 01) - Single",
+                        "playParams": {
+                            "id": "1476604389",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "LeKen Taylor & Vincent Staples",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477236551",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477236551",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d4/ad/ba/d4adba71-bab3-f7c8-cafd-5273df357848/mzaf_1956369098251954180.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2000,
+                            "height": 2000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/e4/a1/0c/e4a10cab-091d-48ce-c646-63d7c0126b5d/054391942296.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0f152b",
+                            "textColor1": "fbf9fa",
+                            "textColor2": "decda2",
+                            "textColor3": "ccccd1",
+                            "textColor4": "b5a88a"
+                        },
+                        "artistName": "Saweetie",
+                        "url": "https://music.apple.com/us/album/my-type-feat-city-girls-jhen%C3%A9-aiko-remix/1477236290?i=1477236551",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 172314,
+                        "releaseDate": "2019-08-23",
+                        "name": "My Type (feat. City Girls & Jhené Aiko) [Remix]",
+                        "isrc": "USWB11901929",
+                        "albumName": "My Type (feat. City Girls & Jhené Aiko) [Remix] - Single",
+                        "playParams": {
+                            "id": "1477236551",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kinta Cox, LaMarquis Jefferson, London Holmes, Micah Powell, Moses Barrett III, Nevaeh Jolie, Adam David Small, Aleicia Gibson, Caresha Brownlee, Corey Evans, Craig Love, Diamonté Harper, Gino Borri, Jhené Chilombo & Jonathan Smith",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1456590059",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1456590059",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7d/2f/20/7d2f20e6-02a6-2d6c-e7c8-aa7c7d8801b0/mzaf_624352760801913551.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/ba/09/46/ba094636-742e-9c47-db7a-d555b7c63b4e/093624900313.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "070707",
+                            "textColor1": "ffffff",
+                            "textColor2": "e9b187",
+                            "textColor3": "cdcdcd",
+                            "textColor4": "bc8f6d"
+                        },
+                        "artistName": "Shordie Shordie",
+                        "url": "https://music.apple.com/us/album/bitchuary/1456590013?i=1456590059",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 134213,
+                        "releaseDate": "2018-12-08",
+                        "name": "Bitchuary",
+                        "isrc": "TCADZ1817476",
+                        "albumName": "Captain Hook",
+                        "playParams": {
+                            "id": "1456590059",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Raquan Hudson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471461702",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471461702",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/51/48/03/514803d2-4812-6120-959f-748a145484e1/mzaf_11483075698246755421.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/93/4a/e5934a43-b96d-b0b4-7a1b-590c9698d5ba/19UMGIM61944.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020202",
+                            "textColor1": "ffe6b1",
+                            "textColor2": "f8be6f",
+                            "textColor3": "ccb88d",
+                            "textColor4": "c79959"
+                        },
+                        "artistName": "Dreamville, J. Cole & Lute",
+                        "url": "https://music.apple.com/us/album/under-the-sun-feat-dababy/1471461700?i=1471461702",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 202040,
+                        "releaseDate": "2019-07-05",
+                        "name": "Under the Sun (feat. DaBaby)",
+                        "isrc": "USUM71912963",
+                        "albumName": "Revenge of the Dreamers III",
+                        "playParams": {
+                            "id": "1471461702",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jermaine Cole, Luther Nicholson, Jonathan Kirk, John Welch, Asheton Hogan & Peter Mudge",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1465993869",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1465993869",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/21/b6/c4/21b6c479-c7b8-35fa-b16b-f8edb771780c/mzaf_4481024925339461351.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/49/bf/37/49bf37ad-4494-78e8-42ee-01b1dc142025/886447727911.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1b1718",
+                            "textColor1": "fffce9",
+                            "textColor2": "edd1cd",
+                            "textColor3": "d1cebf",
+                            "textColor4": "c2aca8"
+                        },
+                        "artistName": "Polo G",
+                        "url": "https://music.apple.com/us/album/pop-out-feat-lil-tjay/1465993735?i=1465993869",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 166560,
+                        "releaseDate": "2019-02-01",
+                        "name": "Pop Out (feat. Lil Tjay)",
+                        "isrc": "USQX91900309",
+                        "albumName": "Die a Legend",
+                        "playParams": {
+                            "id": "1465993869",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Polo G, Lil Tjay, João Victor Alba Duarte & Dylan Berg",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475539580",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475539580",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c2/b2/97/c2b29736-27e3-3c8d-d103-f645e5adb85f/mzaf_18196408211714478070.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f3/ea/39/f3ea3960-fc5d-1e10-5d33-9ff2a399bf62/886447882375.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1e1c41",
+                            "textColor1": "ffffff",
+                            "textColor2": "d1d3d8",
+                            "textColor3": "d1d1d8",
+                            "textColor4": "adaeba"
+                        },
+                        "artistName": "Lil Tjay",
+                        "url": "https://music.apple.com/us/album/f-n/1475539579?i=1475539580",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 224000,
+                        "releaseDate": "2019-08-09",
+                        "name": "F.N",
+                        "isrc": "USSM11904899",
+                        "albumName": "F.N",
+                        "playParams": {
+                            "id": "1475539580",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Lil Tjay, Matthew Amis Bell & Artem Romanov",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1459322719",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1459322719",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/fa/26/56/fa265618-6029-fe9d-cb9c-419b225db0fd/mzaf_8286201384272639319.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/85/3e/26/853e26f1-8347-24c9-d30c-6d94738be636/075679848413.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "752018",
+                            "textColor1": "f9b786",
+                            "textColor2": "f5874d",
+                            "textColor3": "df9970",
+                            "textColor4": "db7243"
+                        },
+                        "artistName": "Lil Uzi Vert",
+                        "url": "https://music.apple.com/us/album/sanguine-paradise/1459322716?i=1459322719",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 243976,
+                        "releaseDate": "2019-04-09",
+                        "name": "Sanguine Paradise",
+                        "isrc": "USAT21902376",
+                        "albumName": "Sanguine Paradise - Single",
+                        "playParams": {
+                            "id": "1459322719",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Symere Woods, Jordan T. Ortiz, Kristopher Campbell & Bobby Turner",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469274357",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469274357",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/85/11/df/8511dfa5-de5b-803e-e905-e5e5cc1e29ce/mzaf_5733680827311848180.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/8d/75/f3/8d75f337-aee7-cbdf-3d77-3b83c28f80e6/075679845078.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ffffff",
+                            "textColor1": "000000",
+                            "textColor2": "58162a",
+                            "textColor3": "333333",
+                            "textColor4": "794555"
+                        },
+                        "artistName": "Gucci Mane",
+                        "url": "https://music.apple.com/us/album/ice-feat-gunna-lil-baby/1469274197?i=1469274357",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 177243,
+                        "releaseDate": "2019-06-21",
+                        "name": "ICE (feat. Gunna & Lil Baby)",
+                        "isrc": "USAT21903596",
+                        "albumName": "Delusions of Grandeur",
+                        "playParams": {
+                            "id": "1469274357",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Radric Davis, Chandler Durham, Sergio Giavanni Kitchens & Dominique Jones",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477658583",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477658583",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ed/b7/02/edb702d0-1de8-180b-95d8-521e36d483d4/mzaf_8913543401549455865.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/6a/39/6e/6a396e9a-4961-58f0-c536-8d265834dea5/19UMGIM77298.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "070709",
+                            "textColor1": "ffffff",
+                            "textColor2": "c2c2c2",
+                            "textColor3": "cdcdcd",
+                            "textColor4": "9d9d9d"
+                        },
+                        "artistName": "Birdman & Juvenile",
+                        "url": "https://music.apple.com/us/album/ride-dat-feat-lil-wayne/1477658576?i=1477658583",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205951,
+                        "releaseDate": "2019-08-29",
+                        "name": "Ride Dat (feat. Lil Wayne)",
+                        "isrc": "USCM51900383",
+                        "albumName": "Ride Dat (feat. Lil Wayne) - Single",
+                        "playParams": {
+                            "id": "1477658583",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Lil Wayne, Carl Paul, Bryan Williams, Terius Gray & Daniel Lebrun",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472666039",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472666039",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e1/cf/2d/e1cf2d0d-aaa2-ddd0-5b95-0da656f41c4e/mzaf_10896937274003727227.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/ec/8c/f4/ec8cf47c-3407-5f93-cadb-e1383ba88f39/888915944646_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "ecd8ca",
+                            "textColor2": "84a1d5",
+                            "textColor3": "bcaca2",
+                            "textColor4": "6a81aa"
+                        },
+                        "artistName": "Yella Beezy, Quavo & Gucci Mane",
+                        "url": "https://music.apple.com/us/album/bacc-at-it-again/1472665839?i=1472666039",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 228186,
+                        "releaseDate": "2019-03-15",
+                        "name": "Bacc at it Again",
+                        "isrc": "USUYG1242145",
+                        "albumName": "Baccend Beezy",
+                        "playParams": {
+                            "id": "1472666039",
+                            "kind": "song"
+                        },
+                        "trackNumber": 15,
+                        "composerName": "Markies Conway, Darius Roberts, Quavious Marshall, Radric Davis & Chris Rosser",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1469440081",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469440081",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ad/ab/39/adab394a-fb24-c1f1-9c30-7127af78faa2/mzaf_3863694122798795310.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/44/62/95/4462957d-823e-53f1-9675-66a20520ea45/191998362673.png/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "e6bda4",
+                            "textColor2": "dba58d",
+                            "textColor3": "b89783",
+                            "textColor4": "af8471"
+                        },
+                        "artistName": "NLE Choppa",
+                        "url": "https://music.apple.com/us/album/shotta-flow-feat-blueface-remix/1469440080?i=1469440081",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 176632,
+                        "releaseDate": "2019-06-20",
+                        "name": "Shotta Flow (feat. Blueface) [Remix]",
+                        "isrc": "QZ85M1951467",
+                        "albumName": "Shotta Flow (feat. Blueface) [Remix] - Single",
+                        "playParams": {
+                            "id": "1469440081",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Johnathan Michael Porter, Donald Bernard Bailey & Bryson Lashun Potts",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476018946",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476018946",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/1d/61/37/1d613703-550e-4c08-634e-c0ec77c9d23b/mzaf_15155747159982045946.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/2e/7e/82/2e7e8288-3f4a-1018-ecbd-bcacdc912b45/19UMGIM73709.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "183766",
+                            "textColor1": "ffffff",
+                            "textColor2": "ff68ad",
+                            "textColor3": "d0d6e0",
+                            "textColor4": "d05e9e"
+                        },
+                        "artistName": "Pop Smoke",
+                        "url": "https://music.apple.com/us/album/welcome-to-the-party-remix-feat-nicki-minaj/1476018941?i=1476018946",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180677,
+                        "releaseDate": "2019-08-16",
+                        "name": "Welcome to the Party (Remix) [feat. Nicki Minaj]",
+                        "isrc": "USUM71916247",
+                        "albumName": "Welcome to the Party (Remix) [feat. Nicki Minaj] - Single",
+                        "playParams": {
+                            "id": "1476018946",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Bashar Jackson & Andre Loblack",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1454074606",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1454074606",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/a9/ff/5a/a9ff5abc-3b7b-7b8e-6e37-e0c78c34e3bc/mzaf_4454808608182310025.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music124/v4/fd/88/17/fd881718-ce7a-c70f-5064-11d7832b0f4e/00602577528491.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "4c5ea6",
+                            "textColor1": "ffffff",
+                            "textColor2": "efe1d0",
+                            "textColor3": "dbdeed",
+                            "textColor4": "cec7c7"
+                        },
+                        "artistName": "DaBaby",
+                        "url": "https://music.apple.com/us/album/baby-sitter-feat-offset/1454074600?i=1454074606",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 157693,
+                        "releaseDate": "2019-03-01",
+                        "name": "Baby Sitter (feat. Offset)",
+                        "isrc": "USUM71902948",
+                        "albumName": "Baby on Baby",
+                        "playParams": {
+                            "id": "1454074606",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "DaBaby, Offset, Go Grizzly & MARIIBEATZ",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476863461",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476863461",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e3/7e/d7/e37ed754-c276-cd5c-c0fb-f521ec6566e3/mzaf_14199989557245315394.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/29/e2/76/29e2769b-086c-71d5-619d-d06e17704475/075679838896.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "7a22d1",
+                            "textColor1": "fffefc",
+                            "textColor2": "f4ebfe",
+                            "textColor3": "e4d2f3",
+                            "textColor4": "dbc3f5"
+                        },
+                        "artistName": "Missy Elliott",
+                        "url": "https://music.apple.com/us/album/throw-it-back/1476863458?i=1476863461",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 192813,
+                        "releaseDate": "2019-08-23",
+                        "name": "Throw It Back",
+                        "isrc": "USAT21904666",
+                        "albumName": "ICONOLOGY - EP",
+                        "playParams": {
+                            "id": "1476863461",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Melissa A. Elliott, William Jared Buggs, Quintin Ernest Talbert & Michael Aristotle",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468166328",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468166328",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/3f/a3/cc3fa3af-7283-325f-5b4f-3c99004ae7dd/mzaf_10007136843123551958.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/92/cd/6d/92cd6daf-3a30-0666-31f2-76de8f716cb5/886447788264.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "131a22",
+                            "textColor1": "eef4ec",
+                            "textColor2": "d1cacf",
+                            "textColor3": "c2c8c4",
+                            "textColor4": "aba7ac"
+                        },
+                        "artistName": "Lil Nas X",
+                        "url": "https://music.apple.com/us/album/panini/1468166325?i=1468166328",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 114893,
+                        "releaseDate": "2019-06-20",
+                        "name": "Panini",
+                        "isrc": "USSM11903948",
+                        "albumName": "7 - EP",
+                        "playParams": {
+                            "id": "1468166328",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Montero Lamar Hill, Denzel Baptiste, David Biral, Oladipo Omishore & Kurt Cobain"
+                    }
+                },
+                {
+                    "id": "1472296104",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472296104",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/28/ed/03/28ed0366-a652-8a4d-8cfc-bcd226bbcefb/mzaf_4300143063516089237.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/2f/c2/c5/2fc2c560-e7a0-45b5-0e97-9f6dec4d435b/19UMGIM51115.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a999b3",
+                            "textColor1": "0c0c0c",
+                            "textColor2": "121114",
+                            "textColor3": "2b282d",
+                            "textColor4": "302c34"
+                        },
+                        "artistName": "Rich The Kid",
+                        "url": "https://music.apple.com/us/album/go-up-feat-roddy-ricch/1472296095?i=1472296104",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 169397,
+                        "releaseDate": "2019-07-12",
+                        "name": "Go Up (feat. Roddy Ricch)",
+                        "isrc": "USUM71911106",
+                        "albumName": "Go Up (feat. Roddy Ricch) - Single",
+                        "playParams": {
+                            "id": "1472296104",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Dimitri Roger, Rodrick Moore & Isaiah Jackson",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1464202249",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1464202249",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7d/4d/f4/7d4df473-5206-d209-6f80-0ef236d3c73b/mzaf_7228046043928039508.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1600,
+                            "height": 1600,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1b/88/33/1b883372-6890-ea08-d6b8-b42baa763001/19UMGIM44420.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "12181f",
+                            "textColor1": "a9c4de",
+                            "textColor2": "8cb3da",
+                            "textColor3": "8ba2b7",
+                            "textColor4": "7494b5"
+                        },
+                        "artistName": "Moneybagg Yo",
+                        "url": "https://music.apple.com/us/album/style-aint-free-feat-offset/1464202236?i=1464202249",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 155283,
+                        "releaseDate": "2019-05-24",
+                        "name": "Style Ain't Free (feat. Offset)",
+                        "isrc": "USUG11900251",
+                        "albumName": "43VA HEARTLESS",
+                        "playParams": {
+                            "id": "1464202249",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "June James, Demario Dewayne White, Jr. & Kiari Kendrell Cephus",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1466705904",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466705904",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/5d/05/e4/5d05e4c2-4fc7-62a7-8d4d-45849074d710/mzaf_3466786405096115495.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/f0/0a/9a/f00a9a07-872e-67e6-3b5b-09bc02398036/886447779187.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "060405",
+                            "textColor1": "ffffff",
+                            "textColor2": "cfcacb",
+                            "textColor3": "cdcccc",
+                            "textColor4": "a7a2a3"
+                        },
+                        "artistName": "Future",
+                        "url": "https://music.apple.com/us/album/please-tell-me/1466705896?i=1466705904",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 204520,
+                        "releaseDate": "2019-06-07",
+                        "name": "Please Tell Me",
+                        "isrc": "USSM11903828",
+                        "albumName": "SAVE ME",
+                        "playParams": {
+                            "id": "1466705904",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Nayvadius Wilburn & Tony Son",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1465172396",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1465172396",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/fe/de/37/fede3734-118a-44ba-beec-6cfca9d200f5/mzaf_4940911538265703080.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/78/f9/28/78f928eb-ddb1-6738-37ff-f21b2d1dc511/19UMGIM45859.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b52420",
+                            "textColor1": "eff5f0",
+                            "textColor2": "f6d6de",
+                            "textColor3": "e4cbc7",
+                            "textColor4": "e9b2b8"
+                        },
+                        "artistName": "Tory Lanez",
+                        "url": "https://music.apple.com/us/album/freaky/1465172273?i=1465172396",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 173926,
+                        "releaseDate": "2019-03-15",
+                        "name": "Freaky",
+                        "isrc": "USUM71904089",
+                        "albumName": "LoVE me NOw (ReLoAdeD)",
+                        "playParams": {
+                            "id": "1465172396",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Daystar Peterson, Ozan Yildirim, Nils Noehden & Dimitri Leslie Roger",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477260913",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477260913",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c8/12/3b/c8123b95-ef34-74bc-3bc8-5f92e1628f78/mzaf_5880233938050513547.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/9a/64/19/9a641997-a8d6-f373-eda7-0255fb063230/886447912546.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "2c111f",
+                            "textColor1": "cbd5e8",
+                            "textColor2": "a6bedf",
+                            "textColor3": "abaec0",
+                            "textColor4": "8e9cb9"
+                        },
+                        "artistName": "A$AP Ferg & MadeinTYO",
+                        "url": "https://music.apple.com/us/album/wam/1477260803?i=1477260913",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 157588,
+                        "releaseDate": "2019-07-14",
+                        "name": "Wam",
+                        "isrc": "USRC11901971",
+                        "albumName": "Floor Seats",
+                        "playParams": {
+                            "id": "1477260913",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Darold Brown, Allan Lopez, Dylan Anis & Malcolm Jamaal Davis",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473497693",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473497693",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f3/be/3c/f3be3c44-8ec4-1052-88fe-29d90b544ad5/mzaf_12751136272515194501.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/2d/95/ee/2d95eefe-42dd-4c6f-087a-8b4521fdb60b/888915959596_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fee07e",
+                            "textColor1": "070601",
+                            "textColor2": "4b1c1b",
+                            "textColor3": "38321a",
+                            "textColor4": "6e432f"
+                        },
+                        "artistName": "Young Dolph & Key Glock",
+                        "url": "https://music.apple.com/us/album/water-on-water-on-water/1473497682?i=1473497693",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 223520,
+                        "releaseDate": "2019-07-26",
+                        "name": "Water on Water on Water",
+                        "isrc": "USUYG1264621",
+                        "albumName": "Dum and Dummer",
+                        "playParams": {
+                            "id": "1473497693",
+                            "kind": "song"
+                        },
+                        "trackNumber": 11,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849362",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849362",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/8c/db/6c/8cdb6cd2-608e-656d-b46c-9681240f8074/mzaf_16186242173937143573.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/bougie-feat-meek-mill/1474849228?i=1474849362",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 180994,
+                        "releaseDate": "2019-07-19",
+                        "name": "Bougie (feat. Meek Mill)",
+                        "isrc": "USUM71913583",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849362",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Durk Banks, Orlando J. Tucker, Anthony Tucker & Robert Rihmeek Williams",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471022570",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471022570",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d3/63/b4/d363b4d8-afc0-597e-26d1-21abb21ef976/mzaf_4290273944537519077.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/ca/6b/a2/ca6ba2e2-cee7-e986-5497-75f8f3a6ff8e/075679843357.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d3c8b6",
+                            "textColor1": "2b1b02",
+                            "textColor2": "422a1a",
+                            "textColor3": "4c3d26",
+                            "textColor4": "5f4a39"
+                        },
+                        "artistName": "YBN Cordae",
+                        "url": "https://music.apple.com/us/album/broke-as-f-k/1471022563?i=1471022570",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 196112,
+                        "releaseDate": "2019-07-26",
+                        "name": "Broke As F**k",
+                        "isrc": "USAT21903973",
+                        "albumName": "The Lost Boy",
+                        "playParams": {
+                            "id": "1471022570",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Cordae Dunston, Daniel Hackett, David Biral, Denzel Baptiste, Russ James Chell, Darian Garcia, Cooper Douglas McGill, Justin Zim & Jariuce Stedman Banks",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475191191",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475191191",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2e/36/9a/2e369ac8-55ee-e3d1-c401-22f5586b1576/mzaf_8326703426400357309.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/dd/7e/13/dd7e1329-a184-2ce3-10a9-26499ae25b89/19UMGIM71131.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "91aabc",
+                            "textColor1": "04040a",
+                            "textColor2": "17232c",
+                            "textColor3": "20252d",
+                            "textColor4": "303e48"
+                        },
+                        "artistName": "Blueface",
+                        "url": "https://music.apple.com/us/album/daddy-feat-rich-the-kid/1475191132?i=1475191191",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 151147,
+                        "releaseDate": "2019-06-14",
+                        "name": "Daddy (feat. Rich The Kid)",
+                        "isrc": "USCM51900302",
+                        "albumName": "Dirt Bag",
+                        "playParams": {
+                            "id": "1475191191",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Crook Michael Louis, Earl Johnson & Johnathan Michael Porter",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473615776",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473615776",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/b7/27/12/b7271255-9075-5195-4f29-99f3749b4da7/mzaf_1749931289305659656.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/24/43/c8/2443c89a-f974-9e36-2d70-c1e7bc6edd0b/075679843111.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "100c0d",
+                            "textColor1": "e4e6eb",
+                            "textColor2": "cfaca6",
+                            "textColor3": "bababf",
+                            "textColor4": "a98c88"
+                        },
+                        "artistName": "Kevin Gates",
+                        "url": "https://music.apple.com/us/album/facts/1473615557?i=1473615776",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 181996,
+                        "releaseDate": "2019-07-25",
+                        "name": "Facts",
+                        "isrc": "USAT21903716",
+                        "albumName": "Facts - Single",
+                        "playParams": {
+                            "id": "1473615776",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477120836",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477120836",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/16/97/55/169755bf-17b9-5c32-f23f-ff916a666281/mzaf_12950427600458709046.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/e6/53/e7/e653e73e-efa0-d16f-5aee-7c6c85b5c619/075679838698.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "3bff18",
+                            "textColor2": "39ce20",
+                            "textColor3": "2fcb13",
+                            "textColor4": "2ea519"
+                        },
+                        "artistName": "Wiz Khalifa",
+                        "url": "https://music.apple.com/us/album/never-lie-feat-moneybagg-yo/1477120835?i=1477120836",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 213346,
+                        "releaseDate": "2019-08-23",
+                        "name": "Never Lie (feat. Moneybagg Yo)",
+                        "isrc": "USAT21904655",
+                        "albumName": "Never Lie (feat. Moneybagg Yo) - Single",
+                        "playParams": {
+                            "id": "1477120836",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Cameron Thomaz, Bryan Simmons, David Ruoff, Elias Klughammer, Eric Dan & Demario Dewayne White, Jr.",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473864796",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473864796",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/85/99/2b/85992bd4-3876-ef65-15b8-35332831002b/mzaf_13867605305043946493.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/0d/3f/67/0d3f6709-7ae6-1b94-1d55-4bed87a86506/886446874272.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d1112",
+                            "textColor1": "fefdfb",
+                            "textColor2": "d7a980",
+                            "textColor3": "cdcdcc",
+                            "textColor4": "af8b6a"
+                        },
+                        "artistName": "Rick Ross",
+                        "url": "https://music.apple.com/us/album/summer-reign-feat-summer-walker/1473864777?i=1473864796",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 226480,
+                        "releaseDate": "2019-08-09",
+                        "name": "Summer Reign (feat. Summer Walker)",
+                        "isrc": "USSM11904564",
+                        "albumName": "Port of Miami 2",
+                        "playParams": {
+                            "id": "1473864796",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "William Leonard Roberts II",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476432285",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476432285",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a6/40/e2/a640e250-52b2-2063-708c-4855bbbe3877/mzaf_9503843951818419411.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/1a/29/fc/1a29fc5f-0ca6-45f9-a549-284fef4e2b1b/19UMGIM74411.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e5e3e4",
+                            "textColor1": "050709",
+                            "textColor2": "432a1f",
+                            "textColor3": "323335",
+                            "textColor4": "634f47"
+                        },
+                        "artistName": "Trippie Redd",
+                        "url": "https://music.apple.com/us/album/snake-skin/1476432283?i=1476432285",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 186944,
+                        "releaseDate": "2019-08-09",
+                        "name": "Snake Skin",
+                        "isrc": "QMEU31908362",
+                        "albumName": "!",
+                        "playParams": {
+                            "id": "1476432285",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "matthew crabtree & Adrian Rupke",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474378510",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474378510",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d4/3e/83/d43e834c-a07c-ad6c-f32c-5c66bd12dc82/mzaf_10683147912657503717.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4387,
+                            "height": 4387,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/78/95/f2/7895f237-ddbc-3eef-972f-594ab09df933/5059033580312.png/{w}x{h}bb.jpeg",
+                            "bgColor": "90553e",
+                            "textColor1": "fefdfb",
+                            "textColor2": "f2e2da",
+                            "textColor3": "e8dbd5",
+                            "textColor4": "dec6bb"
+                        },
+                        "artistName": "Chance the Rapper",
+                        "url": "https://music.apple.com/us/album/hot-shower-feat-madeintyo-dababy/1474378343?i=1474378510",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 225924,
+                        "releaseDate": "2019-07-26",
+                        "name": "Hot Shower (feat. MadeinTYO & DaBaby)",
+                        "isrc": "GBMA21863195",
+                        "albumName": "The Big Day",
+                        "playParams": {
+                            "id": "1474378510",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Jonathan L. Kirk, Malcolm Jamaal Davis, Chancelor J. Bennett & Darian Garcia",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474600830",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474600830",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/df/54/89/df548918-eb56-89bb-8845-5b25e3bf4937/mzaf_15192322711134893124.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/1c/98/0a/1c980a02-268c-1081-6f10-4676d4299b66/814908028390.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001020",
+                            "textColor1": "fefffd",
+                            "textColor2": "d39436",
+                            "textColor3": "cbcfd0",
+                            "textColor4": "a97932"
+                        },
+                        "artistName": "Rich The Kid, Jay Critch & A$AP Ferg",
+                        "url": "https://music.apple.com/us/album/flex-up/1474600615?i=1474600830",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 177175,
+                        "releaseDate": "2019-08-02",
+                        "name": "Flex Up",
+                        "isrc": "QMCE31902394",
+                        "albumName": "Rich Forever 4",
+                        "playParams": {
+                            "id": "1474600830",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474009448",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474009448",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/6c/8d/6e/6c8d6e48-9039-a8c2-50b0-2bc2590eb80f/mzaf_10426758171211749164.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/f9/46/37/f9463769-ebe3-9663-2d5e-fb6b945ad4d8/19UMGIM67506.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "030303",
+                            "textColor1": "f6f6f6",
+                            "textColor2": "7ab9cc",
+                            "textColor3": "c6c6c6",
+                            "textColor4": "6294a3"
+                        },
+                        "artistName": "Big Sean",
+                        "url": "https://music.apple.com/us/album/overtime/1474008925?i=1474009448",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 203645,
+                        "releaseDate": "2019-07-24",
+                        "name": "Overtime",
+                        "isrc": "USUM71914543",
+                        "albumName": "Overtime - Single",
+                        "playParams": {
+                            "id": "1474009448",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sean Anderson, Chauncey Hollis, Dwane Weir II, Kenneth Edmonds & Shawn Carter",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477130827",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477130827",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/91/a0/26/91a02640-a9b9-d18f-04ab-1b225c743608/mzaf_11887225904273375360.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/25/74/1a/25741a51-8937-e504-bbb8-7448fc1aab57/888915980071_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fefefe",
+                            "textColor1": "010101",
+                            "textColor2": "31323b",
+                            "textColor3": "343434",
+                            "textColor4": "5a5b62"
+                        },
+                        "artistName": "Tyga",
+                        "url": "https://music.apple.com/us/album/slidin-feat-ty-dolla-%24ign-takeoff/1477130746?i=1477130827",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 217469,
+                        "releaseDate": "2019-08-23",
+                        "name": "Slidin (feat. Ty Dolla $ign & Takeoff)",
+                        "isrc": "USUYG1269506",
+                        "albumName": "Legendary (Deluxe Edition)",
+                        "playParams": {
+                            "id": "1477130827",
+                            "kind": "song"
+                        },
+                        "trackNumber": 19,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1463027714",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1463027714",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8e/eb/89/8eeb8960-e682-c421-b20b-7ae21180082d/mzaf_7735892245382460235.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/8c/f1/9a/8cf19aa1-b5d3-1cb2-3d86-205e17df4ffc/814908028147.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ef9e66",
+                            "textColor1": "09080a",
+                            "textColor2": "470807",
+                            "textColor3": "37261d",
+                            "textColor4": "68261a"
+                        },
+                        "artistName": "Megan Thee Stallion",
+                        "url": "https://music.apple.com/us/album/cash-s-t-feat-dababy/1463027710?i=1463027714",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 192540,
+                        "releaseDate": "2019-05-17",
+                        "name": "Cash S**t (feat. DaBaby)",
+                        "isrc": "QMCE31902212",
+                        "albumName": "Fever",
+                        "playParams": {
+                            "id": "1463027714",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849234",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474849234",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/b6/f8/49b6f85a-04cd-36c8-0ee4-9ecee89f9b61/mzaf_4752658003272979204.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "url": "https://music.apple.com/us/album/die-slow-feat-21-savage/1474849228?i=1474849234",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 198526,
+                        "releaseDate": "2019-08-02",
+                        "name": "Die Slow (feat. 21 Savage)",
+                        "isrc": "USUM71914445",
+                        "albumName": "Love Songs 4 the Streets 2",
+                        "playParams": {
+                            "id": "1474849234",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Durk Banks, Darrel Gregory Jackson & She'yaa Bin Abraham-Joseph",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473864901",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473864901",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/66/c6/7c/66c67c8e-cedf-3f62-2f98-b5d342c6e2dd/mzaf_3561451595696297422.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/0d/3f/67/0d3f6709-7ae6-1b94-1d55-4bed87a86506/886446874272.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d1112",
+                            "textColor1": "fefdfb",
+                            "textColor2": "d7a980",
+                            "textColor3": "cdcdcc",
+                            "textColor4": "af8b6a"
+                        },
+                        "artistName": "Rick Ross",
+                        "url": "https://music.apple.com/us/album/running-the-streets-feat-a-boogie-wit-da-hoodie-denzel-curry/1473864777?i=1473864901",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 224840,
+                        "releaseDate": "2019-08-09",
+                        "name": "Running the Streets (feat. A Boogie wit da Hoodie & Denzel Curry)",
+                        "isrc": "USSM11904571",
+                        "albumName": "Port of Miami 2",
+                        "playParams": {
+                            "id": "1473864901",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "William Leonard Roberts II",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475539676",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475539676",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/73/4f/7f/734f7fdd-a0b8-ae62-dd30-85291f324c0a/mzaf_7242084805173451035.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f3/ea/39/f3ea3960-fc5d-1e10-5d33-9ff2a399bf62/886447882375.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1e1c41",
+                            "textColor1": "ffffff",
+                            "textColor2": "d1d3d8",
+                            "textColor3": "d1d1d8",
+                            "textColor4": "adaeba"
+                        },
+                        "artistName": "Lil Tjay",
+                        "url": "https://music.apple.com/us/album/laneswitch/1475539579?i=1475539676",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 150000,
+                        "releaseDate": "2019-07-26",
+                        "name": "LANESWITCH",
+                        "isrc": "USSM11904710",
+                        "albumName": "F.N",
+                        "playParams": {
+                            "id": "1475539676",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Lil Tjay, João Victor Alba Duarte, Jugraj Singh Nagra & Warren McQueen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476020273",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476020273",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ac/f0/b7/acf0b7d2-9a63-49f1-a8be-061fe5c3e402/mzaf_2893528423221277819.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/21/4e/8d/214e8dd9-008d-b84b-2bde-762ffd04464f/19UMGIM73087.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0b0b0b",
+                            "textColor1": "f8e4e8",
+                            "textColor2": "d69a8d",
+                            "textColor3": "c8b9bc",
+                            "textColor4": "ae7d73"
+                        },
+                        "artistName": "Rapsody",
+                        "url": "https://music.apple.com/us/album/iman-feat-sir-jid/1476020071?i=1476020273",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 275547,
+                        "releaseDate": "2019-08-23",
+                        "name": "Iman (feat. SiR & JID)",
+                        "isrc": "QMJMT1902143",
+                        "albumName": "Eve",
+                        "playParams": {
+                            "id": "1476020273",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Marlanna Evans, Sir Farris, Destin Route, Patrick Douthit & Morris Bailey Jr.",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471461703",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471461703",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/af/d2/9c/afd29c46-2516-29f9-6106-6ea6cf7f7376/mzaf_4026513518014644644.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/e5/93/4a/e5934a43-b96d-b0b4-7a1b-590c9698d5ba/19UMGIM61944.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020202",
+                            "textColor1": "ffe6b1",
+                            "textColor2": "f8be6f",
+                            "textColor3": "ccb88d",
+                            "textColor4": "c79959"
+                        },
+                        "artistName": "Dreamville",
+                        "url": "https://music.apple.com/us/album/down-bad-feat-jid-bas-j-cole-earthgang-young-nudy/1471461700?i=1471461703",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 169147,
+                        "releaseDate": "2019-06-12",
+                        "name": "Down Bad (feat. JID, Bas, J. Cole, EARTHGANG & Young Nudy)",
+                        "isrc": "USUM71910268",
+                        "albumName": "Revenge of the Dreamers III",
+                        "playParams": {
+                            "id": "1471461703",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Destin DiCaprio, Abbas Hamad, Jermaine Cole, Olu Fann, Quantavious T. Thomas & Asheton Hogan",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1471022569",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471022569",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/08/66/e8/0866e884-96a0-ec92-a9af-8bb367e9b540/mzaf_4009851102501380825.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/ca/6b/a2/ca6ba2e2-cee7-e986-5497-75f8f3a6ff8e/075679843357.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d3c8b6",
+                            "textColor1": "2b1b02",
+                            "textColor2": "422a1a",
+                            "textColor3": "4c3d26",
+                            "textColor4": "5f4a39"
+                        },
+                        "artistName": "YBN Cordae",
+                        "url": "https://music.apple.com/us/album/rnp-feat-anderson-paak/1471022563?i=1471022569",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 175828,
+                        "releaseDate": "2019-07-23",
+                        "name": "RNP (feat. Anderson .Paak)",
+                        "isrc": "USAT21903972",
+                        "albumName": "The Lost Boy",
+                        "playParams": {
+                            "id": "1471022569",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Cordae Dunston, Brandon Paak Anderson & Jermaine Cole",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1453941332",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1453941332",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/c9/8d/5e/c98d5e4e-0ca7-75dc-641f-dfec9d0d07d8/mzaf_1058668157559060350.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/a6/d8/0f/a6d80ff1-3c6e-50e5-af2b-91c8447c8c15/00602577528071.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "675419",
+                            "textColor1": "fcf8ed",
+                            "textColor2": "e6cb74",
+                            "textColor3": "ded7c3",
+                            "textColor4": "ccb362"
+                        },
+                        "artistName": "Offset",
+                        "url": "https://music.apple.com/us/album/clout-feat-cardi-b/1453940914?i=1453941332",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205803,
+                        "releaseDate": "2019-02-22",
+                        "name": "Clout (feat. Cardi B)",
+                        "isrc": "USUG11802308",
+                        "albumName": "FATHER OF 4",
+                        "playParams": {
+                            "id": "1453941332",
+                            "kind": "song"
+                        },
+                        "trackNumber": 12,
+                        "composerName": "Kiari Kendrell Cephus",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473649982",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473649982",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7c/dd/52/7cdd52f7-7492-8bc5-cb45-5b9c2eefd48f/mzaf_16141962091820507598.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/eb/c7/72/ebc7720d-4d12-14cd-af48-a6fd450648eb/19UMGIM65764.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "181c1b",
+                            "textColor1": "d8d8e1",
+                            "textColor2": "cfd8df",
+                            "textColor3": "b1b2b9",
+                            "textColor4": "abb2b8"
+                        },
+                        "artistName": "Big Sean",
+                        "url": "https://music.apple.com/us/album/single-again/1473649981?i=1473649982",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 213704,
+                        "releaseDate": "2019-07-26",
+                        "name": "Single Again",
+                        "isrc": "USUM71914327",
+                        "albumName": "Single Again - Single",
+                        "playParams": {
+                            "id": "1473649982",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Dee Lilly, Amaire Johnson, Sean Anderson, Cameron Osteen, Denzel Baptiste, David Biral & Mike City",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468328781",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468328781",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ec/61/80/ec618004-6869-d347-a0cf-2daee996a895/mzaf_407669147572525747.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/35/6e/99/356e9919-9f6e-24d0-3bdc-d29641032b04/18UMGIM76786.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050409",
+                            "textColor1": "fddce7",
+                            "textColor2": "fcbace",
+                            "textColor3": "cbb1bb",
+                            "textColor4": "ca95a7"
+                        },
+                        "artistName": "YK Osiris",
+                        "url": "https://music.apple.com/us/album/freaky-dancer-feat-dababy/1468328757?i=1468328781",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 156000,
+                        "releaseDate": "2019-06-21",
+                        "name": "Freaky Dancer (feat. DaBaby)",
+                        "isrc": "USUM71909680",
+                        "albumName": "Freaky Dancer (feat. DaBaby) - Single",
+                        "playParams": {
+                            "id": "1468328781",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Osiris Williams, Oscar Garza Hernandez, Trevon Campbell, Bryan Omar Torres Talancon, Torres Talancon, Justin Mosley, Jordan Mosley & Jonathan Lyndale Kirk",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1462700235",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462700235",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f9/fc/f0/f9fcf09b-5a88-780f-0e0c-48ba3e3e2c61/mzaf_7410667535137828109.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/eb/5d/ba/eb5dbae5-8f5a-7885-9d0b-5497b27e1dc9/886447716694.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "00b1f0",
+                            "textColor1": "040700",
+                            "textColor2": "162428",
+                            "textColor3": "032930",
+                            "textColor4": "124050"
+                        },
+                        "artistName": "Ambjaay",
+                        "url": "https://music.apple.com/us/album/uno/1462700233?i=1462700235",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 109091,
+                        "releaseDate": "2019-05-10",
+                        "name": "Uno",
+                        "isrc": "USSM11903445",
+                        "albumName": "Uno - Single",
+                        "playParams": {
+                            "id": "1462700235",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ambjaay",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468166457",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468166457",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9e/33/d3/9e33d321-54f9-07cc-e3ad-4070f2b91007/mzaf_7571049535424902725.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/92/cd/6d/92cd6daf-3a30-0666-31f2-76de8f716cb5/886447788264.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "131a22",
+                            "textColor1": "eef4ec",
+                            "textColor2": "d1cacf",
+                            "textColor3": "c2c8c4",
+                            "textColor4": "aba7ac"
+                        },
+                        "artistName": "Lil Nas X & Cardi B",
+                        "url": "https://music.apple.com/us/album/rodeo/1468166325?i=1468166457",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 158707,
+                        "releaseDate": "2019-06-21",
+                        "name": "Rodeo",
+                        "isrc": "USSM11903951",
+                        "albumName": "7 - EP",
+                        "playParams": {
+                            "id": "1468166457",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Montero Lamar Hill, Denzel Baptiste, Russ Chell, Roy Lenzo, David Biral & Belcalis Almanzar",
+                        "contentRating": "explicit"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5/tracks"
+        }
+    }
+}

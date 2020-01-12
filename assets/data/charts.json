@@ -1,0 +1,1149 @@
+{
+    "albums": [
+        {
+            "name": "Top Albums",
+            "chart": "most-played",
+            "href": "/v1/catalog/us/charts?chart=most-played&limit=10&types=albums",
+            "next": "/v1/catalog/us/charts?chart=most-played&limit=10&offset=10&types=albums",
+            "data": [
+                {
+                    "id": "1468058165",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1468058165",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/lover/1468058165",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "trackCount": 18,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-08-23",
+                        "name": "Lover",
+                        "recordLabel": "Taylor Swift",
+                        "copyright": "℗ 2019 Taylor Swift",
+                        "playParams": {
+                            "id": "1468058165",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "There’s a reason Taylor Swift sounds so confident and cool on <i>Lover</i>, her seventh album and the most free-spirited yet. She’s in <i>love</i>—pure, steady, starry-eyed, shout-it-from-the-rooftops love. Arriving 13 years after her eponymous debut album—and following a string of songs that sometimes felt like battle scars from public breakups and celebrity feuds—this project comes off clear-eyed, thick-skinned, and grown-up. It may be a sign that the 29-year-old has entered a new phase of her life: She’s now impressively private (she and her long-term boyfriend are rarely seen together in public), politically fired up (this album finds her fighting for queer and women’s rights), and eager to see the big picture (fans have speculated that the gut-wrenching “Soon You’ll Get Better” is about her mother’s battles with cancer).<br />\nAs a result, she’s never sounded stronger or more in control. She calls out dark-age bigots on the Pride anthem “You Need to Calm Down,” sends up the patriarchy on “The Man,” perfects flippant indifference on “I Forgot That You Existed,” and dares to sing her own praises on “ME!,” a duet with Brendon Urie of Panic! At the Disco. Tonally, these songs couldn’t be more different than 2017’s vengeful and self-conscious <i>Reputation</i>.<br />\nMost of the album is baked in the atmospheric synths and ’80s drums favored by collaborator Jack Antonoff (“The Archer,” “Lover”). And yet some of the best moments are also the most surprising. “It’s Nice to Have a Friend” is daydreamy and delicate, illuminated with laidback strumming, twinkling trumpet, and high-pitched <i>ooh-ooh</i>s. And the percussive, playful “I Think He Knows” is a rollercoaster of a song, spiking and dipping from chatty whispers to breathy shout-singing in a matter of seconds.",
+                            "short": "Taylor’s new album is a love letter to love itself."
+                        }
+                    }
+                },
+                {
+                    "id": "1476636939",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1476636939",
+                    "attributes": {
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/so-much-fun/1476636939",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "trackCount": 19,
+                        "isMasteredForItunes": false,
+                        "releaseDate": "2019-08-16",
+                        "name": "So Much Fun",
+                        "recordLabel": "300 Entertainment/Atl",
+                        "copyright": "℗ 2019 300 Entertainment / Atlantic Recording Corporation",
+                        "playParams": {
+                            "id": "1476636939",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "There aren’t many rappers who can claim to have the stylistic influence that Young Thug has had—a fact that may or may not have slowed the once prolific artist’s rate of output. Never lacking in feature work, the majority of Thug’s career saw him release multiple projects annually before dropping the Future collaboration <i>SUPER SLIMEY</i> and the YSL Records showcase <i>Slime Language</i> in 2017 and 2018, respectively. A little more than halfway through 2019, Thugger awards his fans’ patience with <i>So Much Fun</i>, an album that not only reminds us what we’d been missing, but one whose title seems to speak directly to the experience of creating it.<br />\nThug sounds elated to be making music across <i>So Much Fun</i>, unloading quirky stream-of-consciousness bars like rounds from one of the many guns he so often cites. “I put on my brothers, I put on my b***h/Had to wear the dress, ’cause I had a stick,” he raps on “Just How It Is.” He gets explicit on “Lil Baby,” telling us, “She put my c*m in her cup like it was shake/I’ll never f**k this b***h again, it was a mistake,” but also proclaims via “Ecstasy,” “I don’t wanna talk about no hoes with my dad.” Fair.<br />\nThe production on <i>So Much Fun</i>, along with the way Thug processes it, is based in trap but equally indebted to video game scoring and some unplaceable fantasy world. Frequent collaborators like Wheezy and Southside, as well as friend and former tourmate J. Cole, have pushed themselves to their weirdest in attempts to keep up with Thug’s vocal experiments. Here, they include playing with British slang (“Sup Mate”), aping Louis Armstrong’s singing voice (“Cartier Gucci Scarf”), and punctuating bars with Michael Jackson-reminiscent ad-libs (“Light It Up”). The MC is very clearly in his bag on <i>So Much Fun</i>, something that we might attribute to the peace he may have found as one of rap’s most revered innovators. He alludes to this himself on “Jumped Out the Window,” rapping, “I been in the top room at Tootsie’s, they ain’t stunt me/They know I got money, and I don’t want nothing.”",
+                            "short": "An album whose title seems to speak directly to the experience of creating it."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478189929",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1478189929",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/we-love-you-tecca/1478189929",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "trackCount": 17,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-08-30",
+                        "name": "We Love You Tecca",
+                        "recordLabel": "Republic Records",
+                        "copyright": "Galactic Records; ℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+                        "playParams": {
+                            "id": "1478189929",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Bespectacled, with braids and braces, Lil Tecca looks every inch the typical high schooler. His music, however, reveals a different reality and ambition than his classmates. After guest features and a big hit, “Ransom,” a fuller picture of the Queens-based rapper emerges. <i>We Love You Tecca</i> is his mission statement, filled with buzzy, boasting takes on the changing scenery. Tender piano on “Did It Again” and “Out of Luck” deepens the drama (producers on this project include Menoh Beats, Nick Mira, Taz Taylor, Etrou, Dystinkt Beats, and Rambow). Songs like “Shots” and “Sidenote” illustrate the annoyances that come with fame, while the tender “Love Me” nods to his Jamaican heritage.",
+                            "short": "A detailed portrait of the “Ransom” star emerges."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474669063",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1474669063",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/norman-f-g-rockwell/1474669063",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "trackCount": 14,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-08-30",
+                        "name": "Norman F*****g Rockwell!",
+                        "recordLabel": "Polydor Records",
+                        "copyright": "A Polydor Records Release / An Interscope Records Release In The USA; ℗ 2019 Lana Del Rey, under exclusive licence to Universal Music Operations Limited",
+                        "playParams": {
+                            "id": "1474669063",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Part of the fun of listening to Lana Del Rey’s ethereal lullabies is the sly sense of humor that brings them back down to earth. Tucked inside her dreamscapes about Hollywood and the Hamptons are reminders—and celebrations—of just how empty these places can be. Here, on her sixth album, she fixes her gaze on another place primed for exploration: the art world. Winking and vivid, <i>Norman F*****g Rockwell!</i> is a conceptual riff on the rules that govern integrity and authenticity from an artist who has made a career out of breaking them.<br />\nIn a 2018 interview with Apple Music's Zane Lowe, Del Rey said working with songwriter Jack Antonoff (who produced the album along with Rick Nowels and Andrew Watt) put her in a lighter mood: “He was so <i>funny</i>,” she said. Their partnership—as seen on the title track, a study of inflated egos—allowed her to take her subjects less seriously. \"It's about this guy who is such a genius artist, but he thinks he’s the s**t and he knows it,” she said. \"So often I end up with these creative types. They just go on and on about themselves and I'm like, 'Yeah, yeah.' But there’s merit to it also—they are so good.”<br />\nThis paradox becomes a theme on <i>Rockwell</i>, a canvas upon which she paints with sincerity and satire and challenges you to spot the difference. (On “The Next Best American Record,” she sings, “We were so obsessed with writing the next best American record/’Cause we were just that good/It was just that good.”) Whether she’s wistfully nostalgic or jaded and detached is up for interpretation—really, everything is. The album’s finale, “hope is a dangerous thing for a woman like me to have - but I have it,” is packaged like a confessional—first-person, reflective, sung over simple piano chords—but it’s also flamboyantly cinematic, interweaving references to Sylvia Plath and Slim Aarons with anecdotes from Del Rey's own life to make us question, again, what's real. When she repeats the phrase “a woman like me,” it feels like a taunt; she’s spent the last decade mixing personas—outcast and pop idol, debutante and witch, pinup girl and poet, sinner and saint—ostensibly in an effort to render them all moot. Here, she suggests something even bolder: that the only thing more dangerous than a complicated woman is one who refuses to give up.",
+                            "short": "Witty and psychedelic, Lana’s sixth LP is her strangest and strongest yet."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880265",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1477880265",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/hollywoods-bleeding/1477880265",
+                        "isComplete": false,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "trackCount": 17,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-09-06",
+                        "name": "Hollywood's Bleeding",
+                        "recordLabel": "Republic Records",
+                        "copyright": "℗ 2019 Republic Records, a division of UMG Recordings, Inc.",
+                        "playParams": {
+                            "id": "1477880265",
+                            "kind": "album"
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1421241217",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1421241217",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/5a/e4/725ae48d-4405-d4bd-0694-91a1b16035d6/886447227169.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a2bad1",
+                            "textColor1": "1b0300",
+                            "textColor2": "082647",
+                            "textColor3": "36272a",
+                            "textColor4": "264463"
+                        },
+                        "artistName": "Travis Scott",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/astroworld/1421241217",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music",
+                            "Dirty South",
+                            "Rap"
+                        ],
+                        "trackCount": 17,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2018-08-03",
+                        "name": "ASTROWORLD",
+                        "recordLabel": "Cactus Jack / Epic / Grand Hustle",
+                        "copyright": "℗ 2018 Epic Records/Sony. With Cactus Jack and Grand Hustle.",
+                        "playParams": {
+                            "id": "1421241217",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Travis Scott sent a message to Apple Music about his third album, playfully attributed to Stormi, his infant daughter: “Just BUCKLE UP.” Stormi can’t speak yet, presumably, but the sentiment still rings true for a record named after a closed amusement park in his native Houston. <i>ASTROWORLD</i> delivers its twists and turns via some of Scott’s most personal lyrics yet, unexpected musical arrangements, and a diverse guest list. “SICKO MODE” features multiple beat changes and Drake halted midverse, playing like some kind of funhouse trip. Other sideshows include Stevie Wonder playing harmonica, James Blake crooning, The Weeknd emoting, and Tame Impala’s Kevin Parker shredding — but the main attraction is still Scott's life. On album closer “COFFEE BEAN,” Scott tells an unnamed lover, \"Your family told you I'm a bad move...plus I'm already a black dude.\" At 17 tracks, <i>ASTROWORLD</i> is like any great theme park: There’s just so much to see.",
+                            "short": "A tour of the shadowy theme park that is the Houston MC’s mind."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475686696",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1475686696",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/fear-inoculum/1475686696",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "trackCount": 10,
+                        "isMasteredForItunes": false,
+                        "releaseDate": "2019-08-30",
+                        "name": "Fear Inoculum",
+                        "recordLabel": "RCA Records Label",
+                        "copyright": "℗ 2019 Tool Dissectional, L.L.C./Volcano Entertainment II, L.L.C..",
+                        "playParams": {
+                            "id": "1475686696",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "We could keep agonizing over why TOOL took so long to release <i>Fear Inoculum</i>, or to put their catalog onto streaming services, or all the ways the world has changed since the alt/prog-metal band’s last album came out in 2006. But we just spent 13 years doing all that. Instead, put on the best headphones you can find. It’s time to explore the 87 minutes of music we waited thousands of hours to hear.<br />\nWhether or not this album is the “grand finale… swan song and epilogue” that Maynard James Keenan alludes to in “Descending,” the first thing to say is that <i>Fear Inoculum</i> will not disappoint. On their longest-ever album (despite only containing seven songs, broken up by three brief ambient interludes), TOOL refines and expands on their greatest strengths to create a meditative, intensely complex album that may, in terms of sheer musical skill, be their most impressive yet.<br />\nDanny Carey’s extraordinarily creative and technical approach to rhythm takes center stage, from assaultive double pedaling to atmospheric tablas and electronic tinkering, heard best on “Chocolate Chip Trip,” a five-minute, multidimensional percussion solo. Guitarist Adam Jones unleashes more jams and solos than ever, particularly on the 15-minute opus “7empest,” which begins by sounding like the most traditionally TOOL song of the lot—but it sure doesn’t end that way. (Plus, Jones apparently wrote part of it in 21/16 time.) Justin Chancellor’s bass riffs are hypnotizing and powerful, unique in their ability to be both repetitive, even monotonous, and completely engulfing. Keenan’s lyrics—layered, poetic, often elegiac—are as fun to analyze and interpret as ever. And though the album is easily their most drawn-out and ambient, it’s also immensely heavy. The balance is calculated and sublime.<br />\nSo, what’s <i>Fear Inoculum</i> actually about? Keenan deliberately evades explanation, allowing the listener to find their own meaning. But in the most lyrically lucid moments, you’ll find reflections on life, growing up and facing your fear (he’s stated it could mean giving in to <i>or</i> becoming immune to it). There’s no pretending that 13 years haven’t passed—on “Invincible,” he sings: “Age old battle, mine/Weapon out and belly in/Tales told, battles won… Once invincible, now the armor’s wearing thin.” Still, there’s no sign of weakness, just acceptance and the kind of wisdom that comes with age. “We’re not buying your dubious state of serenity,” he knowingly roars on “7empest.” “Acting all surprised when you’re caught in the lie/It’s not unlike you… We know your nature.”",
+                            "short": "Thirteen years. Worth the wait."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476226857",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1476226857",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/d9/74/ba/d974ba23-0665-b1a2-01bd-539aa24e990c/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/quality-control-control-the-streets-vol-2/1476226857",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music",
+                            "Dirty South",
+                            "Rap"
+                        ],
+                        "trackCount": 36,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-08-16",
+                        "name": "Quality Control: Control the Streets, Vol. 2",
+                        "recordLabel": "Quality Control Music/Motown Records",
+                        "copyright": "Quality Control Music/Motown Records; ℗ 2019 Quality Control Music, LLC, under exclusive license to UMG Recordings, Inc.",
+                        "playParams": {
+                            "id": "1476226857",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Having spent a quick half-decade launching the careers of hip-hop superstars like Migos, Lil Yachty, and Lil Baby, as well as supporting the journeys of countless others, Atlanta-based Quality Control has not-so-quietly become one of the most formidable labels in music. Its <i>Control the Streets, Vol. 1</i>, released in 2017, was a showcase for huge stars both on the label (Migos, Yachty) and off (Cardi B, Young Thug), as well as a preview of acts whose profiles had yet to fully blossom, including Tee Grizzley, Moneybagg Yo, and newly minted Quality Control signees Lil Baby and City Girls.<br />\n<i>Control the Streets, Vol. 2</i> follows a similar blueprint, headlined by those two up-and-comers turned actual stars alongside increasingly familiar QC faces Stefflon Don and Marlo. Yachty and Migos anchor the compilation of 36 new tracks, the latter appearing both together and solo on songs with Megan Thee Stallion, DaBaby, and Travis Scott. Appearances from burgeoning voices like Renni Rucci, 24 Heavy, and Rylo Rodriguez are also not to be missed, if for no other reason than the opportunity to say you knew who they were before the rest of the world did.",
+                            "short": "A talent-rich showcase from hip-hop’s fastest-growing empire."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475177816",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1475177816",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/eb/17/82/eb1782e5-602b-383a-69a0-bc58acf6985e/19UMGIM71793.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000100",
+                            "textColor1": "feffff",
+                            "textColor2": "b6c6dd",
+                            "textColor3": "cbcccb",
+                            "textColor4": "929eb1"
+                        },
+                        "artistName": "Drake",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/care-package/1475177816",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "trackCount": 17,
+                        "isMasteredForItunes": true,
+                        "releaseDate": "2019-08-02",
+                        "name": "Care Package",
+                        "recordLabel": "OVO",
+                        "copyright": "℗ 2019 OVO",
+                        "playParams": {
+                            "id": "1475177816",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Just hours before the arrival of <i>Care Package</i>, Drake announced the 17-track compilation on Instagram as “some of our most important moments together available in one place.” Call it curious that one of the most impactful artists of the era can hold in such high regard a collection of songs that largely were never officially released, but such is the incredibly bountiful catalog of Drake, where even tracks that didn’t make the cut hold a special place in the hearts of his supporters.<br />\nThe strays that make up <i>Care Package</i> span the 10 years of his stardom. The earliest inclusion, 2010’s “Paris Morton Music,” came to us via the OVO blog, while others, like 2015’s “Can I,” were loosed through more dubious channels ahead of their planned rollouts. He raps over a sample of Jai Paul’s “BTSTU” on 2011’s “Dreams Money Can Buy,” and has included album bonus cuts like “My Side,” a song once attached to 2015’s <i>If You’re Reading This It’s Too Late</i>. For the most part, <i>Care Package</i> is composed of songs Drake fanatics have long enjoyed and sought out, making for a listening experience that plays out like an alternate-universe greatest hits. That universe, however, is the one Drake created, and then nourished, both in and out of proper album cycles. Those same fans may question why certain tracks were left behind, but they'll never have to wonder whether or not he cares.",
+                            "short": "Strays from the past decade that play like an alternate-universe greatest hits."
+                        },
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1474849228",
+                    "type": "albums",
+                    "href": "/v1/catalog/us/albums/1474849228",
+                    "attributes": {
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4e/fb/3a/4efb3af9-bd13-358b-1740-d88591490940/19UMGIM64104.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f9f9f9",
+                            "textColor2": "cfb98a",
+                            "textColor3": "c7c7c7",
+                            "textColor4": "a6946e"
+                        },
+                        "artistName": "Lil Durk",
+                        "isSingle": false,
+                        "url": "https://music.apple.com/us/album/love-songs-4-the-streets-2/1474849228",
+                        "isComplete": true,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music",
+                            "Rap"
+                        ],
+                        "trackCount": 16,
+                        "isMasteredForItunes": false,
+                        "releaseDate": "2019-08-02",
+                        "name": "Love Songs 4 the Streets 2",
+                        "recordLabel": "Alamo (Interscope Records)",
+                        "copyright": "℗ 2019 Alamo (Interscope Records)",
+                        "playParams": {
+                            "id": "1474849228",
+                            "kind": "album"
+                        },
+                        "editorialNotes": {
+                            "standard": "Arguably the most enduring artist to come out of Chicago’s drill scene, Lil Durk has spent close to a decade in the game. His perseverance matched only by inherent talent, he continues to consistently deliver the hardened yet palatable anthems that keep him respected and beloved nationally even as former peers have come, gone, and come again. A mix of smooth jams and thug anthems, <i>Love Songs 4 The Streets 2</i> covers all his bases. As has been the case since the “Dis Ain’t What You Want” days, Auto-Tune often cushions his unrepentant bars, exemplified by tracks like “Locked Up” and the hedonistic Nicki Minaj feature “Extravagant.” Stripped of any such padding, “Die Slow” finds a raw-throated Durk in revenge mode.",
+                            "short": "A mix of smooth jams and thug anthems from Chicago’s drill scene vet."
+                        },
+                        "contentRating": "explicit"
+                    }
+                }
+            ]
+        }
+    ],
+    "songs": [
+        {
+            "name": "Top Songs",
+            "chart": "most-played",
+            "href": "/v1/catalog/us/charts?chart=most-played&limit=10&types=songs",
+            "next": "/v1/catalog/us/charts?chart=most-played&limit=10&offset=10&types=songs",
+            "data": [
+                {
+                    "id": "1476636943",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636943",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/22/8f/86/228f86bf-d6f4-c4cf-004d-8b2616e6d17f/mzaf_7042445925457145839.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/hot-feat-gunna/1476636939?i=1476636943",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 193027,
+                        "releaseDate": "2019-08-16",
+                        "name": "Hot (feat. Gunna)",
+                        "isrc": "USAT21904711",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636943",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1467205598",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1467205598",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a0/ad/e1/a0ade164-54f3-1b59-3aa7-da2df86b1a85/mzaf_15956957339832945378.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/02/fa/96/02fa960c-90ff-de67-272e-207fa53c88cc/886447780800.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020107",
+                            "textColor1": "fffffd",
+                            "textColor2": "e8e5f9",
+                            "textColor3": "cccccb",
+                            "textColor4": "bab7c8"
+                        },
+                        "artistName": "Chris Brown",
+                        "url": "https://music.apple.com/us/album/no-guidance-feat-drake/1467205596?i=1467205598",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 260640,
+                        "releaseDate": "2019-06-12",
+                        "name": "No Guidance (feat. Drake)",
+                        "isrc": "USRC11901583",
+                        "albumName": "No Guidance (feat. Drake) - Single",
+                        "playParams": {
+                            "id": "1467205598",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Chris Brown, Aubrey Graham, ANDERSON HERNANDEZ, Teddy Walton, Noah Shebib, Joshua Lewis, Nija Charles, Tyler James Bryant & Michee Patrick Lebrun",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477880561",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880561",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/00/39/f6/0039f6b4-8a14-1639-863f-a5dac44a3b36/mzaf_12141909738172358872.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/circles/1477880265?i=1477880561",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 214867,
+                        "releaseDate": "2019-08-31",
+                        "name": "Circles",
+                        "isrc": "USUM71915699",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880561",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Louis Bell, Austin Post, Kaan Gunesberk, Adam Feeney & Billy Walsh"
+                    }
+                },
+                {
+                    "id": "1473187057",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473187057",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a2/2a/c8/a22ac862-3d0a-5075-7ff8-6ed4a553e7ff/mzaf_1836007407657252577.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/13/b3/57/13b35734-b2dc-2b16-b044-d9a5ba9d8c97/19UMGIM64072.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050a0d",
+                            "textColor1": "e4edef",
+                            "textColor2": "c5bca3",
+                            "textColor3": "b7bfc1",
+                            "textColor4": "9f9885"
+                        },
+                        "artistName": "Quality Control, Lil Baby & DaBaby",
+                        "url": "https://music.apple.com/us/album/baby/1473187049?i=1473187057",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 142417,
+                        "releaseDate": "2019-07-17",
+                        "name": "Baby",
+                        "isrc": "USUG11900748",
+                        "albumName": "Baby - Single",
+                        "playParams": {
+                            "id": "1473187057",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Domonique Jones, Jonathan L. Kirk & Wesley Glass",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476636946",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476636946",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/49/9a/ce/499aced7-309a-23bd-4440-4ef8e087da7d/mzaf_867055641473460386.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/73/41/d1/7341d127-eb16-822f-4bf1-d316a8810c61/075679838612.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "012000",
+                            "textColor1": "97d939",
+                            "textColor2": "92d624",
+                            "textColor3": "79b42d",
+                            "textColor4": "75b11d"
+                        },
+                        "artistName": "Young Thug",
+                        "url": "https://music.apple.com/us/album/bad-bad-bad-feat-lil-baby/1476636939?i=1476636946",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 149040,
+                        "releaseDate": "2019-08-16",
+                        "name": "Bad Bad Bad (feat. Lil Baby)",
+                        "isrc": "USAT21904712",
+                        "albumName": "So Much Fun",
+                        "playParams": {
+                            "id": "1476636946",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1466839702",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466839702",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/25/ec/3d/25ec3df0-96fb-8630-47b4-6cfd7a3c4d24/mzaf_6034870477540652233.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/b6/a9/4c/b6a94ca2-2a62-48df-d216-08c25b0779e7/19UMGIM50641.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1b1b1b",
+                            "textColor1": "ffd621",
+                            "textColor2": "e9bf85",
+                            "textColor3": "d1b020",
+                            "textColor4": "c09e6f"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/ransom/1466839697?i=1466839702",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 131248,
+                        "releaseDate": "2019-05-22",
+                        "name": "Ransom",
+                        "isrc": "QZ85M1940160",
+                        "albumName": "Ransom - Single",
+                        "playParams": {
+                            "id": "1466839702",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nick Mira, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1462190042",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1462190042",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e8/8d/a7/e88da714-9840-7941-7290-5a2b455e9d29/mzaf_8287341208226095541.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/e1/6c/3e/e16c3eae-03de-bd45-95c3-1b5e99d32308/075679846488.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1f1e23",
+                            "textColor1": "eed8be",
+                            "textColor2": "e3bea3",
+                            "textColor3": "c4b39f",
+                            "textColor4": "bc9e89"
+                        },
+                        "artistName": "Lizzo",
+                        "url": "https://music.apple.com/us/album/truth-hurts/1462189879?i=1462190042",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 173325,
+                        "releaseDate": "2017-09-19",
+                        "name": "Truth Hurts",
+                        "isrc": "USAT21703896",
+                        "albumName": "Cuz I Love You (Deluxe)",
+                        "playParams": {
+                            "id": "1462190042",
+                            "kind": "song"
+                        },
+                        "trackNumber": 13,
+                        "composerName": "Eric Frederic, Jesse Saint John, Melissa Jefferson & Steven Cheung",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1470523861",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1470523861",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e8/04/59/e80459fb-9429-3323-4f43-ce12d5df1be5/mzaf_5785529815715338950.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/40/25/e3/4025e3d0-0876-05ff-abcc-893906725863/19UMGIM60243.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "221d21",
+                            "textColor1": "03a7f0",
+                            "textColor2": "ff4446",
+                            "textColor3": "098bc6",
+                            "textColor4": "d23c3e"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/goodbyes-feat-young-thug/1470523856?i=1470523861",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 174947,
+                        "releaseDate": "2019-07-05",
+                        "name": "Goodbyes (feat. Young Thug)",
+                        "isrc": "USUM71912330",
+                        "albumName": "Goodbyes (feat. Young Thug) - Single",
+                        "playParams": {
+                            "id": "1470523861",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Brian Lee, Louis Bell, Austin Post, Billy Walsh, Jeffery Williams, Jessie Lauren Foutz & Val Blavatnik",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468618077",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468618077",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c1/9d/fb/c19dfbed-dc5e-dab0-1f99-fb72500fd4ea/mzaf_10258549227768899187.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cf/e8/66/cfe866bd-4aa1-c250-be6a-10137dd2d1ad/19UMGIM54644.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "fffcff",
+                            "textColor2": "f61f1a",
+                            "textColor3": "cbc9cb",
+                            "textColor4": "c41914"
+                        },
+                        "artistName": "Drake",
+                        "url": "https://music.apple.com/us/album/money-in-the-grave-feat-rick-ross/1468617896?i=1468618077",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205369,
+                        "releaseDate": "2019-06-15",
+                        "name": "Money In The Grave (feat. Rick Ross)",
+                        "isrc": "USCM51900314",
+                        "albumName": "The Best In The World Pack - Single",
+                        "playParams": {
+                            "id": "1468618077",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Aubrey Graham, W. Roberts, L. Currie, C. Dade & A. Joergensen",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1468058173",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468058173",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f1/9c/e1/f19ce15a-94ad-7765-a295-0941b25b782f/mzaf_11800340106358309499.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3900,
+                            "height": 3900,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/20/6f/b5/206fb560-6fd5-15f9-0b68-88d309ffc5a6/19UMGIM53909.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fecde3",
+                            "textColor1": "2e241d",
+                            "textColor2": "2c2622",
+                            "textColor3": "574545",
+                            "textColor4": "564749"
+                        },
+                        "artistName": "Taylor Swift",
+                        "url": "https://music.apple.com/us/album/lover/1468058165?i=1468058173",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 221300,
+                        "releaseDate": "2019-08-16",
+                        "name": "Lover",
+                        "isrc": "USUG11901473",
+                        "albumName": "Lover",
+                        "playParams": {
+                            "id": "1468058173",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Taylor Swift"
+                    }
+                }
+            ]
+        }
+    ],
+    "playlists": [
+        {
+            "name": "Top Playlists",
+            "chart": "most-played",
+            "href": "/v1/catalog/us/charts?chart=most-played&limit=10&types=playlists",
+            "next": "/v1/catalog/us/charts?chart=most-played&limit=10&offset=10&types=playlists",
+            "data": [
+                {
+                    "id": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.f4d106fed2bd41149aaacabb233eb5eb",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features117/v4/94/17/2e/94172e16-e5d7-2d2b-66ec-e72473988168/source/{w}x{h}cc.jpeg",
+                            "bgColor": "020216",
+                            "textColor1": "1ff7ed",
+                            "textColor2": "08b7de",
+                            "textColor3": "19c6c2",
+                            "textColor4": "0793b6"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb",
+                        "lastModifiedDate": "2019-08-30T04:58:52Z",
+                        "name": "Today's Hits",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Pop",
+                        "playParams": {
+                            "id": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "Here are the tracks on everyone's mind and in everyone's ears. From ballads to bops, pop to hip-hop to R&B and more, these are the biggest hits anywhere and everywhere—an ever-changing snapshot of now. Our editors are constantly searching for new music and updating this mix—so if you hear a song you like, add it to your library.",
+                            "short": "The biggest songs in pop, hip-hop, R&B, and more."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Features123/v4/80/6a/66/806a6614-1d9e-8df2-a92f-922d5c06ae65/source/{w}x{h}cc.jpeg",
+                            "bgColor": "dadada",
+                            "textColor1": "000000",
+                            "textColor2": "242424",
+                            "textColor3": "2b2b2b",
+                            "textColor4": "484848"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/rap-life/pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+                        "lastModifiedDate": "2019-08-30T17:44:48Z",
+                        "name": "Rap Life",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Hip-Hop",
+                        "playParams": {
+                            "id": "pl.abe8ba42278f4ef490e3a9fc5ec8e8c5",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "Young Thug’s So Much Fun marks the return of one of hip-hop’s most original and innovative voices. The project is filled with hits—no one sounding anything like another—but his duet with Gunna, “Hot,” is probably most exemplary of what his presence means for the game at large. Producer Wheezy’s horns announce a king’s procession, headed by Thug and the marquee MC of his Young Stoner Life records, Gunna. For his part, though, Thug attributes any joy the song may bring simply to him sharing his lifestyle. “You should listen to this track if you want to have fun, if you want to turn up with your friends,” he tells Apple Music. “‘Hot’ is special because it is actually what I just said. It’s so much fun and I made it with my bradas.” Listen to “Hot” in the Rap Life playlist, along with the rest of the songs leading the charge in hip-hop culture today, and if you hear something you like, add it to your library.",
+                            "short": "Young Thug and Gunna’s “Hot” is what victory sounds like."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.5ee8333dbe944d9f9151e97d92d1ead9",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Features123/v4/ad/61/3a/ad613ab0-b50f-66e7-a6c8-a9109578aaae/source/{w}x{h}cc.jpeg",
+                            "bgColor": "deff3d",
+                            "textColor1": "000000",
+                            "textColor2": "132c6e",
+                            "textColor3": "2c330c",
+                            "textColor4": "3b5764"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9",
+                        "lastModifiedDate": "2019-08-30T05:16:42Z",
+                        "name": "A-List Pop",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Pop",
+                        "playParams": {
+                            "id": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "Pop music moves at hyperspeed, and A-List Pop is keeping pace, still breaking the hottest songs every week but with a slick new look. Leading things off is the title track of Taylor Swift’s newly released album Lover. It lulls you in with classic reverb, a slow-dance tempo (waltzers, this is your jam), and lyrics that reveal a sunny optimism, showing she’s a lover and a fighter. As Taylor explains to Apple Music, \"I think this song is important right now because it really feels timeless and romantic. It makes me feel like music is about celebrating the moments in our lives when we feel magical connections and loyalty and trust. To sway with your lover in the living room or to daydream on your own...this is one of my favorite songs I’ve ever written.” Add the song to your library now and subscribe to this playlist to stay up on the latest and greatest pop music.",
+                            "short": "New look. The hottest pop songs. We can't get enough of Taylor's “Lover.”"
+                        }
+                    }
+                },
+                {
+                    "id": "pl.87bb5b36a9bd49db8c975607452bfa2b",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.87bb5b36a9bd49db8c975607452bfa2b",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features71/v4/7d/3a/f6/7d3af6e1-236e-e9ff-3185-b238bf947b7f/source/{w}x{h}cc.jpeg",
+                            "bgColor": "d09c72",
+                            "textColor1": "140603",
+                            "textColor2": "321d16",
+                            "textColor3": "3a2419",
+                            "textColor4": "523628"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/the-a-list-country/pl.87bb5b36a9bd49db8c975607452bfa2b",
+                        "lastModifiedDate": "2019-08-30T22:38:50Z",
+                        "name": "The A-List: Country",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Country",
+                        "playParams": {
+                            "id": "pl.87bb5b36a9bd49db8c975607452bfa2b",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "After combing through countless releases each week, our editors select their favorites for The A-List: Country—the hottest tracks from across the genre. This playlist is updated regularly, so if you like a song, add it to your library.",
+                            "short": "Ashley McBryde just wants to stick to the \"One Night Standards\" on her latest single."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features71/v4/1e/4f/a2/1e4fa223-5c61-8b1f-ab59-6ee874e1b9a4/source/{w}x{h}cc.jpeg",
+                            "bgColor": "010101",
+                            "textColor1": "e9e9e9",
+                            "textColor2": "d68a3c",
+                            "textColor3": "bbbbbb",
+                            "textColor4": "ab6e30"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/the-a-list-r-b/pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+                        "lastModifiedDate": "2019-08-30T21:11:29Z",
+                        "name": "The A-List: R&B",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music R&B",
+                        "playParams": {
+                            "id": "pl.b7ae3e0a28e84c5c96c4284b6a6c70af",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "After combing through countless releases each week, our editors select their favorites for The A-List: R&B—the hottest tracks from across the genre. This playlist is updated regularly, so if you like a song, add it to your library.",
+                            "short": "Up Next alum H.E.R. and SiR are coming for the R&B throne. 👑"
+                        }
+                    }
+                },
+                {
+                    "id": "pl.2b0e6e332fdf4b7a91164da3162127b5",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.2b0e6e332fdf4b7a91164da3162127b5",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/0c/09/c1/0c09c16c-daef-56cd-81f2-c5cfde34b8e2/source/{w}x{h}cc.jpeg",
+                            "bgColor": "ffb2b1",
+                            "textColor1": "0f0905",
+                            "textColor2": "470e06",
+                            "textColor3": "3f2b28",
+                            "textColor4": "6b2f28"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/new-music-daily/pl.2b0e6e332fdf4b7a91164da3162127b5",
+                        "lastModifiedDate": "2019-09-03T16:36:04Z",
+                        "name": "New Music Daily",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music",
+                        "playParams": {
+                            "id": "pl.2b0e6e332fdf4b7a91164da3162127b5",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "After a string of powerful hit singles that showed off the strength and range of her voice (“Here,” “Scars to Your Beautiful,” “Stay”), Alessia Cara returns with something a little lighter. “October,” as charming and catchy as a John Mayer song, has the sort of simple, swaying melodies that linger in your brain long after the track has finished. Add it to your library now and subscribe to New Music Daily, Apple Music’s home for the latest must-hear songs.",
+                            "short": "A bittersweet pop song from Alessia Cara."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.2d4d74790f074233b82d07bfae5c219c",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.2d4d74790f074233b82d07bfae5c219c",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Features113/v4/f8/e6/0d/f8e60dc0-4bfd-6e00-817b-1b5a25cbd2f9/source/{w}x{h}cc.jpeg",
+                            "bgColor": "a9a9a9",
+                            "textColor1": "000000",
+                            "textColor2": "360a06",
+                            "textColor3": "212121",
+                            "textColor4": "4d2a27"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/its-lit/pl.2d4d74790f074233b82d07bfae5c219c",
+                        "lastModifiedDate": "2019-08-30T22:45:32Z",
+                        "name": "It's Lit!!!",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Hip-Hop",
+                        "playParams": {
+                            "id": "pl.2d4d74790f074233b82d07bfae5c219c",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "Summer’s on its way out, and you want it to end with a bang. Say no more: A$AP Ferg is here to help relaunch our It’s Lit! playlist, which has a brand-new look but is still packed with the hottest new turn-up tracks. A$AP Mob’s energy god is still raging in the glow of his new album Floor Seats—check “Wigs” and “Wam,” should you need convincing of his party-starting prowess—so he's handpicked a stack of tunes to keep the vibe going. \"It’s like a Ferg concert,” he tells Apple Music. “Get off your ass! You have to move when these records play! If you’re driving, then the head-nodding has to to be extra special. If you’re at work or school, start dancing.” We keep It’s Lit! stocked with new music every week. Check back often, and if you hear something you like, add it to your library.",
+                            "short": "A$AP Ferg ends summer with a bang—and relaunches this party-focused playlist."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.4b364b8b182f4115acbf6deb83bd5222",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.4b364b8b182f4115acbf6deb83bd5222",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Features113/v4/93/e6/90/93e69008-6e68-740c-2787-2366754cbf00/source/{w}x{h}cc.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "ffffff",
+                            "textColor2": "d6dce5",
+                            "textColor3": "cbcbcb",
+                            "textColor4": "abb0b7"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/dale-play/pl.4b364b8b182f4115acbf6deb83bd5222",
+                        "lastModifiedDate": "2019-08-30T04:23:38Z",
+                        "name": "¡Dale Play!",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Pop Latino",
+                        "playParams": {
+                            "id": "pl.4b364b8b182f4115acbf6deb83bd5222",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "Hit play to hear the biggest Latin tracks from around the world. This playlist is updated often, so if you hear something you like, add it to your library.",
+                            "short": "Manuel Turizo and Anuel AA remind you that if you play with fire—“Te Quemaste.”"
+                        }
+                    }
+                },
+                {
+                    "id": "pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Features113/v4/2d/1d/ed/2d1ded74-d524-ae32-4c4d-a2ceb59999f5/source/{w}x{h}cc.jpeg",
+                            "bgColor": "171717",
+                            "textColor1": "fbfbfb",
+                            "textColor2": "e3e3e3",
+                            "textColor3": "cecece",
+                            "textColor4": "bababa"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/post-malone-essentials/pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+                        "lastModifiedDate": "2019-08-30T11:51:10Z",
+                        "name": "Post Malone Essentials",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music Hip-Hop",
+                        "playParams": {
+                            "id": "pl.8c2c23f9775a4e6a99a4d123ceb192a8",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "When Austin Post dropped “White Iverson” on his SoundCloud in early 2015, he was just another 19-year-old kid from Texas trying to scratch out a living in LA. What a difference a year makes. Mixing the spaciousness of trap with the anthemic heart of country and classic rock, his signature songs—which also include the 21 Savage collab “rockstar” and the chill Swae Lee team-up “Sunflower” (from Spider-Man: Into the Spider-Verse)—have become some of the biggest (and most totally unhurried) blockbusters of the late 2010s, ambassadors from a post-genre world where anything is fair game so long as it sounds good. That he grew up on emo is evident—it oozes in his melodies. Singing, rapping, guitar, whatever—Post is doing it, and taking his sweet time, too.",
+                            "short": "Explore the pop-rap rockstar's biggest tracks."
+                        }
+                    }
+                },
+                {
+                    "id": "pl.daa2a689923d4562bf5650a96809f929",
+                    "type": "playlists",
+                    "href": "/v1/catalog/us/playlists/pl.daa2a689923d4562bf5650a96809f929",
+                    "attributes": {
+                        "artwork": {
+                            "width": 4320,
+                            "height": 1080,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features123/v4/dd/b7/8b/ddb78baf-7d3a-ad42-4cc3-d4f1237fd7e7/source/{w}x{h}cc.jpeg",
+                            "bgColor": "010000",
+                            "textColor1": "00c2e9",
+                            "textColor2": "2db2e5",
+                            "textColor3": "009bbb",
+                            "textColor4": "248eb7"
+                        },
+                        "isChart": false,
+                        "url": "https://music.apple.com/us/playlist/mood/pl.daa2a689923d4562bf5650a96809f929",
+                        "lastModifiedDate": "2019-08-30T08:11:29Z",
+                        "name": "Mood.",
+                        "playlistType": "editorial",
+                        "curatorName": "Apple Music R&B",
+                        "playParams": {
+                            "id": "pl.daa2a689923d4562bf5650a96809f929",
+                            "kind": "playlist"
+                        },
+                        "description": {
+                            "standard": "A mix of laidback hip-hop, R&B, and the occasional chilled-out electronic soul track, this playlist is calibrated to carry you into low lights and late nights. Because “after hours” doesn't mean it's over. We regularly refresh this set with new music. If you like a song, add it to your library.",
+                            "short": "Hip-hop and R&B for low lights and late nights."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

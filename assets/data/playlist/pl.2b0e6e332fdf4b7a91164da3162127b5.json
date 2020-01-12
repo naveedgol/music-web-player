@@ -1,0 +1,3327 @@
+{
+    "id": "pl.2b0e6e332fdf4b7a91164da3162127b5",
+    "type": "playlists",
+    "href": "/v1/catalog/us/playlists/pl.2b0e6e332fdf4b7a91164da3162127b5",
+    "attributes": {
+        "artwork": {
+            "width": 4320,
+            "height": 1080,
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/0c/09/c1/0c09c16c-daef-56cd-81f2-c5cfde34b8e2/source/{w}x{h}cc.jpeg",
+            "bgColor": "ffb2b1",
+            "textColor1": "0f0905",
+            "textColor2": "470e06",
+            "textColor3": "3f2b28",
+            "textColor4": "6b2f28"
+        },
+        "isChart": false,
+        "url": "https://music.apple.com/us/playlist/new-music-daily/pl.2b0e6e332fdf4b7a91164da3162127b5",
+        "lastModifiedDate": "2019-09-03T16:36:04Z",
+        "name": "New Music Daily",
+        "playlistType": "editorial",
+        "curatorName": "Apple Music",
+        "playParams": {
+            "id": "pl.2b0e6e332fdf4b7a91164da3162127b5",
+            "kind": "playlist"
+        },
+        "description": {
+            "standard": "After a string of powerful hit singles that showed off the strength and range of her voice (“Here,” “Scars to Your Beautiful,” “Stay”), Alessia Cara returns with something a little lighter. “October,” as charming and catchy as a John Mayer song, has the sort of simple, swaying melodies that linger in your brain long after the track has finished. Add it to your library now and subscribe to New Music Daily, Apple Music’s home for the latest must-hear songs.",
+            "short": "A bittersweet pop song from Alessia Cara."
+        }
+    },
+    "relationships": {
+        "curator": {
+            "data": [],
+            "href": "/v1/catalog/us/playlists/pl.2b0e6e332fdf4b7a91164da3162127b5/curator"
+        },
+        "tracks": {
+            "data": [
+                {
+                    "id": "1475862470",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475862470",
+                    "attributes": {
+                        "previews": [],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/06/74/86/067486f9-2479-6192-e616-aa40eef6eb3b/19UMGIM73076.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "fcfef3",
+                            "textColor2": "d89150",
+                            "textColor3": "cacbc2",
+                            "textColor4": "ad7440"
+                        },
+                        "artistName": "Alessia Cara",
+                        "url": "https://music.apple.com/us/album/october/1475862452?i=1475862470",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 240860,
+                        "releaseDate": "2019-09-06",
+                        "name": "October",
+                        "isrc": "USUM71914815",
+                        "albumName": "This Summer - EP",
+                        "playParams": {
+                            "id": "1475862470",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Jon Levine & Alessia Caracciolo"
+                    }
+                },
+                {
+                    "id": "1477880561",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477880561",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/00/39/f6/0039f6b4-8a14-1639-863f-a5dac44a3b36/mzaf_12141909738172358872.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/d0/2c/2d/d02c2dbb-60ac-9d3b-1647-f015c597547b/19UMGIM78325.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "171916",
+                            "textColor1": "b6ccc7",
+                            "textColor2": "bbc4cd",
+                            "textColor3": "96a8a4",
+                            "textColor4": "9aa2a8"
+                        },
+                        "artistName": "Post Malone",
+                        "url": "https://music.apple.com/us/album/circles/1477880265?i=1477880561",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 214867,
+                        "releaseDate": "2019-08-31",
+                        "name": "Circles",
+                        "isrc": "USUM71915699",
+                        "albumName": "Hollywood's Bleeding",
+                        "playParams": {
+                            "id": "1477880561",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Louis Bell, Austin Post, Kaan Gunesberk, Adam Feeney & Billy Walsh"
+                    }
+                },
+                {
+                    "id": "1474669065",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474669065",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f6/ea/2c/f6ea2c08-c967-5118-634b-07bb0c3745d3/mzaf_4227268612436022228.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/29/25/75/29257557-5b0b-0f8c-d9f9-8e5e282a52f8/19UMGIM61350.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "10120f",
+                            "textColor1": "a8cee4",
+                            "textColor2": "86bfd4",
+                            "textColor3": "89a9ba",
+                            "textColor4": "6f9cad"
+                        },
+                        "artistName": "Lana Del Rey",
+                        "url": "https://music.apple.com/us/album/norman-f-g-rockwell/1474669063?i=1474669065",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 248934,
+                        "releaseDate": "2019-08-30",
+                        "name": "Norman f*****g Rockwell",
+                        "isrc": "GBUM71903153",
+                        "albumName": "Norman F*****g Rockwell!",
+                        "playParams": {
+                            "id": "1474669065",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Lana Del Rey & Jack Antonoff",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477672832",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477672832",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/15/9a/52/159a52e1-b531-c647-9508-6960301a9a59/mzaf_14650286033644357402.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/1e/31/73/1e3173e4-a0f0-4b26-5ff9-c2c07d4335a6/886447876732.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "09090b",
+                            "textColor1": "e0e2e4",
+                            "textColor2": "ce9b77",
+                            "textColor3": "b5b6b8",
+                            "textColor4": "a67e61"
+                        },
+                        "artistName": "H.E.R.",
+                        "url": "https://music.apple.com/us/album/something-keeps-pulling-me-back/1477672433?i=1477672832",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 184993,
+                        "releaseDate": "2019-08-30",
+                        "name": "Something Keeps Pulling Me Back",
+                        "isrc": "USRC11902258",
+                        "albumName": "I Used to Know Her",
+                        "playParams": {
+                            "id": "1477672832",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "H.E.R., Dernst Emile II, Kim \"Kaydence\" Krysiuk, Hue \"SoundzFire\" Strother & Sam Ashworth"
+                    }
+                },
+                {
+                    "id": "1459148815",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1459148815",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/65/c5/f5/65c5f5ac-ba2b-1fcd-3787-38d98704264f/mzaf_5772060533577388645.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/50/74/46/50744656-c707-b245-947d-583fd969f7c2/00602577638541.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "ffffff",
+                            "textColor2": "dfbaae",
+                            "textColor3": "cbcbcb",
+                            "textColor4": "b2958b"
+                        },
+                        "artistName": "Sam Fender",
+                        "url": "https://music.apple.com/us/album/the-borders/1459148813?i=1459148815",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Singer/Songwriter",
+                            "Music"
+                        ],
+                        "durationInMillis": 332413,
+                        "releaseDate": "2019-08-09",
+                        "name": "The Borders",
+                        "isrc": "GBUM71901016",
+                        "albumName": "Hypersonic Missiles",
+                        "playParams": {
+                            "id": "1459148815",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Sam Fender"
+                    }
+                },
+                {
+                    "id": "1475930042",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475930042",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8a/49/95/8a499521-06bd-56e7-32ad-916b58d3d53c/mzaf_6152361207088840231.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/40/e2/d1/40e2d103-dcd1-e406-cfe9-90eb3bb4a26b/075679839237.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fcffff",
+                            "textColor1": "100e0e",
+                            "textColor2": "2b2b2b",
+                            "textColor3": "3f3e3e",
+                            "textColor4": "545555"
+                        },
+                        "artistName": "Tones and I",
+                        "url": "https://music.apple.com/us/album/the-kids-are-coming/1475930038?i=1475930042",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 204521,
+                        "releaseDate": "2019-08-29",
+                        "name": "The Kids Are Coming",
+                        "isrc": "AUBM01900171",
+                        "albumName": "The Kids Are Coming - EP",
+                        "playParams": {
+                            "id": "1475930042",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Toni Watson"
+                    }
+                },
+                {
+                    "id": "1477644655",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477644655",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4e/b3/f9/4eb3f907-5638-f5f3-100b-aa69d935c2d0/mzaf_5519556253649441279.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/e6/e8/98/e6e89822-e840-1a2b-4c18-d3660fcf853d/886447624715.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "130908",
+                            "textColor1": "ffdd0f",
+                            "textColor2": "df8e42",
+                            "textColor3": "cfb20d",
+                            "textColor4": "b67336"
+                        },
+                        "artistName": "A$AP Rocky",
+                        "url": "https://music.apple.com/us/album/babushka-boi/1477644647?i=1477644655",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 187105,
+                        "releaseDate": "2019-08-28",
+                        "name": "Babushka Boi",
+                        "isrc": "USRC11900451",
+                        "albumName": "Babushka Boi - Single",
+                        "playParams": {
+                            "id": "1477644655",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Rakim Mayers, Hector Delgado, Alexander Ridha & Mario Reddick",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473974914",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473974914",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c6/6b/93/c66b93c1-01dd-a77c-38fc-4b890bcd30c5/mzaf_3031197718928276710.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/ac/fa/e6/acfae6b1-5043-49e8-4232-d2809700f138/075679843494.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "06000c",
+                            "textColor1": "ffffff",
+                            "textColor2": "e16ed6",
+                            "textColor3": "cdcbce",
+                            "textColor4": "b558ae"
+                        },
+                        "artistName": "Skrillex, Boys Noize & Ty Dolla $ign",
+                        "url": "https://music.apple.com/us/album/midnight-hour/1473974633?i=1473974914",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 199600,
+                        "releaseDate": "2019-08-29",
+                        "name": "Midnight Hour",
+                        "isrc": "USAT21903632",
+                        "albumName": "Midnight Hour - Single",
+                        "playParams": {
+                            "id": "1473974914",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ryan Leslie, Sonny Moore, Tyrone Griffin Jr, Alex Ridha, Anthony Clemons, Jr., Austin Owens, Cassandra Ventura, Christian Ward, Isaac Earl Bynum, James Foye III, Jatavia Johnson & Miles McCollum"
+                    }
+                },
+                {
+                    "id": "1475687200",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475687200",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/03/c8/7e/03c87eb1-11e6-045e-0be5-45153eb79a61/mzaf_12002263669902750781.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/4c/05/b1/4c05b15f-60d2-72d8-fcc4-c1f632bc9843/886447895856.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "f7bf62",
+                            "textColor2": "edc359",
+                            "textColor3": "c69a4f",
+                            "textColor4": "be9d48"
+                        },
+                        "artistName": "TOOL",
+                        "url": "https://music.apple.com/us/album/7empest/1475686696?i=1475687200",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 943529,
+                        "releaseDate": "2019-08-30",
+                        "name": "7empest",
+                        "isrc": "USRC11902165",
+                        "albumName": "Fear Inoculum",
+                        "playParams": {
+                            "id": "1475687200",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "TOOL",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477062894",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477062894",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/9d/f6/2c/9df62cc8-124d-9e4c-d5da-d5140de043f4/mzaf_17135363506418445752.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/e7/a8/e6/e7a8e67c-da99-1355-c938-0565b5330d63/054391942210.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "784428",
+                            "textColor1": "f1e7e5",
+                            "textColor2": "e1bbab",
+                            "textColor3": "d9c6bf",
+                            "textColor4": "cca391"
+                        },
+                        "artistName": "Ashley McBryde",
+                        "url": "https://music.apple.com/us/album/one-night-standards/1477062875?i=1477062894",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 190973,
+                        "releaseDate": "2019-08-30",
+                        "name": "One Night Standards",
+                        "isrc": "USWB11902033",
+                        "albumName": "One Night Standards - Single",
+                        "playParams": {
+                            "id": "1477062894",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ashley McBryde, Nicolette Hayford & Shane McAnally"
+                    }
+                },
+                {
+                    "id": "1476863461",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476863461",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e3/7e/d7/e37ed754-c276-cd5c-c0fb-f521ec6566e3/mzaf_14199989557245315394.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/29/e2/76/29e2769b-086c-71d5-619d-d06e17704475/075679838896.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "7a22d1",
+                            "textColor1": "fffefc",
+                            "textColor2": "f4ebfe",
+                            "textColor3": "e4d2f3",
+                            "textColor4": "dbc3f5"
+                        },
+                        "artistName": "Missy Elliott",
+                        "url": "https://music.apple.com/us/album/throw-it-back/1476863458?i=1476863461",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 192813,
+                        "releaseDate": "2019-08-23",
+                        "name": "Throw It Back",
+                        "isrc": "USAT21904666",
+                        "albumName": "ICONOLOGY - EP",
+                        "playParams": {
+                            "id": "1476863461",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Melissa A. Elliott, William Jared Buggs, Quintin Ernest Talbert & Michael Aristotle",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472501776",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472501776",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ce/5f/08/ce5f080c-8e04-a06a-c714-77eeacb1d20a/mzaf_6533246255412977702.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/cd/55/07/cd550787-7a89-3169-ab46-0b9757a2eaaf/19UMGIM63284.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fcfcfc",
+                            "textColor1": "150706",
+                            "textColor2": "621615",
+                            "textColor3": "433837",
+                            "textColor4": "804443"
+                        },
+                        "artistName": "Jax Jones & Tove Lo",
+                        "url": "https://music.apple.com/us/album/jacques/1472501770?i=1472501776",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 203227,
+                        "releaseDate": "2019-08-09",
+                        "name": "Jacques",
+                        "isrc": "GBUM71903211",
+                        "albumName": "Snacks (Supersize)",
+                        "playParams": {
+                            "id": "1472501776",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Tove Lo, Mark Ralph, Timucin Lam & Uzoechi Emenike"
+                    }
+                },
+                {
+                    "id": "1476338343",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476338343",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4a/1b/d1/4a1bd193-2705-dc80-4a9d-545294fdbd0c/mzaf_8378192027013597863.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/38/8f/11/388f1199-79a7-456c-2f9b-71c1f33684ee/194491183394.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "001037",
+                            "textColor1": "f1f0f5",
+                            "textColor2": "adbad3",
+                            "textColor3": "c1c3cf",
+                            "textColor4": "8a98b4"
+                        },
+                        "artistName": "Rauw Alejandro & Farruko",
+                        "url": "https://music.apple.com/us/album/fantas%C3%ADas/1476338342?i=1476338343",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 199711,
+                        "releaseDate": "2019-08-29",
+                        "name": "Fantasías",
+                        "isrc": "QM6P41989279",
+                        "albumName": "Fantasías - Single",
+                        "playParams": {
+                            "id": "1476338343",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Raul A. Ocasio, Carlos E. Reyes, Eric Perez, Franklin J. Martinez, Windel Edwards & Ricardo Lloyd Johnson"
+                    }
+                },
+                {
+                    "id": "1478190062",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478190062",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c6/50/77/c65077da-f8f5-2569-422c-2362d0283c44/mzaf_17491691540290742805.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3d/86/e6/3d86e6e4-babe-8931-e3aa-d681a9e7a299/19UMGIM78833.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fb6b49",
+                            "textColor1": "0a0f0a",
+                            "textColor2": "37150c",
+                            "textColor3": "3a2217",
+                            "textColor4": "5e2618"
+                        },
+                        "artistName": "Lil Tecca",
+                        "url": "https://music.apple.com/us/album/shots/1478189929?i=1478190062",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 109375,
+                        "releaseDate": "2019-08-30",
+                        "name": "Shots",
+                        "isrc": "USUM71917711",
+                        "albumName": "We Love You Tecca",
+                        "playParams": {
+                            "id": "1478190062",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Nick Mira, Taz Taylor & Tyler-Justin Anthony Sharpe",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477662825",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477662825",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/cc/52/2f/cc522fed-2d44-f3b7-bff9-f78b3c90c465/mzaf_1456654926025934671.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/65/81/50/6581508a-4bb8-3b85-b900-e68779277c58/19UMGIM34936.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "a40c11",
+                            "textColor1": "feffff",
+                            "textColor2": "c5d9e4",
+                            "textColor3": "eccecf",
+                            "textColor4": "beb0ba"
+                        },
+                        "artistName": "Jhay Cortez, KAROL G & Haze",
+                        "url": "https://music.apple.com/us/album/des%C3%A9ame-suerte/1477662810?i=1477662825",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 208050,
+                        "releaseDate": "2019-08-30",
+                        "name": "Deséame Suerte",
+                        "isrc": "USUM71906435",
+                        "albumName": "Deséame Suerte - Single",
+                        "playParams": {
+                            "id": "1477662825",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jesús Manuel Nieves Cortes, Nydia Yera, Egbert Rosa, Julio Ramirez Egia, Pambo \"Alejandra Ruiz Ocampo\" & Carolina Giraldo Navarro"
+                    }
+                },
+                {
+                    "id": "1476883590",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476883590",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c0/5b/1c/c05b1c9a-6f97-99d2-f6f5-29420c236d4e/mzaf_11274635536645641015.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/0e/a5/7a/0ea57a4f-e0c8-8b90-c9b4-5a3337d5827c/19UMGIM75710.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ececec",
+                            "textColor1": "000000",
+                            "textColor2": "202020",
+                            "textColor3": "2f2f2f",
+                            "textColor4": "494949"
+                        },
+                        "artistName": "Pusha T",
+                        "url": "https://music.apple.com/us/album/coming-home-feat-ms-lauryn-hill/1476883588?i=1476883590",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 209939,
+                        "releaseDate": "2019-08-28",
+                        "name": "Coming Home (feat. Ms. Lauryn Hill)",
+                        "isrc": "USUM71916226",
+                        "albumName": "Coming Home (feat. Ms. Lauryn Hill) - Single",
+                        "playParams": {
+                            "id": "1476883590",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Kanye West, Mike Dean, Terrence Thornton, Lauryn Hill, Michael Masser & Ron Miller",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473148905",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473148905",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/e0/a9/9f/e0a99fa5-7e93-6ac0-34aa-1d6ba78b4fb4/mzaf_12501235096255542234.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/ec/e2/d0/ece2d014-5b1d-129c-0d39-c4a6721b09e1/19UMGIM60949.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ab1d1b",
+                            "textColor1": "f5e7d7",
+                            "textColor2": "fdc124",
+                            "textColor3": "e6bfb1",
+                            "textColor4": "eca022"
+                        },
+                        "artistName": "Tainy, Anuel AA & Ozuna",
+                        "url": "https://music.apple.com/us/album/adicto/1473148903?i=1473148905",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Latino",
+                            "Music"
+                        ],
+                        "durationInMillis": 270741,
+                        "releaseDate": "2019-08-16",
+                        "name": "Adicto",
+                        "isrc": "USUM71912751",
+                        "albumName": "Adicto - Single",
+                        "playParams": {
+                            "id": "1473148905",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Marco Masis, Jesús Manuel Nieves Cortes, EMMANUEL SANTIAGO & Juan Carlos Ozuna Rosado"
+                    }
+                },
+                {
+                    "id": "1476604389",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476604389",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/bd/a4/f4/bda4f44c-62fd-403a-f33f-954c0a5be92b/mzaf_5505793275366219484.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 2000,
+                            "height": 2000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/be/89/41/be8941a8-7968-d824-cc29-908224201f98/19UMGIM51043.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "260c17",
+                            "textColor1": "c6c9c5",
+                            "textColor2": "c4beac",
+                            "textColor3": "a6a3a2",
+                            "textColor4": "a49a8e"
+                        },
+                        "artistName": "Vince Staples",
+                        "url": "https://music.apple.com/us/album/so-what-episode-01/1476604386?i=1476604389",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 125149,
+                        "releaseDate": "2019-08-22",
+                        "name": "So What? (Episode 01)",
+                        "isrc": "USUM71911117",
+                        "albumName": "So What? (Episode 01) - Single",
+                        "playParams": {
+                            "id": "1476604389",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "LeKen Taylor & Vincent Staples",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477650035",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477650035",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/ca/e5/40/cae540c8-dcee-cdbd-7954-10699aafc7d1/mzaf_2712715850284772251.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/89/f5/6e/89f56ed8-6efe-31bb-104c-07a69587fa06/886447892329.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "684c2b",
+                            "textColor1": "e9e8b5",
+                            "textColor2": "f4b194",
+                            "textColor3": "d0c999",
+                            "textColor4": "d89d7f"
+                        },
+                        "artistName": "SiR",
+                        "url": "https://music.apple.com/us/album/you-cant-save-me/1477649630?i=1477650035",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 174947,
+                        "releaseDate": "2019-08-30",
+                        "name": "You Can't Save Me",
+                        "isrc": "USRC11902290",
+                        "albumName": "Chasing Summer",
+                        "playParams": {
+                            "id": "1477650035",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "S. Farris, K. Berry, T. Schoegje & K. Shackelford",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475703689",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475703689",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/46/ad/c5/46adc538-c6e5-2a80-fd18-707cf2c6c58d/mzaf_5070928361889798298.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/af/72/bc/af72bcfb-9b7e-1a46-7361-46206c3f1c5d/720841217305.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b7b7b7",
+                            "textColor1": "080808",
+                            "textColor2": "1d1d1d",
+                            "textColor3": "2b2b2b",
+                            "textColor4": "3c3c3c"
+                        },
+                        "artistName": "Cigarettes After Sex",
+                        "url": "https://music.apple.com/us/album/heavenly/1475703686?i=1475703689",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 288595,
+                        "releaseDate": "2019-08-20",
+                        "name": "Heavenly",
+                        "isrc": "USBQU1900118",
+                        "albumName": "Cry",
+                        "playParams": {
+                            "id": "1475703689",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Gregory Steven Gonzalez"
+                    }
+                },
+                {
+                    "id": "1466310113",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1466310113",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f9/bd/ff/f9bdff15-2ca7-bf0d-4d1f-477783838950/mzaf_556341614416091286.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/44/f5/52/44f5520c-019b-c44a-7433-da6243318731/075597923957.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "9f441c",
+                            "textColor1": "f1eee8",
+                            "textColor2": "e7d8d1",
+                            "textColor3": "e1ccc0",
+                            "textColor4": "d8baad"
+                        },
+                        "artistName": "Vagabon",
+                        "url": "https://music.apple.com/us/album/water-me-down/1466310090?i=1466310113",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music",
+                            "Indie Rock"
+                        ],
+                        "durationInMillis": 272230,
+                        "releaseDate": "2019-09-27",
+                        "name": "Water Me Down",
+                        "isrc": "USNO11900168",
+                        "albumName": "Vagabon",
+                        "playParams": {
+                            "id": "1466310113",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Eric Littmann & Laetitia Tamko"
+                    }
+                },
+                {
+                    "id": "1475818027",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475818027",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/f8/e4/81/f8e481a4-4ed3-a0ee-52e8-e10a98efc088/mzaf_9873702385845202805.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/76/44/19/76441922-9bc2-7dc0-8585-30adcab69ac1/cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "263650",
+                            "textColor1": "f9c21c",
+                            "textColor2": "fabe33",
+                            "textColor3": "cfa627",
+                            "textColor4": "cfa338"
+                        },
+                        "artistName": "Pinegrove",
+                        "url": "https://music.apple.com/us/album/moment/1475817798?i=1475818027",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 190853,
+                        "releaseDate": "2019-05-08",
+                        "name": "Moment",
+                        "isrc": "GBCVZ1900077",
+                        "albumName": "Moment - Single",
+                        "playParams": {
+                            "id": "1475818027",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Evan Stephens Hall"
+                    }
+                },
+                {
+                    "id": "1475873102",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475873102",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b7/62/c3/b762c3b7-3e60-4b27-6710-5802d4df1645/mzaf_11656846764240162413.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/ff/d3/b8/ffd3b8fe-0061-38c1-54da-0feb55023f82/886447882511.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fffbef",
+                            "textColor1": "000000",
+                            "textColor2": "640201",
+                            "textColor3": "33322f",
+                            "textColor4": "833431"
+                        },
+                        "artistName": "Miranda Lambert",
+                        "url": "https://music.apple.com/us/album/way-too-pretty-for-prison-with-maren-morris/1475872912?i=1475873102",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 194080,
+                        "releaseDate": "2019-11-01",
+                        "name": "Way Too Pretty for Prison (with Maren Morris)",
+                        "isrc": "US6XF1800263",
+                        "albumName": "Wildcard",
+                        "playParams": {
+                            "id": "1475873102",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Miranda Lambert, Hillary Lindsey, Lori McKenna & Liz Rose"
+                    }
+                },
+                {
+                    "id": "1477263969",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477263969",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b6/30/12/b63012bc-6573-993a-df4d-be02eb84ee87/mzaf_3143698884634794138.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/ae/29/c5/ae29c538-0dba-5317-1a6b-3aa487600ee1/886447910436.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fafafa",
+                            "textColor1": "141413",
+                            "textColor2": "2d2d2d",
+                            "textColor3": "424241",
+                            "textColor4": "565656"
+                        },
+                        "artistName": "Tim McGraw",
+                        "url": "https://music.apple.com/us/album/drive/1477263968?i=1477263969",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 238574,
+                        "releaseDate": "2019-08-29",
+                        "name": "Drive",
+                        "isrc": "US6XF1800335",
+                        "albumName": "Drive - Single",
+                        "playParams": {
+                            "id": "1477263969",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ric Ocasek"
+                    }
+                },
+                {
+                    "id": "1477276479",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477276479",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/69/90/de/6990def8-d156-cadd-94d7-e25dc6267ac9/mzaf_13247650471580364169.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/85/a5/d2/85a5d2c6-0919-d85f-a1ab-915d02495554/886447892190.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "00a0fe",
+                            "textColor1": "040101",
+                            "textColor2": "1f1b18",
+                            "textColor3": "032134",
+                            "textColor4": "193546"
+                        },
+                        "artistName": "JP Saxe",
+                        "url": "https://music.apple.com/us/album/women-who-look-like-you-feat-guapdad-4000/1477276478?i=1477276479",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 186381,
+                        "releaseDate": "2019-08-28",
+                        "name": "Women Who Look Like You (feat. Guapdad 4000)",
+                        "isrc": "USQX91902013",
+                        "albumName": "Women Who Look Like You (feat. Guapdad 4000) - Single",
+                        "playParams": {
+                            "id": "1477276479",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Akeem Hayes, Jonathan Percy Starker Saxe, Ryan Marrone, Khris Riddick-Tynes & Patrick JQ Smith",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477613816",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477613816",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/8e/5a/de/8e5ade18-275a-e5c9-2a31-dcb1a65537f9/mzaf_17977054413969508781.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/7b/c8/11/7bc81177-1b65-605d-d837-a46a55cbd7c2/19UMGIM76237.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020202",
+                            "textColor1": "f6f6f6",
+                            "textColor2": "c9c9c9",
+                            "textColor3": "c5c5c5",
+                            "textColor4": "a1a1a1"
+                        },
+                        "artistName": "Mabel",
+                        "url": "https://music.apple.com/us/album/just-a-friend/1477613694?i=1477613816",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 167440,
+                        "releaseDate": "2019-08-30",
+                        "name": "Just a Friend",
+                        "isrc": "GBUM71904599",
+                        "albumName": "Stripped Session - Single",
+                        "playParams": {
+                            "id": "1477613816",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Warryn Campbell, Harold Lilly, John Smith & Marcel Hall"
+                    }
+                },
+                {
+                    "id": "1477511497",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477511497",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/66/f3/e2/66f3e2ab-55de-47ac-521a-80fd3b794ae9/mzaf_15228367817739592094.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/fc/e7/28/fce7282f-210c-0a72-25c8-2d71eeea5e03/19UMGIM74861.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "c4d8df",
+                            "textColor1": "100d09",
+                            "textColor2": "171e2a",
+                            "textColor3": "343534",
+                            "textColor4": "3a434e"
+                        },
+                        "artistName": "benny blanco & Juice WRLD",
+                        "url": "https://music.apple.com/us/album/graduation/1477511494?i=1477511497",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 177847,
+                        "releaseDate": "2019-08-30",
+                        "name": "Graduation",
+                        "isrc": "USUM71916692",
+                        "albumName": "Graduation - Single",
+                        "playParams": {
+                            "id": "1477511497",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Benjamin Levin, Jared Higgins, Josh Deutsch, Colleen Fitzpatrick, Nathan Perez & Magnus August Hoiberg",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477107314",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477107314",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/c0/ee/5a/c0ee5a31-cf40-f484-7361-09d45ff94542/mzaf_10171292472489836144.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f8/3b/09/f83b091f-7661-b17e-baae-eecfe92af27b/193436175005_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b5bbb7",
+                            "textColor1": "100b09",
+                            "textColor2": "2b2015",
+                            "textColor3": "312e2b",
+                            "textColor4": "463f35"
+                        },
+                        "artistName": "Justine Skye",
+                        "url": "https://music.apple.com/us/album/bulletproof/1477107307?i=1477107314",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 223242,
+                        "releaseDate": "2019-08-27",
+                        "name": "Bulletproof",
+                        "isrc": "QM24S1924146",
+                        "albumName": "BARE WITH ME - EP",
+                        "playParams": {
+                            "id": "1477107314",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "D-Yo & Ari PenSmith",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477195714",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477195714",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/9f/9e/5c/9f9e5cfc-0079-f6a3-0c7b-ec85c171dd28/mzaf_3536147524384448981.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/2e/56/b7/2e56b7ab-f8b9-baa0-8c21-0b202c7dca2f/3663729097453_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e0e0e0",
+                            "textColor1": "002843",
+                            "textColor2": "511a21",
+                            "textColor3": "2c4d62",
+                            "textColor4": "6e4247"
+                        },
+                        "artistName": "Four Tet",
+                        "url": "https://music.apple.com/us/album/lahaina-noon/1477195707?i=1477195714",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Electronic",
+                            "Music",
+                            "Dance"
+                        ],
+                        "durationInMillis": 375338,
+                        "releaseDate": "2019-08-30",
+                        "name": "Lahaina Noon",
+                        "isrc": "GBXNG1949002",
+                        "albumName": "Anna Painting - Single",
+                        "playParams": {
+                            "id": "1477195714",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Kieran Hebden"
+                    }
+                },
+                {
+                    "id": "1477408903",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477408903",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/b4/97/1b/b4971b61-28e5-536a-777f-22d371b3c1a1/mzaf_9785397679878221224.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/9d/3f/81/9d3f81f0-95ef-91e5-b916-9e955339ca02/192641066610_Cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f1f1f1",
+                            "textColor2": "87d4dd",
+                            "textColor3": "c1c1c1",
+                            "textColor4": "6caab0"
+                        },
+                        "artistName": "Dímelo Flow, Nicky Jam & Farruko",
+                        "url": "https://music.apple.com/us/album/el-favor-feat-sech-zion-lunay/1477408900?i=1477408903",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 233113,
+                        "releaseDate": "2019-08-30",
+                        "name": "El Favor (feat. Sech, Zion & Lunay)",
+                        "isrc": "USA2P1944692",
+                        "albumName": "El Favor (feat. Sech, Zion & Lunay) - Single",
+                        "playParams": {
+                            "id": "1477408903",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Farruko, Kevyn Mauricio Cruz Moreno, Justin Quiles, Jorge Valdez, Carlos Isaias Morales Williams, Jefnier Osorio, Nick Rivera Caminero, Félix Gerardo Ortíz, Ramses Herrera, Manuel Enrique Cortés, Simon Restrepo, Jhonattan Jacob Reyes, Joshua Mendez & Juan Camilo Vargas"
+                    }
+                },
+                {
+                    "id": "1475558113",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475558113",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d4/84/f1/d484f10f-9f31-4d7e-761a-11eb7aa7933d/mzaf_8368769150624580389.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/82/a0/c2/82a0c2d2-ac16-0b0f-218c-5d124fd48b87/054391942555.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d07c1d",
+                            "textColor1": "0a0013",
+                            "textColor2": "1f060e",
+                            "textColor3": "311915",
+                            "textColor4": "431e11"
+                        },
+                        "artistName": "Wale",
+                        "url": "https://music.apple.com/us/album/bgm/1475558028?i=1475558113",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 187680,
+                        "releaseDate": "2019-08-26",
+                        "name": "BGM",
+                        "isrc": "USWB11901850",
+                        "albumName": "BGM - Single",
+                        "playParams": {
+                            "id": "1475558113",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1478057792",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1478057792",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/24/36/2c/24362c53-0ac8-4437-7099-e69feb2989f6/mzaf_1140226009108014974.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/3d/a9/ab/3da9abc1-df85-2f29-cb4e-5244fd27de99/19UMGIM78740.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "020205",
+                            "textColor1": "ffffff",
+                            "textColor2": "f9b456",
+                            "textColor3": "cccccc",
+                            "textColor4": "c79046"
+                        },
+                        "artistName": "Leona Lewis, Cali y El Dandee & Juan Magán",
+                        "url": "https://music.apple.com/us/album/solo-quiero-somebody-to-love-from-songland/1478057791?i=1478057792",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop Latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 172411,
+                        "releaseDate": "2019-08-28",
+                        "name": "Solo Quiero (Somebody To Love) [From Songland]",
+                        "isrc": "USUG11903228",
+                        "albumName": "Solo Quiero (Somebody To Love) [From Songland] - Single",
+                        "playParams": {
+                            "id": "1478057792",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Leona Lewis, Juan Magán, Ryan Tedder, Alejandro Rengifo, Mauricio Rengifo, Andrés Torres, Rosalyn Athalie Chivonne Lockhart, Matthew Fonson, Alessando Calemme, Ester Dean & Shane McAnally"
+                    }
+                },
+                {
+                    "id": "1463063531",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1463063531",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/fe/f7/92/fef79289-3ed5-426b-61fa-04ff9e7bd60d/mzaf_3836548962220293408.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/63/a4/02/63a4021a-fb5c-68b2-6018-3c1ab98e42f8/dj.kwnexlgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1b1807",
+                            "textColor1": "f0d1a3",
+                            "textColor2": "dbae72",
+                            "textColor3": "c5ac84",
+                            "textColor4": "b4905d"
+                        },
+                        "artistName": "Whitney",
+                        "url": "https://music.apple.com/us/album/friend-of-mine/1463063518?i=1463063531",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Indie Rock",
+                            "Music",
+                            "Alternative",
+                            "Rock"
+                        ],
+                        "durationInMillis": 249560,
+                        "releaseDate": "2019-08-30",
+                        "name": "Friend of Mine",
+                        "isrc": "US38W1937709",
+                        "albumName": "Forever Turned Around",
+                        "playParams": {
+                            "id": "1463063531",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Julien Ehrlich & Max Kakacek"
+                    }
+                },
+                {
+                    "id": "1477202490",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477202490",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/eb/dc/6a/ebdc6a41-cfd3-8031-55d0-72a17d817b11/mzaf_9916043537330210712.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/4f/e4/e5/4fe4e532-b242-bccf-6624-a0892c719b18/075679843753.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d0c12",
+                            "textColor1": "fffdff",
+                            "textColor2": "9a8bef",
+                            "textColor3": "cecccf",
+                            "textColor4": "7d72c3"
+                        },
+                        "artistName": "White Reaper",
+                        "url": "https://music.apple.com/us/album/1f/1477202486?i=1477202490",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 180640,
+                        "releaseDate": "2019-08-23",
+                        "name": "1F",
+                        "isrc": "USAT21902770",
+                        "albumName": "You Deserve Love",
+                        "playParams": {
+                            "id": "1477202490",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Anthony Esposito, Hunter Thompson, nicholas wilkerson, Ryan Hater & Samuel Wilkerson"
+                    }
+                },
+                {
+                    "id": "1468263374",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1468263374",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a7/eb/ef/a7ebefe7-2bbc-5a40-bccc-4d51087f470b/mzaf_1940297859317494753.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4000,
+                            "height": 4000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/79/cf/61/79cf612f-73db-3c12-aed5-7abb74cd0d9c/190295409562.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "5f5953",
+                            "textColor1": "fff4f8",
+                            "textColor2": "f7dfd0",
+                            "textColor3": "dfd5d7",
+                            "textColor4": "d8c4b7"
+                        },
+                        "artistName": "Charli XCX",
+                        "url": "https://music.apple.com/us/album/warm-feat-haim/1468263361?i=1468263374",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 225267,
+                        "releaseDate": "2019-09-13",
+                        "name": "Warm (feat. HAIM)",
+                        "isrc": "GBAHS1900783",
+                        "albumName": "Charli",
+                        "playParams": {
+                            "id": "1468263374",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6
+                    }
+                },
+                {
+                    "id": "1475361068",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475361068",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/22/63/3d/22633d0a-482d-4cf9-487a-217e57668e51/mzaf_14540487821715475672.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 6000,
+                            "height": 6000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/69/e0/87/69e087b2-3e6a-7fe7-858d-0f834a7e48e2/5054429138481.png/{w}x{h}bb.jpeg",
+                            "bgColor": "315f88",
+                            "textColor1": "f6faf1",
+                            "textColor2": "e0f0fa",
+                            "textColor3": "cfdbdc",
+                            "textColor4": "bdd3e4"
+                        },
+                        "artistName": "Floating Points",
+                        "url": "https://music.apple.com/us/album/last-bloom/1475361065?i=1475361068",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Electronic",
+                            "Music"
+                        ],
+                        "durationInMillis": 353680,
+                        "releaseDate": "2019-08-28",
+                        "name": "Last Bloom",
+                        "isrc": "GBCFB1900153",
+                        "albumName": "Crush",
+                        "playParams": {
+                            "id": "1475361068",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2,
+                        "composerName": "Sam Shepherd"
+                    }
+                },
+                {
+                    "id": "1477917632",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477917632",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/06/78/d5/0678d598-b266-6687-afef-9940d0e7296d/mzaf_84645059176759545.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f9/d6/04/f9d604b4-bec5-c676-b868-bab236255cb3/19UMGIM77186.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "f6f6f6",
+                            "textColor2": "d2d2d2",
+                            "textColor3": "c5c5c5",
+                            "textColor4": "a7a7a7"
+                        },
+                        "artistName": "SuperM",
+                        "url": "https://music.apple.com/us/album/i-cant-stand-the-rain-instrumental/1477917587?i=1477917632",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "K-Pop",
+                            "Music",
+                            "Pop"
+                        ],
+                        "durationInMillis": 208227,
+                        "releaseDate": "2019-10-04",
+                        "name": "I Can't Stand The Rain (Instrumental)",
+                        "isrc": "KRA301900394",
+                        "albumName": "SuperM - The 1st Mini Album",
+                        "playParams": {
+                            "id": "1477917632",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Kenzie, Thomas Troelsen & Sam Martin"
+                    }
+                },
+                {
+                    "id": "1475901874",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475901874",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a5/80/7c/a5807cf9-3056-533e-156b-e47b147c90f3/mzaf_12495023659726903367.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/10/d4/34/10d43436-3d23-014b-7098-5b7240b1e587/5039060429693.png/{w}x{h}bb.jpeg",
+                            "bgColor": "c1aecd",
+                            "textColor1": "000000",
+                            "textColor2": "051f2b",
+                            "textColor3": "262229",
+                            "textColor4": "2b3c4b"
+                        },
+                        "artistName": "Moon Boots",
+                        "url": "https://music.apple.com/us/album/clear-feat-nic-hanson/1475901873?i=1475901874",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 257933,
+                        "releaseDate": "2019-08-27",
+                        "name": "Clear (feat. Nic Hanson)",
+                        "isrc": "GBEWA1901952",
+                        "albumName": "Clear (feat. Nic Hanson) - Single",
+                        "playParams": {
+                            "id": "1475901874",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Nicholas Hanson & Pete Dougherty"
+                    }
+                },
+                {
+                    "id": "1476377054",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476377054",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/4d/88/95/4d8895a3-7b42-b27b-f4f4-3ff5387ab6d1/mzaf_2184835188225185536.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/a6/b6/c2/a6b6c20f-c845-31a4-8095-6ec4a0bcb41d/054391944085.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "535152",
+                            "textColor1": "ebebeb",
+                            "textColor2": "e8e8e8",
+                            "textColor3": "cccccc",
+                            "textColor4": "cacaca"
+                        },
+                        "artistName": "Bebe Rexha",
+                        "url": "https://music.apple.com/us/album/not-20-anymore/1476377053?i=1476377054",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 183983,
+                        "releaseDate": "2019-08-30",
+                        "name": "Not 20 Anymore",
+                        "isrc": "USWB11902000",
+                        "albumName": "Not 20 Anymore - Single",
+                        "playParams": {
+                            "id": "1476377054",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Bleta Rexha, Jordan K. Johnson, Michael Pollack, Oliver Peterhof & Stefan Johnson"
+                    }
+                },
+                {
+                    "id": "1477540404",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477540404",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/49/83/68/4983687a-a2b6-fa75-0fb2-34a2f1da88b4/mzaf_10994074221903456927.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/62/de/b8/62deb8ae-5568-c57c-6cf0-6cf83b197e95/886447096901.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "edeee0",
+                            "textColor1": "09090a",
+                            "textColor2": "4d2a0c",
+                            "textColor3": "363735",
+                            "textColor4": "6d5136"
+                        },
+                        "artistName": "GASHI",
+                        "url": "https://music.apple.com/us/album/safety-feat-dj-snake/1477540180?i=1477540404",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 177781,
+                        "releaseDate": "2019-09-20",
+                        "name": "Safety (feat. DJ Snake)",
+                        "isrc": "USRC11901790",
+                        "albumName": "GASHI",
+                        "playParams": {
+                            "id": "1477540404",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Labinot Gashi, Nathan Cunningham, Marc Sibley & William Grigahcine"
+                    }
+                },
+                {
+                    "id": "1471239721",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1471239721",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/7c/38/79/7c387921-4441-2ef8-602c-727000bf75f2/mzaf_13522847563561909660.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/f9/d2/27/f9d227a6-6e4a-809f-816b-18a87327a711/19CRGIM11214.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "ded1c8",
+                            "textColor1": "0f0d0c",
+                            "textColor2": "452e20",
+                            "textColor3": "393431",
+                            "textColor4": "634e41"
+                        },
+                        "artistName": "Common",
+                        "url": "https://music.apple.com/us/album/memories-home-feat-bj-chicago-kid-samora-pinderhughes/1471238513?i=1471239721",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 248976,
+                        "releaseDate": "2019-08-30",
+                        "name": "Memories of Home (feat. BJ the Chicago Kid & Samora Pinderhughes)",
+                        "isrc": "USC4R1902777",
+                        "albumName": "Let Love",
+                        "playParams": {
+                            "id": "1471239721",
+                            "kind": "song"
+                        },
+                        "trackNumber": 8,
+                        "composerName": "Samora Pinderhughes, Karriem Riggins, Burniss Travis, Lonnie Lynn & Bryan James Sledge",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477497970",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477497970",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/53/aa/fa/53aafa8e-1601-8d60-7942-5711fb37965b/mzaf_5557987659591724569.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/21/bb/3c/21bb3ceb-cf0a-44e3-b08d-7d0d62a21448/19UMGIM74033.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "eeeff3",
+                            "textColor1": "550609",
+                            "textColor2": "591016",
+                            "textColor3": "743438",
+                            "textColor4": "773d42"
+                        },
+                        "artistName": "Big Sean",
+                        "url": "https://music.apple.com/us/album/bezerk-feat-a%24ap-ferg-hit-boy/1477497960?i=1477497970",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 151040,
+                        "releaseDate": "2019-08-26",
+                        "name": "Bezerk (feat. A$AP Ferg & Hit-Boy)",
+                        "isrc": "USUM71911828",
+                        "albumName": "Bezerk (feat. A$AP Ferg & Hit-Boy) - Single",
+                        "playParams": {
+                            "id": "1477497970",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sean Anderson, Chauncey Hollis, Dustin James Corbett, Greg Davis & Darold Brown",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477658583",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477658583",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/ed/b7/02/edb702d0-1de8-180b-95d8-521e36d483d4/mzaf_8913543401549455865.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/6a/39/6e/6a396e9a-4961-58f0-c536-8d265834dea5/19UMGIM77298.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "070709",
+                            "textColor1": "ffffff",
+                            "textColor2": "c2c2c2",
+                            "textColor3": "cdcdcd",
+                            "textColor4": "9d9d9d"
+                        },
+                        "artistName": "Birdman & Juvenile",
+                        "url": "https://music.apple.com/us/album/ride-dat-feat-lil-wayne/1477658576?i=1477658583",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 205951,
+                        "releaseDate": "2019-08-29",
+                        "name": "Ride Dat (feat. Lil Wayne)",
+                        "isrc": "USCM51900383",
+                        "albumName": "Ride Dat (feat. Lil Wayne) - Single",
+                        "playParams": {
+                            "id": "1477658583",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Lil Wayne, Carl Paul, Bryan Williams, Terius Gray & Daniel Lebrun",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475539807",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475539807",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/51/4c/a4/514ca444-14b7-f197-d7c1-856e94e4640a/mzaf_14920489422415311880.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/c1/6d/8d/c16d8dc8-e9da-172f-f829-7bb4dda9869e/dj.isjtenwf.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "630708",
+                            "textColor1": "ffffff",
+                            "textColor2": "c5cbe2",
+                            "textColor3": "dfcdcd",
+                            "textColor4": "b1a3b6"
+                        },
+                        "artistName": "Deb Never",
+                        "url": "https://music.apple.com/us/album/swimming/1475539800?i=1475539807",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music",
+                            "Alternative",
+                            "Indie Rock"
+                        ],
+                        "durationInMillis": 137369,
+                        "releaseDate": "2019-08-30",
+                        "name": "Swimming",
+                        "isrc": "USA2B1902508",
+                        "albumName": "House on Wheels - EP",
+                        "playParams": {
+                            "id": "1475539807",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Deborah Jung & Dylan Brady",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472404863",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472404863",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/70/7e/17/707e1733-d382-33cc-5736-c4f9addefed6/mzaf_15904576773274395986.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 5000,
+                            "height": 5000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/ab/a4/44/aba44475-eea0-f885-ad82-e727b55afbbf/653738038328.png/{w}x{h}bb.jpeg",
+                            "bgColor": "ffffff",
+                            "textColor1": "0f0f0f",
+                            "textColor2": "292929",
+                            "textColor3": "3f3f3f",
+                            "textColor4": "545454"
+                        },
+                        "artistName": "G Flip",
+                        "url": "https://music.apple.com/us/album/lover/1472404862?i=1472404863",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 207289,
+                        "releaseDate": "2019-08-30",
+                        "name": "Lover",
+                        "isrc": "AUFF01900103",
+                        "albumName": "About Us",
+                        "playParams": {
+                            "id": "1472404863",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Georgia Flipo, Elliot Margin & Sam Margin",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477106169",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477106169",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/86/dd/14/86dd14b1-26b5-ff2b-4b58-5aa5616a8f40/mzaf_12527353657539787664.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/84/d1/a9/84d1a919-af8f-26e6-243c-32efe94ecc6a/886447816370.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000000",
+                            "textColor1": "ededed",
+                            "textColor2": "f1cfd0",
+                            "textColor3": "bebebe",
+                            "textColor4": "c1a5a6"
+                        },
+                        "artistName": "Stephen Puth & Steve Void",
+                        "url": "https://music.apple.com/us/album/look-away-steve-void-remix/1477106166?i=1477106169",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 159344,
+                        "releaseDate": "2019-08-30",
+                        "name": "Look Away (Steve Void Remix)",
+                        "isrc": "USQX91901568",
+                        "albumName": "Look Away (Steve Void Remix) - Single",
+                        "playParams": {
+                            "id": "1477106169",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Stephen Puth, Charlie Puth & Jacob Kasher Hindlin"
+                    }
+                },
+                {
+                    "id": "1474918398",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1474918398",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/0c/aa/38/0caa38a0-e687-080e-06d8-e6bc512a7d7a/mzaf_1316713095889673032.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/3b/3a/3d/3b3a3d53-6ac8-89b7-0e98-ee4301346333/194491158798.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "f19b36",
+                            "textColor1": "2c1215",
+                            "textColor2": "3b1c27",
+                            "textColor3": "532e1c",
+                            "textColor4": "60352a"
+                        },
+                        "artistName": "PNAU",
+                        "url": "https://music.apple.com/us/album/all-of-us-feat-ollie-gabriel/1474918397?i=1474918398",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 182987,
+                        "releaseDate": "2019-08-27",
+                        "name": "All Of Us (feat. Ollie Gabriel)",
+                        "isrc": "AUNV01900298",
+                        "albumName": "All Of Us (feat. Ollie Gabriel) - Single",
+                        "playParams": {
+                            "id": "1474918398",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ollie Gabriel, Nick Littlemore, Peter Mayes & Sam Littlemore"
+                    }
+                },
+                {
+                    "id": "1475693063",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475693063",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/9d/cb/b4/9dcbb496-8c6b-6d8d-f6b2-ab7db1dcad05/mzaf_1581671094890500757.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/35/3f/63/353f6360-23ce-b6e1-621b-c9a4d921494b/confessions_3000.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "bbcac5",
+                            "textColor1": "000000",
+                            "textColor2": "4f191e",
+                            "textColor3": "252827",
+                            "textColor4": "643c3f"
+                        },
+                        "artistName": "Sudan Archives",
+                        "url": "https://music.apple.com/us/album/confessions/1475693062?i=1475693063",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "R&B/Soul",
+                            "Music"
+                        ],
+                        "durationInMillis": 173567,
+                        "releaseDate": "2019-08-28",
+                        "name": "Confessions",
+                        "isrc": "US2S71912002",
+                        "albumName": "Confessions - Single",
+                        "playParams": {
+                            "id": "1475693063",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1
+                    }
+                },
+                {
+                    "id": "1477362324",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477362324",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/1e/c3/bf/1ec3bf43-c706-201c-a6a3-52828e4422cc/mzaf_15811164057801559810.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/1d/22/88/1d228874-7731-d8cb-cdee-5229a5cd023c/19UMGIM76691.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "06192d",
+                            "textColor1": "f1e5d2",
+                            "textColor2": "f2dcbb",
+                            "textColor3": "c2bcb1",
+                            "textColor4": "c3b59e"
+                        },
+                        "artistName": "EARTHGANG",
+                        "url": "https://music.apple.com/us/album/up/1477362319?i=1477362324",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 215347,
+                        "releaseDate": "2019-08-29",
+                        "name": "UP",
+                        "isrc": "USUM71917292",
+                        "albumName": "UP - Single",
+                        "playParams": {
+                            "id": "1477362324",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Olu Fann, Elan Parker, Edward Davadi & Ugur Tig",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475264053",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475264053",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/72/fa/b9/72fab996-bab5-f5aa-709d-50341b5d7bdb/mzaf_3057386444123523028.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/cf/e6/4e/cfe64e17-f699-75b1-5ee6-281d78def62e/cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "be1f0b",
+                            "textColor1": "ffffff",
+                            "textColor2": "feeae3",
+                            "textColor3": "f2d2ce",
+                            "textColor4": "f1c2b8"
+                        },
+                        "artistName": "Algiers",
+                        "url": "https://music.apple.com/us/album/can-the-sub-bass-speak/1475264050?i=1475264053",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 323000,
+                        "releaseDate": "2019-08-27",
+                        "name": "Can the Sub_Bass Speak?",
+                        "isrc": "USMTD1900138",
+                        "albumName": "Can the Sub_Bass Speak? - Single",
+                        "playParams": {
+                            "id": "1475264053",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "John Ryan Mahan, Franklin James Fisher, Matthew Chee Hung Tong & Allen Lee Tesche",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1476732266",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476732266",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/a6/a6/65/a6a66501-5ad3-b293-c5cd-bea3100f55ca/mzaf_10375386380562969739.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/af/3f/d4/af3fd4a0-0287-7d53-8ef2-134f897a2799/886447766958.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "060200",
+                            "textColor1": "e4c975",
+                            "textColor2": "d8bf78",
+                            "textColor3": "b8a15d",
+                            "textColor4": "ae9960"
+                        },
+                        "artistName": "Mayhem",
+                        "url": "https://music.apple.com/us/album/worthless-abominations-destroyed/1476732106?i=1476732266",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 228173,
+                        "releaseDate": "2019-08-30",
+                        "name": "Worthless Abominations Destroyed",
+                        "isrc": "GBDHC1911107",
+                        "albumName": "Daemon (Bonus Tracks Version)",
+                        "playParams": {
+                            "id": "1476732266",
+                            "kind": "song"
+                        },
+                        "trackNumber": 7,
+                        "composerName": "Teloch",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473557871",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473557871",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/2c/77/50/2c7750ec-c19d-0a04-bd16-75e661abd821/mzaf_16175534369487675474.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/24/f4/31/24f4319b-2697-ec30-228f-22ab6620a999/781676419913.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "040404",
+                            "textColor1": "ffffff",
+                            "textColor2": "cdcdcd",
+                            "textColor3": "cccccc",
+                            "textColor4": "a5a5a5"
+                        },
+                        "artistName": "Obituary",
+                        "url": "https://music.apple.com/us/album/a-dying-world/1473557870?i=1473557871",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 145776,
+                        "releaseDate": "2019-08-27",
+                        "name": "A Dying World",
+                        "isrc": "US2641919901",
+                        "albumName": "A Dying World - Single",
+                        "playParams": {
+                            "id": "1473557871",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "John Tardy & Donald Tardy"
+                    }
+                },
+                {
+                    "id": "1476445811",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476445811",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/0c/e6/4c/0ce64c1e-e24f-31c5-8903-8bb04a2f905e/mzaf_15439571309309345416.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/29/1b/11/291b11c3-0e52-2ad4-5156-fa83252e5101/19UMGIM64009.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "3844f6",
+                            "textColor1": "f7fd1d",
+                            "textColor2": "def2db",
+                            "textColor3": "d1d848",
+                            "textColor4": "bdcfe0"
+                        },
+                        "artistName": "Bombay Bicycle Club",
+                        "url": "https://music.apple.com/us/album/eat-sleep-wake-nothing-but-you/1476445810?i=1476445811",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 218493,
+                        "releaseDate": "2019-08-27",
+                        "name": "Eat, Sleep, Wake (Nothing But You)",
+                        "isrc": "GB2DY1900251",
+                        "albumName": "Eat, Sleep, Wake (Nothing But You) - Single",
+                        "playParams": {
+                            "id": "1476445811",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jack Steadman & Ed Nash"
+                    }
+                },
+                {
+                    "id": "1477532746",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477532746",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/78/09/35/7809355e-c703-e3f8-08c1-766e4d37d950/mzaf_11286897753996805716.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/5f/aa/6b/5faa6bed-7704-e38d-137d-fbbde178320c/19UMGIM69718.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "160e01",
+                            "textColor1": "f8ad7c",
+                            "textColor2": "e38b61",
+                            "textColor3": "ca8d63",
+                            "textColor4": "ba724d"
+                        },
+                        "artistName": "Caylee Hammack",
+                        "url": "https://music.apple.com/us/album/preciatcha/1477532741?i=1477532746",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 182540,
+                        "releaseDate": "2019-08-30",
+                        "name": "Preciatcha",
+                        "isrc": "USUM71822366",
+                        "albumName": "Preciatcha - Single",
+                        "playParams": {
+                            "id": "1477532746",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Caylee Hammack, Laura Veltz & Jordan Schmidt"
+                    }
+                },
+                {
+                    "id": "1469938379",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1469938379",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/05/d2/43/05d24395-7d76-6edd-fe8c-9857cd62ef66/mzaf_7697686143511705300.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/7c/ce/55/7cce55c7-f8d3-f163-f7da-9d4a6cf762fc/193483922911.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b7b8bc",
+                            "textColor1": "0f0e0b",
+                            "textColor2": "1e1e1e",
+                            "textColor3": "31302e",
+                            "textColor4": "3c3c3d"
+                        },
+                        "artistName": "mxmtoon",
+                        "url": "https://music.apple.com/us/album/dream-of-you/1469937715?i=1469938379",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 234507,
+                        "releaseDate": "2019-09-17",
+                        "name": "dream of you",
+                        "isrc": "QM6N21971567",
+                        "albumName": "the masquerade",
+                        "playParams": {
+                            "id": "1469938379",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Robin Skinner & Màia"
+                    }
+                },
+                {
+                    "id": "1476439109",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476439109",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/08/43/a2/0843a2b6-ca18-eb23-85c6-6edee96a95c2/mzaf_3261932398386237160.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/cc/bc/e0/ccbce036-33b0-6a85-4ed7-e71fc20f966f/4050538535570.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "090c1d",
+                            "textColor1": "cae6eb",
+                            "textColor2": "d2d6bd",
+                            "textColor3": "a4bac1",
+                            "textColor4": "aaad9d"
+                        },
+                        "artistName": "Avril Lavigne",
+                        "url": "https://music.apple.com/us/album/head-above-water-feat-we-the-kings/1476438984?i=1476439109",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 220824,
+                        "releaseDate": "2019-08-30",
+                        "name": "Head Above Water (feat. We the Kings)",
+                        "isrc": "QMRSZ1901545",
+                        "albumName": "Head Above Water (feat. We the Kings) - Single",
+                        "playParams": {
+                            "id": "1476439109",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Avril Lavigne, Stephan Moccio & Travis Clark"
+                    }
+                },
+                {
+                    "id": "1461963241",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1461963241",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/06/c9/60/06c96052-79d0-6658-47ff-53007e9f20c7/mzaf_7393492106476538307.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/96/73/81/9673815f-1d38-4f04-ed4d-8eeed359ea98/193483790725.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1d2025",
+                            "textColor1": "d0c8cb",
+                            "textColor2": "c6b8c0",
+                            "textColor3": "aca6a9",
+                            "textColor4": "a49aa1"
+                        },
+                        "artistName": "Joell Ortiz",
+                        "url": "https://music.apple.com/us/album/same-time/1461962549?i=1461963241",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop",
+                            "Music",
+                            "Hip-Hop/Rap"
+                        ],
+                        "durationInMillis": 222400,
+                        "releaseDate": "2019-08-30",
+                        "name": "Same Time",
+                        "isrc": "QM6MZ1966051",
+                        "albumName": "Monday",
+                        "playParams": {
+                            "id": "1461963241",
+                            "kind": "song"
+                        },
+                        "trackNumber": 6,
+                        "composerName": "Joell Ortiz",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1475980645",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475980645",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/78/94/d6/7894d6f4-2fb5-4154-e03d-e5f405adb441/mzaf_10432062781336208229.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/0e/22/f5/0e22f591-d2de-605b-0094-f06b3323ecf7/888915975190_cover.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0e0505",
+                            "textColor1": "ffffff",
+                            "textColor2": "d3d1d2",
+                            "textColor3": "cecccd",
+                            "textColor4": "aca8a9"
+                        },
+                        "artistName": "Mozzy",
+                        "url": "https://music.apple.com/us/album/sad-situations-feat-nocap/1475980644?i=1475980645",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 240953,
+                        "releaseDate": "2019-08-28",
+                        "name": "Sad Situations (feat. NoCap)",
+                        "isrc": "USUYG1267664",
+                        "albumName": "Sad Situations (feat. NoCap) - Single",
+                        "playParams": {
+                            "id": "1475980645",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477341232",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477341232",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/15/f9/09/15f90985-44a8-e3d0-06af-b9af81654dbb/mzaf_11303543443725988031.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1425,
+                            "height": 1425,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/ca/d8/37/cad83730-8c37-b77e-3a86-66efeecb5986/075679837622.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1b1e17",
+                            "textColor1": "fd8fd4",
+                            "textColor2": "eb75ba",
+                            "textColor3": "d079ae",
+                            "textColor4": "c16499"
+                        },
+                        "artistName": "Dzeko & DJ D-Sol",
+                        "url": "https://music.apple.com/us/album/down-on-it-feat-kool-the-gang/1477341225?i=1477341232",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 174720,
+                        "releaseDate": "2019-08-30",
+                        "name": "Down On It (feat. Kool & the Gang)",
+                        "isrc": "USAT21904801",
+                        "albumName": "Down On It (feat. Kool & the Gang) - Single",
+                        "playParams": {
+                            "id": "1477341232",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1
+                    }
+                },
+                {
+                    "id": "1477421862",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477421862",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/86/72/52/8672524e-5fa5-b9e0-f5f8-9acd2a2dc0d8/mzaf_7342065008404138223.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/11/2a/9c/112a9c6c-8067-1a4c-1596-b94d36251e3a/886447902622.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "d3cbc8",
+                            "textColor1": "0f201b",
+                            "textColor2": "152020",
+                            "textColor3": "36423d",
+                            "textColor4": "3b4241"
+                        },
+                        "artistName": "Prince Royce",
+                        "url": "https://music.apple.com/us/album/morir-solo/1477421861?i=1477421862",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Música tropical",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 242343,
+                        "releaseDate": "2019-08-30",
+                        "name": "Morir Solo",
+                        "isrc": "USSD11900250",
+                        "albumName": "Morir Solo - Single",
+                        "playParams": {
+                            "id": "1477421862",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Prince Royce, Yonathan \"Mickey\" Then & D'Lesly \"Dice\" Lora"
+                    }
+                },
+                {
+                    "id": "1476304295",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476304295",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d7/45/e8/d745e8d2-f7d9-ac36-77cd-4151d00508fc/mzaf_11288150317610818068.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1500,
+                            "height": 1500,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/b4/15/f6/b415f643-0944-4886-05ae-2215d68d7818/054391942562.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "050505",
+                            "textColor1": "ffffff",
+                            "textColor2": "dfdfdf",
+                            "textColor3": "cccccc",
+                            "textColor4": "b3b3b3"
+                        },
+                        "artistName": "Da Great Ape",
+                        "url": "https://music.apple.com/us/album/ape-mode-feat-t-i/1476304287?i=1476304295",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 188186,
+                        "releaseDate": "2019-08-27",
+                        "name": "Ape Mode (feat. T.I.)",
+                        "isrc": "USWB11901841",
+                        "albumName": "Ape Mode (feat. T.I.) - Single",
+                        "playParams": {
+                            "id": "1476304295",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Clifford Harris, Jr. & Roy Longino",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1467092076",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1467092076",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c8/a6/84/c8a6845c-1621-6041-582c-b24ed97005f8/mzaf_14054978535337332105.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 5000,
+                            "height": 5000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/56/f6/ef/56f6eff1-2615-3346-09e2-46c14429737b/193436162210_01_img001.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "202020",
+                            "textColor1": "fdfdfd",
+                            "textColor2": "fb7d02",
+                            "textColor3": "d1d1d1",
+                            "textColor4": "cf6b08"
+                        },
+                        "artistName": "Bone Thugs-n-Harmony",
+                        "url": "https://music.apple.com/us/album/survival-feat-ky-mani-marley/1467092067?i=1467092076",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 197049,
+                        "releaseDate": "2019-08-30",
+                        "name": "Survival (feat. Ky-Mani Marley)",
+                        "isrc": "QM24S1921458",
+                        "albumName": "Survival (feat. Ky-Mani Marley) - Single",
+                        "playParams": {
+                            "id": "1467092076",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Ky-Mani Marley, Anthony Henderson, Steven Howse, S & H, Bryon McCane, Charles Scruggs, Vincent Van Den Ende, Glen Faria, Eugene Arkliss, Steve Lobel & Thomas Deelder",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477588231",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477588231",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/13/bd/4f/13bd4fae-4aa7-6f9e-6458-31e55cd4750e/mzaf_13740191874997057346.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/65/4a/76/654a7664-512d-ba2a-bc56-50f39c556e85/19UMGIM75220.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "b1b2ad",
+                            "textColor1": "190408",
+                            "textColor2": "460703",
+                            "textColor3": "372729",
+                            "textColor4": "5b2925"
+                        },
+                        "artistName": "Lil Poppa",
+                        "url": "https://music.apple.com/us/album/murder-victim/1477588230?i=1477588231",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 172400,
+                        "releaseDate": "2019-08-30",
+                        "name": "Murder Victim",
+                        "isrc": "USUM71917016",
+                        "albumName": "Murder Victim - Single",
+                        "playParams": {
+                            "id": "1477588231",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Janarious Wheeler & Alex Petit",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1473534029",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473534029",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/01/42/ee/0142eefa-50e5-c214-716d-1b8b873c40ad/mzaf_10015918317311427623.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/17/ac/54/17ac5491-b6df-ee24-0fdf-46d01b4a66be/19UMGIM64358.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0a1a2a",
+                            "textColor1": "ffffff",
+                            "textColor2": "f26774",
+                            "textColor3": "cdd1d4",
+                            "textColor4": "c35865"
+                        },
+                        "artistName": "Alexis y Fido",
+                        "url": "https://music.apple.com/us/album/calibre-feat-casper-m%C3%A1gico-nio-garc%C3%ADa/1473534028?i=1473534029",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Urbano latino",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 244773,
+                        "releaseDate": "2019-08-30",
+                        "name": "Calibre (feat. Casper Mágico & Nio García)",
+                        "isrc": "USUM71913327",
+                        "albumName": "Calibre (feat. Casper Mágico & Nio García) - Single",
+                        "playParams": {
+                            "id": "1473534029",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Raul Alexis Ortiz, Joel Martinez, Luis A. Quinones, JULIO A. CRUZ GARCÍA, John Paul Ramos Rivera, Ismael Medina Rios & Rafaél de Jesús"
+                    }
+                },
+                {
+                    "id": "1477266777",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477266777",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e9/4b/47/e94b47a6-ab3a-88cf-3e79-ff4425db533c/mzaf_14083213145751882644.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music113/v4/a3/d0/f2/a3d0f2a5-7145-b28f-5593-40c9ddb70364/988.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "feff00",
+                            "textColor1": "000000",
+                            "textColor2": "2c1943",
+                            "textColor3": "323300",
+                            "textColor4": "564735"
+                        },
+                        "artistName": "Dillon Francis",
+                        "url": "https://music.apple.com/us/album/go-off-nuthin-2-it/1477266531?i=1477266777",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Dance",
+                            "Music"
+                        ],
+                        "durationInMillis": 172028,
+                        "releaseDate": "2019-08-28",
+                        "name": "GO OFF (Nuthin' 2 It)",
+                        "isrc": "USZ4V1900321",
+                        "albumName": "GO OFF (Nuthin' 2 It) - Single",
+                        "playParams": {
+                            "id": "1477266777",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Dillon Hart Francis, Philip Von Boch Scully, Benjamin Freedlander & Alexander Dana Tirheimer",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1472251213",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1472251213",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/c5/38/81/c538813d-49f3-42b5-cc04-fe97f0b5782b/mzaf_6476542805353497617.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/fc/b9/c7/fcb9c758-f523-cae1-3b8e-0084d10b8b86/804297834320.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0d080f",
+                            "textColor1": "efc290",
+                            "textColor2": "d89066",
+                            "textColor3": "c19d76",
+                            "textColor4": "af7554"
+                        },
+                        "artistName": "Telefon Tel Aviv",
+                        "url": "https://music.apple.com/us/album/a-younger-version-of-myself/1472251210?i=1472251213",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Electronic",
+                            "Music",
+                            "Alternative"
+                        ],
+                        "durationInMillis": 315827,
+                        "releaseDate": "2019-08-28",
+                        "name": "a younger version of myself,",
+                        "isrc": "US2J71904302",
+                        "albumName": "Dreams Are Not Enough",
+                        "playParams": {
+                            "id": "1472251213",
+                            "kind": "song"
+                        },
+                        "trackNumber": 2
+                    }
+                },
+                {
+                    "id": "1475118065",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475118065",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/81/b4/0f/81b40fdd-03ac-0b2d-db53-612a517e7cc1/mzaf_11223215874446790922.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/0f/4d/ee/0f4dee21-57ef-0b79-28d7-6c6c6130ee4b/4062548001983_3000.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "626262",
+                            "textColor1": "fdfdfd",
+                            "textColor2": "ff9dde",
+                            "textColor3": "dedede",
+                            "textColor4": "df91c5"
+                        },
+                        "artistName": "Niklas Paschburg",
+                        "url": "https://music.apple.com/us/album/blooming-in-c-minor-harnes-kretzer-remix/1475118056?i=1475118065",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Modern Era",
+                            "Music",
+                            "Classical",
+                            "Electronic"
+                        ],
+                        "durationInMillis": 222728,
+                        "releaseDate": "2019-08-30",
+                        "name": "Blooming (In C Minor) [Harnes Kretzer Remix]",
+                        "isrc": "DEG931911361",
+                        "albumName": "Blooming (In C Minor) - Remixes - Single",
+                        "playParams": {
+                            "id": "1475118065",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Niklas Paschburg"
+                    }
+                },
+                {
+                    "id": "1476330399",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476330399",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/f0/d4/1f/f0d41f05-c22f-97a3-c3a8-3cefc9ccb05b/mzaf_8419262840913642207.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/f1/20/f7/f120f747-0dee-39a4-8036-7c061f1a97b1/19UMGIM72936.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "fafeff",
+                            "textColor1": "010206",
+                            "textColor2": "2a323c",
+                            "textColor3": "333438",
+                            "textColor4": "545b63"
+                        },
+                        "artistName": "Banda Los Sebastianes",
+                        "url": "https://music.apple.com/us/album/cu%C3%A1nto-a-que-te-olvido/1476330394?i=1476330399",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Música Mexicana",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 203093,
+                        "releaseDate": "2019-09-27",
+                        "name": "Cuánto a Que Te Olvido",
+                        "isrc": "MXUM71902155",
+                        "albumName": "No Me Mires Así",
+                        "playParams": {
+                            "id": "1476330399",
+                            "kind": "song"
+                        },
+                        "trackNumber": 5,
+                        "composerName": "Joss Favela"
+                    }
+                },
+                {
+                    "id": "1476096742",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476096742",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/44/70/68/447068c1-a0d3-1613-8e3f-6320a5301502/mzaf_3527199028152119770.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/d5/82/6e/d5826ef8-0613-a7e9-25b3-e2e12e9c8037/634457844995.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "bde7f7",
+                            "textColor1": "072639",
+                            "textColor2": "112a43",
+                            "textColor3": "2b4d5f",
+                            "textColor4": "335067"
+                        },
+                        "artistName": "No Vacation",
+                        "url": "https://music.apple.com/us/album/estrangers/1476096741?i=1476096742",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Indie Rock",
+                            "Music",
+                            "Alternative",
+                            "Pop"
+                        ],
+                        "durationInMillis": 199733,
+                        "releaseDate": "2019-08-30",
+                        "name": "Estrangers",
+                        "isrc": "USEZ61920701",
+                        "albumName": "Phasing - EP",
+                        "playParams": {
+                            "id": "1476096742",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Sabrina Mai, Natalie Ho & Harrison Spencer"
+                    }
+                },
+                {
+                    "id": "1477112953",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477112953",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/9b/d6/61/9bd6613f-e7bc-db14-c6c2-7c3a8d02102b/mzaf_4065627242390591007.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4000,
+                            "height": 4000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/39/b2/d9/39b2d96d-b4d7-356a-141a-47bce6f5c4c8/727361487461.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1a1a2c",
+                            "textColor1": "fefefe",
+                            "textColor2": "93da4e",
+                            "textColor3": "d0d0d4",
+                            "textColor4": "7bb347"
+                        },
+                        "artistName": "Municipal Waste",
+                        "url": "https://music.apple.com/us/album/wave-of-death/1477112952?i=1477112953",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Metal",
+                            "Music",
+                            "Rock"
+                        ],
+                        "durationInMillis": 113040,
+                        "releaseDate": "2019-10-11",
+                        "name": "Wave of Death",
+                        "isrc": "DED831900044",
+                        "albumName": "The Last Rager - EP",
+                        "playParams": {
+                            "id": "1477112953",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1
+                    }
+                },
+                {
+                    "id": "1473189801",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1473189801",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/a7/40/7b/a7407b78-d8c5-8ec2-f9d2-df37df77fa5a/mzaf_15955211721648846585.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 1400,
+                            "height": 1400,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/80/cd/f8/80cdf88b-4a95-0ed9-a507-77d8ec17ad9c/634457842410.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "252525",
+                            "textColor1": "ebebeb",
+                            "textColor2": "d1d1d1",
+                            "textColor3": "c3c3c3",
+                            "textColor4": "afafaf"
+                        },
+                        "artistName": "Moor Mother",
+                        "url": "https://music.apple.com/us/album/after-images/1473189798?i=1473189801",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Electronic",
+                            "Music",
+                            "Classical",
+                            "Avant-Garde"
+                        ],
+                        "durationInMillis": 168412,
+                        "releaseDate": "2019-11-01",
+                        "name": "After Images",
+                        "isrc": "USA2B1902140",
+                        "albumName": "Analog Fluids of Sonic Black Holes",
+                        "playParams": {
+                            "id": "1473189801",
+                            "kind": "song"
+                        },
+                        "trackNumber": 3,
+                        "composerName": "Camae Ayewa",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477255854",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477255854",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e4/a4/ea/e4a4ea9f-c7d5-04fa-e543-17257ccf7bd2/mzaf_4195297248959411231.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/26/e7/da/26e7dade-a4cd-9596-0e53-d44210717d9f/886447908495.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "000024",
+                            "textColor1": "fdfffc",
+                            "textColor2": "2a9cdf",
+                            "textColor3": "cacbd0",
+                            "textColor4": "217dba"
+                        },
+                        "artistName": "sophie meiers",
+                        "url": "https://music.apple.com/us/album/x-ray-vision/1477255847?i=1477255854",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Alternative",
+                            "Music"
+                        ],
+                        "durationInMillis": 205000,
+                        "releaseDate": "2019-08-30",
+                        "name": "x-ray vision",
+                        "isrc": "USRC11901967",
+                        "albumName": "x-ray vision - Single",
+                        "playParams": {
+                            "id": "1477255854",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "& Robert Hughes & sophie meiers"
+                    }
+                },
+                {
+                    "id": "1476480333",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1476480333",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/89/c0/a1/89c0a19b-f921-6a61-e8fd-c1d060a5b6e9/mzaf_6588196130008539637.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/6e/bf/90/6ebf9040-b58d-bc85-3023-4fc690d498e0/886447892497.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "e7e1d1",
+                            "textColor1": "010000",
+                            "textColor2": "4c1a17",
+                            "textColor3": "2f2d2a",
+                            "textColor4": "6b423c"
+                        },
+                        "artistName": "Blaatina & NLE Choppa",
+                        "url": "https://music.apple.com/us/album/watch-out/1476480199?i=1476480333",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Hip-Hop/Rap",
+                            "Music"
+                        ],
+                        "durationInMillis": 165000,
+                        "releaseDate": "2019-08-30",
+                        "name": "Watch Out",
+                        "isrc": "USQX91902015",
+                        "albumName": "Watch Out - Single",
+                        "playParams": {
+                            "id": "1476480333",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jhoana Navarrete, Rogeric Harper, Dyamond Hudson & Bryson Potts",
+                        "contentRating": "explicit"
+                    }
+                },
+                {
+                    "id": "1477653478",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477653478",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/12/28/dd/1228dd14-123f-d7ff-1fb8-4378b38f8fa3/mzaf_9842659027316275341.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is2-ssl.mzstatic.com/image/thumb/Music113/v4/d9/c5/d3/d9c5d3ea-387f-ee5d-49a8-376b2c7dd6e3/886447555217.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "953621",
+                            "textColor1": "f5f1ee",
+                            "textColor2": "fdce73",
+                            "textColor3": "e2cbc5",
+                            "textColor4": "e8af63"
+                        },
+                        "artistName": "Jarami",
+                        "url": "https://music.apple.com/us/album/hold-on/1477653232?i=1477653478",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Electronic",
+                            "Music"
+                        ],
+                        "durationInMillis": 204253,
+                        "releaseDate": "2019-08-30",
+                        "name": "Hold On",
+                        "isrc": "USRC11900167",
+                        "albumName": "Hold On - Single",
+                        "playParams": {
+                            "id": "1477653478",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jacob Olofsson & Rami Dawod"
+                    }
+                },
+                {
+                    "id": "1477662745",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477662745",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/bc/74/80/bc7480c7-71f1-da0c-e232-261959f669fd/mzaf_15237832977669617077.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is4-ssl.mzstatic.com/image/thumb/Music123/v4/b3/4d/e8/b34de83d-7462-c18e-aab0-b8c0a5d5d5ae/886447915042.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "131d1e",
+                            "textColor1": "89dbe1",
+                            "textColor2": "6dc7da",
+                            "textColor3": "72b5ba",
+                            "textColor4": "5ba5b4"
+                        },
+                        "artistName": "Ruel",
+                        "url": "https://music.apple.com/us/album/real-thing/1477662744?i=1477662745",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 192327,
+                        "releaseDate": "2019-08-30",
+                        "name": "Real Thing",
+                        "isrc": "USRC11902085",
+                        "albumName": "Real Thing - Single",
+                        "playParams": {
+                            "id": "1477662745",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Mark Landon & Ruel Vincent Van Dijk"
+                    }
+                },
+                {
+                    "id": "1475850596",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1475850596",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/89/0d/e0/890de0d1-aaaa-0bd2-53c8-35c55ddc859a/mzaf_4835804495185609142.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/17/04/ad/1704ad0a-3358-a90a-35b1-4eaf1c3d9de7/19UMGIM71799.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "201c30",
+                            "textColor1": "f3f7f8",
+                            "textColor2": "c4d5ea",
+                            "textColor3": "c9cbd0",
+                            "textColor4": "a3afc5"
+                        },
+                        "artistName": "Cristian Jacobo",
+                        "url": "https://music.apple.com/us/album/que-traigan-la-botella/1475850491?i=1475850596",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Música Mexicana",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 188493,
+                        "releaseDate": "2019-08-30",
+                        "name": "Que Traigan La Botella",
+                        "isrc": "USUM71911745",
+                        "albumName": "En Esta Vida",
+                        "playParams": {
+                            "id": "1475850596",
+                            "kind": "song"
+                        },
+                        "trackNumber": 9,
+                        "composerName": "Geovanny Cabrera & Luis Sainz"
+                    }
+                },
+                {
+                    "id": "1477051360",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477051360",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/d8/65/9a/d8659a67-2d91-56d6-df6d-056bf61bc6dc/mzaf_6711900016077692837.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music123/v4/d3/df/31/d3df3181-715b-b9b3-0acb-d71cb1ea458f/886447875674.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "111015",
+                            "textColor1": "fcfefd",
+                            "textColor2": "9bafe4",
+                            "textColor3": "cdcecf",
+                            "textColor4": "7f8fbb"
+                        },
+                        "artistName": "Cris Cab",
+                        "url": "https://music.apple.com/us/album/diamonds/1477051249?i=1477051360",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 164040,
+                        "releaseDate": "2019-08-30",
+                        "name": "Diamonds",
+                        "isrc": "DEE861903018",
+                        "albumName": "Diamonds - EP",
+                        "playParams": {
+                            "id": "1477051360",
+                            "kind": "song"
+                        },
+                        "trackNumber": 4,
+                        "composerName": "Cristian Cabrerizo, Herve Pagez, Nazerine Henderson & Matt Waro"
+                    }
+                },
+                {
+                    "id": "1477101623",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477101623",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/e9/f3/7e/e9f37e89-d4a7-873e-64aa-a46321cf0834/mzaf_7115624441953174263.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/ed/44/e2/ed44e2af-9962-0ef2-832c-d8966df30883/19UMGIM68790.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "1c1f30",
+                            "textColor1": "d3dbf4",
+                            "textColor2": "9db9d3",
+                            "textColor3": "aeb6cc",
+                            "textColor4": "839ab2"
+                        },
+                        "artistName": "Adrian Chaparro",
+                        "url": "https://music.apple.com/us/album/se-cae-la-corona/1477101614?i=1477101623",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Música Mexicana",
+                            "Music",
+                            "Latino"
+                        ],
+                        "durationInMillis": 176253,
+                        "releaseDate": "2019-08-30",
+                        "name": "Se Cae La Corona",
+                        "isrc": "QMEU31915637",
+                        "albumName": "Se Cae La Corona - Single",
+                        "playParams": {
+                            "id": "1477101623",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Jose Adrian Chaparro"
+                    }
+                },
+                {
+                    "id": "1477073088",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477073088",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/71/1b/f6/711bf68a-4ba5-405c-9bb9-ac137a35d9c7/mzaf_4496811894806304568.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 4000,
+                            "height": 4000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music123/v4/49/10/c6/4910c61e-45cb-3a0d-fc18-8d6e37276a9c/190296881565.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "0097d8",
+                            "textColor1": "0c0906",
+                            "textColor2": "181312",
+                            "textColor3": "0a2530",
+                            "textColor4": "132e39"
+                        },
+                        "artistName": "unperfect",
+                        "url": "https://music.apple.com/us/album/body-on-my-beat/1477073087?i=1477073088",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Pop",
+                            "Music"
+                        ],
+                        "durationInMillis": 214976,
+                        "releaseDate": "2019-08-30",
+                        "name": "Body On My Beat",
+                        "isrc": "UKQWC1900054",
+                        "albumName": "Body On My Beat - Single",
+                        "playParams": {
+                            "id": "1477073088",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1
+                    }
+                },
+                {
+                    "id": "1477494308",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477494308",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/d0/25/2b/d0252bab-9455-adb6-2bef-be9a4b298f66/mzaf_13572439613849973109.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is3-ssl.mzstatic.com/image/thumb/Music113/v4/04/f0/48/04f048bd-5b39-d7ba-5624-89c26a825a07/19UMGIM69719.rgb.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "010101",
+                            "textColor1": "dfa75e",
+                            "textColor2": "d3a25b",
+                            "textColor3": "b2864b",
+                            "textColor4": "a98249"
+                        },
+                        "artistName": "Parker McCollum",
+                        "url": "https://music.apple.com/us/album/pretty-heart/1477494305?i=1477494308",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Country",
+                            "Music"
+                        ],
+                        "durationInMillis": 243933,
+                        "releaseDate": "2019-08-30",
+                        "name": "Pretty Heart",
+                        "isrc": "USUM71915028",
+                        "albumName": "Pretty Heart - Single",
+                        "playParams": {
+                            "id": "1477494308",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Parker McCollum & Randy Montana"
+                    }
+                },
+                {
+                    "id": "1477630540",
+                    "type": "songs",
+                    "href": "/v1/catalog/us/songs/1477630540",
+                    "attributes": {
+                        "previews": [
+                            {
+                                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview113/v4/02/ab/9e/02ab9ee6-1aba-b4ff-7df4-0c3cc1e01fca/mzaf_8721433638822835106.plus.aac.p.m4a"
+                            }
+                        ],
+                        "artwork": {
+                            "width": 3000,
+                            "height": 3000,
+                            "url": "https://is5-ssl.mzstatic.com/image/thumb/Music113/v4/80/e8/4e/80e84ebd-c4a9-367a-97ac-143674541ffb/886447814406.jpg/{w}x{h}bb.jpeg",
+                            "bgColor": "929292",
+                            "textColor1": "040404",
+                            "textColor2": "0e0d0d",
+                            "textColor3": "202020",
+                            "textColor4": "292728"
+                        },
+                        "artistName": "Leprous",
+                        "url": "https://music.apple.com/us/album/below/1477630539?i=1477630540",
+                        "discNumber": 1,
+                        "genreNames": [
+                            "Rock",
+                            "Music"
+                        ],
+                        "durationInMillis": 352548,
+                        "releaseDate": "2019-08-30",
+                        "name": "Below",
+                        "isrc": "GBDHC1911301",
+                        "albumName": "Pitfalls",
+                        "playParams": {
+                            "id": "1477630540",
+                            "kind": "song"
+                        },
+                        "trackNumber": 1,
+                        "composerName": "Einar Solberg"
+                    }
+                }
+            ],
+            "href": "/v1/catalog/us/playlists/pl.2b0e6e332fdf4b7a91164da3162127b5/tracks"
+        }
+    }
+}
