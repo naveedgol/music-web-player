@@ -24,7 +24,7 @@ export class MusicKitService {
     // this.musicKit = MusicKit.getInstance();
     // this.musicKit.addEventListener(MusicKit.Events.authorizationStatusDidChange, this.authorizationStatusDidChange.bind(this));
 
-    this.isAuthorized = this.musicKit.isAuthorized;
+    // this.isAuthorized = this.musicKit.isAuthorized;
   }
 
   authorize(): void {
