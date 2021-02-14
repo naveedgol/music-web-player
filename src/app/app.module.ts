@@ -59,6 +59,7 @@ import { BrowseComponent } from './components/browse/browse.component';
 import { QueueSnackBarComponent } from './components/snack-bar/queue-snack-bar.component';
 import { CopySnackBarComponent } from './components/snack-bar/copy-snack-bar.component';
 import { SettingsComponent } from './components/settings/settings.component';
+import { HelpComponent } from './components/help/help.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { AlbumDialogComponent } from './components/dialog/album-dialog.component';
@@ -68,7 +69,8 @@ import { AlbumDialogComponent } from './components/dialog/album-dialog.component
     QueueSnackBarComponent,
     CopySnackBarComponent,
     SettingsComponent,
-    AlbumDialogComponent
+    AlbumDialogComponent,
+    HelpComponent
   ],
   declarations: [
     AppComponent,
@@ -97,6 +99,7 @@ import { AlbumDialogComponent } from './components/dialog/album-dialog.component
     QueueSnackBarComponent,
     CopySnackBarComponent,
     SettingsComponent,
+    HelpComponent,
     AlbumDialogComponent
   ],
   imports: [

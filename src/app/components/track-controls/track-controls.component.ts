@@ -2,6 +2,7 @@ import { Component, ViewChild, HostListener, Input, EventEmitter, Output } from 
 import { PlayerService, PlaybackStates } from '../../services/player.service';
 import { MatBottomSheet } from '@angular/material/bottom-sheet';
 import { SettingsComponent } from '../settings/settings.component';
+import { HelpComponent } from '../help/help.component';
 
 @Component({
   selector: 'app-track-controls',
@@ -20,7 +21,8 @@ export class TrackControlsComponent {
 
   constructor(
     public playerService: PlayerService,
-    private bottomSheet: MatBottomSheet
+    private settingsBottomSheet: MatBottomSheet,
+    private helpBottomSheet: MatBottomSheet
     ) {
   }
 
@@ -83,7 +85,11 @@ export class TrackControlsComponent {
   }
 
   openSettings() {
-    this.bottomSheet.open(SettingsComponent);
+    this.settingsBottomSheet.open(SettingsComponent);
+  }
+
+  openHelp() {
+    this.helpBottomSheet.open(HelpComponent);
   }
 
   toggleQueue(): void {
